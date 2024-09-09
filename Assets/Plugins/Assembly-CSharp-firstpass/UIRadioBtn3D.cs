@@ -432,14 +432,4 @@ public class UIRadioBtn3D : ControlBase, IRadioButton
 		gameObject.transform.rotation = rotation;
 		return (UIRadioBtn3D)gameObject.AddComponent(typeof(UIRadioBtn3D));
 	}
-
-	virtual string IRadioButton.get_name()
-	{
-		return base.name;
-	}
-
-	virtual void IRadioButton.set_name(string value)
-	{
-		base.name = value;
-	}
 }
