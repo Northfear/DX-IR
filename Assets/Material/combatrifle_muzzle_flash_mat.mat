@@ -8,23 +8,21 @@ Material:
   m_PrefabInternal: {fileID: 0}
   m_Name: combatrifle_muzzle_flash_mat
   m_Shader: {fileID: 4800000, guid: 2644b46fd4b657a45807cf0656383326, type: 3}
+  m_ShaderKeywords: []
+  m_CustomRenderQueue: -1
   m_SavedProperties:
     serializedVersion: 2
     m_TexEnvs:
-    - first:
-        name: _MainTex
-      second:
-        m_Texture: {fileID: 2800000, guid: e6a0b4638fc54b44c9f25074e2ccd97b, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats:
-    - first:
-        name: _InvFade
-      second: 1
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: e6a0b4638fc54b44c9f25074e2ccd97b, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats: {}
     m_Colors:
-    - first:
-        name: _Color
-      second: {r: 1, g: 1, b: 1, a: 1}
-    - first:
-        name: _TintColor
-      second: {r: 0.91791046, g: 0.91791046, b: 0.91791046, a: 1}
+      data:
+        first:
+          name: _TintColor
+        second: {r: .917647064, g: .917647064, b: .917647064, a: 1}

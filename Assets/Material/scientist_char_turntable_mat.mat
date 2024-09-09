@@ -8,38 +8,28 @@ Material:
   m_PrefabInternal: {fileID: 0}
   m_Name: scientist_char_turntable_mat
   m_Shader: {fileID: 4800000, guid: 0325d52d97cfe304588a5741fce8f0f5, type: 3}
+  m_ShaderKeywords: []
+  m_CustomRenderQueue: -1
   m_SavedProperties:
     serializedVersion: 2
     m_TexEnvs:
-    - first:
-        name: _MainTex
-      second:
-        m_Texture: {fileID: 2800000, guid: 10f8c5ff15878064cb13ddfe27f9c89a, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - first:
-        name: _BumpMap
-      second:
-        m_Texture: {fileID: 2800000, guid: fe4ffb8ebe88f184db0b90c71e66632a, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 10f8c5ff15878064cb13ddfe27f9c89a, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _BumpMap
+        second:
+          m_Texture: {fileID: 2800000, guid: fe4ffb8ebe88f184db0b90c71e66632a, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
     m_Floats:
-    - first:
-        name: _Shininess
-      second: 0.0518178
-    - first:
-        name: _SpecRange
-      second: 20
-    - first:
-        name: _SHLightingScale
-      second: 1
-    m_Colors:
-    - first:
-        name: _Color
-      second: {r: 1, g: 1, b: 1, a: 1}
-    - first:
-        name: _SpecColor
-      second: {r: 0.48403087, g: 0.5, b: 0.43283582, a: 1}
-    - first:
-        name: _SpecOffset
-      second: {r: 1, g: 10, b: 2, a: 0}
+      data:
+        first:
+          name: _Shininess
+        second: .078125
+    m_Colors: {}

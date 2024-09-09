@@ -8,29 +8,32 @@ Material:
   m_PrefabInternal: {fileID: 0}
   m_Name: prop_stockticker_mat
   m_Shader: {fileID: 4800000, guid: 9c1a3d57818dcae4295e80f0f274bc2a, type: 3}
+  m_ShaderKeywords: []
+  m_CustomRenderQueue: -1
   m_SavedProperties:
     serializedVersion: 2
     m_TexEnvs:
-    - first:
-        name: _MainTex
-      second:
-        m_Texture: {fileID: 2800000, guid: 0438cd23312bfaf4baede2316803180a, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - first:
-        name: _AdditiveTex
-      second:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 0438cd23312bfaf4baede2316803180a, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _AdditiveTex
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
     m_Floats: {}
     m_Colors:
-    - first:
-        name: _Color
-      second: {r: 1, g: 1, b: 1, a: 1}
-    - first:
-        name: _ScrollingSpeedBase
-      second: {r: 0.05, g: 0, b: 0, a: 0}
-    - first:
-        name: _ScrollingSpeedAdditive
-      second: {r: 0, g: 0, b: 0, a: 0}
+      data:
+        first:
+          name: _ScrollingSpeedBase
+        second: {r: .0500000007, g: 0, b: 0, a: 0}
+      data:
+        first:
+          name: _ScrollingSpeedAdditive
+        second: {r: 0, g: 0, b: 0, a: 0}

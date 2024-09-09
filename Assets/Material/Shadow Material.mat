@@ -8,65 +8,24 @@ Material:
   m_PrefabInternal: {fileID: 0}
   m_Name: Shadow Material
   m_Shader: {fileID: 4800000, guid: 91c5c6a82c1972b448cd488a01bfc896, type: 3}
+  m_ShaderKeywords: []
+  m_CustomRenderQueue: -1
   m_SavedProperties:
     serializedVersion: 2
     m_TexEnvs:
-    - first:
-        name: _ShadowTex
-      second:
-        m_Texture: {fileID: 2800000, guid: ce4fdcdcd37178846ba0a3657a0ffcf9, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - first:
-        name: _FalloffTex
-      second:
-        m_Texture: {fileID: 2800000, guid: d4b21787df3517b4ba74fea86a57042d, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _ShadowTex
+        second:
+          m_Texture: {fileID: 2800000, guid: ce4fdcdcd37178846ba0a3657a0ffcf9, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _FalloffTex
+        second:
+          m_Texture: {fileID: 2800000, guid: d4b21787df3517b4ba74fea86a57042d, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
     m_Floats: {}
-    m_Colors:
-    - first:
-        name: _Color
-      second: {r: 1, g: 1, b: 1, a: 1}
-    - first:
-        name: _TintColor
-      second: {r: 0.5, g: 0.5, b: 0.5, a: 0.5}
-    - first:
-        name: BumpMapScale
-      second: {r: 1, g: 1, b: 1, a: 1}
-    - first:
-        name: _ProjectorClip_0
-      second: {r: -0.015438232, g: -0.025866693, b: 0.14460614, a: 0.29360974}
-    - first:
-        name: _ProjectorClip_1
-      second: {r: 0.0047582523, g: 0.14523815, b: 0.026487738, a: 0.0030641258}
-    - first:
-        name: _ProjectorClip_2
-      second: {r: -0.015438232, g: -0.025866693, b: 0.14460614, a: 0.29360974}
-    - first:
-        name: _ProjectorClip_3
-      second: {r: 0, g: 0, b: 0, a: 1}
-    - first:
-        name: _ProjectorDistance_0
-      second: {r: -0.015213515, g: -0.02549018, b: 0.14250126, a: 0.30389196}
-    - first:
-        name: _ProjectorDistance_1
-      second: {r: 0.0046889912, g: 0.14312407, b: 0.026102185, a: 0.017575443}
-    - first:
-        name: _ProjectorDistance_2
-      second: {r: -0.015213515, g: -0.02549018, b: 0.14250126, a: 0.30389196}
-    - first:
-        name: _ProjectorDistance_3
-      second: {r: 0, g: 0, b: 0, a: 1}
-    - first:
-        name: _Projector_0
-      second: {r: 1.6710045, g: -0.17472492, b: 0.6578766, a: 1.0662117}
-    - first:
-        name: _Projector_1
-      second: {r: -0.0014375485, g: 1.4636691, b: 0.77239656, a: 1.2343576}
-    - first:
-        name: _Projector_2
-      second: {r: -0.107604526, g: -0.18029094, b: 1.0079052, a: 1.9464619}
-    - first:
-        name: _Projector_3
-      second: {r: -0.10451689, g: -0.17511761, b: 0.9789842, a: 2.0877385}
+    m_Colors: {}

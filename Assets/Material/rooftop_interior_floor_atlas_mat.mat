@@ -8,32 +8,37 @@ Material:
   m_PrefabInternal: {fileID: 0}
   m_Name: rooftop_interior_floor_atlas_mat
   m_Shader: {fileID: 4800000, guid: bd54d854ff658c04fa5afe18345040f0, type: 3}
+  m_ShaderKeywords: []
+  m_CustomRenderQueue: -1
   m_SavedProperties:
     serializedVersion: 2
     m_TexEnvs:
-    - first:
-        name: _MainTex
-      second:
-        m_Texture: {fileID: 2800000, guid: 4fda1f6c545d9704c9cb06c1af45674d, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 4fda1f6c545d9704c9cb06c1af45674d, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
     m_Floats:
-    - first:
-        name: _Shininess
-      second: 0.10836707
-    - first:
-        name: _SpecRange
-      second: 10
+      data:
+        first:
+          name: _Shininess
+        second: .078125
+      data:
+        first:
+          name: _SpecRange
+        second: 10
     m_Colors:
-    - first:
-        name: _Color
-      second: {r: 1, g: 1, b: 1, a: 1}
-    - first:
-        name: _SpecColor
-      second: {r: 0.60447764, g: 0.52561355, b: 0.3789263, a: 1}
-    - first:
-        name: _SpecOffset
-      second: {r: 1, g: 1.96, b: 2.9, a: 0}
-    - first:
-        name: _ScrollingSpeed
-      second: {r: 0, g: 0, b: 0, a: 0}
+      data:
+        first:
+          name: _SpecOffset
+        second: {r: 1, g: 1.96000004, b: 2.9000001, a: 0}
+      data:
+        first:
+          name: _SpecColor
+        second: {r: .603921592, g: .525490224, b: .380392164, a: 1}
+      data:
+        first:
+          name: _ScrollingSpeed
+        second: {r: 0, g: 0, b: 0, a: 0}
