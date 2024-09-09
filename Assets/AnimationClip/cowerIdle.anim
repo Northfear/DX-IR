@@ -1,0 +1,4315 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!74 &7400000
+AnimationClip:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: cowerIdle
+  m_Compressed: 0
+  m_RotationCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -0.20861924, y: 0.37919724, z: -0.5875917, w: 0.68368375}
+        inSlope: {x: 1.3411044E-06, y: 0, z: 0, w: 0}
+        outSlope: {x: 1.3411044E-06, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - time: 0.5
+        value: {x: -0.20594624, y: 0.37587768, z: -0.58815205, w: 0.68584204}
+        inSlope: {x: 0.015998268, y: -0.017654756, z: -0.0047940044, w: 0.010386413}
+        outSlope: {x: 0.015998268, y: -0.017654756, z: -0.0047940044, w: 0.010386413}
+        tangentMode: 0
+      - time: 1.1333334
+        value: {x: -0.21176866, y: 0.382118, z: -0.58631325, w: 0.68218523}
+        inSlope: {x: 0.041848242, y: -0.0487205, z: -0.015122283, w: 0.02727}
+        outSlope: {x: 0.041848242, y: -0.0487205, z: -0.015122283, w: 0.02727}
+        tangentMode: 0
+      - time: 2.266667
+        value: {x: -0.19792429, y: 0.36668313, z: -0.5914149, w: 0.69036067}
+        inSlope: {x: -0.018273834, y: 0.022830447, z: 0.004975483, w: -0.0130971875}
+        outSlope: {x: -0.018273834, y: 0.022830447, z: 0.004975483, w: -0.0130971875}
+        tangentMode: 0
+      - time: 3.4
+        value: {x: -0.20054892, y: 0.3697682, z: -0.59065324, w: 0.68860763}
+        inSlope: {x: -0.00066094165, y: 0.00078275875, z: 0.00021725913, w: -0.0004273657}
+        outSlope: {x: -0.00066094165, y: 0.00078275875, z: 0.00021725913, w: -0.0004273657}
+        tangentMode: 0
+      - time: 5.033334
+        value: {x: -0.20111665, y: 0.37048155, z: -0.5904239, w: 0.68825513}
+        inSlope: {x: 3.3751163E-05, y: -3.9339102E-05, z: 7.7784134E-05, w: 9.834776E-05}
+        outSlope: {x: 3.3751163E-05, y: -3.9339102E-05, z: 7.7784134E-05, w: 9.834776E-05}
+        tangentMode: 0
+      - time: 6.0000005
+        value: {x: -0.20862944, y: 0.3791274, z: -0.58787, w: 0.6834801}
+        inSlope: {x: -0.017272549, y: 0.019265432, z: 0.00575245, w: -0.010991703}
+        outSlope: {x: -0.017272549, y: 0.019265432, z: 0.00575245, w: -0.010991703}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 1.6385564E-05, y: 8.263702E-05, z: 0.025067572, w: 0.99968576}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - time: 6.0000005
+        value: {x: 1.6385564E-05, y: 8.263702E-05, z: 0.025067572, w: 0.99968576}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -0.116851285, y: -0.024441306, z: 0.2103379, w: 0.97031254}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - time: 6.0000005
+        value: {x: -0.116851285, y: -0.024441306, z: 0.2103379, w: 0.97031254}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -0.21469389, y: 0.072173245, z: 0.15765029, w: 0.961168}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - time: 6.0000005
+        value: {x: -0.21469389, y: 0.072173245, z: 0.15765029, w: 0.961168}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0, y: -0, z: -0, w: 1}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - time: 6.0000005
+        value: {x: 0, y: -0, z: -0, w: 1}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -0.49962896, y: 0.63374555, z: -0.40307254, w: -0.43159008}
+        inSlope: {x: 0, y: 0, z: 1.7881392E-06, w: -1.7881392E-06}
+        outSlope: {x: 0, y: 0, z: 1.7881392E-06, w: -1.7881392E-06}
+        tangentMode: 0
+      - time: 1.6333334
+        value: {x: -0.4996289, y: 0.6337456, z: -0.4030725, w: -0.4315901}
+        inSlope: {x: 1.788141E-06, y: 0, z: -8.940705E-07, w: -1.3411058E-06}
+        outSlope: {x: 1.788141E-06, y: 0, z: -8.940705E-07, w: -1.3411058E-06}
+        tangentMode: 0
+      - time: 3.266667
+        value: {x: -0.5014492, y: 0.6316037, z: -0.40032676, w: -0.43515965}
+        inSlope: {x: -0.0018095988, y: -0.0022164008, z: 0.0029222695, w: -0.0038199164}
+        outSlope: {x: -0.0018095988, y: -0.0022164008, z: 0.0029222695, w: -0.0038199164}
+        tangentMode: 0
+      - time: 4.9333334
+        value: {x: -0.50233924, y: 0.630631, z: -0.3989364, w: -0.43681756}
+        inSlope: {x: 0.0023004436, y: 0.0022780919, z: -0.0034582647, w: 0.003801588}
+        outSlope: {x: 0.0023004436, y: 0.0022780919, z: -0.0034582647, w: 0.003801588}
+        tangentMode: 0
+      - time: 6.0000005
+        value: {x: -0.4995168, y: 0.63368434, z: -0.4032748, w: -0.43162087}
+        inSlope: {x: 0.004959409, y: 0.005310779, z: -0.006144947, w: 0.0077927187}
+        outSlope: {x: 0.004959409, y: 0.005310779, z: -0.006144947, w: 0.0077927187}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:L_clavicle_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -0.59469426, y: 0.65471214, z: 0.13114907, w: 0.44776207}
+        inSlope: {x: 0.124903314, y: 0.1384288, z: -0.059744414, w: -0.02046883}
+        outSlope: {x: 0.124903314, y: 0.1384288, z: -0.059744414, w: -0.02046883}
+        tangentMode: 0
+      - time: 0.6666667
+        value: {x: -0.5492057, y: 0.699026, z: 0.11362553, w: 0.44364962}
+        inSlope: {x: 0.006161032, y: -0.0072598476, z: 0.011544563, w: 0.016106665}
+        outSlope: {x: 0.006161032, y: -0.0072598476, z: 0.011544563, w: 0.016106665}
+        tangentMode: 0
+      - time: 2
+        value: {x: -0.5536223, y: 0.695686, z: 0.115109414, w: 0.4430273}
+        inSlope: {x: -0.052648105, y: -0.052447826, z: 0.030124508, w: 0.008669324}
+        outSlope: {x: -0.052648105, y: -0.052447826, z: 0.030124508, w: 0.008669324}
+        tangentMode: 0
+      - time: 2.3000002
+        value: {x: -0.595139, y: 0.65400344, z: 0.13328819, w: 0.4475749}
+        inSlope: {x: -0.09816715, y: -0.107029185, z: 0.042068478, w: 0.013838423}
+        outSlope: {x: -0.09816715, y: -0.107029185, z: 0.042068478, w: 0.013838423}
+        tangentMode: 0
+      - time: 2.5666668
+        value: {x: -0.58436763, y: 0.6628627, z: 0.12856008, w: 0.45011088}
+        inSlope: {x: 0.055579, y: 0.05044793, z: -0.02548481, w: 0.0051561045}
+        outSlope: {x: 0.055579, y: 0.05044793, z: -0.02548481, w: 0.0051561045}
+        tangentMode: 0
+      - time: 3.5000002
+        value: {x: -0.5720042, y: 0.67518926, z: 0.12201884, w: 0.44949105}
+        inSlope: {x: -0.009399364, y: 0.00411183, z: -0.009019607, w: -0.015716866}
+        outSlope: {x: -0.009399364, y: 0.00411183, z: -0.009019607, w: -0.015716866}
+        tangentMode: 0
+      - time: 3.9333336
+        value: {x: -0.5968253, y: 0.698773, z: 0.077943824, w: 0.38657552}
+        inSlope: {x: -0.015496852, y: 0.011749823, z: -0.027794626, w: -0.039495833}
+        outSlope: {x: -0.015496852, y: 0.011749823, z: -0.027794626, w: -0.039495833}
+        tangentMode: 0
+      - time: 4.4333334
+        value: {x: -0.5951735, y: 0.69738525, z: 0.08111525, w: 0.39095095}
+        inSlope: {x: 0.0003701452, y: 0.00011086474, z: 0.00011175881, w: 0.00034555825}
+        outSlope: {x: 0.0003701452, y: 0.00011086474, z: 0.00011175881, w: 0.00034555825}
+        tangentMode: 0
+      - time: 5.3
+        value: {x: -0.5980773, y: 0.69722855, z: 0.07845377, w: 0.38732532}
+        inSlope: {x: 0.0017273442, y: 0.008589335, z: -0.010902296, w: -0.010598759}
+        outSlope: {x: 0.0017273442, y: 0.008589335, z: -0.010902296, w: -0.010598759}
+        tangentMode: 0
+      - time: 5.666667
+        value: {x: -0.5907528, y: 0.6952344, z: 0.08639804, w: 0.4002445}
+        inSlope: {x: 0.035246048, y: -0.070445605, z: 0.11038396, w: 0.1503925}
+        outSlope: {x: 0.035246048, y: -0.070445605, z: 0.11038396, w: 0.1503925}
+        tangentMode: 0
+      - time: 6.0000005
+        value: {x: -0.5946709, y: 0.6546846, z: 0.13093933, w: 0.44789448}
+        inSlope: {x: -0.0798101, y: -0.15573993, z: 0.13562603, w: 0.08411684}
+        outSlope: {x: -0.0798101, y: -0.15573993, z: 0.13562603, w: 0.08411684}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:L_clavicle_jnt/NPC:L_upArm_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -0.09422479, y: 0.8809774, z: -0.02415958, w: 0.46305168}
+        inSlope: {x: 0.25887027, y: -0.32658753, z: -0.10786827, w: 0.6466734}
+        outSlope: {x: 0.25887027, y: -0.32658753, z: -0.10786827, w: 0.6466734}
+        tangentMode: 0
+      - time: 0.3
+        value: {x: -0.016818367, y: 0.75442314, z: -0.048260853, w: 0.6543957}
+        inSlope: {x: 0.21732591, y: -0.46118978, z: -0.040850494, w: 0.5350525}
+        outSlope: {x: 0.21732591, y: -0.46118978, z: -0.040850494, w: 0.5350525}
+        tangentMode: 0
+      - time: 0.6
+        value: {x: 0.016101422, y: 0.67491573, z: -0.052391525, w: 0.7358565}
+        inSlope: {x: -0.0323553, y: 0.088755175, z: 0.0019292902, w: -0.08070855}
+        outSlope: {x: -0.0323553, y: 0.088755175, z: 0.0019292902, w: -0.08070855}
+        tangentMode: 0
+      - time: 1.1666667
+        value: {x: 0.022590542, y: 0.6565682, z: -0.052675854, w: 0.7520858}
+        inSlope: {x: 0.051343452, y: -0.14938757, z: -0.0014687902, w: 0.12875688}
+        outSlope: {x: 0.051343452, y: -0.14938757, z: -0.0014687902, w: 0.12875688}
+        tangentMode: 0
+      - time: 1.8666668
+        value: {x: 0.0281695, y: 0.6399173, z: -0.052759558, w: 0.76611274}
+        inSlope: {x: -0.06592072, y: 0.20155087, z: 0.00012919362, w: -0.16617078}
+        outSlope: {x: -0.06592072, y: 0.20155087, z: 0.00012919362, w: -0.16617078}
+        tangentMode: 0
+      - time: 2.0666668
+        value: {x: 0.0017934679, y: 0.711998, z: -0.05111637, w: 0.7003162}
+        inSlope: {x: -0.2936592, y: 0.71236587, z: 0.036028415, w: -0.7265825}
+        outSlope: {x: -0.2936592, y: 0.71236587, z: 0.036028415, w: -0.7265825}
+        tangentMode: 0
+      - time: 2.2333333
+        value: {x: -0.0640588, y: 0.83970946, z: -0.03575306, w: 0.5380578}
+        inSlope: {x: -0.38498163, y: 0.5901123, z: 0.1294538, w: -0.9517653}
+        outSlope: {x: -0.38498163, y: 0.5901123, z: 0.1294538, w: -0.9517653}
+        tangentMode: 0
+      - time: 2.3666668
+        value: {x: -0.093014814, y: 0.87949353, z: -0.024677265, w: 0.46607977}
+        inSlope: {x: -0.009966539, y: 0.012396287, z: 0.0042090323, w: -0.024918191}
+        outSlope: {x: -0.009966539, y: 0.012396287, z: 0.0042090323, w: -0.024918191}
+        tangentMode: 0
+      - time: 2.6333334
+        value: {x: -0.085449636, y: 0.8699008, z: -0.027814182, w: 0.48497143}
+        inSlope: {x: 0.027033005, y: -0.03525499, z: -0.010904168, w: 0.06738341}
+        outSlope: {x: 0.027033005, y: -0.03525499, z: -0.010904168, w: 0.06738341}
+        tangentMode: 0
+      - time: 3.466667
+        value: {x: -0.07670192, y: 0.85811543, z: -0.031227197, w: 0.5067344}
+        inSlope: {x: 0.0011984964, y: -0.0016665403, z: -0.0004526492, w: 0.00297456}
+        outSlope: {x: 0.0011984964, y: -0.0016665403, z: -0.0004526492, w: 0.00297456}
+        tangentMode: 0
+      - time: 3.6333334
+        value: {x: -0.060142834, y: 0.83366513, z: -0.037056655, w: 0.5477337}
+        inSlope: {x: 0.20946881, y: -0.3289169, z: -0.06819651, w: 0.5172627}
+        outSlope: {x: 0.20946881, y: -0.3289169, z: -0.06819651, w: 0.5172627}
+        tangentMode: 0
+      - time: 3.9
+        value: {x: -0.011750466, y: 0.7434509, z: -0.049164, w: 0.6668775}
+        inSlope: {x: 0.058413442, y: -0.128474, z: -0.009965114, w: 0.14392886}
+        outSlope: {x: 0.058413442, y: -0.128474, z: -0.009965114, w: 0.14392886}
+        tangentMode: 0
+      - time: 4.3
+        value: {x: -0.014172408, y: 0.7487455, z: -0.048743725, w: 0.660911}
+        inSlope: {x: -0.0019320305, y: 0.004185144, z: 0.00034427302, w: -0.0047564553}
+        outSlope: {x: -0.0019320305, y: 0.004185144, z: 0.00034427302, w: -0.0047564553}
+        tangentMode: 0
+      - time: 4.8333335
+        value: {x: -0.011548833, y: 0.7430056, z: -0.04919791, w: 0.6673747}
+        inSlope: {x: 0.0076986877, y: -0.016997173, z: -0.0012985815, w: 0.018973965}
+        outSlope: {x: 0.0076986877, y: -0.016997173, z: -0.0012985815, w: 0.018973965}
+        tangentMode: 0
+      - time: 5.4
+        value: {x: -0.00893041, y: 0.73716486, z: -0.049626723, w: 0.6738289}
+        inSlope: {x: 0.033799753, y: -0.0761015, z: -0.0053805723, w: 0.08334257}
+        outSlope: {x: 0.033799753, y: -0.0761015, z: -0.0053805723, w: 0.08334257}
+        tangentMode: 0
+      - time: 5.6333337
+        value: {x: -0.018867841, y: 0.7587459, z: -0.04786991, w: 0.6493513}
+        inSlope: {x: -0.14846417, y: 0.3100145, z: 0.029040135, w: -0.3653834}
+        outSlope: {x: -0.14846417, y: 0.3100145, z: 0.029040135, w: -0.3653834}
+        tangentMode: 0
+      - time: 5.933334
+        value: {x: -0.08118889, y: 0.86425483, z: -0.029505294, w: 0.49558187}
+        inSlope: {x: -0.20953965, y: 0.28252774, z: 0.081698656, w: -0.5212952}
+        outSlope: {x: -0.20953965, y: 0.28252774, z: 0.081698656, w: -0.5212952}
+        tangentMode: 0
+      - time: 6.0000005
+        value: {x: -0.09424366, y: 0.88100046, z: -0.024151545, w: 0.4630044}
+        inSlope: {x: -0.18811266, y: 0.23516916, z: 0.079059474, w: -0.47019437}
+        outSlope: {x: -0.18811266, y: 0.23516916, z: 0.079059474, w: -0.47019437}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:L_clavicle_jnt/NPC:L_upArm_jnt/NPC:L_elbow_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0.15599005, y: -0, z: -0, w: 0.98775864}
+        inSlope: {x: -0.31522748, y: 0, z: 0, w: 0.04806697}
+        outSlope: {x: -0.31522748, y: 0, z: 0, w: 0.04806697}
+        tangentMode: 0
+      - time: 0.033333335
+        value: {x: 0.14548247, y: -0, z: -0, w: 0.98936087}
+        inSlope: {x: -0.31800961, y: 0, z: 0, w: 0.046734806}
+        outSlope: {x: -0.31800961, y: 0, z: 0, w: 0.046734806}
+        tangentMode: 0
+      - time: 0.06666667
+        value: {x: 0.1347894, y: -0, z: -0, w: 0.9908743}
+        inSlope: {x: 9.660099, y: 0, z: 0, w: -5.6339445}
+        outSlope: {x: 9.660099, y: 0, z: 0, w: -5.6339445}
+        tangentMode: 0
+      - time: 0.10000001
+        value: {x: 0.78948915, y: 0, z: 0, w: 0.6137645}
+        inSlope: {x: 9.726306, y: 0, z: 0, w: -5.5367527}
+        outSlope: {x: 9.726306, y: 0, z: 0, w: -5.5367527}
+        tangentMode: 0
+      - time: 0.13333334
+        value: {x: 0.7832099, y: 0, z: 0, w: 0.6217574}
+        inSlope: {x: -0.18309386, y: 0, z: 0, w: 0.23080052}
+        outSlope: {x: -0.18309386, y: 0, z: 0, w: 0.23080052}
+        tangentMode: 0
+      - time: 0.90000004
+        value: {x: 0.7488529, y: 0, z: 0, w: 0.66273624}
+        inSlope: {x: -0.0055781007, y: 0, z: 0, w: 0.006302297}
+        outSlope: {x: -0.0055781007, y: 0, z: 0, w: 0.006302297}
+        tangentMode: 0
+      - time: 1.9666668
+        value: {x: 0.74669504, y: 0, z: 0, w: 0.66516656}
+        inSlope: {x: 0.0061834026, y: 0, z: 0, w: -0.0069433637}
+        outSlope: {x: 0.0061834026, y: 0, z: 0, w: -0.0069433637}
+        tangentMode: 0
+      - time: 2.2
+        value: {x: 0.7739076, y: 0, z: 0, w: 0.63329864}
+        inSlope: {x: 0.26736015, y: 0, z: 0, w: -0.3271672}
+        outSlope: {x: 0.26736015, y: 0, z: 0, w: -0.3271672}
+        tangentMode: 0
+      - time: 2.2333333
+        value: {x: 0.78316545, y: 0, z: 0, w: 0.62181336}
+        inSlope: {x: -9.6813545, y: 0, z: 0, w: 5.3761683}
+        outSlope: {x: -9.6813545, y: 0, z: 0, w: 5.3761683}
+        tangentMode: 0
+      - time: 2.266667
+        value: {x: 0.12847991, y: -0, z: -0, w: 0.99171215}
+        inSlope: {x: -9.636312, y: 0, z: 0, w: 5.523463}
+        outSlope: {x: -9.636312, y: 0, z: 0, w: 5.523463}
+        tangentMode: 0
+      - time: 2.3000002
+        value: {x: 0.14074066, y: -0, z: -0, w: 0.9900465}
+        inSlope: {x: 0.30735797, y: 0, z: 0, w: -0.043057542}
+        outSlope: {x: 0.30735797, y: 0, z: 0, w: -0.043057542}
+        tangentMode: 0
+      - time: 2.5333335
+        value: {x: 0.14660546, y: -0, z: -0, w: 0.98919505}
+        inSlope: {x: -0.028560858, y: 0, z: 0, w: 0.004233424}
+        outSlope: {x: -0.028560858, y: 0, z: 0, w: 0.004233424}
+        tangentMode: 0
+      - time: 3.5000002
+        value: {x: 0.1380982, y: -0, z: -0, w: 0.99041855}
+        inSlope: {x: -0.020819325, y: 0, z: 0, w: 0.0028869535}
+        outSlope: {x: -0.020819325, y: 0, z: 0, w: 0.0028869535}
+        tangentMode: 0
+      - time: 3.5333335
+        value: {x: 0.13663176, y: -0, z: -0, w: 0.9906219}
+        inSlope: {x: -0.084501065, y: 0, z: 0, w: 0.011537086}
+        outSlope: {x: -0.084501065, y: 0, z: 0, w: 0.011537086}
+        tangentMode: 0
+      - time: 3.5666668
+        value: {x: 0.1324648, y: -0, z: -0, w: 0.9911877}
+        inSlope: {x: 9.810911, y: 0, z: 0, w: -5.6761193}
+        outSlope: {x: 9.810911, y: 0, z: 0, w: -5.6761193}
+        tangentMode: 0
+      - time: 3.6000001
+        value: {x: 0.79069185, y: 0, z: 0, w: 0.6122143}
+        inSlope: {x: 9.801496, y: 0, z: 0, w: -5.592462}
+        outSlope: {x: 9.801496, y: 0, z: 0, w: -5.592462}
+        tangentMode: 0
+      - time: 3.6333334
+        value: {x: 0.78589714, y: 0, z: 0, w: 0.61835724}
+        inSlope: {x: -0.15261516, y: 0, z: 0, w: 0.19379514}
+        outSlope: {x: -0.15261516, y: 0, z: 0, w: 0.19379514}
+        tangentMode: 0
+      - time: 3.966667
+        value: {x: 0.75082576, y: 0, z: 0, w: 0.66050035}
+        inSlope: {x: -0.011529062, y: 0, z: 0, w: 0.013114251}
+        outSlope: {x: -0.011529062, y: 0, z: 0, w: 0.013114251}
+        tangentMode: 0
+      - time: 4.566667
+        value: {x: 0.75749815, y: 0, z: 0, w: 0.65283734}
+        inSlope: {x: -0.030635327, y: 0, z: 0, w: 0.035508905}
+        outSlope: {x: -0.030635327, y: 0, z: 0, w: 0.035508905}
+        tangentMode: 0
+      - time: 4.8
+        value: {x: 0.722833, y: 0, z: 0, w: 0.69102275}
+        inSlope: {x: -0.18986124, y: 0, z: 0, w: 0.19896108}
+        outSlope: {x: -0.18986124, y: 0, z: 0, w: 0.19896108}
+        tangentMode: 0
+      - time: 5.1333337
+        value: {x: 0.7127536, y: 0, z: 0, w: 0.7014145}
+        inSlope: {x: 0.0008082398, y: 0, z: 0, w: -0.0008207568}
+        outSlope: {x: 0.0008082398, y: 0, z: 0, w: -0.0008207568}
+        tangentMode: 0
+      - time: 5.4333334
+        value: {x: 0.7274539, y: 0, z: 0, w: 0.6861566}
+        inSlope: {x: 0.18887901, y: 0, z: 0, w: -0.20047054}
+        outSlope: {x: 0.18887901, y: 0, z: 0, w: -0.20047054}
+        tangentMode: 0
+      - time: 5.8333335
+        value: {x: 0.78734374, y: 0, z: 0, w: 0.61651427}
+        inSlope: {x: 0.1307292, y: 0, z: 0, w: -0.16696678}
+        outSlope: {x: 0.1307292, y: 0, z: 0, w: -0.16696678}
+        tangentMode: 0
+      - time: 5.866667
+        value: {x: 0.79170716, y: 0, z: 0, w: 0.6109008}
+        inSlope: {x: -9.786036, y: 0, z: 0, w: 5.6150937}
+        outSlope: {x: -9.786036, y: 0, z: 0, w: 5.6150937}
+        tangentMode: 0
+      - time: 5.9
+        value: {x: 0.13494201, y: -0, z: -0, w: 0.9908535}
+        inSlope: {x: -9.745346, y: 0, z: 0, w: 5.684454}
+        outSlope: {x: -9.745346, y: 0, z: 0, w: 5.684454}
+        tangentMode: 0
+      - time: 5.933334
+        value: {x: 0.14201815, y: -0, z: -0, w: 0.98986405}
+        inSlope: {x: 0.21183263, y: 0, z: 0, w: -0.030389246}
+        outSlope: {x: 0.21183263, y: 0, z: 0, w: -0.030389246}
+        tangentMode: 0
+      - time: 6.0000005
+        value: {x: 0.15606765, y: -0, z: -0, w: 0.9877464}
+        inSlope: {x: 0.21010165, y: 0, z: 0, w: -0.0324333}
+        outSlope: {x: 0.21010165, y: 0, z: 0, w: -0.0324333}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:L_clavicle_jnt/NPC:L_upArm_jnt/NPC:L_elbow_jnt/NPC:L_forearm_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0.31286705, y: 0.13509916, z: 0.10661141, w: 0.9340752}
+        inSlope: {x: -0.58718914, y: -0.8204059, z: -0.12095667, w: 0.30901548}
+        outSlope: {x: -0.58718914, y: -0.8204059, z: -0.12095667, w: 0.30901548}
+        tangentMode: 0
+      - time: 0.23333335
+        value: {x: 0.1733913, y: -0.036148738, z: 0.115706764, w: 0.9773642}
+        inSlope: {x: -0.49853238, y: -0.5935489, z: 0.18542582, w: 0.045425}
+        outSlope: {x: -0.49853238, y: -0.5935489, z: 0.18542582, w: 0.045425}
+        tangentMode: 0
+      - time: 0.6
+        value: {x: 0.09936045, y: -0.14303045, z: 0.169432, w: 0.9700323}
+        inSlope: {x: 0.03141336, y: -0.01584941, z: -0.041414633, w: 0.001659389}
+        outSlope: {x: 0.03141336, y: -0.01584941, z: -0.041414633, w: 0.001659389}
+        tangentMode: 0
+      - time: 0.9666667
+        value: {x: 0.09592225, y: -0.15116757, z: 0.1441433, w: 0.9732266}
+        inSlope: {x: -0.025273137, y: -0.040141083, z: -0.016566902, w: -0.0012820971}
+        outSlope: {x: -0.025273137, y: -0.040141083, z: -0.016566902, w: -0.0012820971}
+        tangentMode: 0
+      - time: 1.5000001
+        value: {x: 0.08708149, y: -0.16405298, z: 0.17823878, w: 0.9662993}
+        inSlope: {x: 0.0006048375, y: -0.014383551, z: 0.05417297, w: -0.0124803055}
+        outSlope: {x: 0.0006048375, y: -0.014383551, z: 0.05417297, w: -0.0124803055}
+        tangentMode: 0
+      - time: 1.9666668
+        value: {x: 0.09276346, y: -0.1241062, z: 0.17409042, w: 0.9724634}
+        inSlope: {x: 0.08007881, y: 0.23861787, z: -0.08823606, w: 0.038429834}
+        outSlope: {x: 0.08007881, y: 0.23861787, z: -0.08823606, w: 0.038429834}
+        tangentMode: 0
+      - time: 2.1333334
+        value: {x: 0.14584915, y: -0.038998075, z: 0.1319358, w: 0.9796939}
+        inSlope: {x: 0.69578266, y: 0.8560612, z: -0.35582095, w: -0.02525481}
+        outSlope: {x: 0.69578266, y: 0.8560612, z: -0.35582095, w: -0.02525481}
+        tangentMode: 0
+      - time: 2.266667
+        value: {x: 0.26094204, y: 0.09747333, z: 0.10198753, w: 0.95499045}
+        inSlope: {x: 0.7769247, y: 0.985327, z: -0.044707015, w: -0.30319256}
+        outSlope: {x: 0.7769247, y: 0.985327, z: -0.044707015, w: -0.30319256}
+        tangentMode: 0
+      - time: 2.3666668
+        value: {x: 0.30365223, y: 0.15222645, z: 0.10567, w: 0.93458885}
+        inSlope: {x: 0.051625423, y: -0.001719743, z: 0.06759386, w: -0.023943208}
+        outSlope: {x: 0.051625423, y: -0.001719743, z: 0.06759386, w: -0.023943208}
+        tangentMode: 0
+      - time: 2.5333335
+        value: {x: 0.29700744, y: 0.13018325, z: 0.117202595, w: 0.93867064}
+        inSlope: {x: -0.04251842, y: -0.12189914, z: 0.06720427, w: 0.021982513}
+        outSlope: {x: -0.04251842, y: -0.12189914, z: 0.06720427, w: 0.021982513}
+        tangentMode: 0
+      - time: 3.466667
+        value: {x: 0.28295332, y: 0.09526903, z: 0.13786784, w: 0.94438004}
+        inSlope: {x: 0.0036969706, y: 0.017592344, z: -0.007534979, w: -0.0017845591}
+        outSlope: {x: 0.0036969706, y: 0.017592344, z: -0.007534979, w: -0.0017845591}
+        tangentMode: 0
+      - time: 3.6333334
+        value: {x: 0.24279115, y: 0.07124226, z: 0.12315963, w: 0.95958775}
+        inSlope: {x: -0.5063821, y: -0.30728215, z: -0.15956777, w: 0.1707639}
+        outSlope: {x: -0.5063821, y: -0.30728215, z: -0.15956777, w: 0.1707639}
+        tangentMode: 0
+      - time: 3.9
+        value: {x: 0.13370097, y: 0.009525851, z: 0.098251, w: 0.98609334}
+        inSlope: {x: -0.12051791, y: -0.060738187, z: -0.009808829, w: 0.01803693}
+        outSlope: {x: -0.12051791, y: -0.060738187, z: -0.009808829, w: 0.01803693}
+        tangentMode: 0
+      - time: 4.3
+        value: {x: 0.13944998, y: 0.012764009, z: 0.09756336, w: 0.9853285}
+        inSlope: {x: 0.03961224, y: 0.029554829, z: -0.05869908, w: -0.0002512338}
+        outSlope: {x: 0.03961224, y: 0.029554829, z: -0.05869908, w: -0.0002512338}
+        tangentMode: 0
+      - time: 4.6333337
+        value: {x: 0.13857137, y: 0.012044302, z: 0.09873057, w: 0.98534524}
+        inSlope: {x: -0.2886471, y: -0.22567686, z: 0.4054451, w: -0.00012606382}
+        outSlope: {x: -0.2886471, y: -0.22567686, z: 0.4054451, w: -0.00012606382}
+        tangentMode: 0
+      - time: 4.766667
+        value: {x: 0.056837495, y: -0.045410365, z: 0.2055551, w: 0.9759378}
+        inSlope: {x: -0.7751574, y: -0.4836713, z: 0.94620025, w: -0.17521638}
+        outSlope: {x: -0.7751574, y: -0.4836713, z: 0.94620025, w: -0.17521638}
+        tangentMode: 0
+      - time: 4.9
+        value: {x: -0.01065061, y: -0.08316638, z: 0.28447214, w: 0.9550108}
+        inSlope: {x: -0.06272485, y: -0.022813216, z: 0.07659279, w: -0.024974966}
+        outSlope: {x: -0.06272485, y: -0.022813216, z: 0.07659279, w: -0.024974966}
+        tangentMode: 0
+      - time: 5.1000004
+        value: {x: -0.007014257, y: -0.07942035, z: 0.28245893, w: 0.9559604}
+        inSlope: {x: 0.008663271, y: 0.013594119, z: -0.0012105715, w: 0.0015521063}
+        outSlope: {x: 0.008663271, y: 0.013594119, z: -0.0012105715, w: 0.0015521063}
+        tangentMode: 0
+      - time: 5.3
+        value: {x: -0.007042909, y: -0.07784118, z: 0.28295955, w: 0.955942}
+        inSlope: {x: 0.06391278, y: 0.04175969, z: -0.090501845, w: 0.03011319}
+        outSlope: {x: 0.06391278, y: 0.04175969, z: -0.090501845, w: 0.03011319}
+        tangentMode: 0
+      - time: 5.466667
+        value: {x: 0.0738432, y: -0.029006096, z: 0.1742082, w: 0.9815077}
+        inSlope: {x: 0.6965896, y: 0.44384968, z: -0.92283654, w: 0.12538424}
+        outSlope: {x: 0.6965896, y: 0.44384968, z: -0.92283654, w: 0.12538424}
+        tangentMode: 0
+      - time: 5.6000004
+        value: {x: 0.14825982, y: 0.018333707, z: 0.08895077, w: 0.98476934}
+        inSlope: {x: 0.41607136, y: 0.23945346, z: -0.29932365, w: -0.039454438}
+        outSlope: {x: 0.41607136, y: 0.23945346, z: -0.29932365, w: -0.039454438}
+        tangentMode: 0
+      - time: 6.0000005
+        value: {x: 0.31296346, y: 0.13471569, z: 0.1061599, w: 0.93414974}
+        inSlope: {x: 0.39663562, y: 0.49423525, z: 0.14779633, w: -0.2125921}
+        outSlope: {x: 0.39663562, y: 0.49423525, z: 0.14779633, w: -0.2125921}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:L_clavicle_jnt/NPC:L_upArm_jnt/NPC:L_elbow_jnt/NPC:L_wrist_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0.0024218927, y: 0.0035690058, z: 0.12231699, w: 0.9924817}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - time: 6.0000005
+        value: {x: 0.0024218927, y: 0.0035690058, z: 0.12231699, w: 0.9924817}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:L_clavicle_jnt/NPC:L_upArm_jnt/NPC:L_elbow_jnt/NPC:L_wrist_jnt/NPC:L_index_a_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -0.0017775327, y: -0.0016650428, z: 0.099059574, w: 0.99507856}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - time: 6.0000005
+        value: {x: -0.0017775327, y: -0.0016650428, z: 0.099059574, w: 0.99507856}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:L_clavicle_jnt/NPC:L_upArm_jnt/NPC:L_elbow_jnt/NPC:L_wrist_jnt/NPC:L_index_a_jnt/NPC:L_index_b_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0.00029527672, y: 0.0002321173, z: -0.012683725, w: 0.99991953}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - time: 6.0000005
+        value: {x: 0.00029527672, y: 0.0002321173, z: -0.012683725, w: 0.99991953}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:L_clavicle_jnt/NPC:L_upArm_jnt/NPC:L_elbow_jnt/NPC:L_wrist_jnt/NPC:L_index_a_jnt/NPC:L_index_b_jnt/NPC:L_index_c_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -0.088938214, y: -0.1860324, z: -0.42205298, w: 0.8828098}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - time: 6.0000005
+        value: {x: -0.088938214, y: -0.1860324, z: -0.42205298, w: 0.8828098}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:L_clavicle_jnt/NPC:L_upArm_jnt/NPC:L_elbow_jnt/NPC:L_wrist_jnt/NPC:L_index_a_jnt/NPC:L_index_b_jnt/NPC:L_index_c_jnt/NPC:L_index_d_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0.47987458, y: 0.4548454, z: -0.018174347, w: 0.7500038}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - time: 6.0000005
+        value: {x: 0.47987458, y: 0.4548454, z: -0.018174347, w: 0.7500038}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:L_clavicle_jnt/NPC:L_upArm_jnt/NPC:L_elbow_jnt/NPC:L_wrist_jnt/NPC:L_thumb_a_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -0.043969218, y: -0.04765188, z: 0.13006625, w: 0.98938304}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - time: 6.0000005
+        value: {x: -0.043969218, y: -0.04765188, z: 0.13006625, w: 0.98938304}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:L_clavicle_jnt/NPC:L_upArm_jnt/NPC:L_elbow_jnt/NPC:L_wrist_jnt/NPC:L_thumb_a_jnt/NPC:L_thumb_b_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -0.032759324, y: 0.004415659, z: 0.12137852, w: 0.9920558}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - time: 6.0000005
+        value: {x: -0.032759324, y: 0.004415659, z: 0.12137852, w: 0.9920558}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:L_clavicle_jnt/NPC:L_upArm_jnt/NPC:L_elbow_jnt/NPC:L_wrist_jnt/NPC:L_thumb_a_jnt/NPC:L_thumb_b_jnt/NPC:L_thumb_c_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -0.4957831, y: -0.5409429, z: -0.2692398, w: 0.62377065}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - time: 6.0000005
+        value: {x: -0.4957831, y: -0.5409429, z: -0.2692398, w: 0.62377065}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:L_clavicle_jnt/NPC:L_upArm_jnt/NPC:L_elbow_jnt/NPC:L_wrist_jnt/NPC:L_thumb_a_jnt/NPC:L_thumb_b_jnt/NPC:L_thumb_c_jnt/NPC:L_thumb_d_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0.10303064, y: -0.03409881, z: 0.19526505, w: 0.9747274}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - time: 6.0000005
+        value: {x: 0.10303064, y: -0.03409881, z: 0.19526505, w: 0.9747274}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:C_neck_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -0.06008349, y: 0.029177025, z: 0.06711193, w: 0.99550724}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - time: 6.0000005
+        value: {x: -0.06008349, y: 0.029177025, z: 0.06711193, w: 0.99550724}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:C_neck_jnt/NPC:C_head_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0.4816767, y: -0.51767516, z: 0.4816767, w: 0.51767516}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - time: 6.0000005
+        value: {x: 0.4816767, y: -0.51767516, z: 0.4816767, w: 0.51767516}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:C_neck_jnt/NPC:C_head_jnt/NPC:C_head_end_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0.48167598, y: -0.5176758, z: 0.48167598, w: 0.5176758}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - time: 6.0000005
+        value: {x: 0.48167598, y: -0.5176758, z: 0.48167598, w: 0.5176758}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:C_neck_jnt/NPC:C_head_jnt/NPC:L_eye_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -0.46842635, y: 0.8128075, z: -0.26936072, w: -0.21763629}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - time: 6.0000005
+        value: {x: -0.46842635, y: 0.8128075, z: -0.26936072, w: -0.21763629}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:C_neck_jnt/NPC:C_head_jnt/NPC:L_eyebrowOuter_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -0.59029454, y: 0.63441056, z: -0.3399666, w: -0.3653742}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - time: 6.0000005
+        value: {x: -0.59029454, y: 0.63441056, z: -0.3399666, w: -0.3653742}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:C_neck_jnt/NPC:C_head_jnt/NPC:L_eyebrowMiddle_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0.6335565, y: -0.4171237, z: 0.38582948, w: 0.52511865}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - time: 6.0000005
+        value: {x: 0.6335565, y: -0.4171237, z: 0.38582948, w: 0.52511865}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:C_neck_jnt/NPC:C_head_jnt/NPC:L_eyebrowInner_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0.48167598, y: -0.5176758, z: 0.48167598, w: 0.5176758}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - time: 6.0000005
+        value: {x: 0.48167598, y: -0.5176758, z: 0.48167598, w: 0.5176758}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:C_neck_jnt/NPC:C_head_jnt/NPC:L_eyelidUpper_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0.48167598, y: -0.5176758, z: 0.48167598, w: 0.5176758}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - time: 6.0000005
+        value: {x: 0.48167598, y: -0.5176758, z: 0.48167598, w: 0.5176758}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:C_neck_jnt/NPC:C_head_jnt/NPC:L_eyelidLower_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -0.60963243, y: 0.7893099, z: -0.054461114, w: -0.048705984}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - time: 6.0000005
+        value: {x: -0.60963243, y: 0.7893099, z: -0.054461114, w: -0.048705984}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:C_neck_jnt/NPC:C_head_jnt/NPC:L_nostril_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -0.4852442, y: 0.6346836, z: -0.46066296, w: -0.386658}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - time: 6.0000005
+        value: {x: -0.4852442, y: 0.6346836, z: -0.46066296, w: -0.386658}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:C_neck_jnt/NPC:C_head_jnt/NPC:L_cheek_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -0.6122226, y: 0.65797746, z: -0.2986777, w: -0.3209996}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - time: 6.0000005
+        value: {x: -0.6122226, y: 0.65797746, z: -0.2986777, w: -0.3209996}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:C_neck_jnt/NPC:C_head_jnt/NPC:L_lipCorner_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -0.49369988, y: 0.6850938, z: -0.41089976, w: -0.34361058}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - time: 6.0000005
+        value: {x: -0.49369988, y: 0.6850938, z: -0.41089976, w: -0.34361058}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:C_neck_jnt/NPC:C_head_jnt/NPC:L_lipUpperMiddle_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0.65828013, y: -0.55176264, z: 0.30443087, w: 0.41176105}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - time: 6.0000005
+        value: {x: 0.65828013, y: -0.55176264, z: 0.30443087, w: 0.41176105}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:C_neck_jnt/NPC:C_head_jnt/NPC:L_lipLowerMiddle_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0.48167598, y: -0.5176758, z: 0.48167598, w: 0.5176758}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - time: 6.0000005
+        value: {x: 0.48167598, y: -0.5176758, z: 0.48167598, w: 0.5176758}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:C_neck_jnt/NPC:C_head_jnt/NPC:C_jaw_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0.48167598, y: -0.5176758, z: 0.48167598, w: 0.5176758}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - time: 6.0000005
+        value: {x: 0.48167598, y: -0.5176758, z: 0.48167598, w: 0.5176758}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:C_neck_jnt/NPC:C_head_jnt/NPC:C_lipUpper_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0.48167598, y: -0.5176758, z: 0.48167598, w: 0.5176758}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - time: 6.0000005
+        value: {x: 0.48167598, y: -0.5176758, z: 0.48167598, w: 0.5176758}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:C_neck_jnt/NPC:C_head_jnt/NPC:C_lipLower_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0.48167598, y: -0.5176758, z: 0.48167598, w: 0.5176758}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - time: 6.0000005
+        value: {x: 0.48167598, y: -0.5176758, z: 0.48167598, w: 0.5176758}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:C_neck_jnt/NPC:C_head_jnt/NPC:R_eye_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0.26936075, y: -0.21763624, z: 0.46842635, w: 0.8128075}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - time: 6.0000005
+        value: {x: 0.26936075, y: -0.21763624, z: 0.46842635, w: 0.8128075}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:C_neck_jnt/NPC:C_head_jnt/NPC:R_eyebrowOuter_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0.33996662, y: -0.36537424, z: 0.59029454, w: 0.63441056}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - time: 6.0000005
+        value: {x: 0.33996662, y: -0.36537424, z: 0.59029454, w: 0.63441056}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:C_neck_jnt/NPC:C_head_jnt/NPC:R_eyebrowMiddle_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0.3858295, y: -0.5251186, z: 0.63355654, w: 0.41712368}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - time: 6.0000005
+        value: {x: 0.3858295, y: -0.5251186, z: 0.63355654, w: 0.41712368}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:C_neck_jnt/NPC:C_head_jnt/NPC:R_eyebrowInner_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0.48167598, y: -0.5176758, z: 0.48167598, w: 0.5176758}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - time: 6.0000005
+        value: {x: 0.48167598, y: -0.5176758, z: 0.48167598, w: 0.5176758}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:C_neck_jnt/NPC:C_head_jnt/NPC:R_eyelidUpper_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0.48167598, y: -0.5176758, z: 0.48167598, w: 0.5176758}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - time: 6.0000005
+        value: {x: 0.48167598, y: -0.5176758, z: 0.48167598, w: 0.5176758}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:C_neck_jnt/NPC:C_head_jnt/NPC:R_eyelidLower_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0.054461144, y: -0.048706044, z: 0.60963243, w: 0.7893099}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - time: 6.0000005
+        value: {x: 0.054461144, y: -0.048706044, z: 0.60963243, w: 0.7893099}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:C_neck_jnt/NPC:C_head_jnt/NPC:R_nostril_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0.46066296, y: -0.386658, z: 0.4852442, w: 0.6346836}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - time: 6.0000005
+        value: {x: 0.46066296, y: -0.386658, z: 0.4852442, w: 0.6346836}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:C_neck_jnt/NPC:C_head_jnt/NPC:R_cheek_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0.29867774, y: -0.3209996, z: 0.6122227, w: 0.6579775}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - time: 6.0000005
+        value: {x: 0.29867774, y: -0.3209996, z: 0.6122227, w: 0.6579775}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:C_neck_jnt/NPC:C_head_jnt/NPC:R_lipCorner_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0.41089976, y: -0.34361058, z: 0.49369988, w: 0.6850939}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - time: 6.0000005
+        value: {x: 0.41089976, y: -0.34361058, z: 0.49369988, w: 0.6850939}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:C_neck_jnt/NPC:C_head_jnt/NPC:R_lipUpperMiddle_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0.30443084, y: -0.41176108, z: 0.6582801, w: 0.55176264}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - time: 6.0000005
+        value: {x: 0.30443084, y: -0.41176108, z: 0.6582801, w: 0.55176264}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:C_neck_jnt/NPC:C_head_jnt/NPC:R_lipLowerMiddle_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0.77372193, y: 0.45756066, z: 0.14800462, w: -0.4124165}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - time: 6.0000005
+        value: {x: 0.77372193, y: 0.45756066, z: 0.14800462, w: -0.4124165}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:R_clavicle_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -0.311756, y: 0.58504033, z: 0.04837804, w: 0.74712485}
+        inSlope: {x: 0.0130257, y: -0.070890784, z: 0.05141649, w: 0.05737066}
+        outSlope: {x: 0.0130257, y: -0.070890784, z: 0.05141649, w: 0.05737066}
+        tangentMode: 0
+      - time: 0.5
+        value: {x: -0.32236752, y: 0.52839166, z: 0.07580869, w: 0.7817509}
+        inSlope: {x: -0.027537357, y: -0.072077245, z: 0.024417501, w: 0.035132483}
+        outSlope: {x: -0.027537357, y: -0.072077245, z: 0.024417501, w: 0.035132483}
+        tangentMode: 0
+      - time: 0.70000005
+        value: {x: -0.32439804, y: 0.5296308, z: 0.07421524, w: 0.78022385}
+        inSlope: {x: -0.060444478, y: -0.050649047, z: -0.00087887165, w: 0.009339451}
+        outSlope: {x: -0.060444478, y: -0.050649047, z: -0.00087887165, w: 0.009339451}
+        tangentMode: 0
+      - time: 1.2666668
+        value: {x: -0.34771353, y: 0.4984683, z: 0.081221126, w: 0.78995436}
+        inSlope: {x: -0.00830232, y: -0.052029885, z: 0.02717321, w: 0.02639917}
+        outSlope: {x: -0.00830232, y: -0.052029885, z: 0.02717321, w: 0.02639917}
+        tangentMode: 0
+      - time: 2
+        value: {x: -0.32209703, y: 0.5170668, z: 0.0820081, w: 0.78877765}
+        inSlope: {x: 0.0343242, y: 0.09846015, z: -0.042196438, w: -0.04623226}
+        outSlope: {x: 0.0343242, y: 0.09846015, z: -0.042196438, w: -0.04623226}
+        tangentMode: 0
+      - time: 2.4
+        value: {x: -0.31079572, y: 0.5779645, z: 0.052397262, w: 0.7527401}
+        inSlope: {x: 0.0105902655, y: 0.02116265, z: -0.0039625205, w: -0.011599671}
+        outSlope: {x: 0.0105902655, y: 0.02116265, z: -0.0039625205, w: -0.011599671}
+        tangentMode: 0
+      - time: 3.5000002
+        value: {x: -0.30721143, y: 0.592781, z: 0.048929404, w: 0.7428578}
+        inSlope: {x: 0.0028485085, y: -0.0021806378, z: 0.003393221, w: 0.002691152}
+        outSlope: {x: 0.0028485085, y: -0.0021806378, z: 0.003393221, w: 0.002691152}
+        tangentMode: 0
+      - time: 3.9333336
+        value: {x: -0.310305, y: 0.55523765, z: 0.070769794, w: 0.76838374}
+        inSlope: {x: 0.012927276, y: -0.0003629811, z: 0.011502823, w: 0.004434551}
+        outSlope: {x: 0.012927276, y: -0.0003629811, z: 0.011502823, w: 0.004434551}
+        tangentMode: 0
+      - time: 4.366667
+        value: {x: -0.313966, y: 0.5499704, z: 0.06970734, w: 0.77077806}
+        inSlope: {x: -0.026591446, y: -0.06662792, z: 0.003382157, w: 0.03638867}
+        outSlope: {x: -0.026591446, y: -0.06662792, z: 0.003382157, w: 0.03638867}
+        tangentMode: 0
+      - time: 4.6000004
+        value: {x: -0.31161863, y: 0.5548723, z: 0.069486536, w: 0.7682332}
+        inSlope: {x: 0.031867802, y: 0.0644446, z: 0.00012416404, w: -0.033578604}
+        outSlope: {x: 0.031867802, y: 0.0644446, z: 0.00012416404, w: -0.033578604}
+        tangentMode: 0
+      - time: 5.066667
+        value: {x: -0.30851758, y: 0.5550008, z: 0.070909105, w: 0.7692613}
+        inSlope: {x: 0.03448877, y: 0.035107467, z: -0.0021038598, w: -0.011304628}
+        outSlope: {x: 0.03448877, y: 0.035107467, z: -0.0021038598, w: -0.011304628}
+        tangentMode: 0
+      - time: 5.866667
+        value: {x: -0.30241126, y: 0.59257835, z: 0.05508068, w: 0.74455655}
+        inSlope: {x: -0.04892443, y: -0.039669015, z: -0.04802081, w: 0.015231386}
+        outSlope: {x: -0.04892443, y: -0.039669015, z: -0.04802081, w: 0.015231386}
+        tangentMode: 0
+      - time: 6.0000005
+        value: {x: -0.31179288, y: 0.5852654, z: 0.048225563, w: 0.74694306}
+        inSlope: {x: -0.08820631, y: -0.06457871, z: -0.052983403, w: 0.0175363}
+        outSlope: {x: -0.08820631, y: -0.06457871, z: -0.052983403, w: 0.0175363}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:R_clavicle_jnt/NPC:R_upArm_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -0.08832328, y: 0.87356585, z: -0.026679305, w: 0.47788066}
+        inSlope: {x: -0.00032030043, y: 0.00040769574, z: 0.00013260171, w: -0.00079840416}
+        outSlope: {x: -0.00032030043, y: 0.00040769574, z: 0.00013260171, w: -0.00079840416}
+        tangentMode: 0
+      - time: 0.9666667
+        value: {x: -0.08365487, y: 0.8675009, z: -0.028568849, w: 0.48951808}
+        inSlope: {x: 0.012424562, y: -0.01642318, z: -0.0049421424, w: 0.030942887}
+        outSlope: {x: 0.012424562, y: -0.01642318, z: -0.0049421424, w: 0.030942887}
+        tangentMode: 0
+      - time: 1.8666668
+        value: {x: -0.0878179, y: 0.87291944, z: -0.026887, w: 0.4791418}
+        inSlope: {x: -0.020356942, y: 0.026088037, z: 0.008351665, w: -0.05078356}
+        outSlope: {x: -0.020356942, y: 0.026088037, z: 0.008351665, w: -0.05078356}
+        tangentMode: 0
+      - time: 3.466667
+        value: {x: -0.08350392, y: 0.86730117, z: -0.028628875, w: 0.48989403}
+        inSlope: {x: -0.00019926709, y: 0.00026285817, z: 7.9097736E-05, w: -0.00049487076}
+        outSlope: {x: -0.00019926709, y: 0.00026285817, z: 7.9097736E-05, w: -0.00049487076}
+        tangentMode: 0
+      - time: 4.366667
+        value: {x: -0.08324476, y: 0.8669579, z: -0.028731747, w: 0.4905393}
+        inSlope: {x: -0.056821644, y: 0.075477436, z: 0.022488583, w: -0.14145268}
+        outSlope: {x: -0.056821644, y: 0.075477436, z: 0.022488583, w: -0.14145268}
+        tangentMode: 0
+      - time: 4.566667
+        value: {x: -0.081948735, y: 0.86523145, z: -0.02924308, w: 0.49376494}
+        inSlope: {x: 0.06641525, y: -0.088912636, z: -0.026073387, w: 0.16525777}
+        outSlope: {x: 0.06641525, y: -0.088912636, z: -0.026073387, w: 0.16525777}
+        tangentMode: 0
+      - time: 5.033334
+        value: {x: -0.08014298, y: 0.8627982, z: -0.029947216, w: 0.4982565}
+        inSlope: {x: -0.02233377, y: 0.030365318, z: 0.008625825, w: -0.055522673}
+        outSlope: {x: -0.02233377, y: 0.030365318, z: 0.008625825, w: -0.055522673}
+        tangentMode: 0
+      - time: 5.466667
+        value: {x: -0.06480586, y: 0.84080034, z: -0.035531994, w: 0.53627646}
+        inSlope: {x: 0.06495864, y: -0.09825671, z: -0.022181438, w: 0.16061139}
+        outSlope: {x: 0.06495864, y: -0.09825671, z: -0.022181438, w: 0.16061139}
+        tangentMode: 0
+      - time: 5.9
+        value: {x: -0.07993812, y: 0.8625201, z: -0.030026414, w: 0.49876595}
+        inSlope: {x: -0.09300514, y: 0.12639745, z: 0.035940208, w: -0.2312153}
+        outSlope: {x: -0.09300514, y: 0.12639745, z: 0.035940208, w: -0.2312153}
+        tangentMode: 0
+      - time: 6.0000005
+        value: {x: -0.0883051, y: 0.87354267, z: -0.026686808, w: 0.477926}
+        inSlope: {x: -0.07442914, y: 0.09591946, z: 0.030365821, w: -0.18562871}
+        outSlope: {x: -0.07442914, y: 0.09591946, z: 0.030365821, w: -0.18562871}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:R_clavicle_jnt/NPC:R_upArm_jnt/NPC:R_elbow_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0.69799066, y: -0, z: -0, w: 0.7161069}
+        inSlope: {x: -0.004441738, y: 0, z: 0, w: 0.004327297}
+        outSlope: {x: -0.004441738, y: 0, z: 0, w: 0.004327297}
+        tangentMode: 0
+      - time: 1.6333334
+        value: {x: 0.6839397, y: -0, z: -0, w: 0.72953856}
+        inSlope: {x: 0.009491453, y: 0, z: 0, w: -0.008898684}
+        outSlope: {x: 0.009491453, y: 0, z: 0, w: -0.008898684}
+        tangentMode: 0
+      - time: 2.3000002
+        value: {x: 0.6978357, y: -0, z: -0, w: 0.71625787}
+        inSlope: {x: 0.011968028, y: 0, z: 0, w: -0.011654209}
+        outSlope: {x: 0.011968028, y: 0, z: 0, w: -0.011654209}
+        tangentMode: 0
+      - time: 3.1333334
+        value: {x: 0.69091463, y: -0, z: -0, w: 0.72293645}
+        inSlope: {x: 0.00030756026, y: 0, z: 0, w: -0.00029504328}
+        outSlope: {x: 0.00030756026, y: 0, z: 0, w: -0.00029504328}
+        tangentMode: 0
+      - time: 3.8666668
+        value: {x: 0.6874114, y: -0, z: -0, w: 0.72626823}
+        inSlope: {x: -0.012612653, y: 0, z: 0, w: 0.011935841}
+        outSlope: {x: -0.012612653, y: 0, z: 0, w: 0.011935841}
+        tangentMode: 0
+      - time: 5.0000005
+        value: {x: 0.6881973, y: -0, z: -0, w: 0.7255236}
+        inSlope: {x: 0.008609086, y: 0, z: 0, w: -0.008180821}
+        outSlope: {x: 0.008609086, y: 0, z: 0, w: -0.008180821}
+        tangentMode: 0
+      - time: 5.933334
+        value: {x: 0.6996738, y: -0, z: -0, w: 0.71446246}
+        inSlope: {x: -0.025496919, y: 0, z: 0, w: 0.024969421}
+        outSlope: {x: -0.025496919, y: 0, z: 0, w: 0.024969421}
+        tangentMode: 0
+      - time: 6.0000005
+        value: {x: 0.6979843, y: -0, z: -0, w: 0.7161131}
+        inSlope: {x: -0.025611544, y: 0, z: 0, w: 0.024992848}
+        outSlope: {x: -0.025611544, y: 0, z: 0, w: 0.024992848}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:R_clavicle_jnt/NPC:R_upArm_jnt/NPC:R_elbow_jnt/NPC:R_forearm_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -0.04556601, y: 0.19810887, z: -0.10515687, w: 0.9734571}
+        inSlope: {x: 0.006928369, y: -0.0125299385, z: 0.08392609, w: 0.011812448}
+        outSlope: {x: 0.006928369, y: -0.0125299385, z: 0.08392609, w: 0.011812448}
+        tangentMode: 0
+      - time: 0.4666667
+        value: {x: -0.048377365, y: 0.18862204, z: -0.021700308, w: 0.9806174}
+        inSlope: {x: -0.016627023, y: -0.031292457, z: 0.21223798, w: 0.0099188145}
+        outSlope: {x: -0.016627023, y: -0.031292457, z: 0.21223798, w: 0.0099188145}
+        tangentMode: 0
+      - time: 0.6333334
+        value: {x: -0.04812591, y: 0.18584222, z: -0.01848943, w: 0.98122615}
+        inSlope: {x: -0.0017035464, y: -0.004554617, z: 0.014943294, w: 0.0010237109}
+        outSlope: {x: -0.0017035464, y: -0.004554617, z: 0.014943294, w: 0.0010237109}
+        tangentMode: 0
+      - time: 0.86666673
+        value: {x: -0.051330406, y: 0.18231384, z: 0.019567851, w: 0.9817046}
+        inSlope: {x: -0.009055641, y: -0.010421051, z: 0.16087899, w: -0.001733602}
+        outSlope: {x: -0.009055641, y: -0.010421051, z: 0.16087899, w: -0.001733602}
+        tangentMode: 0
+      - time: 1.5666667
+        value: {x: -0.050052147, y: 0.20505261, z: 0.0574806, w: 0.97577876}
+        inSlope: {x: 0.001016056, y: -0.0014698418, z: -0.10488601, w: 0.0065186545}
+        outSlope: {x: 0.001016056, y: -0.0014698418, z: -0.10488601, w: 0.0065186545}
+        tangentMode: 0
+      - time: 2.0333335
+        value: {x: -0.050122283, y: 0.19644816, z: -0.018513164, w: 0.9790573}
+        inSlope: {x: 0.01584468, y: 0.010402931, z: -0.25886995, w: -0.0064399745}
+        outSlope: {x: 0.01584468, y: 0.010402931, z: -0.25886995, w: -0.0064399745}
+        tangentMode: 0
+      - time: 2.3666668
+        value: {x: -0.04590657, y: 0.20228687, z: -0.10254077, w: 0.97286075}
+        inSlope: {x: -0.018780902, y: -0.028806727, z: 0.03414522, w: 0.008657285}
+        outSlope: {x: -0.018780902, y: -0.028806727, z: 0.03414522, w: 0.008657285}
+        tangentMode: 0
+      - time: 2.966667
+        value: {x: -0.05499845, y: 0.18921313, z: -0.06552801, w: 0.9782023}
+        inSlope: {x: -0.0023080856, y: -0.0060510486, z: 0.026179515, w: 0.0027957489}
+        outSlope: {x: -0.0023080856, y: -0.0060510486, z: 0.026179515, w: 0.0027957489}
+        tangentMode: 0
+      - time: 3.5000002
+        value: {x: -0.052422266, y: 0.1858433, z: -0.067091525, w: 0.9788835}
+        inSlope: {x: 0.008086365, y: 0.0022843499, z: -0.016633736, w: -0.0011309993}
+        outSlope: {x: 0.008086365, y: 0.0022843499, z: -0.016633736, w: -0.0011309993}
+        tangentMode: 0
+      - time: 3.9333336
+        value: {x: -0.052531607, y: 0.22033036, z: -0.0055627585, w: 0.97399384}
+        inSlope: {x: 0.026652362, y: 0.0034634096, z: 0.07689947, w: 0.0011345637}
+        outSlope: {x: 0.026652362, y: 0.0034634096, z: 0.07689947, w: 0.0011345637}
+        tangentMode: 0
+      - time: 4.366667
+        value: {x: -0.058538906, y: 0.22132844, z: -0.02750936, w: 0.97305197}
+        inSlope: {x: -0.036993064, y: 0.012005579, z: -0.17250687, w: -0.009841928}
+        outSlope: {x: -0.036993064, y: 0.012005579, z: -0.17250687, w: -0.009841928}
+        tangentMode: 0
+      - time: 4.533334
+        value: {x: -0.0594867, y: 0.22140884, z: -0.03013662, w: 0.97289836}
+        inSlope: {x: 0.057725266, y: -0.028297357, z: 0.20004535, w: 0.016020736}
+        outSlope: {x: 0.057725266, y: -0.028297357, z: 0.20004535, w: 0.016020736}
+        tangentMode: 0
+      - time: 4.9333334
+        value: {x: -0.050994616, y: 0.22296834, z: -0.011429138, w: 0.9734239}
+        inSlope: {x: -0.013911122, y: 0.007874526, z: -0.14352311, w: -0.0041869325}
+        outSlope: {x: -0.013911122, y: 0.007874526, z: -0.14352311, w: -0.0041869325}
+        tangentMode: 0
+      - time: 5.4333334
+        value: {x: -0.024971718, y: 0.21545404, z: -0.025790345, w: 0.9758539}
+        inSlope: {x: 0.07967144, y: -0.019813348, z: 0.12703787, w: 0.009785533}
+        outSlope: {x: 0.07967144, y: -0.019813348, z: 0.12703787, w: 0.009785533}
+        tangentMode: 0
+      - time: 5.9
+        value: {x: -0.033881836, y: 0.2011265, z: -0.08002378, w: 0.975703}
+        inSlope: {x: -0.11845158, y: -0.04111354, z: -0.2641347, w: -0.017307281}
+        outSlope: {x: -0.11845158, y: -0.04111354, z: -0.2641347, w: -0.017307281}
+        tangentMode: 0
+      - time: 6.0000005
+        value: {x: -0.045579884, y: 0.19724274, z: -0.105546504, w: 0.97359014}
+        inSlope: {x: -0.11497054, y: -0.03493044, z: -0.24495432, w: -0.02357664}
+        outSlope: {x: -0.11497054, y: -0.03493044, z: -0.24495432, w: -0.02357664}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:R_clavicle_jnt/NPC:R_upArm_jnt/NPC:R_elbow_jnt/NPC:R_wrist_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0.0024218832, y: 0.0035689853, z: 0.12231699, w: 0.9924817}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - time: 6.0000005
+        value: {x: 0.0024218832, y: 0.0035689853, z: 0.12231699, w: 0.9924817}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:R_clavicle_jnt/NPC:R_upArm_jnt/NPC:R_elbow_jnt/NPC:R_wrist_jnt/NPC:R_index_a_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -0.0017775304, y: -0.0016650462, z: 0.09905957, w: 0.99507856}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - time: 6.0000005
+        value: {x: -0.0017775304, y: -0.0016650462, z: 0.09905957, w: 0.99507856}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:R_clavicle_jnt/NPC:R_upArm_jnt/NPC:R_elbow_jnt/NPC:R_wrist_jnt/NPC:R_index_a_jnt/NPC:R_index_b_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0.00029527862, y: 0.00023211376, z: -0.012683737, w: 0.99991953}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - time: 6.0000005
+        value: {x: 0.00029527862, y: 0.00023211376, z: -0.012683737, w: 0.99991953}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:R_clavicle_jnt/NPC:R_upArm_jnt/NPC:R_elbow_jnt/NPC:R_wrist_jnt/NPC:R_index_a_jnt/NPC:R_index_b_jnt/NPC:R_index_c_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -0.088938214, y: -0.1860324, z: -0.42205298, w: 0.8828098}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - time: 6.0000005
+        value: {x: -0.088938214, y: -0.1860324, z: -0.42205298, w: 0.8828098}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:R_clavicle_jnt/NPC:R_upArm_jnt/NPC:R_elbow_jnt/NPC:R_wrist_jnt/NPC:R_index_a_jnt/NPC:R_index_b_jnt/NPC:R_index_c_jnt/NPC:R_index_d_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0.2915307, y: 0.4465207, z: 0.088509336, w: 0.8413057}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - time: 6.0000005
+        value: {x: 0.2915307, y: 0.4465207, z: 0.088509336, w: 0.8413057}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:R_clavicle_jnt/NPC:R_upArm_jnt/NPC:R_elbow_jnt/NPC:R_wrist_jnt/NPC:R_thumb_a_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -0.104287595, y: -0.107071884, z: 0.08788372, w: 0.9848534}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - time: 6.0000005
+        value: {x: -0.104287595, y: -0.107071884, z: 0.08788372, w: 0.9848534}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:R_clavicle_jnt/NPC:R_upArm_jnt/NPC:R_elbow_jnt/NPC:R_wrist_jnt/NPC:R_thumb_a_jnt/NPC:R_thumb_b_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -0.10188184, y: -0.07124849, z: 0.09836611, w: 0.987354}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - time: 6.0000005
+        value: {x: -0.10188184, y: -0.07124849, z: 0.09836611, w: 0.987354}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:R_clavicle_jnt/NPC:R_upArm_jnt/NPC:R_elbow_jnt/NPC:R_wrist_jnt/NPC:R_thumb_a_jnt/NPC:R_thumb_b_jnt/NPC:R_thumb_c_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -0.23931396, y: -0.4085268, z: -0.4452136, w: 0.76001287}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - time: 6.0000005
+        value: {x: -0.23931396, y: -0.4085268, z: -0.4452136, w: 0.76001287}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:R_clavicle_jnt/NPC:R_upArm_jnt/NPC:R_elbow_jnt/NPC:R_wrist_jnt/NPC:R_thumb_a_jnt/NPC:R_thumb_b_jnt/NPC:R_thumb_c_jnt/NPC:R_thumb_d_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0, y: 0, z: -0, w: 1}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - time: 6.0000005
+        value: {x: 0, y: 0, z: -0, w: 1}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_hips_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0.10411807, y: -0.039458606, z: 0.82988626, w: 0.5467095}
+        inSlope: {x: 0.00040367243, y: 0.0008837878, z: 6.7949295E-05, w: -0.00011622905}
+        outSlope: {x: 0.00040367243, y: 0.0008837878, z: 6.7949295E-05, w: -0.00011622905}
+        tangentMode: 0
+      - time: 0.53333336
+        value: {x: 0.10577111, y: -0.035613146, z: 0.8254886, w: 0.5532746}
+        inSlope: {x: -0.0043374635, y: -0.008929122, z: -0.017160758, w: 0.025891341}
+        outSlope: {x: -0.0043374635, y: -0.008929122, z: -0.017160758, w: 0.025891341}
+        tangentMode: 0
+      - time: 1.3666668
+        value: {x: 0.10083522, y: -0.046658397, z: 0.82569194, w: 0.5530715}
+        inSlope: {x: -0.015204425, y: -0.03392936, z: -0.02029, w: 0.030197179}
+        outSlope: {x: -0.015204425, y: -0.03392936, z: -0.02029, w: 0.030197179}
+        tangentMode: 0
+      - time: 2.2333333
+        value: {x: 0.09784464, y: -0.053453475, z: 0.82135963, w: 0.5594082}
+        inSlope: {x: 0.017250922, y: 0.039724205, z: 0.020631503, w: -0.029500652}
+        outSlope: {x: 0.017250922, y: 0.039724205, z: 0.020631503, w: -0.029500652}
+        tangentMode: 0
+      - time: 3.0333335
+        value: {x: 0.09866351, y: -0.05163326, z: 0.8205253, w: 0.56065834}
+        inSlope: {x: 0.00036131626, y: 0.00083277083, z: 0.0004220013, w: -0.00060528575}
+        outSlope: {x: 0.00036131626, y: 0.00083277083, z: 0.0004220013, w: -0.00060528575}
+        tangentMode: 0
+      - time: 4.5
+        value: {x: 0.10007703, y: -0.048361048, z: 0.8244118, w: 0.55496943}
+        inSlope: {x: -0.0010916494, y: -0.0025316474, z: -0.00637019, w: 0.009436822}
+        outSlope: {x: -0.0010916494, y: -0.0025316474, z: -0.00637019, w: 0.009436822}
+        tangentMode: 0
+      - time: 5.566667
+        value: {x: 0.10028036, y: -0.047933456, z: 0.82237965, w: 0.55797666}
+        inSlope: {x: 0.005032164, y: 0.011432312, z: 0.005998319, w: -0.0087663615}
+        outSlope: {x: 0.005032164, y: 0.011432312, z: 0.005998319, w: -0.0087663615}
+        tangentMode: 0
+      - time: 6.0000005
+        value: {x: 0.10394914, y: -0.03982843, z: 0.829851, w: 0.54676837}
+        inSlope: {x: 0.0080785975, y: 0.017193982, z: 0.019798297, w: -0.030280381}
+        outSlope: {x: 0.0080785975, y: 0.017193982, z: 0.019798297, w: -0.030280381}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_hips_jnt/NPC:L_upLeg_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0, y: 0, z: 0.77025956, w: 0.63773054}
+        inSlope: {x: 0, y: 0, z: -0.0005811452, w: 0.00070095056}
+        outSlope: {x: 0, y: 0, z: -0.0005811452, w: 0.00070095056}
+        tangentMode: 0
+      - time: 1.3333334
+        value: {x: 0, y: 0, z: 0.771522, w: 0.63620263}
+        inSlope: {x: 0, y: 0, z: 0.004268286, w: -0.0051748715}
+        outSlope: {x: 0, y: 0, z: 0.004268286, w: -0.0051748715}
+        tangentMode: 0
+      - time: 2.966667
+        value: {x: 0, y: 0, z: 0.77088046, w: 0.6369798}
+        inSlope: {x: 0, y: 0, z: -0.0005310758, w: 0.00064283423}
+        outSlope: {x: 0, y: 0, z: -0.0005310758, w: 0.00064283423}
+        tangentMode: 0
+      - time: 4.6000004
+        value: {x: 0, y: 0, z: 0.77099407, w: 0.6368423}
+        inSlope: {x: 0, y: 0, z: -0.0019839425, w: 0.0024023675}
+        outSlope: {x: 0, y: 0, z: -0.0019839425, w: 0.0024023675}
+        tangentMode: 0
+      - time: 6.0000005
+        value: {x: 0, y: 0, z: 0.7703269, w: 0.63764924}
+        inSlope: {x: 0, y: 0, z: 0.00014305128, w: -0.0001698734}
+        outSlope: {x: 0, y: 0, z: 0.00014305128, w: -0.0001698734}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_hips_jnt/NPC:L_upLeg_jnt/NPC:L_knee_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -0.07432521, y: 0.15640149, z: -0.74996114, w: 0.63841414}
+        inSlope: {x: -0.00038824973, y: -8.761882E-05, z: 0.00016808508, w: 0.00017523764}
+        outSlope: {x: -0.00038824973, y: -8.761882E-05, z: 0.00016808508, w: 0.00017523764}
+        tangentMode: 0
+      - time: 0.5
+        value: {x: -0.07408873, y: 0.15821502, z: -0.7440991, w: 0.644822}
+        inSlope: {x: 0.03448663, y: -0.018273445, z: 0.03249586, w: 0.045993634}
+        outSlope: {x: 0.03448663, y: -0.018273445, z: 0.03249586, w: 0.045993634}
+        tangentMode: 0
+      - time: 1.1
+        value: {x: -0.08254794, y: 0.15547182, z: -0.74663347, w: 0.64152384}
+        inSlope: {x: 0.084711455, y: -0.010246698, z: -0.028327681, w: -0.019612301}
+        outSlope: {x: 0.084711455, y: -0.010246698, z: -0.028327681, w: -0.019612301}
+        tangentMode: 0
+      - time: 2.0666668
+        value: {x: -0.032776743, y: 0.14104307, z: -0.7449782, w: 0.65118355}
+        inSlope: {x: -0.048153915, y: 0.022787176, z: -0.005921429, w: -0.014162078}
+        outSlope: {x: -0.048153915, y: 0.022787176, z: -0.005921429, w: -0.014162078}
+        tangentMode: 0
+      - time: 2.4666667
+        value: {x: -0.04972569, y: 0.14811243, z: -0.7458508, w: 0.6475313}
+        inSlope: {x: 0.0005397937, y: -0.0035823043, z: 0.006330891, w: 0.008151212}
+        outSlope: {x: 0.0005397937, y: -0.0035823043, z: 0.006330891, w: 0.008151212}
+        tangentMode: 0
+      - time: 4.1000004
+        value: {x: -0.055669863, y: 0.14935416, z: -0.7454482, w: 0.6472258}
+        inSlope: {x: 0.0010451684, y: -0.00038981473, z: 0.0022172949, w: 0.0027340678}
+        outSlope: {x: 0.0010451684, y: -0.00038981473, z: 0.0022172949, w: 0.0027340678}
+        tangentMode: 0
+      - time: 4.8333335
+        value: {x: -0.054678597, y: 0.14899592, z: -0.74529004, w: 0.64757496}
+        inSlope: {x: 0.002781286, y: -0.00059992133, z: -0.002056362, w: -0.001991989}
+        outSlope: {x: 0.002781286, y: -0.00059992133, z: -0.002056362, w: -0.001991989}
+        tangentMode: 0
+      - time: 5.933334
+        value: {x: -0.071287364, y: 0.15515873, z: -0.74865717, w: 0.6405907}
+        inSlope: {x: -0.042795714, y: 0.01578381, z: -0.016475817, w: -0.027840268}
+        outSlope: {x: -0.042795714, y: 0.01578381, z: -0.016475817, w: -0.027840268}
+        tangentMode: 0
+      - time: 6.0000005
+        value: {x: -0.0739964, y: 0.15621372, z: -0.74979395, w: 0.63869464}
+        inSlope: {x: -0.03952775, y: 0.015805826, z: -0.017135756, w: -0.028485088}
+        outSlope: {x: -0.03952775, y: 0.015805826, z: -0.017135756, w: -0.028485088}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_hips_jnt/NPC:L_upLeg_jnt/NPC:L_knee_jnt/NPC:L_ankle_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 1.5321476E-07, y: -4.914846E-07, z: -0.2970519, w: 0.95486134}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - time: 6.0000005
+        value: {x: 1.5321476E-07, y: -4.914846E-07, z: -0.2970519, w: 0.95486134}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_hips_jnt/NPC:L_upLeg_jnt/NPC:L_knee_jnt/NPC:L_ankle_jnt/NPC:L_ball_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -0, y: -0.7071068, z: 0, w: 0.7071068}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - time: 6.0000005
+        value: {x: -0, y: -0.7071068, z: 0, w: 0.7071068}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_hips_jnt/NPC:L_upLeg_jnt/NPC:L_knee_jnt/NPC:L_ankle_jnt/NPC:L_ball_jnt/NPC:L_toe_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0.02376787, y: -0.32454097, z: -0.59216255, w: 0.7371918}
+        inSlope: {x: -0.0011494382, y: 0.0011390446, z: -0.0012552737, w: -0.00046849248}
+        outSlope: {x: -0.0011494382, y: 0.0011390446, z: -0.0012552737, w: -0.00046849248}
+        tangentMode: 0
+      - time: 0.53333336
+        value: {x: 0.020989876, y: -0.32162002, z: -0.59574234, w: 0.73567045}
+        inSlope: {x: 0.0003517603, y: 0.008326017, z: -0.027489044, w: -0.018652067}
+        outSlope: {x: 0.0003517603, y: 0.008326017, z: -0.027489044, w: -0.018652067}
+        tangentMode: 0
+      - time: 1.1333334
+        value: {x: 0.022106811, y: -0.32170036, z: -0.597796, w: 0.73393464}
+        inSlope: {x: 0.029598068, y: -0.04364129, z: 0.07893109, w: 0.044259094}
+        outSlope: {x: 0.029598068, y: -0.04364129, z: 0.07893109, w: 0.044259094}
+        tangentMode: 0
+      - time: 2.0333335
+        value: {x: 0.0353345, y: -0.3382448, z: -0.57314354, w: 0.7455524}
+        inSlope: {x: -0.007462177, y: 0.008562049, z: -0.01106857, w: -0.0042745424}
+        outSlope: {x: -0.007462177, y: 0.008562049, z: -0.01106857, w: -0.0042745424}
+        tangentMode: 0
+      - time: 2.6333334
+        value: {x: 0.030433636, y: -0.33188194, z: -0.5827377, w: 0.7411781}
+        inSlope: {x: 0.00018185953, y: 0.002029093, z: -0.0065222443, w: -0.0042253775}
+        outSlope: {x: 0.00018185953, y: 0.002029093, z: -0.0065222443, w: -0.0042253775}
+        tangentMode: 0
+      - time: 4.266667
+        value: {x: 0.028885974, y: -0.3300483, z: -0.58529496, w: 0.7400429}
+        inSlope: {x: -0.00012894174, y: -0.0011019419, z: 0.0036335026, w: 0.0023871684}
+        outSlope: {x: -0.00012894174, y: -0.0011019419, z: 0.0036335026, w: 0.0023871684}
+        tangentMode: 0
+      - time: 5.9
+        value: {x: 0.024793569, y: -0.32554445, z: -0.59108776, w: 0.73757803}
+        inSlope: {x: -0.012033295, y: 0.0112352595, z: -0.01089954, w: -0.0033724117}
+        outSlope: {x: -0.012033295, y: 0.0112352595, z: -0.01089954, w: -0.0033724117}
+        tangentMode: 0
+      - time: 6.0000005
+        value: {x: 0.023668122, y: -0.32452247, z: -0.5920175, w: 0.7373197}
+        inSlope: {x: -0.01054763, y: 0.009417245, z: -0.008211143, w: -0.002102854}
+        outSlope: {x: -0.01054763, y: 0.009417245, z: -0.008211143, w: -0.002102854}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_hips_jnt/NPC:R_upLeg_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 1.7447873E-16, y: 1.7828662E-16, z: 0.74947166, w: 0.6620364}
+        inSlope: {x: -8.33798E-21, y: 7.543887E-21, z: -3.0398367E-05, w: 3.3974648E-05}
+        outSlope: {x: -8.33798E-21, y: 7.543887E-21, z: -3.0398367E-05, w: 3.3974648E-05}
+        tangentMode: 0
+      - time: 0.8000001
+        value: {x: 1.7345461E-16, y: 1.7928315E-16, z: 0.7456671, w: 0.6663188}
+        inSlope: {x: -2.0092546E-18, y: 1.944139E-18, z: -0.007466375, w: 0.008356868}
+        outSlope: {x: -2.0092546E-18, y: 1.944139E-18, z: -0.007466375, w: 0.008356868}
+        tangentMode: 0
+      - time: 1.6333334
+        value: {x: 1.7286994E-16, y: 1.7984701E-16, z: 0.7434935, w: 0.66874325}
+        inSlope: {x: -2.7729766E-18, y: 2.6651784E-18, z: -0.010310421, w: 0.011462878}
+        outSlope: {x: -2.7729766E-18, y: 2.6651784E-18, z: -0.010310421, w: 0.011462878}
+        tangentMode: 0
+      - time: 2.8333335
+        value: {x: 1.7314673E-16, y: 1.7958051E-16, z: 0.7445227, w: 0.66759723}
+        inSlope: {x: -5.5666E-19, y: 5.3680765E-19, z: -0.0020697732, w: 0.0023075962}
+        outSlope: {x: -5.5666E-19, y: 5.3680765E-19, z: -0.0020697732, w: 0.0023075962}
+        tangentMode: 0
+      - time: 4.5
+        value: {x: 1.7364267E-16, y: 1.7910099E-16, z: 0.74636596, w: 0.66553575}
+        inSlope: {x: -8.125492E-19, y: 7.88131E-19, z: -0.0030201417, w: 0.003386707}
+        outSlope: {x: -8.125492E-19, y: 7.88131E-19, z: -0.0030201417, w: 0.003386707}
+        tangentMode: 0
+      - time: 6.0000005
+        value: {x: 1.7440463E-16, y: 1.783591E-16, z: 0.74919647, w: 0.66234785}
+        inSlope: {x: 2.6788765E-18, y: -2.6181284E-18, z: 0.009949217, w: -0.011247408}
+        outSlope: {x: 2.6788765E-18, y: -2.6181284E-18, z: 0.009949217, w: -0.011247408}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_hips_jnt/NPC:R_upLeg_jnt/NPC:R_knee_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -0.11537193, y: 0.20417605, z: -0.65003324, w: 0.7228128}
+        inSlope: {x: 0.0009553134, y: -0.000987947, z: -1.9669531E-05, w: 0.00041306016}
+        outSlope: {x: 0.0009553134, y: -0.000987947, z: -1.9669531E-05, w: 0.00041306016}
+        tangentMode: 0
+      - time: 0.5
+        value: {x: -0.11760238, y: 0.1997524, z: -0.6487194, w: 0.7248668}
+        inSlope: {x: -0.03452295, y: -0.006384773, z: 0.031399727, w: 0.024273988}
+        outSlope: {x: -0.03452295, y: -0.006384773, z: 0.031399727, w: 0.024273988}
+        tangentMode: 0
+      - time: 1.0666667
+        value: {x: -0.10489171, y: 0.19806232, z: -0.64200276, w: 0.7332131}
+        inSlope: {x: -0.06467248, y: 0.043171983, z: -0.03993813, w: -0.0559259}
+        outSlope: {x: -0.06467248, y: 0.043171983, z: -0.03993813, w: -0.0559259}
+        tangentMode: 0
+      - time: 1.5000001
+        value: {x: -0.1369539, y: 0.21245039, z: -0.6467621, w: 0.7195883}
+        inSlope: {x: -0.052927762, y: 0.018061087, z: 0.012725282, w: -0.0039660893}
+        outSlope: {x: -0.052927762, y: 0.018061087, z: 0.012725282, w: -0.0039660893}
+        tangentMode: 0
+      - time: 2.2333333
+        value: {x: -0.1414147, y: 0.2129896, z: -0.6464805, w: 0.71881866}
+        inSlope: {x: 0.057694174, y: -0.022946466, z: -0.015390481, w: 0.004319238}
+        outSlope: {x: 0.057694174, y: -0.022946466, z: -0.015390481, w: 0.004319238}
+        tangentMode: 0
+      - time: 3.0000002
+        value: {x: -0.13591051, y: 0.20910038, z: -0.642967, w: 0.7241539}
+        inSlope: {x: 0.0038304217, y: -0.0022977612, z: 0.0021126885, w: 0.0032579931}
+        outSlope: {x: 0.0038304217, y: -0.0022977612, z: 0.0021126885, w: 0.0032579931}
+        tangentMode: 0
+      - time: 4.5
+        value: {x: -0.1309194, y: 0.2092414, z: -0.6469306, w: 0.72149783}
+        inSlope: {x: -0.004537588, y: -0.0035096384, z: 0.007444853, w: 0.0068672886}
+        outSlope: {x: -0.004537588, y: -0.0035096384, z: 0.007444853, w: 0.0068672886}
+        tangentMode: 0
+      - time: 5.6000004
+        value: {x: -0.13075502, y: 0.20693833, z: -0.6444928, w: 0.72436786}
+        inSlope: {x: 0.025822992, y: -0.008161522, z: -0.004840498, w: 0.0026831056}
+        outSlope: {x: 0.025822992, y: -0.008161522, z: -0.004840498, w: 0.0026831056}
+        tangentMode: 0
+      - time: 6.0000005
+        value: {x: -0.115383215, y: 0.2039849, z: -0.64972734, w: 0.7231399}
+        inSlope: {x: 0.03935408, y: -0.0046134037, z: -0.016043201, w: -0.0067895716}
+        outSlope: {x: 0.03935408, y: -0.0046134037, z: -0.016043201, w: -0.0067895716}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_hips_jnt/NPC:R_upLeg_jnt/NPC:R_knee_jnt/NPC:R_ankle_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 2.2134966E-08, y: -7.257334E-08, z: -0.2970522, w: 0.9548612}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - time: 6.0000005
+        value: {x: 2.2134966E-08, y: -7.257334E-08, z: -0.2970522, w: 0.9548612}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_hips_jnt/NPC:R_upLeg_jnt/NPC:R_knee_jnt/NPC:R_ankle_jnt/NPC:R_ball_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 1.5700926E-16, y: -0.7071068, z: 1.5700926E-16, w: 0.7071068}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - time: 6.0000005
+        value: {x: 1.5700926E-16, y: -0.7071068, z: 1.5700926E-16, w: 0.7071068}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_hips_jnt/NPC:R_upLeg_jnt/NPC:R_knee_jnt/NPC:R_ankle_jnt/NPC:R_ball_jnt/NPC:R_toe_jnt
+  m_CompressedRotationCurves: []
+  m_PositionCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 13.490718, y: 66.55217, z: -18.23121}
+        inSlope: {x: 0.1285621, y: 0.0027792791, z: 0.09166716}
+        outSlope: {x: 0.1285621, y: 0.0027792791, z: 0.09166716}
+        tangentMode: 0
+      - time: 0.36666667
+        value: {x: 13.907905, y: 66.551216, z: -17.99408}
+        inSlope: {x: 2.12603, y: 0.051618304, z: -0.5014011}
+        outSlope: {x: 2.1259716, y: 0.05142211, z: -0.50109035}
+        tangentMode: 0
+      - time: 0.6333333
+        value: {x: 14.586898, y: 66.593025, z: -18.899025}
+        inSlope: {x: 2.559912, y: 0.16707298, z: -3.6161888}
+        outSlope: {x: 2.5595953, y: 0.16875114, z: -3.6156645}
+        tangentMode: 0
+      - time: 1
+        value: {x: 14.488241, y: 66.600525, z: -19.160679}
+        inSlope: {x: -4.2125525, y: -0.17766663, z: 3.0174417}
+        outSlope: {x: -4.212147, y: -0.17914923, z: 3.017349}
+        tangentMode: 0
+      - time: 1.3666667
+        value: {x: 13.108682, y: 66.56211, z: -18.670649}
+        inSlope: {x: -0.87246966, y: 0.07411418, z: -2.5971925}
+        outSlope: {x: -0.8725895, y: 0.07485532, z: -2.5973613}
+        tangentMode: 0
+      - time: 2.0333333
+        value: {x: 12.873141, y: 66.59752, z: -19.73224}
+        inSlope: {x: 0.57251704, y: -0.05486629, z: 1.3661451}
+        outSlope: {x: 0.57234675, y: -0.055531137, z: 1.366788}
+        tangentMode: 0
+      - time: 2.4
+        value: {x: 13.271951, y: 66.574036, z: -19.010263}
+        inSlope: {x: 0.60659707, y: 0.042920522, z: -1.02197}
+        outSlope: {x: 0.60679483, y: 0.043313198, z: -1.0220263}
+        tangentMode: 0
+      - time: 3.6
+        value: {x: 13.531227, y: 66.586586, z: -19.256105}
+        inSlope: {x: -0.3685205, y: -0.034670178, z: 0.75312537}
+        outSlope: {x: -0.3682985, y: -0.034255765, z: 0.752823}
+        tangentMode: 0
+      - time: 4.266667
+        value: {x: 13.472152, y: 66.57852, z: -19.084898}
+        inSlope: {x: -0.63971204, y: -0.03504025, z: 0.69075334}
+        outSlope: {x: -0.6395781, y: -0.034168813, z: 0.690428}
+        tangentMode: 0
+      - time: 4.5666666
+        value: {x: 13.402304, y: 66.574974, z: -18.999722}
+        inSlope: {x: 1.3954828, y: 0.07565096, z: -1.5766401}
+        outSlope: {x: 1.3955891, y: 0.07718774, z: -1.576662}
+        tangentMode: 0
+      - time: 5.366667
+        value: {x: 13.494688, y: 66.57899, z: -19.104536}
+        inSlope: {x: 1.015946, y: 0.04471919, z: -0.9070649}
+        outSlope: {x: 1.0158778, y: 0.043618374, z: -0.90686053}
+        tangentMode: 0
+      - time: 5.866667
+        value: {x: 13.607177, y: 66.564964, z: -18.593822}
+        inSlope: {x: -0.81315655, y: -0.09641383, z: 2.8029602}
+        outSlope: {x: -0.81290174, y: -0.096522816, z: 2.8031263}
+        tangentMode: 0
+      - time: 6
+        value: {x: 13.4845085, y: 66.55147, z: -18.224596}
+        inSlope: {x: -0.97104967, y: -0.104326606, z: 2.6722167}
+        outSlope: {x: -0.97104967, y: -0.104326606, z: 2.6722167}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -13.645752, y: 1.8264258, z: 1.7763568E-15}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 6
+        value: {x: -13.645752, y: 1.8264258, z: 1.7763568E-15}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -15.935624, y: 2.0611637, z: 3.5527137E-15}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 6
+        value: {x: -15.935624, y: 2.0611637, z: 3.5527137E-15}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -13.359517, y: -2.0611637, z: 2.6645353E-15}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 6
+        value: {x: -13.359517, y: -2.0611637, z: 2.6645353E-15}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -13.193126, y: -1.8264257, z: 3.3350103E-15}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 6
+        value: {x: -13.193126, y: -1.8264257, z: 3.3350103E-15}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -0.00022000496, y: -3.4859426, z: -8.49454}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 6
+        value: {x: -0.00022000496, y: -3.4859426, z: -8.49454}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:L_clavicle_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -13.92277, y: -5.684342E-14, z: 1.4210855E-14}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 6
+        value: {x: -13.92277, y: -5.684342E-14, z: 1.4210855E-14}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:L_clavicle_jnt/NPC:L_upArm_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -30.349888, y: 1.9614411E-07, z: 3.540573E-07}
+        inSlope: {x: -0, y: 1.6082944E-07, z: 9.16431E-08}
+        outSlope: {x: -0, y: 1.6082944E-07, z: 9.16431E-08}
+        tangentMode: 0
+      - time: 0.46666667
+        value: {x: -30.349888, y: 2.4239557E-07, z: 3.7624412E-07}
+        inSlope: {x: -0, y: 1.5150961E-08, z: -4.1087677E-08}
+        outSlope: {x: -0, y: 1.5147716E-08, z: -4.1086786E-08}
+        tangentMode: 0
+      - time: 0.73333335
+        value: {x: -30.349888, y: 2.4741183E-07, z: 3.8651342E-07}
+        inSlope: {x: -0, y: 1.6484657E-08, z: 5.7589922E-08}
+        outSlope: {x: -0, y: 1.6491628E-08, z: 5.7590995E-08}
+        tangentMode: 0
+      - time: 1.1
+        value: {x: -30.349888, y: 2.517488E-07, z: 3.9412345E-07}
+        inSlope: {x: -0, y: -3.2088746E-08, z: -8.598918E-08}
+        outSlope: {x: -0, y: -3.209581E-08, z: -8.5992546E-08}
+        tangentMode: 0
+      - time: 1.4
+        value: {x: -30.349888, y: 2.4260314E-07, z: 3.6730782E-07}
+        inSlope: {x: -0, y: -1.6632844E-08, z: -5.812443E-08}
+        outSlope: {x: -0, y: -1.6631708E-08, z: -5.8124797E-08}
+        tangentMode: 0
+      - time: 2
+        value: {x: -30.349888, y: 2.2204523E-07, z: 3.3858055E-07}
+        inSlope: {x: -0, y: -6.608542E-08, z: -2.5085589E-08}
+        outSlope: {x: -0, y: -6.6081235E-08, z: -2.5084331E-08}
+        tangentMode: 0
+      - time: 2.2666667
+        value: {x: -30.349888, y: 1.850716E-07, z: 3.260401E-07}
+        inSlope: {x: -0, y: -1.4541331E-07, z: -6.228095E-08}
+        outSlope: {x: -0, y: -1.4541261E-07, z: -6.228054E-08}
+        tangentMode: 0
+      - time: 2.3666666
+        value: {x: -30.349888, y: 1.7904844E-07, z: 3.244245E-07}
+        inSlope: {x: -0, y: 4.4869353E-08, z: 3.6744673E-08}
+        outSlope: {x: -0, y: 4.486606E-08, z: 3.6738967E-08}
+        tangentMode: 0
+      - time: 2.6
+        value: {x: -30.349888, y: 1.9523449E-07, z: 3.3551012E-07}
+        inSlope: {x: -0, y: 6.3306224E-08, z: 4.364701E-08}
+        outSlope: {x: -0, y: 6.330086E-08, z: 4.3647674E-08}
+        tangentMode: 0
+      - time: 3.4666667
+        value: {x: -30.349888, y: 2.140136E-07, z: 3.533048E-07}
+        inSlope: {x: -0, y: -1.3233767E-09, z: 4.9048197E-09}
+        outSlope: {x: -0, y: -1.3265229E-09, z: 4.9059565E-09}
+        tangentMode: 0
+      - time: 3.6
+        value: {x: -30.349888, y: 2.2331096E-07, z: 3.5374808E-07}
+        inSlope: {x: -0, y: 1.685692E-07, z: 1.393964E-09}
+        outSlope: {x: -0, y: 1.6855887E-07, z: 1.3938731E-09}
+        tangentMode: 0
+      - time: 3.8666666
+        value: {x: -30.349888, y: 2.747851E-07, z: 3.5158365E-07}
+        inSlope: {x: -0, y: 9.12779E-08, z: -1.01657225E-08}
+        outSlope: {x: -0, y: 9.127368E-08, z: -1.01656905E-08}
+        tangentMode: 0
+      - time: 4.3
+        value: {x: -30.349888, y: 2.746835E-07, z: 3.516684E-07}
+        inSlope: {x: -0, y: -8.771353E-10, z: 5.895967E-09}
+        outSlope: {x: -0, y: -8.7632324E-10, z: 5.904696E-09}
+        tangentMode: 0
+      - time: 4.8333335
+        value: {x: -30.349888, y: 2.7740592E-07, z: 3.5147485E-07}
+        inSlope: {x: -0, y: 6.8245445E-09, z: -2.96122E-09}
+        outSlope: {x: -0, y: 6.822678E-09, z: -2.956875E-09}
+        tangentMode: 0
+      - time: 5.4
+        value: {x: -30.349888, y: 2.7951248E-07, z: 3.4601482E-07}
+        inSlope: {x: -0, y: 4.1370512E-08, z: 6.5379733E-09}
+        outSlope: {x: -0, y: 4.1372907E-08, z: 6.5355366E-09}
+        tangentMode: 0
+      - time: 5.633333
+        value: {x: -30.349888, y: 2.7183734E-07, z: 3.502705E-07}
+        inSlope: {x: -0, y: -1.3435249E-07, z: 2.776174E-08}
+        outSlope: {x: -0, y: -1.3435643E-07, z: 2.7760318E-08}
+        tangentMode: 0
+      - time: 6
+        value: {x: -30.349888, y: 1.9635291E-07, z: 3.5394436E-07}
+        inSlope: {x: -0, y: -2.3796215E-07, z: -2.0092298E-08}
+        outSlope: {x: -0, y: -2.3796215E-07, z: -2.0092298E-08}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:L_clavicle_jnt/NPC:L_upArm_jnt/NPC:L_elbow_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -13.120873, y: 3.9301895E-14, z: -6.217249E-15}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 6
+        value: {x: -13.120873, y: 3.9301895E-14, z: -6.217249E-15}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:L_clavicle_jnt/NPC:L_upArm_jnt/NPC:L_elbow_jnt/NPC:L_forearm_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -23.480795, y: 2.0502102E-07, z: 3.4023395E-07}
+        inSlope: {x: -6.661338E-13, y: 4.151466E-07, z: -1.3496269E-07}
+        outSlope: {x: -6.661338E-13, y: 4.151466E-07, z: -1.3496269E-07}
+        tangentMode: 0
+      - time: 0.33333334
+        value: {x: -23.480795, y: 3.3844924E-07, z: 2.8810368E-07}
+        inSlope: {x: -2.8548596E-13, y: 2.9623897E-07, z: -1.4501977E-07}
+        outSlope: {x: -6.6613387E-13, y: 2.9623718E-07, z: -1.4501823E-07}
+        tangentMode: 0
+      - time: 0.5
+        value: {x: -23.480795, y: 3.784695E-07, z: 2.6427455E-07}
+        inSlope: {x: -2.8548596E-13, y: 1.3522049E-07, z: -9.256219E-08}
+        outSlope: {x: -6.6613327E-13, y: 1.3521677E-07, z: -9.2554885E-08}
+        tangentMode: 0
+      - time: 0.6666667
+        value: {x: -23.480795, y: 3.6943143E-07, z: 2.7307496E-07}
+        inSlope: {x: -2.854857E-13, y: -7.349599E-08, z: 6.106849E-08}
+        outSlope: {x: -6.6613447E-13, y: -7.350315E-08, z: 6.106677E-08}
+        tangentMode: 0
+      - time: 1.1
+        value: {x: -23.480795, y: 3.6940065E-07, z: 2.7734208E-07}
+        inSlope: {x: -2.854862E-13, y: 1.4591681E-07, z: -1.1725678E-07}
+        outSlope: {x: -6.6613447E-13, y: 1.4592932E-07, z: -1.17252554E-07}
+        tangentMode: 0
+      - time: 1.3666667
+        value: {x: -23.480795, y: 4.0508579E-07, z: 2.4492732E-07}
+        inSlope: {x: -2.854862E-13, y: 7.8242145E-08, z: -7.852917E-08}
+        outSlope: {x: -6.6613447E-13, y: 7.82365E-08, z: -7.8527016E-08}
+        tangentMode: 0
+      - time: 1.9666667
+        value: {x: -23.480795, y: 4.111901E-07, z: 2.290217E-07}
+        inSlope: {x: -2.854852E-13, y: -1.0457954E-07, z: 6.628933E-08}
+        outSlope: {x: -6.6613447E-13, y: -1.0458552E-07, z: 6.6283825E-08}
+        tangentMode: 0
+      - time: 2.1
+        value: {x: -23.480795, y: 3.744575E-07, z: 2.5228883E-07}
+        inSlope: {x: -2.854862E-13, y: -5.142918E-07, z: 3.0007055E-07}
+        outSlope: {x: -6.661297E-13, y: -5.142529E-07, z: 3.0004804E-07}
+        tangentMode: 0
+      - time: 2.3333333
+        value: {x: -23.480795, y: 2.3847355E-07, z: 3.1616406E-07}
+        inSlope: {x: -2.854862E-13, y: -2.3200947E-07, z: 9.791664E-08}
+        outSlope: {x: -6.6613447E-13, y: -2.3200032E-07, z: 9.790885E-08}
+        tangentMode: 0
+      - time: 2.4333334
+        value: {x: -23.480795, y: 2.3366854E-07, z: 3.1908812E-07}
+        inSlope: {x: -2.854862E-13, y: -6.8711974E-09, z: 1.38093075E-08}
+        outSlope: {x: -6.6613447E-13, y: -6.8703043E-09, z: 1.3814423E-08}
+        tangentMode: 0
+      - time: 3.4666667
+        value: {x: -23.480795, y: 2.3258997E-07, z: 3.266845E-07}
+        inSlope: {x: -2.854862E-13, y: 1.0303487E-09, z: 2.3841773E-09}
+        outSlope: {x: -6.6613447E-13, y: 1.0329279E-09, z: 2.3792235E-09}
+        tangentMode: 0
+      - time: 3.5666666
+        value: {x: -23.480795, y: 2.399131E-07, z: 3.2323663E-07}
+        inSlope: {x: -2.854862E-13, y: 1.9939928E-07, z: -9.963799E-08}
+        outSlope: {x: -6.6613447E-13, y: 1.9940053E-07, z: -9.963729E-08}
+        tangentMode: 0
+      - time: 3.8666666
+        value: {x: -23.480795, y: 3.2635705E-07, z: 2.7471924E-07}
+        inSlope: {x: -2.854862E-13, y: 1.3424956E-07, z: -8.4411894E-08}
+        outSlope: {x: -6.661297E-13, y: 1.3423615E-07, z: -8.4406096E-08}
+        tangentMode: 0
+      - time: 4.3
+        value: {x: -23.480795, y: 3.2620358E-07, z: 2.7485117E-07}
+        inSlope: {x: -2.854862E-13, y: -6.9588175E-09, z: 6.4239614E-09}
+        outSlope: {x: -6.6613447E-13, y: -6.9517934E-09, z: 6.423149E-09}
+        tangentMode: 0
+      - time: 5.1
+        value: {x: -23.480795, y: 3.3117394E-07, z: 2.704695E-07}
+        inSlope: {x: -2.854862E-13, y: 7.794376E-09, z: -9.824175E-09}
+        outSlope: {x: -6.6613447E-13, y: 7.7963245E-09, z: -9.819221E-09}
+        tangentMode: 0
+      - time: 5.4333334
+        value: {x: -23.480795, y: 3.3819498E-07, z: 2.6520013E-07}
+        inSlope: {x: -2.854862E-13, y: 2.5644198E-08, z: -1.2990436E-08}
+        outSlope: {x: -6.6613447E-13, y: 2.5640707E-08, z: -1.29837385E-08}
+        tangentMode: 0
+      - time: 5.6666665
+        value: {x: -23.480795, y: 3.104986E-07, z: 2.831209E-07}
+        inSlope: {x: -2.854862E-13, y: -2.730962E-07, z: 1.6568791E-07}
+        outSlope: {x: -6.6613447E-13, y: -2.7308846E-07, z: 1.6567901E-07}
+        tangentMode: 0
+      - time: 5.9666667
+        value: {x: -23.480795, y: 2.1305362E-07, z: 3.3610996E-07}
+        inSlope: {x: -2.854862E-13, y: -2.6186925E-07, z: 1.3181086E-07}
+        outSlope: {x: -6.6613447E-13, y: -2.618688E-07, z: 1.3181517E-07}
+        tangentMode: 0
+      - time: 6
+        value: {x: -23.480795, y: 2.0493746E-07, z: 3.4019234E-07}
+        inSlope: {x: -2.854862E-13, y: -2.434921E-07, z: 1.2248066E-07}
+        outSlope: {x: -2.854862E-13, y: -2.434921E-07, z: 1.2248066E-07}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:L_clavicle_jnt/NPC:L_upArm_jnt/NPC:L_elbow_jnt/NPC:L_wrist_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -10.599136, y: -1.7287935, z: -0.82797605}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 6
+        value: {x: -10.599136, y: -1.7287935, z: -0.82797605}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:L_clavicle_jnt/NPC:L_upArm_jnt/NPC:L_elbow_jnt/NPC:L_wrist_jnt/NPC:L_index_a_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -4.118485, y: -3.0564472E-08, z: 2.6045129E-08}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 6
+        value: {x: -4.118485, y: -3.0564472E-08, z: 2.6045129E-08}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:L_clavicle_jnt/NPC:L_upArm_jnt/NPC:L_elbow_jnt/NPC:L_wrist_jnt/NPC:L_index_a_jnt/NPC:L_index_b_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -3.0101259, y: -2.5660913E-08, z: 2.1971545E-08}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 6
+        value: {x: -3.0101259, y: -2.5660913E-08, z: 2.1971545E-08}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:L_clavicle_jnt/NPC:L_upArm_jnt/NPC:L_elbow_jnt/NPC:L_wrist_jnt/NPC:L_index_a_jnt/NPC:L_index_b_jnt/NPC:L_index_c_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -3.7260797, y: 3.330669E-16, z: 5.440093E-15}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 6
+        value: {x: -3.7260797, y: 3.330669E-16, z: 5.440093E-15}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:L_clavicle_jnt/NPC:L_upArm_jnt/NPC:L_elbow_jnt/NPC:L_wrist_jnt/NPC:L_index_a_jnt/NPC:L_index_b_jnt/NPC:L_index_c_jnt/NPC:L_index_d_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -3.8065035, y: -1.4507691, z: 3.2650645}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 6
+        value: {x: -3.8065035, y: -1.4507691, z: 3.2650645}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:L_clavicle_jnt/NPC:L_upArm_jnt/NPC:L_elbow_jnt/NPC:L_wrist_jnt/NPC:L_thumb_a_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -2.2878413, y: -3.0088074E-09, z: 1.8711432E-08}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 6
+        value: {x: -2.2878413, y: -3.0088074E-09, z: 1.8711432E-08}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:L_clavicle_jnt/NPC:L_upArm_jnt/NPC:L_elbow_jnt/NPC:L_wrist_jnt/NPC:L_thumb_a_jnt/NPC:L_thumb_b_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -3.8800418, y: 6.4660384E-09, z: 3.9193054E-08}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 6
+        value: {x: -3.8800418, y: 6.4660384E-09, z: 3.9193054E-08}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:L_clavicle_jnt/NPC:L_upArm_jnt/NPC:L_elbow_jnt/NPC:L_wrist_jnt/NPC:L_thumb_a_jnt/NPC:L_thumb_b_jnt/NPC:L_thumb_c_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -2.856524, y: -1.7763568E-13, z: 8.526513E-14}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 6
+        value: {x: -2.856524, y: -1.7763568E-13, z: 8.526513E-14}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:L_clavicle_jnt/NPC:L_upArm_jnt/NPC:L_elbow_jnt/NPC:L_wrist_jnt/NPC:L_thumb_a_jnt/NPC:L_thumb_b_jnt/NPC:L_thumb_c_jnt/NPC:L_thumb_d_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -6.069213, y: 1.0070931, z: 7.1054274E-15}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 6
+        value: {x: -6.069213, y: 1.0070931, z: 7.1054274E-15}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:C_neck_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -8.686474, y: -2.842171E-14, z: -7.1054274E-15}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 6
+        value: {x: -8.686474, y: -2.842171E-14, z: -7.1054274E-15}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:C_neck_jnt/NPC:C_head_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -17.1926, y: -2.1316282E-14, z: -2.3218934E-08}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 6
+        value: {x: -17.1926, y: -2.1316282E-14, z: -2.3218934E-08}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:C_neck_jnt/NPC:C_head_jnt/NPC:C_head_end_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -6.321468, y: -6.30347, z: -3.1426494}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 6
+        value: {x: -6.321468, y: -6.30347, z: -3.1426494}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:C_neck_jnt/NPC:C_head_jnt/NPC:L_eye_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -7.930108, y: -6.7219267, z: -5.1055894}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 6
+        value: {x: -7.930108, y: -6.7219267, z: -5.1055894}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:C_neck_jnt/NPC:C_head_jnt/NPC:L_eyebrowOuter_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -8.126942, y: -8.295787, z: -3.6804864}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 6
+        value: {x: -8.126942, y: -8.295787, z: -3.6804864}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:C_neck_jnt/NPC:C_head_jnt/NPC:L_eyebrowMiddle_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -7.7755003, y: -9.040717, z: -1.6715673}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 6
+        value: {x: -7.7755003, y: -9.040717, z: -1.6715673}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:C_neck_jnt/NPC:C_head_jnt/NPC:L_eyebrowInner_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -6.7337275, y: -7.923252, z: -2.946631}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 6
+        value: {x: -6.7337275, y: -7.923252, z: -2.946631}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:C_neck_jnt/NPC:C_head_jnt/NPC:L_eyelidUpper_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -5.863131, y: -8.002089, z: -2.9628983}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 6
+        value: {x: -5.863131, y: -8.002089, z: -2.9628983}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:C_neck_jnt/NPC:C_head_jnt/NPC:L_eyelidLower_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -2.8586802, y: -9.897314, z: -1.29824}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 6
+        value: {x: -2.8586802, y: -9.897314, z: -1.29824}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:C_neck_jnt/NPC:C_head_jnt/NPC:L_nostril_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -3.7312944, y: -8.083584, z: -2.9596784}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 6
+        value: {x: -3.7312944, y: -8.083584, z: -2.9596784}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:C_neck_jnt/NPC:C_head_jnt/NPC:L_cheek_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -0.14597307, y: -8.413848, z: -2.6870773}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 6
+        value: {x: -0.14597307, y: -8.413848, z: -2.6870773}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:C_neck_jnt/NPC:C_head_jnt/NPC:L_lipCorner_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -0.8789675, y: -9.648294, z: -1.6505089}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 6
+        value: {x: -0.8789675, y: -9.648294, z: -1.6505089}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:C_neck_jnt/NPC:C_head_jnt/NPC:L_lipUpperMiddle_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0.4155163, y: -9.587351, z: -1.5264174}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 6
+        value: {x: 0.4155163, y: -9.587351, z: -1.5264174}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:C_neck_jnt/NPC:C_head_jnt/NPC:L_lipLowerMiddle_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0.18651295, y: -0.9644839, z: 4.852261E-10}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 6
+        value: {x: 0.18651295, y: -0.9644839, z: 4.852261E-10}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:C_neck_jnt/NPC:C_head_jnt/NPC:C_jaw_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -1.0806887, y: -10.359428, z: 3.1837963E-09}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 6
+        value: {x: -1.0806887, y: -10.359428, z: 3.1837963E-09}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:C_neck_jnt/NPC:C_head_jnt/NPC:C_lipUpper_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0.3406196, y: -9.936395, z: 3.959279E-09}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 6
+        value: {x: 0.3406196, y: -9.936395, z: 3.959279E-09}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:C_neck_jnt/NPC:C_head_jnt/NPC:C_lipLower_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -6.321468, y: -6.30347, z: 3.1426494}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 6
+        value: {x: -6.321468, y: -6.30347, z: 3.1426494}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:C_neck_jnt/NPC:C_head_jnt/NPC:R_eye_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -7.930108, y: -6.7219267, z: 5.1055894}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 6
+        value: {x: -7.930108, y: -6.7219267, z: 5.1055894}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:C_neck_jnt/NPC:C_head_jnt/NPC:R_eyebrowOuter_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -8.126942, y: -8.295787, z: 3.6804864}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 6
+        value: {x: -8.126942, y: -8.295787, z: 3.6804864}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:C_neck_jnt/NPC:C_head_jnt/NPC:R_eyebrowMiddle_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -7.7755003, y: -9.040717, z: 1.6715673}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 6
+        value: {x: -7.7755003, y: -9.040717, z: 1.6715673}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:C_neck_jnt/NPC:C_head_jnt/NPC:R_eyebrowInner_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -6.7337275, y: -7.923252, z: 2.946631}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 6
+        value: {x: -6.7337275, y: -7.923252, z: 2.946631}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:C_neck_jnt/NPC:C_head_jnt/NPC:R_eyelidUpper_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -5.863131, y: -8.002089, z: 2.9628983}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 6
+        value: {x: -5.863131, y: -8.002089, z: 2.9628983}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:C_neck_jnt/NPC:C_head_jnt/NPC:R_eyelidLower_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -2.8586802, y: -9.897314, z: 1.29824}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 6
+        value: {x: -2.8586802, y: -9.897314, z: 1.29824}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:C_neck_jnt/NPC:C_head_jnt/NPC:R_nostril_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -3.7312944, y: -8.083584, z: 2.9596784}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 6
+        value: {x: -3.7312944, y: -8.083584, z: 2.9596784}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:C_neck_jnt/NPC:C_head_jnt/NPC:R_cheek_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -0.14597307, y: -8.413848, z: 2.6870773}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 6
+        value: {x: -0.14597307, y: -8.413848, z: 2.6870773}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:C_neck_jnt/NPC:C_head_jnt/NPC:R_lipCorner_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -0.8789675, y: -9.648294, z: 1.6505089}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 6
+        value: {x: -0.8789675, y: -9.648294, z: 1.6505089}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:C_neck_jnt/NPC:C_head_jnt/NPC:R_lipUpperMiddle_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0.4155163, y: -9.587351, z: 1.5264174}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 6
+        value: {x: 0.4155163, y: -9.587351, z: 1.5264174}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:C_neck_jnt/NPC:C_head_jnt/NPC:R_lipLowerMiddle_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -0.0003115577, y: -3.4859402, z: 8.49454}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 6
+        value: {x: -0.0003115577, y: -3.4859402, z: 8.49454}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:R_clavicle_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 13.922671, y: -0.00023806171, z: 4.5841443E-06}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 6
+        value: {x: 13.922671, y: -0.00023806171, z: 4.5841443E-06}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:R_clavicle_jnt/NPC:R_upArm_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 30.350073, y: 0.00028203346, z: -8.124199E-06}
+        inSlope: {x: 6.661338E-13, y: -2.467173E-07, z: 7.838413E-08}
+        outSlope: {x: 6.661338E-13, y: -2.467173E-07, z: 7.838413E-08}
+        tangentMode: 0
+      - time: 1.6666666
+        value: {x: 30.350073, y: 0.00028197875, z: -8.099823E-06}
+        inSlope: {x: 2.854862E-13, y: -1.7462312E-08, z: -8.6787956E-08}
+        outSlope: {x: 6.661321E-13, y: -1.3845069E-08, z: -8.678504E-08}
+        tangentMode: 0
+      - time: 3.3333333
+        value: {x: 30.350073, y: 0.0002820808, z: -8.15475E-06}
+        inSlope: {x: 2.854862E-13, y: 1.2972002E-08, z: 3.058503E-09}
+        outSlope: {x: 6.6613447E-13, y: 1.3263042E-08, z: 2.9428675E-09}
+        tangentMode: 0
+      - time: 4.9666667
+        value: {x: 30.350073, y: 0.00028199452, z: -8.113923E-06}
+        inSlope: {x: 2.854862E-13, y: -5.359266E-08, z: -2.3275287E-08}
+        outSlope: {x: 6.6613447E-13, y: -5.820772E-08, z: -2.2872511E-08}
+        tangentMode: 0
+      - time: 6
+        value: {x: 30.350073, y: 0.00028203317, z: -8.124642E-06}
+        inSlope: {x: 2.854862E-13, y: -3.3677317E-08, z: -8.7481766E-08}
+        outSlope: {x: 2.854862E-13, y: -3.3677317E-08, z: -8.7481766E-08}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:R_clavicle_jnt/NPC:R_upArm_jnt/NPC:R_elbow_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 13.120751, y: -0.00015827779, z: -1.3679996E-05}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 6
+        value: {x: 13.120751, y: -0.00015827779, z: -1.3679996E-05}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:R_clavicle_jnt/NPC:R_upArm_jnt/NPC:R_elbow_jnt/NPC:R_forearm_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 23.48072, y: -0.00015289991, z: 7.764269E-06}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 6
+        value: {x: 23.48072, y: -0.00015289991, z: 7.764269E-06}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:R_clavicle_jnt/NPC:R_upArm_jnt/NPC:R_elbow_jnt/NPC:R_wrist_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 10.5993395, y: 1.7291445, z: 0.8279853}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 6
+        value: {x: 10.5993395, y: 1.7291445, z: 0.8279853}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:R_clavicle_jnt/NPC:R_upArm_jnt/NPC:R_elbow_jnt/NPC:R_wrist_jnt/NPC:R_index_a_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 4.118436, y: -4.566139E-05, z: -1.045986E-05}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 6
+        value: {x: 4.118436, y: -4.566139E-05, z: -1.045986E-05}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:R_clavicle_jnt/NPC:R_upArm_jnt/NPC:R_elbow_jnt/NPC:R_wrist_jnt/NPC:R_index_a_jnt/NPC:R_index_b_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 3.0101936, y: 7.943615E-05, z: -9.433831E-06}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 6
+        value: {x: 3.0101936, y: 7.943615E-05, z: -9.433831E-06}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:R_clavicle_jnt/NPC:R_upArm_jnt/NPC:R_elbow_jnt/NPC:R_wrist_jnt/NPC:R_index_a_jnt/NPC:R_index_b_jnt/NPC:R_index_c_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 3.7261286, y: 7.0262446E-05, z: -2.3301103E-05}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 6
+        value: {x: 3.7261286, y: 7.0262446E-05, z: -2.3301103E-05}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:R_clavicle_jnt/NPC:R_upArm_jnt/NPC:R_elbow_jnt/NPC:R_wrist_jnt/NPC:R_index_a_jnt/NPC:R_index_b_jnt/NPC:R_index_c_jnt/NPC:R_index_d_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 3.8064108, y: 1.4506227, z: -3.2650788}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 6
+        value: {x: 3.8064108, y: 1.4506227, z: -3.2650788}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:R_clavicle_jnt/NPC:R_upArm_jnt/NPC:R_elbow_jnt/NPC:R_wrist_jnt/NPC:R_thumb_a_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 2.2882724, y: 0.0005383323, z: -1.5148241E-05}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 6
+        value: {x: 2.2882724, y: 0.0005383323, z: -1.5148241E-05}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:R_clavicle_jnt/NPC:R_upArm_jnt/NPC:R_elbow_jnt/NPC:R_wrist_jnt/NPC:R_thumb_a_jnt/NPC:R_thumb_b_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 3.879628, y: -0.0003780668, z: 3.304803E-05}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 6
+        value: {x: 3.879628, y: -0.0003780668, z: 3.304803E-05}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:R_clavicle_jnt/NPC:R_upArm_jnt/NPC:R_elbow_jnt/NPC:R_wrist_jnt/NPC:R_thumb_a_jnt/NPC:R_thumb_b_jnt/NPC:R_thumb_c_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 2.856807, y: 0.00019906988, z: -2.1134007E-05}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 6
+        value: {x: 2.856807, y: 0.00019906988, z: -2.1134007E-05}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:R_clavicle_jnt/NPC:R_upArm_jnt/NPC:R_elbow_jnt/NPC:R_wrist_jnt/NPC:R_thumb_a_jnt/NPC:R_thumb_b_jnt/NPC:R_thumb_c_jnt/NPC:R_thumb_d_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -7.1054274E-15, y: 0, z: 3.5527137E-15}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 6
+        value: {x: -7.1054274E-15, y: 0, z: 3.5527137E-15}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_hips_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -0, y: 0, z: -12.011061}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 6
+        value: {x: -0, y: 0, z: -12.011061}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_hips_jnt/NPC:L_upLeg_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -49.71998, y: -3.5527137E-14, z: 7.1054274E-15}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 6
+        value: {x: -49.71998, y: -3.5527137E-14, z: 7.1054274E-15}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_hips_jnt/NPC:L_upLeg_jnt/NPC:L_knee_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -46.97514, y: -4.440892E-15, z: 8.4554586E-13}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 6
+        value: {x: -46.97514, y: -4.440892E-15, z: 8.4554586E-13}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_hips_jnt/NPC:L_upLeg_jnt/NPC:L_knee_jnt/NPC:L_ankle_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -14.764529, y: -5.3290705E-15, z: 2.060574E-13}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 6
+        value: {x: -14.764529, y: -5.3290705E-15, z: 2.060574E-13}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_hips_jnt/NPC:L_upLeg_jnt/NPC:L_knee_jnt/NPC:L_ankle_jnt/NPC:L_ball_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -11.082299, y: 8.881784E-16, z: 2.842171E-14}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 6
+        value: {x: -11.082299, y: 8.881784E-16, z: 2.842171E-14}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_hips_jnt/NPC:L_upLeg_jnt/NPC:L_knee_jnt/NPC:L_ankle_jnt/NPC:L_ball_jnt/NPC:L_toe_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -0.00032377112, y: 7.1054274E-15, z: 12.011099}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 6
+        value: {x: -0.00032377112, y: 7.1054274E-15, z: 12.011099}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_hips_jnt/NPC:R_upLeg_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 49.720284, y: 5.010535E-06, z: -7.1054274E-15}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 6
+        value: {x: 49.720284, y: 5.010535E-06, z: -7.1054274E-15}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_hips_jnt/NPC:R_upLeg_jnt/NPC:R_knee_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 46.975136, y: -3.0071549E-06, z: -2.842171E-14}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 6
+        value: {x: 46.975136, y: -3.0071549E-06, z: -2.842171E-14}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_hips_jnt/NPC:R_upLeg_jnt/NPC:R_knee_jnt/NPC:R_ankle_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 14.764539, y: 2.0161646E-05, z: 0}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 6
+        value: {x: 14.764539, y: 2.0161646E-05, z: 0}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_hips_jnt/NPC:R_upLeg_jnt/NPC:R_knee_jnt/NPC:R_ankle_jnt/NPC:R_ball_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 11.082311, y: 6.661338E-15, z: 7.1054274E-15}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 6
+        value: {x: 11.082311, y: 6.661338E-15, z: 7.1054274E-15}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_hips_jnt/NPC:R_upLeg_jnt/NPC:R_knee_jnt/NPC:R_ankle_jnt/NPC:R_ball_jnt/NPC:R_toe_jnt
+  m_ScaleCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0.9999999, y: 0.9999999, z: 0.9999999}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 6.0000005
+        value: {x: 0.9999999, y: 0.9999999, z: 0.9999999}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0.9999999, y: 0.9999999, z: 0.9999999}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 6.0000005
+        value: {x: 0.9999999, y: 0.9999999, z: 0.9999999}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0.9999999, y: 0.9999999, z: 0.9999999}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 6.0000005
+        value: {x: 0.9999999, y: 0.9999999, z: 0.9999999}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0.9999999, y: 0.9999999, z: 0.9999999}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 6.0000005
+        value: {x: 0.9999999, y: 0.9999999, z: 0.9999999}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 6.0000005
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0.99999976, y: 0.99999976, z: 0.99999976}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 6.0000005
+        value: {x: 0.99999976, y: 0.99999976, z: 0.99999976}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:L_clavicle_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0.99999976, y: 0.99999976, z: 0.99999976}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 6.0000005
+        value: {x: 0.99999976, y: 0.99999976, z: 0.99999976}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:L_clavicle_jnt/NPC:L_upArm_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0.9999997, y: 0.99999964, z: 0.9999997}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 6.0000005
+        value: {x: 0.9999997, y: 0.99999964, z: 0.9999997}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:L_clavicle_jnt/NPC:L_upArm_jnt/NPC:L_elbow_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 1.0000002, y: 1.0000002, z: 1.0000002}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 6.0000005
+        value: {x: 1.0000002, y: 1.0000002, z: 1.0000002}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:L_clavicle_jnt/NPC:L_upArm_jnt/NPC:L_elbow_jnt/NPC:L_wrist_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 6.0000005
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:L_clavicle_jnt/NPC:L_upArm_jnt/NPC:L_elbow_jnt/NPC:L_wrist_jnt/NPC:L_index_a_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 6.0000005
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:L_clavicle_jnt/NPC:L_upArm_jnt/NPC:L_elbow_jnt/NPC:L_wrist_jnt/NPC:L_index_a_jnt/NPC:L_index_b_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 6.0000005
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:L_clavicle_jnt/NPC:L_upArm_jnt/NPC:L_elbow_jnt/NPC:L_wrist_jnt/NPC:L_index_a_jnt/NPC:L_index_b_jnt/NPC:L_index_c_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 6.0000005
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:L_clavicle_jnt/NPC:L_upArm_jnt/NPC:L_elbow_jnt/NPC:L_wrist_jnt/NPC:L_index_a_jnt/NPC:L_index_b_jnt/NPC:L_index_c_jnt/NPC:L_index_d_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 6.0000005
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:L_clavicle_jnt/NPC:L_upArm_jnt/NPC:L_elbow_jnt/NPC:L_wrist_jnt/NPC:L_thumb_a_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 6.0000005
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:L_clavicle_jnt/NPC:L_upArm_jnt/NPC:L_elbow_jnt/NPC:L_wrist_jnt/NPC:L_thumb_a_jnt/NPC:L_thumb_b_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 6.0000005
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:L_clavicle_jnt/NPC:L_upArm_jnt/NPC:L_elbow_jnt/NPC:L_wrist_jnt/NPC:L_thumb_a_jnt/NPC:L_thumb_b_jnt/NPC:L_thumb_c_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 6.0000005
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:L_clavicle_jnt/NPC:L_upArm_jnt/NPC:L_elbow_jnt/NPC:L_wrist_jnt/NPC:L_thumb_a_jnt/NPC:L_thumb_b_jnt/NPC:L_thumb_c_jnt/NPC:L_thumb_d_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0.99999994, y: 0.9999999, z: 0.99999994}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 6.0000005
+        value: {x: 0.99999994, y: 0.9999999, z: 0.99999994}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:C_neck_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0.9999999, y: 0.9999999, z: 0.9999999}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 6.0000005
+        value: {x: 0.9999999, y: 0.9999999, z: 0.9999999}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:C_neck_jnt/NPC:C_head_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 6.0000005
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:C_neck_jnt/NPC:C_head_jnt/NPC:C_head_end_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 6.0000005
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:C_neck_jnt/NPC:C_head_jnt/NPC:L_eye_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 6.0000005
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:C_neck_jnt/NPC:C_head_jnt/NPC:L_eyebrowOuter_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 6.0000005
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:C_neck_jnt/NPC:C_head_jnt/NPC:L_eyebrowMiddle_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 6.0000005
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:C_neck_jnt/NPC:C_head_jnt/NPC:L_eyebrowInner_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 6.0000005
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:C_neck_jnt/NPC:C_head_jnt/NPC:L_eyelidUpper_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 6.0000005
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:C_neck_jnt/NPC:C_head_jnt/NPC:L_eyelidLower_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 6.0000005
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:C_neck_jnt/NPC:C_head_jnt/NPC:L_nostril_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 6.0000005
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:C_neck_jnt/NPC:C_head_jnt/NPC:L_cheek_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 6.0000005
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:C_neck_jnt/NPC:C_head_jnt/NPC:L_lipCorner_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 6.0000005
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:C_neck_jnt/NPC:C_head_jnt/NPC:L_lipUpperMiddle_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 6.0000005
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:C_neck_jnt/NPC:C_head_jnt/NPC:L_lipLowerMiddle_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 6.0000005
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:C_neck_jnt/NPC:C_head_jnt/NPC:C_jaw_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 6.0000005
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:C_neck_jnt/NPC:C_head_jnt/NPC:C_lipUpper_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 6.0000005
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:C_neck_jnt/NPC:C_head_jnt/NPC:C_lipLower_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 6.0000005
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:C_neck_jnt/NPC:C_head_jnt/NPC:R_eye_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 6.0000005
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:C_neck_jnt/NPC:C_head_jnt/NPC:R_eyebrowOuter_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 6.0000005
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:C_neck_jnt/NPC:C_head_jnt/NPC:R_eyebrowMiddle_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 6.0000005
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:C_neck_jnt/NPC:C_head_jnt/NPC:R_eyebrowInner_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 6.0000005
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:C_neck_jnt/NPC:C_head_jnt/NPC:R_eyelidUpper_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 6.0000005
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:C_neck_jnt/NPC:C_head_jnt/NPC:R_eyelidLower_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 6.0000005
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:C_neck_jnt/NPC:C_head_jnt/NPC:R_nostril_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 6.0000005
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:C_neck_jnt/NPC:C_head_jnt/NPC:R_cheek_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 6.0000005
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:C_neck_jnt/NPC:C_head_jnt/NPC:R_lipCorner_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 6.0000005
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:C_neck_jnt/NPC:C_head_jnt/NPC:R_lipUpperMiddle_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 6.0000005
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:C_neck_jnt/NPC:C_head_jnt/NPC:R_lipLowerMiddle_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0.99999976, y: 0.99999994, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 6.0000005
+        value: {x: 0.99999976, y: 0.99999994, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:R_clavicle_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0.9999999, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 6.0000005
+        value: {x: 0.9999999, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:R_clavicle_jnt/NPC:R_upArm_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0.9999998, y: 0.99999994, z: 0.99999994}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 6.0000005
+        value: {x: 0.9999998, y: 0.99999994, z: 0.99999994}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:R_clavicle_jnt/NPC:R_upArm_jnt/NPC:R_elbow_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 1.0000001, y: 1, z: 1.0000001}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 6.0000005
+        value: {x: 1.0000001, y: 1, z: 1.0000001}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:R_clavicle_jnt/NPC:R_upArm_jnt/NPC:R_elbow_jnt/NPC:R_wrist_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 6.0000005
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:R_clavicle_jnt/NPC:R_upArm_jnt/NPC:R_elbow_jnt/NPC:R_wrist_jnt/NPC:R_index_a_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 6.0000005
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:R_clavicle_jnt/NPC:R_upArm_jnt/NPC:R_elbow_jnt/NPC:R_wrist_jnt/NPC:R_index_a_jnt/NPC:R_index_b_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 6.0000005
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:R_clavicle_jnt/NPC:R_upArm_jnt/NPC:R_elbow_jnt/NPC:R_wrist_jnt/NPC:R_index_a_jnt/NPC:R_index_b_jnt/NPC:R_index_c_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 6.0000005
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:R_clavicle_jnt/NPC:R_upArm_jnt/NPC:R_elbow_jnt/NPC:R_wrist_jnt/NPC:R_index_a_jnt/NPC:R_index_b_jnt/NPC:R_index_c_jnt/NPC:R_index_d_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 6.0000005
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:R_clavicle_jnt/NPC:R_upArm_jnt/NPC:R_elbow_jnt/NPC:R_wrist_jnt/NPC:R_thumb_a_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 6.0000005
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:R_clavicle_jnt/NPC:R_upArm_jnt/NPC:R_elbow_jnt/NPC:R_wrist_jnt/NPC:R_thumb_a_jnt/NPC:R_thumb_b_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 6.0000005
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:R_clavicle_jnt/NPC:R_upArm_jnt/NPC:R_elbow_jnt/NPC:R_wrist_jnt/NPC:R_thumb_a_jnt/NPC:R_thumb_b_jnt/NPC:R_thumb_c_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 6.0000005
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_spine1_jnt/NPC:C_spine2_jnt/NPC:C_spine3_jnt/NPC:C_spineEnd_jnt/NPC:R_clavicle_jnt/NPC:R_upArm_jnt/NPC:R_elbow_jnt/NPC:R_wrist_jnt/NPC:R_thumb_a_jnt/NPC:R_thumb_b_jnt/NPC:R_thumb_c_jnt/NPC:R_thumb_d_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0.99999976, y: 0.99999976, z: 0.99999976}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 6.0000005
+        value: {x: 0.99999976, y: 0.99999976, z: 0.99999976}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_hips_jnt/NPC:L_upLeg_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0.9999997, y: 0.9999997, z: 0.99999964}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 6.0000005
+        value: {x: 0.9999997, y: 0.9999997, z: 0.99999964}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_hips_jnt/NPC:L_upLeg_jnt/NPC:L_knee_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0.9999999, y: 0.9999998, z: 0.99999994}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 6.0000005
+        value: {x: 0.9999999, y: 0.9999998, z: 0.99999994}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_hips_jnt/NPC:L_upLeg_jnt/NPC:L_knee_jnt/NPC:L_ankle_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0.99999994, y: 0.9999999, z: 0.99999994}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 6.0000005
+        value: {x: 0.99999994, y: 0.9999999, z: 0.99999994}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_hips_jnt/NPC:L_upLeg_jnt/NPC:L_knee_jnt/NPC:L_ankle_jnt/NPC:L_ball_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 6.0000005
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_hips_jnt/NPC:L_upLeg_jnt/NPC:L_knee_jnt/NPC:L_ankle_jnt/NPC:L_ball_jnt/NPC:L_toe_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0.99999976, y: 0.99999976, z: 0.99999976}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 6.0000005
+        value: {x: 0.99999976, y: 0.99999976, z: 0.99999976}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_hips_jnt/NPC:R_upLeg_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0.9999997, y: 0.99999964, z: 0.99999964}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 6.0000005
+        value: {x: 0.9999997, y: 0.99999964, z: 0.99999964}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_hips_jnt/NPC:R_upLeg_jnt/NPC:R_knee_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0.9999999, y: 0.99999994, z: 0.99999994}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 6.0000005
+        value: {x: 0.9999999, y: 0.99999994, z: 0.99999994}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_hips_jnt/NPC:R_upLeg_jnt/NPC:R_knee_jnt/NPC:R_ankle_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0.99999994, y: 1, z: 0.99999994}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 6.0000005
+        value: {x: 0.99999994, y: 1, z: 0.99999994}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_hips_jnt/NPC:R_upLeg_jnt/NPC:R_knee_jnt/NPC:R_ankle_jnt/NPC:R_ball_jnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 6.0000005
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: NPC:skeleton/NPC:C_spine0_jnt/NPC:C_hips_jnt/NPC:R_upLeg_jnt/NPC:R_knee_jnt/NPC:R_ankle_jnt/NPC:R_ball_jnt/NPC:R_toe_jnt
+  m_FloatCurves: []
+  m_SampleRate: 30
+  m_WrapMode: 0
+  m_Bounds:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  m_EditorCurves: []
+  m_EulerEditorCurves: []
+  m_Events: []

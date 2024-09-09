@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: rooftop_vertex_light_alpha_mat
+  m_Shader: {fileID: 203, guid: 0000000000000000e000000000000000, type: 0}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+    - first:
+        name: _MainTex
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - first:
+        name: _Shininess
+      second: 0.7
+    - first:
+        name: _InvFade
+      second: 1
+    - first:
+        name: _FadeOutDistNear
+      second: 10
+    - first:
+        name: _FadeOutDistFar
+      second: 10000
+    - first:
+        name: _Multiplier
+      second: 1
+    - first:
+        name: _Bias
+      second: 0
+    - first:
+        name: _TimeOnDuration
+      second: 0.5
+    - first:
+        name: _TimeOffDuration
+      second: 0.5
+    - first:
+        name: _BlinkingTimeOffsScale
+      second: 5
+    - first:
+        name: _SizeGrowStartDist
+      second: 0
+    - first:
+        name: _SizeGrowEndDist
+      second: 10000
+    - first:
+        name: _MaxGrowSize
+      second: 2.5
+    - first:
+        name: _NoiseAmount
+      second: 0
+    m_Colors:
+    - first:
+        name: _Color
+      second: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - first:
+        name: _SpecColor
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _TintColor
+      second: {r: 0.5, g: 0.5, b: 0.5, a: 0.1254902}
+    - first:
+        name: _Emission
+      second: {r: 0, g: 0, b: 0, a: 0}

@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: prop_stockticker_BG_mat
+  m_Shader: {fileID: 4800000, guid: 1e3e788c699300c4cb1b83e02283f1d2, type: 3}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+    - first:
+        name: _MainTex
+      second:
+        m_Texture: {fileID: 2800000, guid: e4425ec636096784aaf0793864de08b6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _AdditiveTex
+      second:
+        m_Texture: {fileID: 2800000, guid: 3a69ac3af282f9b48862780298a2cfbf, type: 3}
+        m_Scale: {x: 2, y: 10}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - first:
+        name: _InvFade
+      second: 1
+    m_Colors:
+    - first:
+        name: _Color
+      second: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - first:
+        name: _TintColor
+      second: {r: 0.5, g: 0.5, b: 0.5, a: 0.5}
+    - first:
+        name: _ScrollingSpeedBase
+      second: {r: 0, g: 0, b: 0, a: 0}
+    - first:
+        name: _ScrollingSpeedAdditive
+      second: {r: 0, g: 0.05, b: 0, a: 0}

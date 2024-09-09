@@ -1,0 +1,164 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1824951951328222
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4521274054194500}
+  m_Layer: 0
+  m_Name: PF_FX_Grenade_EMP
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1989104438619392
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4228141447126903}
+  - 114: {fileID: 114490654776348056}
+  m_Layer: 0
+  m_Name: Elec_01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1641634914047684
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4155976544169796}
+  - 114: {fileID: 114612937473284584}
+  m_Layer: 0
+  m_Name: Explode_01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4521274054194500
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1824951951328222}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4228141447126903}
+  - {fileID: 4155976544169796}
+  m_Father: {fileID: 0}
+--- !u!4 &4228141447126903
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1989104438619392}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4521274054194500}
+--- !u!114 &114490654776348056
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1989104438619392}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf7dc1f38780ba00560338fae21f08c6, type: 3}
+  m_Name:
+  spriteSheetMaterial: {fileID: 2100000, guid: acced885045a7a04286adcb9e6eb1905, type: 2}
+  spriteCount: 64
+  uvAnimationTileX: 8
+  uvAnimationTileY: 8
+  framesPerSecond: 30
+  sizeStart: {x: 10, y: 5, z: 0}
+  sizeEnd: {x: 10, y: 5, z: 0}
+  randomRotation: 0
+  rotationStart: 0
+  rotationEnd: 0
+  isOneShot: 0
+  life: 4
+  billboarding: 0
+  addLightEffect: 0
+  lightRange: 15
+  lightColor: {r: 0.99607843, g: 0.7372549, b: 0.023529412, a: 0}
+  lightFadeSpeed: 0.8
+  addColorEffect: 0
+  colorStart: {r: 1, g: 1, b: 1, a: 1}
+  colorEnd: {r: 1, g: 1, b: 1, a: 1}
+  foldOut: 0
+  offset: {x: 0, y: 0, z: 0}
+  waittingTime: 0
+  copy: 0
+--- !u!4 &4155976544169796
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1641634914047684}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4521274054194500}
+--- !u!114 &114612937473284584
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1641634914047684}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf7dc1f38780ba00560338fae21f08c6, type: 3}
+  m_Name:
+  spriteSheetMaterial: {fileID: 2100000, guid: a7b7d922d5e1b704dbfaac033ef2f822, type: 2}
+  spriteCount: 48
+  uvAnimationTileX: 8
+  uvAnimationTileY: 6
+  framesPerSecond: 60
+  sizeStart: {x: 9, y: 9, z: 0}
+  sizeEnd: {x: 9, y: 9, z: 0}
+  randomRotation: 1
+  rotationStart: 0
+  rotationEnd: 0
+  isOneShot: 0
+  life: 4
+  billboarding: 0
+  addLightEffect: 0
+  lightRange: 15
+  lightColor: {r: 0.99607843, g: 0.7372549, b: 0.023529412, a: 0}
+  lightFadeSpeed: 0.8
+  addColorEffect: 0
+  colorStart: {r: 0.36567163, g: 0.57415724, b: 1, a: 1}
+  colorEnd: {r: 0.2835821, g: 0.57916695, b: 1, a: 1}
+  foldOut: 0
+  offset: {x: 0, y: 0, z: 0}
+  waittingTime: 0
+  copy: 0
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1824951951328222}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0

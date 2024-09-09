@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: rooftop_interior_floor_atlas_interactive_mat
+  m_Shader: {fileID: 4800000, guid: 34a52d0398597d445911e61123de1831, type: 3}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+    - first:
+        name: _Overlay
+      second:
+        m_Texture: {fileID: 2800000, guid: 639cff1826888ce45b761c8c973f2c51, type: 3}
+        m_Scale: {x: 16, y: 8}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _DiffuseMap
+      second:
+        m_Texture: {fileID: 2800000, guid: 4fda1f6c545d9704c9cb06c1af45674d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - first:
+        name: _Shininess
+      second: 0.10836707
+    - first:
+        name: _SpecRange
+      second: 10
+    - first:
+        name: _MaxDistance
+      second: 1
+    - first:
+        name: _BlendFactor
+      second: 0.075
+    - first:
+        name: _Outline
+      second: 0.002
+    m_Colors:
+    - first:
+        name: _Color
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _SpecColor
+      second: {r: 0.60447764, g: 0.52561355, b: 0.3789263, a: 1}
+    - first:
+        name: _SpecOffset
+      second: {r: 1, g: 1.96, b: 2.9, a: 0}
+    - first:
+        name: _ObjectCenter
+      second: {r: 0, g: 0, b: 0, a: 1}
+    - first:
+        name: _OutlineColor
+      second: {r: 0.9922, g: 0.7647, b: 0, a: 255}
+    - first:
+        name: _ScrollingSpeed
+      second: {r: 0, g: 0, b: 0, a: 0}

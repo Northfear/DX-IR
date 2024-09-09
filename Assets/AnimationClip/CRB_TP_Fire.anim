@@ -1,0 +1,930 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!74 &7400000
+AnimationClip:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: CRB_TP_Fire
+  m_Compressed: 0
+  m_RotationCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - time: 0.36666667
+        value: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: CBT:Crossbow_Root
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0, y: -0, z: -0, w: 1}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - time: 0.36666667
+        value: {x: 0, y: -0, z: -0, w: 1}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: CBT:Crossbow_Root/CBT:Crossbow_String
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0, y: -0, z: -0, w: 1}
+        inSlope: {x: -9.050225, y: -0.3533222, z: 0.26333877, w: -1.4010625}
+        outSlope: {x: -9.050225, y: -0.3533222, z: 0.26333877, w: -1.4010625}
+        tangentMode: 0
+      - time: 0.033333335
+        value: {x: -0.3016742, y: -0.0117774075, z: 0.008777959, w: 0.9532979}
+        inSlope: {x: -4.5251126, y: -0.1766611, z: 0.13166939, w: -0.70053124}
+        outSlope: {x: -4.5251126, y: -0.1766611, z: 0.13166939, w: -0.70053124}
+        tangentMode: 0
+      - time: 0.06666667
+        value: {x: -0.3016742, y: -0.0117774075, z: 0.008777959, w: 0.9532979}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - time: 0.36666667
+        value: {x: -0.3016742, y: -0.0117774075, z: 0.008777959, w: 0.9532979}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: CBT:Crossbow_Root/CBT:Crossbow_String_Hook
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0, y: -0, z: -0, w: 1}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - time: 0.36666667
+        value: {x: 0, y: -0, z: -0, w: 1}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: CBT:Crossbow_Root/CBT:Crossbow_Left_BaseMetal_Piece_Down
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0, y: -0, z: -0, w: 1}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - time: 0.36666667
+        value: {x: 0, y: -0, z: -0, w: 1}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: CBT:Crossbow_Root/CBT:Crossbow_Left_BaseMetal_Piece_Down/CBT:Crossbow_Left_Metal_Piece
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0.017944783, y: -0.0007011068, z: -0.15600687, w: 0.9875927}
+        inSlope: {x: 0.079486534, y: -0.03516964, z: 4.818619, w: 0.36548492}
+        outSlope: {x: 0.079486534, y: -0.03516964, z: 4.818619, w: 0.36548492}
+        tangentMode: 0
+      - time: 0.033333335
+        value: {x: 0.020594334, y: -0.0018734281, z: 0.0046137567, w: 0.9997755}
+        inSlope: {x: 0.05035498, y: -0.020858914, z: 4.035075, w: 0.08657902}
+        outSlope: {x: 0.05035498, y: -0.020858914, z: 4.035075, w: 0.08657902}
+        tangentMode: 0
+      - time: 0.06666667
+        value: {x: 0.021301782, y: -0.0020917011, z: 0.11299816, w: 0.99336463}
+        inSlope: {x: 0.01744922, y: -0.015277835, z: 1.397855, w: -0.072178245}
+        outSlope: {x: 0.01744922, y: -0.015277835, z: 1.397855, w: -0.072178245}
+        tangentMode: 0
+      - time: 0.13333334
+        value: {x: 0.022608675, y: -0.0045762816, z: 0.03591768, w: 0.9990885}
+        inSlope: {x: 0.020231709, y: -0.041643564, z: -1.5890185, w: 0.07080317}
+        outSlope: {x: 0.020231709, y: -0.041643564, z: -1.5890185, w: 0.07080317}
+        tangentMode: 0
+      - time: 0.16666667
+        value: {x: 0.023106396, y: -0.005668188, z: -0.008130461, w: 0.99968386}
+        inSlope: {x: 0.008170232, y: -0.018682584, z: -0.8012379, w: 0.007099809}
+        outSlope: {x: 0.008170232, y: -0.018682584, z: -0.8012379, w: 0.007099809}
+        tangentMode: 0
+      - time: 0.23333335
+        value: {x: 0.023070896, y: -0.0057279067, z: -0.020124964, w: 0.9995149}
+        inSlope: {x: -0.0035770894, y: 0.0050456896, z: -0.011394918, w: -9.2983246E-05}
+        outSlope: {x: -0.0035770894, y: 0.0050456896, z: -0.011394918, w: -9.2983246E-05}
+        tangentMode: 0
+      - time: 0.36666667
+        value: {x: 0.022538392, y: -0.00484372, z: -0.008154583, w: 0.99970096}
+        inSlope: {x: -0.0017614291, y: 0.0030948783, z: 0.056146238, w: 0.0005650521}
+        outSlope: {x: -0.0017614291, y: 0.0030948783, z: 0.056146238, w: 0.0005650521}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: CBT:Crossbow_Root/CBT:Crossbow_Left_BaseMetal_Piece_Down/CBT:Crossbow_Left_Metal_Piece/CBT:Crossbow_Left_Metal_Bend_High
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0.062860645, y: -0.019366704, z: -0.048762623, w: 0.99664223}
+        inSlope: {x: -0.79232764, y: 3.079241, z: 28.448689, w: -17.080175}
+        outSlope: {x: -0.79232764, y: 3.079241, z: 28.448689, w: -17.080175}
+        tangentMode: 0
+      - time: 0.033333335
+        value: {x: 0.036449723, y: 0.08327467, z: 0.8995271, w: 0.42730302}
+        inSlope: {x: -1.1920929E-07, y: 0, z: -9.536743E-07, w: 0}
+        outSlope: {x: -1.1920929E-07, y: 0, z: -9.536743E-07, w: 0}
+        tangentMode: 0
+      - time: 0.06666667
+        value: {x: 0.06286064, y: -0.019366708, z: -0.048762687, w: 0.99664223}
+        inSlope: {x: 0.39616382, y: -1.5396205, z: -14.224344, w: 8.540088}
+        outSlope: {x: 0.39616382, y: -1.5396205, z: -14.224344, w: 8.540088}
+        tangentMode: 0
+      - time: 0.10000001
+        value: {x: 0.062860645, y: -0.019366704, z: -0.048762623, w: 0.99664223}
+        inSlope: {x: 1.1175869E-07, y: 5.5879344E-08, z: 9.4994886E-07, w: 0}
+        outSlope: {x: 1.1175869E-07, y: 5.5879344E-08, z: 9.4994886E-07, w: 0}
+        tangentMode: 0
+      - time: 0.36666667
+        value: {x: 0.062860645, y: -0.019366704, z: -0.048762623, w: 0.99664223}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: CBT:Crossbow_Root/CBT:Crossbow_Left_BaseMetal_Piece_Down/CBT:Crossbow_Left_Metal_Piece/CBT:Crossbow_Left_Metal_Bend_High/CBT:Crossbow_Left_Metal_Piece_Wheel
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0.017193103, y: 0.0051869024, z: 0.19074646, w: 0.98147506}
+        inSlope: {x: -0.050086338, y: 0.030900877, z: -6.168383, w: 0.54823816}
+        outSlope: {x: -0.050086338, y: 0.030900877, z: -6.168383, w: 0.54823816}
+        tangentMode: 0
+      - time: 0.033333335
+        value: {x: 0.0155235585, y: 0.0062169316, z: -0.014866323, w: 0.99974966}
+        inSlope: {x: -0.06053491, y: 0.026315905, z: -5.166417, w: 0.098001674}
+        outSlope: {x: -0.06053491, y: 0.026315905, z: -5.166417, w: 0.098001674}
+        tangentMode: 0
+      - time: 0.06666667
+        value: {x: 0.013157442, y: 0.006941296, z: -0.15368137, w: 0.9880085}
+        inSlope: {x: -0.03169136, y: 0.012523415, z: -1.7987722, w: -0.13485879}
+        outSlope: {x: -0.03169136, y: 0.012523415, z: -1.7987722, w: -0.13485879}
+        tangentMode: 0
+      - time: 0.10000001
+        value: {x: 0.013410801, y: 0.007051826, z: -0.13478447, w: 0.9907591}
+        inSlope: {x: 0.015774826, y: 0.012141278, z: 1.4619896, w: 0.154185}
+        outSlope: {x: 0.015774826, y: 0.012141278, z: 1.4619896, w: 0.154185}
+        tangentMode: 0
+      - time: 0.13333334
+        value: {x: 0.014209097, y: 0.0077507147, z: -0.05621539, w: 0.9982875}
+        inSlope: {x: 0.021863554, y: 0.012055546, z: 2.0198522, w: 0.13649316}
+        outSlope: {x: 0.021863554, y: 0.012055546, z: 2.0198522, w: 0.13649316}
+        tangentMode: 0
+      - time: 0.16666667
+        value: {x: 0.014868371, y: 0.007855529, z: -0.00012767402, w: 0.9998586}
+        inSlope: {x: 0.017206468, y: -0.009287186, z: 1.0199028, w: 0.022496583}
+        outSlope: {x: 0.017206468, y: -0.009287186, z: 1.0199028, w: 0.022496583}
+        tangentMode: 0
+      - time: 0.23333335
+        value: {x: 0.015860766, y: 0.0061623626, z: 0.015122674, w: 0.99974084}
+        inSlope: {x: 0.015386255, y: -0.031327065, z: 0.014736757, w: -0.00023424628}
+        outSlope: {x: 0.015386255, y: -0.031327065, z: 0.014736757, w: -0.00023424628}
+        tangentMode: 0
+      - time: 0.36666667
+        value: {x: 0.017866926, y: 0.0018110052, z: -3.2362314E-05, w: 0.99983877}
+        inSlope: {x: 0.013542977, y: -0.028411964, z: -0.070864774, w: -9.298325E-05}
+        outSlope: {x: 0.013542977, y: -0.028411964, z: -0.070864774, w: -9.298325E-05}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: CBT:Crossbow_Root/CBT:Crossbow_Left_BaseMetal_Piece_Down/CBT:Crossbow_Left_Metal_Piece/CBT:Crossbow_Left_Metal_Bend_Low
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0, y: -0, z: -0, w: 1}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - time: 0.36666667
+        value: {x: 0, y: -0, z: -0, w: 1}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: CBT:Crossbow_Root/CBT:Crossbow_Arrow
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 1, y: 0, z: 0, w: -6.123234E-17}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - time: 0.36666667
+        value: {x: 1, y: 0, z: 0, w: -6.123234E-17}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: CBT:Crossbow_Root/CBT:Crossbow_Right_BaseMetal_Piece_Down
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0, y: -0, z: -0, w: 1}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - time: 0.36666667
+        value: {x: 0, y: -0, z: -0, w: 1}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: CBT:Crossbow_Root/CBT:Crossbow_Right_BaseMetal_Piece_Down/CBT:Crossbow_Right_Metal_Piece
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0.017938357, y: -0.0008497867, z: -0.14781758, w: 0.9888516}
+        inSlope: {x: -0.09001236, y: -0.056502614, z: 6.042868, w: 0.2878439}
+        outSlope: {x: -0.09001236, y: -0.056502614, z: 6.042868, w: 0.2878439}
+        tangentMode: 0
+      - time: 0.033333335
+        value: {x: 0.014937945, y: -0.0027332073, z: 0.05361136, w: 0.9984464}
+        inSlope: {x: -0.09731752, y: -0.05394546, z: 5.0014105, w: -0.0945729}
+        outSlope: {x: -0.09731752, y: -0.05394546, z: 5.0014105, w: -0.0945729}
+        tangentMode: 0
+      - time: 0.06666667
+        value: {x: 0.011450522, y: -0.0044461507, z: 0.18560977, w: 0.98254675}
+        inSlope: {x: -0.05234118, y: -0.042629376, z: 1.527972, w: -0.16033262}
+        outSlope: {x: -0.05234118, y: -0.042629376, z: 1.527972, w: -0.16033262}
+        tangentMode: 0
+      - time: 0.13333334
+        value: {x: 0.012439804, y: -0.0072240666, z: 0.06423385, w: 0.9978312}
+        inSlope: {x: 0.025841199, y: -0.039204273, z: -2.3307796, w: 0.18183233}
+        outSlope: {x: 0.025841199, y: -0.039204273, z: -2.3307796, w: 0.18183233}
+        tangentMode: 0
+      - time: 0.16666667
+        value: {x: 0.013171279, y: -0.008188784, z: 9.085056E-05, w: 0.9998797}
+        inSlope: {x: 0.014049509, y: -0.01611001, z: -1.1781303, w: 0.029137732}
+        outSlope: {x: 0.014049509, y: -0.01611001, z: -1.1781303, w: 0.029137732}
+        tangentMode: 0
+      - time: 0.20000002
+        value: {x: 0.013376438, y: -0.008298067, z: -0.014308174, w: 0.99977374}
+        inSlope: {x: 0.0051283548, y: 0.00054657075, z: -0.27647623, w: -0.002586543}
+        outSlope: {x: 0.0051283548, y: 0.00054657075, z: -0.27647623, w: -0.002586543}
+        tangentMode: 0
+      - time: 0.36666667
+        value: {x: 0.013678968, y: -0.007107685, z: 8.206325E-05, w: 0.9998812}
+        inSlope: {x: 0.00019591303, y: 0.0035801625, z: 0.086372964, w: 0.00014126302}
+        outSlope: {x: 0.00019591303, y: 0.0035801625, z: 0.086372964, w: 0.00014126302}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: CBT:Crossbow_Root/CBT:Crossbow_Right_BaseMetal_Piece_Down/CBT:Crossbow_Right_Metal_Piece/CBT:Crossbow_Right_Metal_Bend_High
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0.03075008, y: -0.017787192, z: -0.049360693, w: 0.9981491}
+        inSlope: {x: -0.22589669, y: 2.1646023, z: 28.532711, w: -17.097301}
+        outSlope: {x: -0.22589669, y: 2.1646023, z: 28.532711, w: -17.097301}
+        tangentMode: 0
+      - time: 0.033333335
+        value: {x: 0.023220189, y: 0.05436622, z: 0.9017297, w: 0.42823905}
+        inSlope: {x: -2.2351742E-08, y: 0, z: -9.536743E-07, w: 0}
+        outSlope: {x: -2.2351742E-08, y: 0, z: -9.536743E-07, w: 0}
+        tangentMode: 0
+      - time: 0.06666667
+        value: {x: 0.030750077, y: -0.017787194, z: -0.049360756, w: 0.9981491}
+        inSlope: {x: 0.11294835, y: -1.0823011, z: -14.2663555, w: 8.548651}
+        outSlope: {x: 0.11294835, y: -1.0823011, z: -14.2663555, w: 8.548651}
+        tangentMode: 0
+      - time: 0.10000001
+        value: {x: 0.03075008, y: -0.017787192, z: -0.049360693, w: 0.9981491}
+        inSlope: {x: 2.7939672E-08, y: 2.7939672E-08, z: 9.4994886E-07, w: 0}
+        outSlope: {x: 2.7939672E-08, y: 2.7939672E-08, z: 9.4994886E-07, w: 0}
+        tangentMode: 0
+      - time: 0.36666667
+        value: {x: 0.03075008, y: -0.017787192, z: -0.049360693, w: 0.9981491}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: CBT:Crossbow_Root/CBT:Crossbow_Right_BaseMetal_Piece_Down/CBT:Crossbow_Right_Metal_Piece/CBT:Crossbow_Right_Metal_Bend_High/CBT:Crossbow_Right_Metal_Piece_Wheel
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0.01753497, y: 0.0038770637, z: 0.11627314, w: 0.9930549}
+        inSlope: {x: 0.10111151, y: 0.05616119, z: -4.43756, w: 0.18627225}
+        outSlope: {x: 0.10111151, y: 0.05616119, z: -4.43756, w: 0.18627225}
+        tangentMode: 0
+      - time: 0.033333335
+        value: {x: 0.020905353, y: 0.0057491036, z: -0.031645525, w: 0.999264}
+        inSlope: {x: 0.0665971, y: 0.033919673, z: -3.6869836, w: -0.02612114}
+        outSlope: {x: 0.0665971, y: 0.033919673, z: -3.6869836, w: -0.02612114}
+        tangentMode: 0
+      - time: 0.06666667
+        value: {x: 0.021974776, y: 0.0061383755, z: -0.12952577, w: 0.9913135}
+        inSlope: {x: 0.017061224, y: 0.010640357, z: -1.1693661, w: -0.083310306}
+        outSlope: {x: 0.017061224, y: 0.010640357, z: -1.1693661, w: -0.083310306}
+        tangentMode: 0
+      - time: 0.13333334
+        value: {x: 0.022200309, y: 0.007506323, z: -0.045370724, w: 0.9986953}
+        inSlope: {x: -0.0012956187, y: 0.020310534, z: 1.6416979, w: 0.090276904}
+        outSlope: {x: -0.0012956187, y: 0.020310534, z: 1.6416979, w: 0.090276904}
+        tangentMode: 0
+      - time: 0.16666667
+        value: {x: 0.021956393, y: 0.0078124963, z: -0.00015675351, w: 0.99972844}
+        inSlope: {x: -0.012370456, y: -0.0056946813, z: 0.8286548, w: 0.0150311}
+        outSlope: {x: -0.012370456, y: -0.0056946813, z: 0.8286548, w: 0.0150311}
+        tangentMode: 0
+      - time: 0.23333335
+        value: {x: 0.020675836, y: 0.0061570522, z: 0.012698601, w: 0.9996866}
+        inSlope: {x: -0.021781746, y: -0.031496786, z: 0.012713086, w: 0.00051051384}
+        outSlope: {x: -0.021781746, y: -0.031496786, z: 0.012713086, w: 0.00051051384}
+        tangentMode: 0
+      - time: 0.36666667
+        value: {x: 0.017866926, y: 0.0018110052, z: -3.2362314E-05, w: 0.99983877}
+        inSlope: {x: -0.018328039, y: -0.02808841, z: -0.05958682, w: 0.00045597556}
+        outSlope: {x: -0.018328039, y: -0.02808841, z: -0.05958682, w: 0.00045597556}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: CBT:Crossbow_Root/CBT:Crossbow_Right_BaseMetal_Piece_Down/CBT:Crossbow_Right_Metal_Piece/CBT:Crossbow_Right_Metal_Bend_Low
+  m_CompressedRotationCurves: []
+  m_PositionCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -0, y: 0, z: 0}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 0.36666667
+        value: {x: -0, y: 0, z: 0}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: CBT:Crossbow_Root
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 1.6653345E-16, y: -0.0126997335, z: 0.060387526}
+        inSlope: {x: -1.1636323E-16, y: -4.620306, z: 7.4345294E-16}
+        outSlope: {x: -1.1636323E-16, y: -4.620306, z: 7.4345294E-16}
+        tangentMode: 0
+      - time: 0.033333335
+        value: {x: 1.6265476E-16, y: -0.16670989, z: 0.060387526}
+        inSlope: {x: -2.1770655E-16, y: -2.0764549, z: 1.7347234E-15}
+        outSlope: {x: -2.1770645E-16, y: -2.0764525, z: 7.4345294E-16}
+        tangentMode: 0
+      - time: 0.06666667
+        value: {x: 1.5201964E-16, y: -0.15112996, z: 0.060387526}
+        inSlope: {x: -3.9787679E-16, y: 0.9275406, z: 1.7347234E-15}
+        outSlope: {x: -3.9787777E-16, y: 0.9275399, z: 7.43453E-16}
+        tangentMode: 0
+      - time: 0.1
+        value: {x: 1.3612952E-16, y: -0.10487386, z: 0.060387526}
+        inSlope: {x: -5.330022E-16, y: 1.1184185, z: 1.7347236E-15}
+        outSlope: {x: -5.3300824E-16, y: 1.1184194, z: 7.4345284E-16}
+        tangentMode: 0
+      - time: 0.13333334
+        value: {x: 1.1648584E-16, y: -0.07656869, z: 0.060387526}
+        inSlope: {x: -6.230944E-16, y: 0.18309075, z: 1.7347233E-15}
+        outSlope: {x: -6.2309364E-16, y: 0.18308918, z: 7.43453E-16}
+        tangentMode: 0
+      - time: 0.16666667
+        value: {x: 9.459E-17, y: -0.092667885, z: 0.060387526}
+        inSlope: {x: -6.681358E-16, y: -0.7522408, z: 1.7347236E-15}
+        outSlope: {x: -6.681366E-16, y: -0.7522437, z: 7.43453E-16}
+        tangentMode: 0
+      - time: 0.2
+        value: {x: 7.194345E-17, y: -0.12671803, z: 0.060387526}
+        inSlope: {x: -6.681357E-16, y: -0.8297766, z: 1.7347236E-15}
+        outSlope: {x: -6.6813625E-16, y: -0.8297752, z: 7.43453E-16}
+        tangentMode: 0
+      - time: 0.23333333
+        value: {x: 5.0047623E-17, y: -0.14798611, z: 0.060387526}
+        inSlope: {x: -6.2309416E-16, y: -0.0016580268, z: 1.7347236E-15}
+        outSlope: {x: -6.230918E-16, y: -0.0016610173, z: 7.434527E-16}
+        tangentMode: 0
+      - time: 0.26666668
+        value: {x: 3.0403923E-17, y: -0.12682861, z: 0.060387526}
+        inSlope: {x: -5.330038E-16, y: 0.7238038, z: 1.7347228E-15}
+        outSlope: {x: -5.3300655E-16, y: 0.723808, z: 7.43453E-16}
+        tangentMode: 0
+      - time: 0.3
+        value: {x: 1.4513807E-17, y: -0.09973223, z: 0.060387526}
+        inSlope: {x: -3.9787644E-16, y: 0.32519874, z: 1.7347236E-15}
+        outSlope: {x: -3.97878E-16, y: 0.32520372, z: 7.43453E-16}
+        tangentMode: 0
+      - time: 0.33333334
+        value: {x: 3.87869E-18, y: -0.105148464, z: 0.060387526}
+        inSlope: {x: -2.1770572E-16, y: -0.2890988, z: 1.7347236E-15}
+        outSlope: {x: -2.1770702E-16, y: -0.2891, z: 7.43453E-16}
+        tangentMode: 0
+      - time: 0.36666667
+        value: {x: -0, y: -0.11900562, z: 0.060387526}
+        inSlope: {x: -1.1636037E-16, y: -0.41571304, z: 1.7347236E-15}
+        outSlope: {x: -1.1636037E-16, y: -0.41571304, z: 1.7347236E-15}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: CBT:Crossbow_Root/CBT:Crossbow_String
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 1.6653345E-16, y: 0.0013058844, z: 0.059636265}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 0.36666667
+        value: {x: 1.6653345E-16, y: 0.0013058844, z: 0.059636265}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: CBT:Crossbow_Root/CBT:Crossbow_String_Hook
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -0.017937554, y: -0.23695496, z: 0.03159562}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 0.36666667
+        value: {x: -0.017937554, y: -0.23695496, z: 0.03159562}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: CBT:Crossbow_Root/CBT:Crossbow_Left_BaseMetal_Piece_Down
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -0.060637332, y: -0.012664508, z: 0.0167342}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 0.36666667
+        value: {x: -0.060637332, y: -0.012664508, z: 0.0167342}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: CBT:Crossbow_Root/CBT:Crossbow_Left_BaseMetal_Piece_Down/CBT:Crossbow_Left_Metal_Piece
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -0.015484361, y: 0.06597911, z: 0.0011729752}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 0.36666667
+        value: {x: -0.015484361, y: 0.06597911, z: 0.0011729752}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: CBT:Crossbow_Root/CBT:Crossbow_Left_BaseMetal_Piece_Down/CBT:Crossbow_Left_Metal_Piece/CBT:Crossbow_Left_Metal_Bend_High
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -0.044920623, y: 0.053339507, z: 0.003501022}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 0.36666667
+        value: {x: -0.044920623, y: 0.053339507, z: 0.003501022}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: CBT:Crossbow_Root/CBT:Crossbow_Left_BaseMetal_Piece_Down/CBT:Crossbow_Left_Metal_Piece/CBT:Crossbow_Left_Metal_Bend_High/CBT:Crossbow_Left_Metal_Piece_Wheel
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0.0027897917, y: -0.039039217, z: 0.0011729752}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 0.36666667
+        value: {x: 0.0027897917, y: -0.039039217, z: 0.0011729752}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: CBT:Crossbow_Root/CBT:Crossbow_Left_BaseMetal_Piece_Down/CBT:Crossbow_Left_Metal_Piece/CBT:Crossbow_Left_Metal_Bend_Low
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -0, y: -0.18983398, z: 0.05959124}
+        inSlope: {x: -4.06839E-09, y: -9.789772, z: 6.259282E-07}
+        outSlope: {x: -4.06839E-09, y: -9.789772, z: 6.259282E-07}
+        tangentMode: 0
+      - time: 0.033333335
+        value: {x: -0, y: -0.5161598, z: 0.05959124}
+        inSlope: {x: -0.8340571, y: -4.462656, z: -50.425903}
+        outSlope: {x: -0.83405787, y: -4.4626613, z: -50.42598}
+        tangentMode: 0
+      - time: 0.06666667
+        value: {x: -0.055603806, y: -0.48734456, z: -3.3021357}
+        inSlope: {x: -1.7342504, y: 22.406284, z: -52.954132}
+        outSlope: {x: -1.7342519, y: 22.406275, z: -52.954136}
+        tangentMode: 0
+      - time: 0.1
+        value: {x: -0.11561672, y: 0.9775922, z: -3.4706836}
+        inSlope: {x: -1.8444784, y: 22.508114, z: 3.9021928}
+        outSlope: {x: -1.8444774, y: 22.508167, z: 3.9021344}
+        tangentMode: 0
+      - time: 0.13333334
+        value: {x: -0.17856905, y: 1.0131993, z: -3.0419905}
+        inSlope: {x: -1.9106119, y: -1.9514878, z: 12.505502}
+        outSlope: {x: -1.9106202, y: -1.9515123, z: 12.505585}
+        tangentMode: 0
+      - time: 0.16666667
+        value: {x: -0.24299107, y: 0.84749234, z: -2.636982}
+        inSlope: {x: -1.9326612, y: -6.179091, z: 8.268512}
+        outSlope: {x: -1.932667, y: -6.1791143, z: 8.268519}
+        tangentMode: 0
+      - time: 0.2
+        value: {x: -0.3074131, y: 0.6012598, z: -2.4907587}
+        inSlope: {x: -1.9106197, y: -6.783054, z: 3.9870667}
+        outSlope: {x: -1.9106174, y: -6.7830515, z: 3.9870594}
+        tangentMode: 0
+      - time: 0.23333333
+        value: {x: -0.37036544, y: 0.39529014, z: -2.3711803}
+        inSlope: {x: -0.94428974, y: -3.0895557, z: 1.7936764}
+        outSlope: {x: -0.9442841, y: -3.0895472, z: 1.7937075}
+        tangentMode: 0
+      - time: 0.26666668
+        value: {x: -0.37036544, y: 0.39529014, z: -2.3711803}
+        inSlope: {x: -2.1568783E-06, y: -5.413917E-06, z: 5.114313E-05}
+        outSlope: {x: -6.9388943E-15, y: 1.0408342E-14, z: -5.5511155E-14}
+        tangentMode: 0
+      - time: 0.36666667
+        value: {x: -0.37036544, y: 0.39529014, z: -2.3711803}
+        inSlope: {x: -2.973812E-15, y: 4.460718E-15, z: -2.3790496E-14}
+        outSlope: {x: -2.973812E-15, y: 4.460718E-15, z: -2.3790496E-14}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: CBT:Crossbow_Root/CBT:Crossbow_Arrow
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0.0179376, y: -0.236955, z: 0.0315956}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 0.36666667
+        value: {x: 0.0179376, y: -0.236955, z: 0.0315956}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: CBT:Crossbow_Root/CBT:Crossbow_Right_BaseMetal_Piece_Down
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0.0606373, y: 0.012664, z: -0.0167342}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 0.36666667
+        value: {x: 0.0606373, y: 0.012664, z: -0.0167342}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: CBT:Crossbow_Root/CBT:Crossbow_Right_BaseMetal_Piece_Down/CBT:Crossbow_Right_Metal_Piece
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0.0154843, y: -0.065979, z: -0.001173}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 0.36666667
+        value: {x: 0.0154843, y: -0.065979, z: -0.001173}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: CBT:Crossbow_Root/CBT:Crossbow_Right_BaseMetal_Piece_Down/CBT:Crossbow_Right_Metal_Piece/CBT:Crossbow_Right_Metal_Bend_High
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0.04492067, y: -0.05333914, z: -0.0035010302}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 0.36666667
+        value: {x: 0.04492067, y: -0.05333914, z: -0.0035010302}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: CBT:Crossbow_Root/CBT:Crossbow_Right_BaseMetal_Piece_Down/CBT:Crossbow_Right_Metal_Piece/CBT:Crossbow_Right_Metal_Bend_High/CBT:Crossbow_Right_Metal_Piece_Wheel
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -0.0027898, y: 0.03904, z: -0.001173}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 0.36666667
+        value: {x: -0.0027898, y: 0.03904, z: -0.001173}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: CBT:Crossbow_Root/CBT:Crossbow_Right_BaseMetal_Piece_Down/CBT:Crossbow_Right_Metal_Piece/CBT:Crossbow_Right_Metal_Bend_Low
+  m_ScaleCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 0.36666667
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: CBT:Crossbow_Root
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 0.36666667
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: CBT:Crossbow_Root/CBT:Crossbow_String
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 0.36666667
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: CBT:Crossbow_Root/CBT:Crossbow_String_Hook
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 0.36666667
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: CBT:Crossbow_Root/CBT:Crossbow_Left_BaseMetal_Piece_Down
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 0.36666667
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: CBT:Crossbow_Root/CBT:Crossbow_Left_BaseMetal_Piece_Down/CBT:Crossbow_Left_Metal_Piece
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 0.36666667
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: CBT:Crossbow_Root/CBT:Crossbow_Left_BaseMetal_Piece_Down/CBT:Crossbow_Left_Metal_Piece/CBT:Crossbow_Left_Metal_Bend_High
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 0.36666667
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: CBT:Crossbow_Root/CBT:Crossbow_Left_BaseMetal_Piece_Down/CBT:Crossbow_Left_Metal_Piece/CBT:Crossbow_Left_Metal_Bend_High/CBT:Crossbow_Left_Metal_Piece_Wheel
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 0.36666667
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: CBT:Crossbow_Root/CBT:Crossbow_Left_BaseMetal_Piece_Down/CBT:Crossbow_Left_Metal_Piece/CBT:Crossbow_Left_Metal_Bend_Low
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 0.36666667
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: CBT:Crossbow_Root/CBT:Crossbow_Arrow
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 0.36666667
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: CBT:Crossbow_Root/CBT:Crossbow_Right_BaseMetal_Piece_Down
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 0.36666667
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: CBT:Crossbow_Root/CBT:Crossbow_Right_BaseMetal_Piece_Down/CBT:Crossbow_Right_Metal_Piece
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 0.36666667
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: CBT:Crossbow_Root/CBT:Crossbow_Right_BaseMetal_Piece_Down/CBT:Crossbow_Right_Metal_Piece/CBT:Crossbow_Right_Metal_Bend_High
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 0.36666667
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: CBT:Crossbow_Root/CBT:Crossbow_Right_BaseMetal_Piece_Down/CBT:Crossbow_Right_Metal_Piece/CBT:Crossbow_Right_Metal_Bend_High/CBT:Crossbow_Right_Metal_Piece_Wheel
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 0.36666667
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: CBT:Crossbow_Root/CBT:Crossbow_Right_BaseMetal_Piece_Down/CBT:Crossbow_Right_Metal_Piece/CBT:Crossbow_Right_Metal_Bend_Low
+  m_FloatCurves: []
+  m_SampleRate: 30
+  m_WrapMode: 0
+  m_Bounds:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  m_EditorCurves: []
+  m_EulerEditorCurves: []
+  m_Events: []
