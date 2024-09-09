@@ -306,10 +306,11 @@ public class UIManager : MonoBehaviour
 		}
 		if (pointerType == POINTER_TYPE.TOUCHPAD || pointerType == POINTER_TYPE.TOUCHPAD_AND_RAY)
 		{
-			TouchScreenKeyboard.autorotateToPortrait = autoRotateKeyboardPortrait;
-			TouchScreenKeyboard.autorotateToPortraitUpsideDown = autoRotateKeyboardPortraitUpsideDown;
-			TouchScreenKeyboard.autorotateToLandscapeLeft = autoRotateKeyboardLandscapeLeft;
-			TouchScreenKeyboard.autorotateToLandscapeRight = autoRotateKeyboardLandscapeRight;
+			//TODO missing in 4.7
+			//TouchScreenKeyboard.autorotateToPortrait = autoRotateKeyboardPortrait;
+			//TouchScreenKeyboard.autorotateToPortraitUpsideDown = autoRotateKeyboardPortraitUpsideDown;
+			//TouchScreenKeyboard.autorotateToLandscapeLeft = autoRotateKeyboardLandscapeLeft;
+			//TouchScreenKeyboard.autorotateToLandscapeRight = autoRotateKeyboardLandscapeRight;
 			if (SystemInfo.deviceModel == "iPad")
 			{
 				numTouches = 11;

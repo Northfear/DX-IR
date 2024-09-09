@@ -498,24 +498,4 @@ public class UIListItem : UIButton, IUIListObject, IEZDragDrop, IUIObject
 		gameObject.transform.rotation = rotation;
 		return (UIListItem)gameObject.AddComponent(typeof(UIListItem));
 	}
-
-	virtual void IUIListObject.UpdateCamera()
-	{
-		UpdateCamera();
-	}
-
-	virtual Vector2 IUIListObject.get_TopLeftEdge()
-	{
-		return base.TopLeftEdge;
-	}
-
-	virtual Vector2 IUIListObject.get_BottomRightEdge()
-	{
-		return base.BottomRightEdge;
-	}
-
-	virtual bool IUIListObject.get_Managed()
-	{
-		return base.Managed;
-	}
 }

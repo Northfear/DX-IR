@@ -446,19 +446,4 @@ public class UIVirtualScreen : MonoBehaviour, IEZDragDrop, IUIObject
 	{
 		return null;
 	}
-
-	virtual GameObject IUIObject.get_gameObject()
-	{
-		return base.gameObject;
-	}
-
-	virtual Transform IUIObject.get_transform()
-	{
-		return base.transform;
-	}
-
-	virtual string IUIObject.get_name()
-	{
-		return base.name;
-	}
 }
