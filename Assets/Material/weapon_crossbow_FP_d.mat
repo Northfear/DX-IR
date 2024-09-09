@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: weapon_crossbow_FP_d
+  m_Shader: {fileID: 4800000, guid: 54b0371c4aa44f144933fb5708f88a6a, type: 3}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+    - first:
+        name: _MainTex
+      second:
+        m_Texture: {fileID: 2800000, guid: 5a9705679ef660248b7e8e9445817c11, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _BumpMap
+      second:
+        m_Texture: {fileID: 2800000, guid: f223b5573dab7104fa63897c91e96cc6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - first:
+        name: _Shininess
+      second: 1
+    - first:
+        name: _ProbeShininess
+      second: 2.8507462
+    - first:
+        name: _ProbeSpecStr
+      second: 0.380597
+    - first:
+        name: _ProbeSpecSub
+      second: 0
+    m_Colors:
+    - first:
+        name: _Color
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _SpecularColor
+      second: {r: 1, g: 0.9874752, b: 0.7761194, a: 1}

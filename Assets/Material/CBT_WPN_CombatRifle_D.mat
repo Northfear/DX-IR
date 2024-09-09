@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: CBT_WPN_CombatRifle_D
+  m_Shader: {fileID: 4800000, guid: 2f3adaadbf371f84c823680bee57bba6, type: 3}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+    - first:
+        name: _MainTex
+      second:
+        m_Texture: {fileID: 2800000, guid: 46dcfb7bee0a7054fa409cccfaba4014, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _BumpMap
+      second:
+        m_Texture: {fileID: 2800000, guid: f4b4de40f65efd84fbd6017ce0967cd1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - first:
+        name: _Shininess
+      second: 0.046205033
+    - first:
+        name: _ProbeShininess
+      second: 2
+    - first:
+        name: _ProbeSpecStr
+      second: 0.5
+    - first:
+        name: _ProbeSpecSub
+      second: 2
+    m_Colors:
+    - first:
+        name: _Color
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _SpecColor
+      second: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - first:
+        name: _SpecularColor
+      second: {r: 0.4552239, g: 0.4552239, b: 0.4552239, a: 1}

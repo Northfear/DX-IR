@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: prop_tv_design_static_mat
+  m_Shader: {fileID: 4800000, guid: dacfe972a734eeb4ea11c2e9d92c6781, type: 3}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+    - first:
+        name: _MainTex
+      second:
+        m_Texture: {fileID: 2800000, guid: 581a97691d9e4bd45b388400baa683f3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - first:
+        name: _InvFade
+      second: 1
+    - first:
+        name: _FadeOutDistNear
+      second: 0
+    - first:
+        name: _FadeOutDistFar
+      second: 10000
+    - first:
+        name: _Multiplier
+      second: 1
+    - first:
+        name: _Bias
+      second: 0
+    - first:
+        name: _TimeOnDuration
+      second: 0.5
+    - first:
+        name: _TimeOffDuration
+      second: 0.5
+    - first:
+        name: _BlinkingTimeOffsScale
+      second: 5
+    - first:
+        name: _SizeGrowStartDist
+      second: 0
+    - first:
+        name: _SizeGrowEndDist
+      second: 1000
+    - first:
+        name: _MaxGrowSize
+      second: 2.5
+    - first:
+        name: _NoiseAmount
+      second: 0.5
+    m_Colors:
+    - first:
+        name: _Color
+      second: {r: 0.9925373, g: 0.75323445, b: 0.21480285, a: 1}
+    - first:
+        name: _TintColor
+      second: {r: 0.5, g: 0.5, b: 0.5, a: 0.105882354}
+    - first:
+        name: _ScrollingSpeedBase
+      second: {r: -0.25, g: 0, b: 0, a: 0}
+    - first:
+        name: _ScrollingSpeedAdditive
+      second: {r: 0, g: 0, b: 0, a: 0}

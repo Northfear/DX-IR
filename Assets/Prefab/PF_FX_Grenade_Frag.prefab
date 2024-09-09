@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1600065012446486
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4214878276222207}
+  m_Layer: 0
+  m_Name: PF_FX_Grenade_Frag
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1175673380107056
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4837087540503560}
+  - 114: {fileID: 114646169152436175}
+  m_Layer: 0
+  m_Name: Grenade_Frag
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4214878276222207
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1600065012446486}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4837087540503560}
+  m_Father: {fileID: 0}
+--- !u!4 &4837087540503560
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1175673380107056}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.75, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4214878276222207}
+--- !u!114 &114646169152436175
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1175673380107056}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf7dc1f38780ba00560338fae21f08c6, type: 3}
+  m_Name:
+  spriteSheetMaterial: {fileID: 2100000, guid: c71f0919c9758bc4ebb5d4780ad4accf, type: 2}
+  spriteCount: 64
+  uvAnimationTileX: 8
+  uvAnimationTileY: 8
+  framesPerSecond: 40
+  sizeStart: {x: 20, y: 20, z: 0}
+  sizeEnd: {x: 20, y: 20, z: 0}
+  randomRotation: 0
+  rotationStart: 180
+  rotationEnd: 180
+  isOneShot: 1
+  life: 0
+  billboarding: 0
+  addLightEffect: 0
+  lightRange: 15
+  lightColor: {r: 0.99607843, g: 0.7372549, b: 0.023529412, a: 0}
+  lightFadeSpeed: 0.8
+  addColorEffect: 0
+  colorStart: {r: 0.99215686, g: 0.73333335, b: 0.023529412, a: 1}
+  colorEnd: {r: 0.99215686, g: 0.73333335, b: 0.023529412, a: 1}
+  foldOut: 0
+  offset: {x: 0, y: 0, z: 0}
+  waittingTime: 0
+  copy: 0
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1600065012446486}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0

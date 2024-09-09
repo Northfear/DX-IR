@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: weapon_combatRifle_FP_d
+  m_Shader: {fileID: 4800000, guid: 54b0371c4aa44f144933fb5708f88a6a, type: 3}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+    - first:
+        name: _MainTex
+      second:
+        m_Texture: {fileID: 2800000, guid: 46dcfb7bee0a7054fa409cccfaba4014, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _BumpMap
+      second:
+        m_Texture: {fileID: 2800000, guid: f4b4de40f65efd84fbd6017ce0967cd1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - first:
+        name: _Shininess
+      second: 0.2650583
+    - first:
+        name: _ProbeShininess
+      second: 5.119403
+    - first:
+        name: _ProbeSpecStr
+      second: 0.2910448
+    - first:
+        name: _ProbeSpecSub
+      second: 0
+    - first:
+        name: _SpecRange
+      second: 20
+    - first:
+        name: _SHLightingScale
+      second: 1
+    m_Colors:
+    - first:
+        name: _Color
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _SpecColor
+      second: {r: 0.26436844, g: 0.26436844, b: 0.35074627, a: 1}
+    - first:
+        name: _SpecularColor
+      second: {r: 0.7564855, g: 0.8731343, b: 0.6124972, a: 1}
+    - first:
+        name: _SpecOffset
+      second: {r: 1, g: 10, b: 2, a: 0}
+    - first:
+        name: _ScrollingSpeed
+      second: {r: 0, g: 0, b: 0, a: 0}
