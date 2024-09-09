@@ -8,38 +8,44 @@ Material:
   m_PrefabInternal: {fileID: 0}
   m_Name: prop_rooftop_atlas_01_interactive_mat
   m_Shader: {fileID: 4800000, guid: 34a52d0398597d445911e61123de1831, type: 3}
+  m_ShaderKeywords: []
+  m_CustomRenderQueue: -1
   m_SavedProperties:
     serializedVersion: 2
     m_TexEnvs:
-    - first:
-        name: _Overlay
-      second:
-        m_Texture: {fileID: 2800000, guid: 639cff1826888ce45b761c8c973f2c51, type: 3}
-        m_Scale: {x: 10, y: 5}
-        m_Offset: {x: 0, y: 0}
-    - first:
-        name: _DiffuseMap
-      second:
-        m_Texture: {fileID: 2800000, guid: 880505afa7c02b749a27d4fb6d9e914d, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Overlay
+        second:
+          m_Texture: {fileID: 2800000, guid: 639cff1826888ce45b761c8c973f2c51, type: 3}
+          m_Scale: {x: 10, y: 5}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DiffuseMap
+        second:
+          m_Texture: {fileID: 2800000, guid: 880505afa7c02b749a27d4fb6d9e914d, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
     m_Floats:
-    - first:
-        name: _MaxDistance
-      second: 1
-    - first:
-        name: _BlendFactor
-      second: 0.1119403
-    - first:
-        name: _Outline
-      second: 0.002
+      data:
+        first:
+          name: _MaxDistance
+        second: 1
+      data:
+        first:
+          name: _BlendFactor
+        second: .200000003
+      data:
+        first:
+          name: _Outline
+        second: .00200000009
     m_Colors:
-    - first:
-        name: _Color
-      second: {r: 1, g: 1, b: 1, a: 1}
-    - first:
-        name: _ObjectCenter
-      second: {r: 0, g: 0, b: 0, a: 1}
-    - first:
-        name: _OutlineColor
-      second: {r: 0.9922, g: 0.7647, b: 0, a: 255}
+      data:
+        first:
+          name: _ObjectCenter
+        second: {r: 0, g: 0, b: 0, a: 1}
+      data:
+        first:
+          name: _OutlineColor
+        second: {r: .992200017, g: .764699996, b: 0, a: 255}

@@ -7,27 +7,22 @@ Material:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: skybox_cityscape_smoke_mat
-  m_Shader: {fileID: 206, guid: 0000000000000000e000000000000000, type: 0}
+  m_Shader: {fileID: 206, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: []
+  m_CustomRenderQueue: -1
   m_SavedProperties:
     serializedVersion: 2
     m_TexEnvs:
-    - first:
-        name: _MainTex
-      second:
-        m_Texture: {fileID: 2800000, guid: 9eafedb1dbb76a84f89dd15b4f03ebf4, type: 3}
-        m_Scale: {x: 3, y: 1}
-        m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 9eafedb1dbb76a84f89dd15b4f03ebf4, type: 3}
+          m_Scale: {x: 3, y: 1}
+          m_Offset: {x: 0, y: 0}
     m_Floats:
-    - first:
-        name: _Cutoff
-      second: 0.5
-    - first:
-        name: _InvFade
-      second: 0.01
-    m_Colors:
-    - first:
-        name: _Color
-      second: {r: 1, g: 1, b: 1, a: 1}
-    - first:
-        name: _TintColor
-      second: {r: 0.4117647, g: 0.35029125, b: 0.28419837, a: 0.5019608}
+      data:
+        first:
+          name: _InvFade
+        second: 1
+    m_Colors: {}

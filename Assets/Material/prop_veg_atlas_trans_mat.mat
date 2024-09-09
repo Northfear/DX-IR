@@ -8,41 +8,24 @@ Material:
   m_PrefabInternal: {fileID: 0}
   m_Name: prop_veg_atlas_trans_mat
   m_Shader: {fileID: 4800000, guid: fbe023a727ebb7146800f979d81540d0, type: 3}
+  m_ShaderKeywords: []
+  m_CustomRenderQueue: -1
   m_SavedProperties:
     serializedVersion: 2
     m_TexEnvs:
-    - first:
-        name: _MainTex
-      second:
-        m_Texture: {fileID: 2800000, guid: 2fa010030e650b54da48cd0a6a50e9da, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - first:
-        name: _TransparencyLM
-      second:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats:
-    - first:
-        name: _Cutoff
-      second: 0.5
-    - first:
-        name: _SquashAmount
-      second: 1
-    - first:
-        name: _BaseLight
-      second: 0.35
-    - first:
-        name: _AO
-      second: 2.4
-    - first:
-        name: _Occlusion
-      second: 7.5
-    m_Colors:
-    - first:
-        name: _Color
-      second: {r: 1, g: 1, b: 1, a: 1}
-    - first:
-        name: _Scale
-      second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 2fa010030e650b54da48cd0a6a50e9da, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _TransparencyLM
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats: {}
+    m_Colors: {}

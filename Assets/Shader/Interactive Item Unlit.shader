@@ -16,14 +16,14 @@ Properties {
 		CGPROGRAM
 #pragma surface surf Lambert fullforwardshadows
 #pragma target 3.0
-		sampler2D _MainTex;
+		sampler2D _DiffuseMap;
 		struct Input
 		{
-			float2 uv_MainTex;
+			float2 uv_DiffuseMap;
 		};
 		void surf(Input IN, inout SurfaceOutput o)
 		{
-			fixed4 c = tex2D(_MainTex, IN.uv_MainTex);
+			fixed4 c = tex2D(_DiffuseMap, IN.uv_DiffuseMap);
 			o.Albedo = c.rgb;
 		}
 		ENDCG
