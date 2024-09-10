@@ -5,7 +5,7 @@ AnimationClip:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: Holster_1
+  m_Name: Walk
   serializedVersion: 4
   m_AnimationType: 1
   m_Compressed: 0
@@ -19,14 +19,14 @@ AnimationClip:
         inSlope: {x: 0, y: 0, z: 0, w: 0}
         outSlope: {x: 0, y: 0, z: 0, w: 0}
         tangentMode: 0
-      - time: .666666687
+      - time: 1.30000007
         value: {x: 0, y: -0, z: -0, w: 1}
         inSlope: {x: 0, y: 0, z: 0, w: 0}
         outSlope: {x: 0, y: 0, z: 0, w: 0}
         tangentMode: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
-    path: CBT:WPN_Shotgun_Root
+    path: CBT:CombatRifle_Root
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -35,46 +35,62 @@ AnimationClip:
         inSlope: {x: 0, y: 0, z: 0, w: 0}
         outSlope: {x: 0, y: 0, z: 0, w: 0}
         tangentMode: 0
-      - time: .666666687
+      - time: 1.30000007
         value: {x: 0, y: -0, z: -0, w: 1}
         inSlope: {x: 0, y: 0, z: 0, w: 0}
         outSlope: {x: 0, y: 0, z: 0, w: 0}
         tangentMode: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
-    path: CBT:WPN_Shotgun_Root/CBT:WPN_Shotgun_Magazine
+    path: CBT:CombatRifle_Root/CBT:CombatRifle_Frame
   - curve:
       serializedVersion: 2
       m_Curve:
       - time: 0
-        value: {x: -.164056137, y: .687812209, z: -.164056137, w: .687812209}
+        value: {x: 0, y: -0, z: -0, w: 1}
         inSlope: {x: 0, y: 0, z: 0, w: 0}
         outSlope: {x: 0, y: 0, z: 0, w: 0}
         tangentMode: 0
-      - time: .666666687
-        value: {x: -.164056137, y: .687812209, z: -.164056137, w: .687812209}
+      - time: 1.30000007
+        value: {x: 0, y: -0, z: -0, w: 1}
         inSlope: {x: 0, y: 0, z: 0, w: 0}
         outSlope: {x: 0, y: 0, z: 0, w: 0}
         tangentMode: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
-    path: CBT:WPN_Shotgun_Root/CBT:WPN_Shotgun_CockingHandle
+    path: CBT:CombatRifle_Root/CBT:CombatRifle_Wheel
   - curve:
       serializedVersion: 2
       m_Curve:
       - time: 0
-        value: {x: -.157558292, y: .689329684, z: -.157558292, w: .689329684}
+        value: {x: 0, y: -0, z: -0, w: 1}
         inSlope: {x: 0, y: 0, z: 0, w: 0}
         outSlope: {x: 0, y: 0, z: 0, w: 0}
         tangentMode: 0
-      - time: .666666687
-        value: {x: -.157558292, y: .689329684, z: -.157558292, w: .689329684}
+      - time: 1.30000007
+        value: {x: 0, y: -0, z: -0, w: 1}
         inSlope: {x: 0, y: 0, z: 0, w: 0}
         outSlope: {x: 0, y: 0, z: 0, w: 0}
         tangentMode: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
-    path: CBT:WPN_Shotgun_Root/CBT:WPN_Shotgun_Trigger
+    path: CBT:CombatRifle_Root/CBT:CombatRifle_Chamber
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0, y: -0, z: -0, w: 1}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - time: 1.30000007
+        value: {x: 0, y: -0, z: -0, w: 1}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: CBT:CombatRifle_Root/CBT:CombatRifle_Chamber/CBT:CombatRifle_Magazine
   m_CompressedRotationCurves: []
   m_PositionCurves:
   - curve:
@@ -85,62 +101,78 @@ AnimationClip:
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
-      - time: .666666687
+      - time: 1.29999995
         value: {x: -0, y: 0, z: 0}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
-    path: CBT:WPN_Shotgun_Root
+    path: CBT:CombatRifle_Root
   - curve:
       serializedVersion: 2
       m_Curve:
       - time: 0
-        value: {x: 5.83687881e-18, y: .0228401367, z: .0473534204}
+        value: {x: -0, y: .0499899983, z: .269620001}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
-      - time: .666666687
-        value: {x: 5.83687881e-18, y: .0228401367, z: .0473534204}
+      - time: 1.29999995
+        value: {x: -0, y: .0499899983, z: .269620001}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
-    path: CBT:WPN_Shotgun_Root/CBT:WPN_Shotgun_Magazine
+    path: CBT:CombatRifle_Root/CBT:CombatRifle_Frame
   - curve:
       serializedVersion: 2
       m_Curve:
       - time: 0
-        value: {x: 2.46780154e-17, y: .0714166909, z: .0685923025}
+        value: {x: -.0299312808, y: .0502704345, z: -.0251391549}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
-      - time: .666666687
-        value: {x: 2.46780154e-17, y: .0714166909, z: .0685923025}
+      - time: 1.29999995
+        value: {x: -.0299312808, y: .0502704345, z: -.0251391549}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
-    path: CBT:WPN_Shotgun_Root/CBT:WPN_Shotgun_CockingHandle
+    path: CBT:CombatRifle_Root/CBT:CombatRifle_Wheel
   - curve:
       serializedVersion: 2
       m_Curve:
       - time: 0
-        value: {x: 3.12017212e-21, y: -1.56635924e-18, z: -.0231334195}
+        value: {x: -0, y: .0277100001, z: .0570914298}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
-      - time: .666666687
-        value: {x: 3.12017212e-21, y: -1.56635924e-18, z: -.0231334195}
+      - time: 1.29999995
+        value: {x: -0, y: .0277100001, z: .0570914298}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
-    path: CBT:WPN_Shotgun_Root/CBT:WPN_Shotgun_Trigger
+    path: CBT:CombatRifle_Root/CBT:CombatRifle_Chamber
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -0, y: .0196888335, z: -.126487181}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 1.29999995
+        value: {x: -0, y: .0196888335, z: -.126487181}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: CBT:CombatRifle_Root/CBT:CombatRifle_Chamber/CBT:CombatRifle_Magazine
   m_ScaleCurves:
   - curve:
       serializedVersion: 2
@@ -150,14 +182,14 @@ AnimationClip:
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
-      - time: .666666687
+      - time: 1.30000007
         value: {x: 1, y: 1, z: 1}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
-    path: CBT:WPN_Shotgun_Root
+    path: CBT:CombatRifle_Root
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -166,14 +198,14 @@ AnimationClip:
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
-      - time: .666666687
+      - time: 1.30000007
         value: {x: 1, y: 1, z: 1}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
-    path: CBT:WPN_Shotgun_Root/CBT:WPN_Shotgun_Magazine
+    path: CBT:CombatRifle_Root/CBT:CombatRifle_Frame
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -182,14 +214,14 @@ AnimationClip:
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
-      - time: .666666687
+      - time: 1.30000007
         value: {x: 1, y: 1, z: 1}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
-    path: CBT:WPN_Shotgun_Root/CBT:WPN_Shotgun_CockingHandle
+    path: CBT:CombatRifle_Root/CBT:CombatRifle_Wheel
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -198,14 +230,30 @@ AnimationClip:
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
-      - time: .666666687
+      - time: 1.30000007
         value: {x: 1, y: 1, z: 1}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
-    path: CBT:WPN_Shotgun_Root/CBT:WPN_Shotgun_Trigger
+    path: CBT:CombatRifle_Root/CBT:CombatRifle_Chamber
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 1.30000007
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: CBT:CombatRifle_Root/CBT:CombatRifle_Chamber/CBT:CombatRifle_Magazine
   m_FloatCurves: []
   m_PPtrCurves: []
   m_SampleRate: 30
