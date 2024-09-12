@@ -8,8 +8,6 @@ Material:
   m_PrefabInternal: {fileID: 0}
   m_Name: exec_door_mat
   m_Shader: {fileID: 4800000, guid: 41a0c4825979dc94287be828ee54ac6e, type: 3}
-  m_ShaderKeywords: []
-  m_CustomRenderQueue: -1
   m_SavedProperties:
     serializedVersion: 2
     m_TexEnvs:
@@ -24,7 +22,7 @@ Material:
       data:
         first:
           name: _Shininess
-        second: .078125
+        second: 0.078125
       data:
         first:
           name: _SpecRange
@@ -36,9 +34,13 @@ Material:
     m_Colors:
       data:
         first:
-          name: _SpecOffset
-        second: {r: 1, g: 1.22000003, b: .5, a: 0}
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}
       data:
         first:
           name: _SpecColor
-        second: {r: .494117647, g: .376470596, b: .376470596, a: 1}
+        second: {r: 0.49253732, g: 0.37491646, b: 0.37491646, a: 1}
+      data:
+        first:
+          name: _SpecOffset
+        second: {r: 1, g: 1.22, b: 0.5, a: 0}

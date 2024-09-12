@@ -7,9 +7,7 @@ Material:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: exec_lights_atlas_mat
-  m_Shader: {fileID: 10, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: []
-  m_CustomRenderQueue: -1
+  m_Shader: {fileID: 10, guid: 0000000000000000e000000000000000, type: 0}
   m_SavedProperties:
     serializedVersion: 2
     m_TexEnvs:
@@ -30,10 +28,26 @@ Material:
     m_Floats:
       data:
         first:
-          name: _EmissionLM
+          name: _Shininess
+        second: 0.7
+      data:
+        first:
+          name: _InvFade
         second: 1
+      data:
+        first:
+          name: _EmissionLM
+        second: 10
     m_Colors:
       data:
         first:
           name: _Color
-        second: {r: 1, g: .858823538, b: .670588255, a: 1}
+        second: {r: 1, g: 0.85822976, b: 0.6716418, a: 1}
+      data:
+        first:
+          name: _SpecColor
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _TintColor
+        second: {r: 0.59607846, g: 0.5019608, b: 0.34509805, a: 0.5}

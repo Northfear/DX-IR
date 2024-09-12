@@ -7,9 +7,7 @@ Material:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: helicopter_military_white_reflective_mat
-  m_Shader: {fileID: 20, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: []
-  m_CustomRenderQueue: -1
+  m_Shader: {fileID: 20, guid: 0000000000000000e000000000000000, type: 0}
   m_SavedProperties:
     serializedVersion: 2
     m_TexEnvs:
@@ -27,7 +25,19 @@ Material:
           m_Texture: {fileID: 8900000, guid: 131d374c914180547b538746524eea14, type: 3}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
-    m_Floats: {}
+    m_Floats:
+      data:
+        first:
+          name: _Shininess
+        second: 0.3513046
+      data:
+        first:
+          name: _SpecRange
+        second: 20
+      data:
+        first:
+          name: _SHLightingScale
+        second: 1
     m_Colors:
       data:
         first:
@@ -35,5 +45,13 @@ Material:
         second: {r: 1, g: 1, b: 1, a: 1}
       data:
         first:
+          name: _SpecColor
+        second: {r: 1, g: 0.6923077, b: 0, a: 1}
+      data:
+        first:
+          name: _SpecOffset
+        second: {r: 1, g: 10, b: 2, a: 0}
+      data:
+        first:
           name: _ReflectColor
-        second: {r: 1, g: .694117665, b: 0, a: .501960814}
+        second: {r: 1, g: 0.6923077, b: 0, a: 0.5019608}

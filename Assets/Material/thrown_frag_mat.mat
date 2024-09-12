@@ -8,8 +8,6 @@ Material:
   m_PrefabInternal: {fileID: 0}
   m_Name: thrown_frag_mat
   m_Shader: {fileID: 4800000, guid: 34a52d0398597d445911e61123de1831, type: 3}
-  m_ShaderKeywords: []
-  m_CustomRenderQueue: -1
   m_SavedProperties:
     serializedVersion: 2
     m_TexEnvs:
@@ -24,7 +22,7 @@ Material:
         first:
           name: _DiffuseMap
         second:
-          m_Texture: {fileID: 2800000, guid: 47a14092268b33a4faf90bbf1bd53f6e, type: 3}
+          m_Texture: {fileID: 2800000, guid: ba5f34fa8f9a6ce47b6a9e2fe9cab018, type: 3}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
     m_Floats:
@@ -35,11 +33,11 @@ Material:
       data:
         first:
           name: _BlendFactor
-        second: .200000003
+        second: 0.12686567
       data:
         first:
           name: _Outline
-        second: .00999999978
+        second: 0.0049850745
     m_Colors:
       data:
         first:
@@ -48,4 +46,4 @@ Material:
       data:
         first:
           name: _OutlineColor
-        second: {r: .992200017, g: .764699996, b: 0, a: 255}
+        second: {r: 0.9922, g: 0.7647, b: 0, a: 255}

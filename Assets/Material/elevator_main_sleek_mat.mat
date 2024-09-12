@@ -8,8 +8,6 @@ Material:
   m_PrefabInternal: {fileID: 0}
   m_Name: elevator_main_sleek_mat
   m_Shader: {fileID: 4800000, guid: bd54d854ff658c04fa5afe18345040f0, type: 3}
-  m_ShaderKeywords: []
-  m_CustomRenderQueue: -1
   m_SavedProperties:
     serializedVersion: 2
     m_TexEnvs:
@@ -24,20 +22,28 @@ Material:
       data:
         first:
           name: _Shininess
-        second: .078125
+        second: 0.21496376
       data:
         first:
           name: _SpecRange
         second: 20
+      data:
+        first:
+          name: _SHLightingScale
+        second: 1
     m_Colors:
       data:
         first:
-          name: _SpecOffset
-        second: {r: 1, g: -.00999999978, b: 2, a: 0}
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}
       data:
         first:
           name: _SpecColor
-        second: {r: .5, g: .5, b: .5, a: 1}
+        second: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+      data:
+        first:
+          name: _SpecOffset
+        second: {r: 1, g: -0.01, b: 2, a: 0}
       data:
         first:
           name: _ScrollingSpeed

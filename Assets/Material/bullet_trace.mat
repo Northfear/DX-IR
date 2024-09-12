@@ -8,8 +8,6 @@ Material:
   m_PrefabInternal: {fileID: 0}
   m_Name: bullet_trace
   m_Shader: {fileID: 4800000, guid: 2644b46fd4b657a45807cf0656383326, type: 3}
-  m_ShaderKeywords: []
-  m_CustomRenderQueue: -1
   m_SavedProperties:
     serializedVersion: 2
     m_TexEnvs:
@@ -24,5 +22,9 @@ Material:
     m_Colors:
       data:
         first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
           name: _TintColor
-        second: {r: 1, g: .788235307, b: .4627451, a: .843137264}
+        second: {r: 1, g: 0.7895835, b: 0.46268654, a: 0.84313726}

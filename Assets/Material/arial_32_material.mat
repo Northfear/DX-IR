@@ -8,8 +8,6 @@ Material:
   m_PrefabInternal: {fileID: 0}
   m_Name: arial_32_material
   m_Shader: {fileID: 4800000, guid: 1d964bdd62f18ce418751a81133f4257, type: 3}
-  m_ShaderKeywords: []
-  m_CustomRenderQueue: -1
   m_SavedProperties:
     serializedVersion: 2
     m_TexEnvs:
@@ -20,9 +18,13 @@ Material:
           m_Texture: {fileID: 2800000, guid: 97fe6ad7a763b3c4fbb8e365a9ab4f95, type: 3}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
-    m_Floats: {}
+    m_Floats:
+      data:
+        first:
+          name: _CutOff
+        second: 0.3
     m_Colors:
       data:
         first:
           name: _Color
-        second: {r: .5, g: .5, b: .5, a: 1}
+        second: {r: 1, g: 1, b: 1, a: 1}

@@ -7,9 +7,7 @@ Material:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: lab_floor_lightstrip_RED_mat
-  m_Shader: {fileID: 203, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: []
-  m_CustomRenderQueue: -1
+  m_Shader: {fileID: 203, guid: 0000000000000000e000000000000000, type: 0}
   m_SavedProperties:
     serializedVersion: 2
     m_TexEnvs:
@@ -23,10 +21,30 @@ Material:
     m_Floats:
       data:
         first:
+          name: _Shininess
+        second: 0.7
+      data:
+        first:
           name: _InvFade
         second: 1
+      data:
+        first:
+          name: _EmissionLM
+        second: 10
     m_Colors:
       data:
         first:
+          name: _Color
+        second: {r: 1, g: 0, b: 0, a: 1}
+      data:
+        first:
+          name: _SpecColor
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
           name: _TintColor
-        second: {r: .349019617, g: .670588255, b: .603921592, a: .501960814}
+        second: {r: 0.34901962, g: 0.67058825, b: 0.6039216, a: 0.5019608}
+      data:
+        first:
+          name: _Emission
+        second: {r: 0, g: 0, b: 0, a: 0}

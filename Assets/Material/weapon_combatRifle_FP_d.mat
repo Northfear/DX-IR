@@ -8,8 +8,6 @@ Material:
   m_PrefabInternal: {fileID: 0}
   m_Name: weapon_combatRifle_FP_d
   m_Shader: {fileID: 4800000, guid: 54b0371c4aa44f144933fb5708f88a6a, type: 3}
-  m_ShaderKeywords: []
-  m_CustomRenderQueue: -1
   m_SavedProperties:
     serializedVersion: 2
     m_TexEnvs:
@@ -31,19 +29,27 @@ Material:
       data:
         first:
           name: _Shininess
-        second: .100000001
+        second: 0.2650583
       data:
         first:
           name: _ProbeShininess
-        second: 2
+        second: 5.119403
       data:
         first:
           name: _ProbeSpecStr
-        second: .5
+        second: 0.2910448
       data:
         first:
           name: _ProbeSpecSub
-        second: 2
+        second: 0
+      data:
+        first:
+          name: _SpecRange
+        second: 20
+      data:
+        first:
+          name: _SHLightingScale
+        second: 1
     m_Colors:
       data:
         first:
@@ -51,5 +57,17 @@ Material:
         second: {r: 1, g: 1, b: 1, a: 1}
       data:
         first:
+          name: _SpecColor
+        second: {r: 0.26436844, g: 0.26436844, b: 0.35074627, a: 1}
+      data:
+        first:
           name: _SpecularColor
-        second: {r: .455224007, g: .455224007, b: .455224007, a: 1}
+        second: {r: 0.7564855, g: 0.8731343, b: 0.6124972, a: 1}
+      data:
+        first:
+          name: _SpecOffset
+        second: {r: 1, g: 10, b: 2, a: 0}
+      data:
+        first:
+          name: _ScrollingSpeed
+        second: {r: 0, g: 0, b: 0, a: 0}

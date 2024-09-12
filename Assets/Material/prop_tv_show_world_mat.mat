@@ -8,8 +8,6 @@ Material:
   m_PrefabInternal: {fileID: 0}
   m_Name: prop_tv_show_world_mat
   m_Shader: {fileID: 4800000, guid: 1e3e788c699300c4cb1b83e02283f1d2, type: 3}
-  m_ShaderKeywords: []
-  m_CustomRenderQueue: -1
   m_SavedProperties:
     serializedVersion: 2
     m_TexEnvs:
@@ -31,8 +29,12 @@ Material:
     m_Colors:
       data:
         first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
           name: _ScrollingSpeedBase
-        second: {r: .00999999978, g: 0, b: 0, a: 0}
+        second: {r: 0.01, g: 0, b: 0, a: 0}
       data:
         first:
           name: _ScrollingSpeedAdditive

@@ -8,8 +8,6 @@ Material:
   m_PrefabInternal: {fileID: 0}
   m_Name: idle_state_gold
   m_Shader: {fileID: 4800000, guid: 34a52d0398597d445911e61123de1831, type: 3}
-  m_ShaderKeywords: []
-  m_CustomRenderQueue: -1
   m_SavedProperties:
     serializedVersion: 2
     m_TexEnvs:
@@ -30,22 +28,38 @@ Material:
     m_Floats:
       data:
         first:
+          name: _Shininess
+        second: 0
+      data:
+        first:
           name: _MaxDistance
         second: 1
       data:
         first:
           name: _BlendFactor
-        second: .200000003
+        second: 0.22985075
       data:
         first:
           name: _Outline
-        second: .00999999978
+        second: 0.008686567
+      data:
+        first:
+          name: _EmissionLM
+        second: 0
     m_Colors:
       data:
         first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _SpecColor
+        second: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+      data:
+        first:
           name: _ObjectCenter
-        second: {r: 0, g: .5, b: 0, a: 1}
+        second: {r: 0, g: 0.5, b: 0, a: 1}
       data:
         first:
           name: _OutlineColor
-        second: {r: .996078432, g: .768627465, b: 0, a: 1}
+        second: {r: 0.99607843, g: 0.76862746, b: 0, a: 1}
