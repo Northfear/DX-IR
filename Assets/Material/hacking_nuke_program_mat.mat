@@ -8,8 +8,6 @@ Material:
   m_PrefabInternal: {fileID: 0}
   m_Name: hacking_nuke_program_mat
   m_Shader: {fileID: 4800000, guid: 34a52d0398597d445911e61123de1831, type: 3}
-  m_ShaderKeywords: []
-  m_CustomRenderQueue: -1
   m_SavedProperties:
     serializedVersion: 2
     m_TexEnvs:
@@ -35,11 +33,11 @@ Material:
       data:
         first:
           name: _BlendFactor
-        second: .200000003
+        second: 0.12686567
       data:
         first:
           name: _Outline
-        second: .00999999978
+        second: 0.01
     m_Colors:
       data:
         first:
@@ -48,4 +46,4 @@ Material:
       data:
         first:
           name: _OutlineColor
-        second: {r: .992200017, g: .764699996, b: 0, a: 255}
+        second: {r: 0.9922, g: 0.7647, b: 0, a: 255}

@@ -8,8 +8,6 @@ Material:
   m_PrefabInternal: {fileID: 0}
   m_Name: jensen_game
   m_Shader: {fileID: 4800000, guid: 54b0371c4aa44f144933fb5708f88a6a, type: 3}
-  m_ShaderKeywords: []
-  m_CustomRenderQueue: -1
   m_SavedProperties:
     serializedVersion: 2
     m_TexEnvs:
@@ -31,25 +29,41 @@ Material:
       data:
         first:
           name: _Shininess
-        second: .100000001
+        second: 0.21697056
       data:
         first:
           name: _ProbeShininess
-        second: 2
+        second: 3.2686567
       data:
         first:
           name: _ProbeSpecStr
-        second: .5
+        second: 0.6865672
       data:
         first:
           name: _ProbeSpecSub
-        second: 2
+        second: 0
+      data:
+        first:
+          name: _SpecRange
+        second: 20
+      data:
+        first:
+          name: _SHLightingScale
+        second: 0.8
     m_Colors:
       data:
         first:
           name: _Color
-        second: {r: 1, g: 1, b: 1, a: 1}
+        second: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 0.5019608}
+      data:
+        first:
+          name: _SpecColor
+        second: {r: 1, g: 1, b: 0.94509804, a: 1}
       data:
         first:
           name: _SpecularColor
-        second: {r: .455224007, g: .455224007, b: .455224007, a: 1}
+        second: {r: 1, g: 0.8950243, b: 0.75686276, a: 1}
+      data:
+        first:
+          name: _SpecOffset
+        second: {r: 1, g: 10, b: 2, a: 0}

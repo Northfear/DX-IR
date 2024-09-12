@@ -7,9 +7,7 @@ Material:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: prop_computer_atlas_glows_mat
-  m_Shader: {fileID: 200, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: []
-  m_CustomRenderQueue: -1
+  m_Shader: {fileID: 200, guid: 0000000000000000e000000000000000, type: 0}
   m_SavedProperties:
     serializedVersion: 2
     m_TexEnvs:
@@ -28,5 +26,9 @@ Material:
     m_Colors:
       data:
         first:
+          name: _Color
+        second: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+      data:
+        first:
           name: _TintColor
-        second: {r: .843137264, g: .68235296, b: .384313732, a: .501960814}
+        second: {r: 0.8432836, g: 0.68265396, b: 0.38388282, a: 0.5019608}

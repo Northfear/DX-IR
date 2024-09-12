@@ -8,8 +8,6 @@ Material:
   m_PrefabInternal: {fileID: 0}
   m_Name: duarte_game_char_duarte_dynamic_mat
   m_Shader: {fileID: 4800000, guid: 0325d52d97cfe304588a5741fce8f0f5, type: 3}
-  m_ShaderKeywords: []
-  m_CustomRenderQueue: -1
   m_SavedProperties:
     serializedVersion: 2
     m_TexEnvs:
@@ -31,5 +29,9 @@ Material:
       data:
         first:
           name: _Shininess
-        second: .078125
-    m_Colors: {}
+        second: 0.11285289
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}

@@ -8,8 +8,6 @@ Material:
   m_PrefabInternal: {fileID: 0}
   m_Name: scientist_char_turntable_mat
   m_Shader: {fileID: 4800000, guid: 0325d52d97cfe304588a5741fce8f0f5, type: 3}
-  m_ShaderKeywords: []
-  m_CustomRenderQueue: -1
   m_SavedProperties:
     serializedVersion: 2
     m_TexEnvs:
@@ -31,5 +29,25 @@ Material:
       data:
         first:
           name: _Shininess
-        second: .078125
-    m_Colors: {}
+        second: 0.0518178
+      data:
+        first:
+          name: _SpecRange
+        second: 20
+      data:
+        first:
+          name: _SHLightingScale
+        second: 1
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _SpecColor
+        second: {r: 0.48403087, g: 0.5, b: 0.43283582, a: 1}
+      data:
+        first:
+          name: _SpecOffset
+        second: {r: 1, g: 10, b: 2, a: 0}

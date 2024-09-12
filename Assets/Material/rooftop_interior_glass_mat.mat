@@ -7,9 +7,7 @@ Material:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: rooftop_interior_glass_mat
-  m_Shader: {fileID: 200, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: []
-  m_CustomRenderQueue: -1
+  m_Shader: {fileID: 200, guid: 0000000000000000e000000000000000, type: 0}
   m_SavedProperties:
     serializedVersion: 2
     m_TexEnvs:
@@ -28,5 +26,9 @@ Material:
     m_Colors:
       data:
         first:
+          name: _Color
+        second: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+      data:
+        first:
           name: _TintColor
-        second: {r: .807843149, g: .68235296, b: .203921571, a: .0784313753}
+        second: {r: 0.80597013, g: 0.6727213, b: 0.2105146, a: 0.078431375}

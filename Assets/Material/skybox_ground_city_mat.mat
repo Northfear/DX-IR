@@ -8,8 +8,6 @@ Material:
   m_PrefabInternal: {fileID: 0}
   m_Name: skybox_ground_city_mat
   m_Shader: {fileID: 4800000, guid: 3e72b835d358240488279d8de695b4f9, type: 3}
-  m_ShaderKeywords: []
-  m_CustomRenderQueue: -1
   m_SavedProperties:
     serializedVersion: 2
     m_TexEnvs:
@@ -21,4 +19,8 @@ Material:
           m_Scale: {x: 8, y: 8}
           m_Offset: {x: 0, y: 0}
     m_Floats: {}
-    m_Colors: {}
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}

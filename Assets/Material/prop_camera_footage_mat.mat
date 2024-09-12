@@ -8,8 +8,6 @@ Material:
   m_PrefabInternal: {fileID: 0}
   m_Name: prop_camera_footage_mat
   m_Shader: {fileID: 4800000, guid: 9c1a3d57818dcae4295e80f0f274bc2a, type: 3}
-  m_ShaderKeywords: []
-  m_CustomRenderQueue: -1
   m_SavedProperties:
     serializedVersion: 2
     m_TexEnvs:
@@ -31,9 +29,13 @@ Material:
     m_Colors:
       data:
         first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
           name: _ScrollingSpeedBase
         second: {r: 0, g: 0, b: 0, a: 0}
       data:
         first:
           name: _ScrollingSpeedAdditive
-        second: {r: 0, g: -.0399999991, b: 0, a: 0}
+        second: {r: 0, g: -0.04, b: 0, a: 0}
