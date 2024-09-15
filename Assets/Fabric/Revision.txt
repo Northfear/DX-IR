@@ -1,0 +1,233 @@
+-------------------------------
+Fabric v2.1.4
+
+Copyright (c) Tazman-Audio 2012
+http://www.Tazman-Audio.co.uk
+-------------------------------
+
+
+Version 2.1.4 (3-10-2012)
+--------------------------
+- Adding new Blend Component
+- Added enableTimelineAssetLoader property in Fabric Manager
+- Fixed timeline UI parameter min/max range issue
+- Fixed timeline UI update error
+- Fixed timeline UI not saving parameters correctly
+- Fixed timeline UI dragging playing cursor issue
+- Fixed timeline UI not updating correctly when selecting timelines
+- Fixed dynamic mixer fade in/out transition
+- Added new component Play function
+
+Version 2.1.3c (30-09-2012)
+--------------------------
+
+- Fixed timer so it works in the editor
+- Updated documentation to include DSP and preview support
+- Check for null component when calling stop in the previewer
+- Added support in switch component to wait until the child component has finished playing before switch is handled.
+- Fix to DSP component to set its parameters on start correctly
+- Changed all collections to use their generic versions (ready for Win8 Metro)
+- Added probability parameter in event trigger
+- Added transition offset in sequence component
+- Added switch types (SwitchOnPlay, SwitchOnEnd, SwitchOnSwitch) in switch component.
+- Fixed Fabric.Core compile warnings
+- Changed audio component HasReachedEnd function to use samples
+- Added RegisterGameObject event action
+- Fixed timeline issue failing to play region when in PlayToEnd exit mode
+- Side chain tweak
+
+Version 2.1.3 (17-09-2012)
+--------------------------
+
+- Implemented component preview support
+- Fix to DSP component to set its parameters on start correctly
+- Updated about version number
+- Added support in switch component to wait until the child component has finished playing before switch is handled.
+- Timeline component serialises Custom fdp setting.
+- Compile with Unity 3.5 dlls
+- Check for null component when calling stop in the previewer
+- Fixed timer so it works in the editor
+- Split component privewer to OnGui and Update
+- Updated documentation to include DSP and preview support
+
+Version 2.1.2a (07-09-2012)
+---------------------------
+
+- Activate audio source and its game object when its unpaused and was previously paused.
+
+
+Version 2.1.2 (06-09-2012)
+--------------------------
+
+- Fixed issue with instances not passing the correct context structure.
+- Set the audio source volume and pitch after the play call.
+- Added missing About.cs file
+
+
+Version 2.1.1 (06-09-2012)
+--------------------------
+
+- Remove check if game object is active when posting the event in event trigger
+- Cache audio component position in play and update.
+- Renamed a few DSP parameters
+- Added all DSP effects and parameters to event trigger component
+
+
+Version 2.1.0 (24-08-2012)
+--------------------------
+
+- Added new DSP support (Add effects at any Fabric node)
+- Fixed LoadAsset adding newly added component at the correct node (not top)
+- Tidy up side chain editor
+
+
+Version 2.0.9d (26-07-2012)
+---------------------------
+
+Unregister event listeners when component is destroyed
+
+
+Version 2.0.9c (24-07-2012)
+---------------------------
+
+- Added delay support to events
+- Added fabric manager info (total game objects used, memory used)
+- Removed old code in audio component for loosing focus, using OnApplicationPause
+- Audio component is properly paused
+- Fix crash when checking a Fabric component in a prefab
+- When calling set volume, pitch, pan dont create instances
+- Fixed timeline parameter list
+- Fixed volume meters
+
+
+Version 2.0.9 (15-07-2012)
+--------------------------
+
+- Added timeline Loop and OneShot support (Runtime and UI)
+- Fixed multiple timeline instances shown on window
+- Fixed component stop fade out
+- Implemented InitialiseParameters support
+- Timeline parameters are reset when its stopped
+- Replaced errors to warnings on IPhonePlayer
+
+
+Version 2.0.8f (09-07-2012)
+---------------------------
+
+- AudioComponent adds new game object for audio source (massive performance improvement)
+- Fixed crash when stealing behavior is None
+- Fixed memory allocation
+
+
+Version 2.0.8e (04-07-2012)
+---------------------------
+
+- Fixed timeline component alwasy reporting active
+- Fix timeline importer deleting the wrong game objects
+- Fixed seek parameter implementation
+- All parameters are updated
+- Fixed pause support
+- Disabled on certain component events from creating instances (SetPause, SetFade etc)
+- Flag in FabricManager to show component instances in the hiearchy
+- Extended Fabric timer support
+- Disabled Fade out in FabricManager Stop function (Temp solution)
+
+
+Version 2.0.bc (23-06-2012)
+---------------------------
+
+- Fixed timeline restarting children when stopped
+- Fixed in timeline not triggering regions when parameter is 0 or 1
+- Fixed in timeline when seeking backwards
+- Added a static disable flag in profiler
+
+Version 2.0.8b (21-06-2012)
+---------------------------
+
+Fixed issue with components not making sound when calling stop all
+
+
+
+Version 2.0.8a (20-06-2012)
+---------------------------
+- Fix for crash in StopInternal function
+
+
+Version 2.0.8 (16-06-2012)
+--------------------------
+
+- Added Virtual support in AudioComponent (Disabled at the moment)
+- Fixed memory allocation in Audio component
+- Fixed CPU spike when calling stop
+- Fixed issue causing to fail release audio clip memory when unloading assets
+- DIsabled some audio component functionality for Flash export
+- Refactored my array helper classes to work for Flash export
+- Removed unused code in Audio Component
+- Fabric manager returns the listener transform
+- Added fade out parameter in StoppAll function
+- Fix compile error in FabricManager when volume meters are disabled
+
+
+Version 2.0.7 (06-06-2012)
+--------------------------
+
+- Audio component optimisation (remove stop call in update, added enable/disable flag)
+- Changed audio pool with similar behaviour
+- Fixed crash when failing to find/create any instances due to stealing behaviour (need proper solution)
+
+
+Version 2.0.6 (04-06-2012)
+--------------------------
+
+- Only create instances if event listeners are attached.
+- Allow multiple instances on the same game object.
+- Removed memory allocation in timeline envelope.
+- Timeline parameter is only updated when timeline is active.
+- Timeline region has envelope curves set to linear instead of bazier.
+
+
+Version 2.0.5 (01-06-2012)
+--------------------------
+
+- Pre allocate event queue to 100
+- Create instances for a give game object when trying to set a parameter and it doesn't exist.
+
+
+Version 2.0.4 (30-05-2012)
+--------------------------
+
+- Fixed instances not calling reset when stollen
+- Stop can now set the fadeout interpolated parameter7
+
+
+Version 2.0.2a (21-05-2102)
+---------------------------
+
+- Fixed crash when getting parent game object in component
+- Fixed steal furthest issue
+- Added override fade properties support
+- Fixed fade out (still have some issues with override fade properties flag)
+- Fixed timeline errors when not pointing to a timeline object
+- Added "dont stop on destroy" option in audio component (not fully tested yet)
+- Fixed set switch component (need to fix for nested switches)
+- Loop components keep playing in sequence component (maybe add an option)
+- Added support to set events to multiple instances of the same game object
+
+
+Version 2.0 (01-05-2012)
+------------------------
+
+- Tidy Core API, remove public properties and provided accessors.
+- Fixed issues with Event text entry and not apearing on the list.
+- Mixer unmutes parent group components when soloed
+- Fixed Sequencer's --> not displaying on first entry
+- Always add a Default parameter in the timeline when no parameters exist
+- Fixed timeline "OnExit" behaviours
+- Dynamic mixer uses DBToLinear that NormalisedDB
+- Updated manuals
+- Added SDK documentation chm file
+- Added FMOD importer txt
+- Removed old API reference
+- Added doxygen generation files and tools
+
+
