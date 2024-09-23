@@ -182,10 +182,14 @@ public class Globals : MonoBehaviour
 	{
 		m_This = this;
 		DetermineDeviceRank();
+#if UNITY_IPHONE
 		if (iPhone.generation == iPhoneGeneration.iPad2Gen || iPhone.generation == iPhoneGeneration.iPhone4S)
 		{
 			QualitySettings.antiAliasing = 2;
 		}
+#else
+		QualitySettings.antiAliasing = 4;
+#endif
 		Shader.globalMaximumLOD = 1000;
 	}
 
@@ -211,6 +215,7 @@ public class Globals : MonoBehaviour
 
 	private void DetermineDeviceRank()
 	{
+#if UNITY_IPHONE
 		if (iPhone.generation != iPhoneGeneration.iPad1Gen && iPhone.generation != iPhoneGeneration.iPad2Gen && iPhone.generation != iPhoneGeneration.iPad3Gen)
 		{
 			if (iPhone.generation == iPhoneGeneration.iPhone3G)
@@ -250,6 +255,9 @@ public class Globals : MonoBehaviour
 				m_ResolutionRank = ResolutionRank.Low;
 			}
 		}
+#else
+		m_ResolutionRank = ResolutionRank.High;
+#endif
 	}
 
 	public static CharacterBase FindCharacterBase(Transform node)
