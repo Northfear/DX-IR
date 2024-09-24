@@ -1,28 +1,69 @@
 Shader "Mobile/Texture + Texture with UV Scrolling" {
 Properties {
- _MainTex ("Base (RGB)", 2D) = "white" {}
- _AdditiveTex ("Additive (RGB)", 2D) = "black" {}
- _ScrollingSpeedBase ("Scrolling speed Base", Vector) = (0,0,0,0)
- _ScrollingSpeedAdditive ("Scrolling speed Additive", Vector) = (0,0,0,0)
+	_MainTex ("Base (RGB)", 2D) = "white" {}
+	_AdditiveTex ("Additive (RGB)", 2D) = "black" {}
+	_ScrollingSpeedBase ("Scrolling speed Base", Vector) = (0,0,0,0)
+	_ScrollingSpeedAdditive ("Scrolling speed Additive", Vector) = (0,0,0,0)
 }
-	//DummyShaderTextExporter
-	
-	SubShader{
-		Tags { "RenderType" = "Opaque" }
-		LOD 200
-		CGPROGRAM
-#pragma surface surf Lambert fullforwardshadows
-#pragma target 3.0
-		sampler2D _MainTex;
-		struct Input
+
+	SubShader
+	{
+		Tags { "LIGHTMODE" = "ForwardBase" "RenderType" = "Opaque" }
+
+		Pass
 		{
-			float2 uv_MainTex;
-		};
-		void surf(Input IN, inout SurfaceOutput o)
-		{
-			fixed4 c = tex2D(_MainTex, IN.uv_MainTex);
-			o.Albedo = c.rgb;
+
+			CGPROGRAM
+			#pragma vertex v
+			#pragma fragment p
+
+			sampler2D _MainTex;
+			float4 _MainTex_ST;
+
+			sampler2D _AdditiveTex;
+			float4 _AdditiveTex_ST;
+
+			float4 _ScrollingSpeedBase;
+			float4 _ScrollingSpeedAdditive;
+
+			struct VertOut
+			{
+				float4 position : POSITION;
+				float2 uv : TEXCOORD0;
+			};
+
+			VertOut v( float4 position : POSITION, float3 norm : NORMAL, float2 uv : TEXCOORD0 )
+			{
+				VertOut OUT;
+
+				OUT.position = mul( UNITY_MATRIX_MVP, position );
+				OUT.uv = uv;
+
+				return OUT;
+			}
+
+			struct PixelOut
+			{
+				float4 color : COLOR;
+			};
+
+			PixelOut p ( VertOut input )
+			{
+				PixelOut OUT;
+
+				float2 flowUV = input.uv * _MainTex_ST.xy + _MainTex_ST.zw + float2( _ScrollingSpeedBase.x * _Time.y, _ScrollingSpeedBase.y * _Time.y );
+				float2 maskUV = input.uv * _AdditiveTex_ST.xy + _AdditiveTex_ST.zw + float2( _ScrollingSpeedAdditive.x * _Time.y, _ScrollingSpeedAdditive.y * _Time.y );
+				float4 mainColor = tex2D( _MainTex, flowUV );
+				float4 additiveColor = tex2D( _AdditiveTex, maskUV );
+
+				float4 finalColor = mainColor + additiveColor;
+
+				OUT.color = finalColor;
+
+				return OUT;
+			}
+			ENDCG
 		}
-		ENDCG
 	}
+	FallBack "Diffuse"
 }
