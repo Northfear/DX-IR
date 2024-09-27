@@ -188,7 +188,7 @@ public class Globals : MonoBehaviour
 			QualitySettings.antiAliasing = 2;
 		}
 #else
-		QualitySettings.antiAliasing = 4;
+		QualitySettings.antiAliasing = 2;
 #endif
 		Shader.globalMaximumLOD = 1000;
 	}
