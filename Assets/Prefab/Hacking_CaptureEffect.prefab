@@ -39,6 +39,309 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 73bee0a59ca7a888b1b4406ca9bafa04, type: 3}
   m_Name:
+  m_EditorClassIdentifier:
+  managed: 0
+  manager: {fileID: 0}
+  drawLayer: 0
+  persistent: 0
+  plane: 0
+  winding: 1
+  width: 39.052734
+  height: 39.052734
+  bleedCompensation: {x: 0, y: 0}
+  anchor: 9
+  pixelPerfect: 0
+  autoResize: 0
+  billboarded: 0
+  offset: {x: 0, y: 0, z: 0}
+  color: {r: 1, g: 1, b: 1, a: 1}
+  renderCamera: {fileID: 0}
+  pixelsPerUV: {x: 1024, y: 1024}
+  worldUnitsPerScreenPixel: 0.3149414
+  hideAtStart: 0
+  ignoreClipping: 0
+  playAnimOnStart: 1
+  crossfadeFrames: 0
+  defaultAnim: 0
+  doNotTrimImages: 0
+  animations:
+  - name: TheLoop
+    loopCycles: 0
+    loopReverse: 0
+    framerate: 25
+    index: 0
+    onAnimEnd: 5
+  staticTexPath: Assets/TexturesGUI/Hacking/NukeEffect/nuke-circle0002.tga
+  staticTexGUID: ff2ad3ee0206bb74f95dbe4c81a929f4
+  _ser_stat_frame_info:
+    uvs:
+      serializedVersion: 2
+      x: 0
+      y: 0.6748047
+      width: 0.09375
+      height: 0.11035156
+    scaleFactor: {x: 0.6666667, y: 0.5663717}
+    topLeftOffset: {x: -0.75, y: 1}
+    bottomRightOffset: {x: 0.75, y: -0.765625}
+  textureAnimations:
+  - name: TheLoop
+    loopCycles: 0
+    loopReverse: 0
+    framerate: 25
+    onAnimEnd: 5
+    framePaths: []
+    frameGUIDs:
+    - 49707a42f2c77ef4eb46dc916d345e6e
+    - dfde87f304a7a12428d7fd75a5b06ef2
+    - 56472878927cc064d99ebc1263fec9f5
+    - 122ea3a92fd55594ab874aac2e038148
+    - 775a7606b2e5222488267f8e90750acb
+    - eb69203b14305654a946d70d0c767d34
+    - a9b8912189eba9140acf72181910b791
+    - f97f0e790c2f0e64e81cb8bbd84a20b2
+    - 85ca368cd296c9e48a76b7aa6f02a83f
+    - a98a5d69e868c354ea5cdd1be73b19f8
+    - bfccc2f5b3feeac45bc183eea345d696
+    - 38926cf840367124d8f3f18fbf88fb6a
+    - 7ba524b195901754b99bd83a60c08283
+    - dec4b1a5ef83d5a42a9979d58c2ba89d
+    - dda903182cd9c994f92a77566d229bbd
+    - 55fe183bc53b06f4a969f221b4e3ebb5
+    - 469364881f9728d42bf01066b1c9dc5c
+    - e1c14df755461254fbad66f113f550eb
+    - fa60467b46e6c09439ac956f91c30ef5
+    - 03a68222bfb640643ac863f64ae514fb
+    - 9fe90edc9ddfc0c42854d0de101dd28a
+    - dc4dbe6ecf16d564b8889bfb1eb24cc4
+    - 3735989cc8ad8dc4288b2024084b4b6b
+    - 9179b5a6d2f13f54286e477bcbf7149d
+    - d1a0f89cb1e79a84c916a9605d6a8128
+    spriteFrames:
+    - uvs:
+        serializedVersion: 2
+        x: 0.2421875
+        y: 0.9589844
+        width: 0.033203125
+        height: 0.033203125
+      scaleFactor: {x: 1.882353, y: 1.882353}
+      topLeftOffset: {x: -0.265625, y: 0.265625}
+      bottomRightOffset: {x: 0.265625, y: -0.265625}
+    - uvs:
+        serializedVersion: 2
+        x: 0.20410156
+        y: 0.9589844
+        width: 0.037109375
+        height: 0.037109375
+      scaleFactor: {x: 1.6842105, y: 1.6842105}
+      topLeftOffset: {x: -0.296875, y: 0.296875}
+      bottomRightOffset: {x: 0.296875, y: -0.296875}
+    - uvs:
+        serializedVersion: 2
+        x: 0.9013672
+        y: 0.2861328
+        width: 0.04296875
+        height: 0.04296875
+      scaleFactor: {x: 1.4545455, y: 1.4545455}
+      topLeftOffset: {x: -0.34375, y: 0.34375}
+      bottomRightOffset: {x: 0.34375, y: -0.34375}
+    - uvs:
+        serializedVersion: 2
+        x: 0.29101562
+        y: 0.38085938
+        width: 0.046875
+        height: 0.046875
+      scaleFactor: {x: 1.3333334, y: 1.3333334}
+      topLeftOffset: {x: -0.375, y: 0.375}
+      bottomRightOffset: {x: 0.375, y: -0.375}
+    - uvs:
+        serializedVersion: 2
+        x: 0.94140625
+        y: 0.057617188
+        width: 0.051757812
+        height: 0.051757812
+      scaleFactor: {x: 1.2075472, y: 1.2075472}
+      topLeftOffset: {x: -0.421875, y: 0.421875}
+      bottomRightOffset: {x: 0.40625, y: -0.40625}
+    - uvs:
+        serializedVersion: 2
+        x: 0.94140625
+        y: 0
+        width: 0.056640625
+        height: 0.056640625
+      scaleFactor: {x: 1.1034483, y: 1.1034483}
+      topLeftOffset: {x: -0.453125, y: 0.453125}
+      bottomRightOffset: {x: 0.453125, y: -0.453125}
+    - uvs:
+        serializedVersion: 2
+        x: 0.9013672
+        y: 0.22460938
+        width: 0.060546875
+        height: 0.060546875
+      scaleFactor: {x: 1.032258, y: 1.032258}
+      topLeftOffset: {x: -0.484375, y: 0.484375}
+      bottomRightOffset: {x: 0.484375, y: -0.484375}
+    - uvs:
+        serializedVersion: 2
+        x: 0.8339844
+        y: 0.22460938
+        width: 0.06640625
+        height: 0.06640625
+      scaleFactor: {x: 0.9411765, y: 0.9411765}
+      topLeftOffset: {x: -0.53125, y: 0.53125}
+      bottomRightOffset: {x: 0.53125, y: -0.53125}
+    - uvs:
+        serializedVersion: 2
+        x: 0.7626953
+        y: 0.22460938
+        width: 0.0703125
+        height: 0.0703125
+      scaleFactor: {x: 0.8888889, y: 0.8888889}
+      topLeftOffset: {x: -0.5625, y: 0.5625}
+      bottomRightOffset: {x: 0.5625, y: -0.5625}
+    - uvs:
+        serializedVersion: 2
+        x: 0.6113281
+        y: 0.22460938
+        width: 0.07519531
+        height: 0.07519531
+      scaleFactor: {x: 0.83116883, y: 0.83116883}
+      topLeftOffset: {x: -0.59375, y: 0.59375}
+      bottomRightOffset: {x: 0.609375, y: -0.609375}
+    - uvs:
+        serializedVersion: 2
+        x: 0.53027344
+        y: 0.22460938
+        width: 0.080078125
+        height: 0.080078125
+      scaleFactor: {x: 0.7804878, y: 0.7804878}
+      topLeftOffset: {x: -0.640625, y: 0.640625}
+      bottomRightOffset: {x: 0.640625, y: -0.640625}
+    - uvs:
+        serializedVersion: 2
+        x: 0.20410156
+        y: 0.87402344
+        width: 0.083984375
+        height: 0.083984375
+      scaleFactor: {x: 0.74418604, y: 0.74418604}
+      topLeftOffset: {x: -0.671875, y: 0.671875}
+      bottomRightOffset: {x: 0.671875, y: -0.671875}
+    - uvs:
+        serializedVersion: 2
+        x: 0.484375
+        y: 0.12597656
+        width: 0.08984375
+        height: 0.08984375
+      scaleFactor: {x: 0.6956522, y: 0.6956522}
+      topLeftOffset: {x: -0.71875, y: 0.71875}
+      bottomRightOffset: {x: 0.71875, y: -0.71875}
+    - uvs:
+        serializedVersion: 2
+        x: 0.30273438
+        y: 0.12597656
+        width: 0.09375
+        height: 0.09375
+      scaleFactor: {x: 0.6666667, y: 0.6666667}
+      topLeftOffset: {x: -0.75, y: 0.75}
+      bottomRightOffset: {x: 0.75, y: -0.75}
+    - uvs:
+        serializedVersion: 2
+        x: 0.20410156
+        y: 0.12597656
+        width: 0.09765625
+        height: 0.09765625
+      scaleFactor: {x: 0.64, y: 0.64}
+      topLeftOffset: {x: -0.78125, y: 0.78125}
+      bottomRightOffset: {x: 0.78125, y: -0.78125}
+    - uvs:
+        serializedVersion: 2
+        x: 0
+        y: 0.4501953
+        width: 0.103515625
+        height: 0.103515625
+      scaleFactor: {x: 0.6037736, y: 0.6037736}
+      topLeftOffset: {x: -0.828125, y: 0.828125}
+      bottomRightOffset: {x: 0.828125, y: -0.828125}
+    - uvs:
+        serializedVersion: 2
+        x: 0
+        y: 0.234375
+        width: 0.10546875
+        height: 0.10546875
+      scaleFactor: {x: 0.5925926, y: 0.5925926}
+      topLeftOffset: {x: -0.84375, y: 0.84375}
+      bottomRightOffset: {x: 0.84375, y: -0.84375}
+    - uvs:
+        serializedVersion: 2
+        x: 0
+        y: 0.12597656
+        width: 0.107421875
+        height: 0.107421875
+      scaleFactor: {x: 0.58181816, y: 0.58181816}
+      topLeftOffset: {x: -0.859375, y: 0.859375}
+      bottomRightOffset: {x: 0.859375, y: -0.859375}
+    - uvs:
+        serializedVersion: 2
+        x: 0.7216797
+        y: 0
+        width: 0.111328125
+        height: 0.111328125
+      scaleFactor: {x: 0.5614035, y: 0.5614035}
+      topLeftOffset: {x: -0.890625, y: 0.890625}
+      bottomRightOffset: {x: 0.890625, y: -0.890625}
+    - uvs:
+        serializedVersion: 2
+        x: 0.6074219
+        y: 0
+        width: 0.11328125
+        height: 0.11328125
+      scaleFactor: {x: 0.55172414, y: 0.55172414}
+      topLeftOffset: {x: -0.90625, y: 0.90625}
+      bottomRightOffset: {x: 0.90625, y: -0.90625}
+    - uvs:
+        serializedVersion: 2
+        x: 0.49121094
+        y: 0
+        width: 0.115234375
+        height: 0.115234375
+      scaleFactor: {x: 0.5423729, y: 0.5423729}
+      topLeftOffset: {x: -0.921875, y: 0.921875}
+      bottomRightOffset: {x: 0.921875, y: -0.921875}
+    - uvs:
+        serializedVersion: 2
+        x: 0.3720703
+        y: 0
+        width: 0.11816406
+        height: 0.11816406
+      scaleFactor: {x: 0.5289256, y: 0.5289256}
+      topLeftOffset: {x: -0.953125, y: 0.953125}
+      bottomRightOffset: {x: 0.9375, y: -0.9375}
+    - uvs:
+        serializedVersion: 2
+        x: 0.25
+        y: 0
+        width: 0.12109375
+        height: 0.12109375
+      scaleFactor: {x: 0.516129, y: 0.516129}
+      topLeftOffset: {x: -0.96875, y: 0.96875}
+      bottomRightOffset: {x: 0.96875, y: -0.96875}
+    - uvs:
+        serializedVersion: 2
+        x: 0.12597656
+        y: 0
+        width: 0.123046875
+        height: 0.123046875
+      scaleFactor: {x: 0.50793654, y: 0.50793654}
+      topLeftOffset: {x: -0.984375, y: 0.984375}
+      bottomRightOffset: {x: 0.984375, y: -0.984375}
+    - uvs:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0.125
+        height: 0.125
+      scaleFactor: {x: 0.5, y: 0.5}
+      topLeftOffset: {x: -1, y: 1}
+      bottomRightOffset: {x: 1, y: -1}
 --- !u!33 &33110145717629909
 MeshFilter:
   m_ObjectHideFlags: 0
