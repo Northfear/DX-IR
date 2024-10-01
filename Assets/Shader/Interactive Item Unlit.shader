@@ -26,10 +26,10 @@ Properties {
 				#pragma fragment frag
 				#pragma target 2.0
 
-				static const float MIN_FADEOFF_TRANSITION_DISTANCE = 1.f;
-				static const float MIN_FADEOFF_DISTANCE = 1.5f;
+				//static const float MIN_FADEOFF_TRANSITION_DISTANCE = 1.f;
+				//static const float MIN_FADEOFF_DISTANCE = 1.5f;
 				static const float MAX_FADEOFF_TRANSITION_DISTANCE = 4.f;
-				static const float MAX_FADEOFF_MOD = 3.f;
+				static const float MAX_FADEOFF_MOD = 4.f;
 
 				uniform float _Outline;
 				uniform float4 _OutlineColor;
@@ -52,16 +52,16 @@ Properties {
 					//Distance from the object to the camera
 					float dist = distance(targetPos, objectPos + _ObjectCenter);
 
-					float alphaMinDistance = smoothstep(MIN_FADEOFF_DISTANCE, MIN_FADEOFF_DISTANCE + MIN_FADEOFF_TRANSITION_DISTANCE, dist);
+					//float alphaMinDistance = smoothstep(MIN_FADEOFF_DISTANCE, MIN_FADEOFF_DISTANCE + MIN_FADEOFF_TRANSITION_DISTANCE, dist);
 					float maxFadeoffDistance = MAX_FADEOFF_MOD * _MaxDistance;
 					float alphaMaxDistance = 1 - smoothstep(maxFadeoffDistance, maxFadeoffDistance + MAX_FADEOFF_TRANSITION_DISTANCE, dist);
-					float alphaDistanceMod = min(alphaMinDistance, alphaMaxDistance);
+					//float alphaDistanceMod = min(alphaMinDistance, alphaMaxDistance);
 
 					float4 pos = mul(UNITY_MATRIX_MVP, v.vertex);
 					float3 norm = mul((float3x3)UNITY_MATRIX_MV, v.normal);
 					norm.x *= UNITY_MATRIX_P[0][0];
 					norm.y *= UNITY_MATRIX_P[1][1];
-					pos.xy += norm.xy * pos.z * _Outline * alphaDistanceMod;
+					pos.xy += norm.xy * pos.z * _Outline * alphaMaxDistance;
 
 					return pos;
 				}
@@ -76,10 +76,10 @@ Properties {
 		CGPROGRAM
 			#pragma surface surf Lambert vertex:vert
 
-			static const float MIN_FADEOFF_TRANSITION_DISTANCE = 1.f;
-			static const float MIN_FADEOFF_DISTANCE = 1.5f;
+			//static const float MIN_FADEOFF_TRANSITION_DISTANCE = 1.f;
+			//static const float MIN_FADEOFF_DISTANCE = 1.5f;
 			static const float MAX_FADEOFF_TRANSITION_DISTANCE = 4.f;
-			static const float MAX_FADEOFF_MOD = 3.f;
+			static const float MAX_FADEOFF_MOD = 4.f;
 
 			sampler2D _DiffuseMap;
 			sampler2D _Overlay;
@@ -114,12 +114,12 @@ Properties {
 				//Distance from the object to the camera
 				float dist = distance(targetPos, objectPos + _ObjectCenter);
 
-				float alphaMinDistance = smoothstep(MIN_FADEOFF_DISTANCE, MIN_FADEOFF_DISTANCE + MIN_FADEOFF_TRANSITION_DISTANCE, dist);
+				//float alphaMinDistance = smoothstep(MIN_FADEOFF_DISTANCE, MIN_FADEOFF_DISTANCE + MIN_FADEOFF_TRANSITION_DISTANCE, dist);
 				float maxFadeoffDistance = MAX_FADEOFF_MOD * _MaxDistance;
 				float alphaMaxDistance = 1 - smoothstep(maxFadeoffDistance, maxFadeoffDistance + MAX_FADEOFF_TRANSITION_DISTANCE, dist);
-				float alphaDistanceMod = min(alphaMinDistance, alphaMaxDistance);
+				//float alphaDistanceMod = min(alphaMinDistance, alphaMaxDistance);
 
-				mainTex = lerp(mainTex, overlayTex, alphaDistanceMod * _BlendFactor);
+				mainTex = lerp(mainTex, overlayTex, alphaMaxDistance * _BlendFactor);
 
 				o.Albedo = mainTex.rgb;
 				o.Alpha = mainTex.a;
