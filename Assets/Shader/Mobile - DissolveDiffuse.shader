@@ -12,7 +12,7 @@ SubShader
 	LOD 200 
 
 	CGPROGRAM
-	#pragma surface surf Lambert alphatest:Zero noforwardadd noambient addshadow
+	#pragma surface surf Lambert alphatest:Zero noforwardadd addshadow
 
 	sampler2D _MainTex;
 	sampler2D _DissolveTex;
