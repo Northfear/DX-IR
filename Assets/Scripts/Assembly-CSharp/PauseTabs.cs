@@ -272,7 +272,8 @@ public class PauseTabs : MonoBehaviour
 		Time.timeScale = 1f;
 		EventManager.Instance.PostEvent("UI_Swish", EventAction.PlaySound, null, base.gameObject);
 		EventManager.Instance.PostEvent("DynamicMixer", EventAction.RemovePreset, "Pause");
-		m_AudioUnpauseEventDelay = 0f;
+		// TODO lots of audio sources start playing on unpause
+		//m_AudioUnpauseEventDelay = 0f;
 		GameManager.GamePaused(false);
 		CommLinkDialog.Paused(false);
 		Globals.m_HUD.Display(true, true);
