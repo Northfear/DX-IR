@@ -427,30 +427,6 @@ public abstract class AutoSpriteControlBase : AutoSpriteBase, IEZDragDrop, ICont
 
 	public abstract EZTransitionList[] Transitions { get; set; }
 
-	virtual GameObject IUIObject.gameObject
-	{
-		get
-		{
-			return base.gameObject;
-		}
-	}
-
-	virtual Transform IUIObject.transform
-	{
-		get
-		{
-			return base.transform;
-		}
-	}
-
-	virtual string IUIObject.name
-	{
-		get
-		{
-			return base.name;
-		}
-	}
-
 	protected override void Init()
 	{
 		nullCamera = renderCamera == null;

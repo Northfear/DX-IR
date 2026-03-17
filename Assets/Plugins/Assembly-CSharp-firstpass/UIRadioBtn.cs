@@ -181,18 +181,6 @@ public class UIRadioBtn : AutoSpriteControlBase, IRadioButton
 		}
 	}
 
-	virtual string IRadioButton.name
-	{
-		get
-		{
-			return base.name;
-		}
-		set
-		{
-			base.name = value;
-		}
-	}
-
 	public override string GetStateLabel(int index)
 	{
 		return stateLabels[index];

@@ -161,30 +161,6 @@ public class UIVirtualScreen : MonoBehaviour, IEZDragDrop, IUIObject
 		}
 	}
 
-	virtual GameObject IUIObject.gameObject
-	{
-		get
-		{
-			return base.gameObject;
-		}
-	}
-
-	virtual Transform IUIObject.transform
-	{
-		get
-		{
-			return base.transform;
-		}
-	}
-
-	virtual string IUIObject.name
-	{
-		get
-		{
-			return base.name;
-		}
-	}
-
 	public virtual void Awake()
 	{
 		MeshCollider meshCollider = (MeshCollider)GetComponent(typeof(MeshCollider));

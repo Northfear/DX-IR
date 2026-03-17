@@ -202,30 +202,6 @@ public abstract class UIPanelBase : MonoBehaviour, IEZDragDrop, IUIContainer, IU
 		}
 	}
 
-	virtual GameObject IUIObject.gameObject
-	{
-		get
-		{
-			return base.gameObject;
-		}
-	}
-
-	virtual Transform IUIObject.transform
-	{
-		get
-		{
-			return base.transform;
-		}
-	}
-
-	virtual string IUIObject.name
-	{
-		get
-		{
-			return base.name;
-		}
-	}
-
 	protected virtual void OnDisable()
 	{
 		if (Application.isPlaying)

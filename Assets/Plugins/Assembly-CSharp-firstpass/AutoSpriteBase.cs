@@ -77,42 +77,6 @@ public abstract class AutoSpriteBase : SpriteBase, ISpriteAggregator, ISpritePac
 		}
 	}
 
-	virtual GameObject ISpriteAggregator.gameObject
-	{
-		get
-		{
-			return base.gameObject;
-		}
-	}
-
-	virtual GameObject ISpritePackable.gameObject
-	{
-		get
-		{
-			return base.gameObject;
-		}
-	}
-
-	virtual ANCHOR_METHOD ISpritePackable.Anchor
-	{
-		get
-		{
-			return base.Anchor;
-		}
-	}
-
-	virtual Color ISpritePackable.Color
-	{
-		get
-		{
-			return base.Color;
-		}
-		set
-		{
-			base.Color = value;
-		}
-	}
-
 	public override Vector2 GetDefaultPixelSize(PathFromGUIDDelegate guid2Path, AssetLoaderDelegate loader)
 	{
 		TextureAnim defaultState = DefaultState;
@@ -759,10 +723,5 @@ public abstract class AutoSpriteBase : SpriteBase, ISpriteAggregator, ISpritePac
 		}
 		sourceTextures = (Texture2D[])arrayList.ToArray(typeof(Texture2D));
 		spriteFrames = (CSpriteFrame[])arrayList2.ToArray(typeof(CSpriteFrame));
-	}
-
-	virtual void ISpriteAggregator.SetUVs(Rect uvs)
-	{
-		SetUVs(uvs);
 	}
 }

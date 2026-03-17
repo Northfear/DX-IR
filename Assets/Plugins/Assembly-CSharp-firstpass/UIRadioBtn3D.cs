@@ -147,18 +147,6 @@ public class UIRadioBtn3D : ControlBase, IRadioButton
 		}
 	}
 
-	virtual string IRadioButton.name
-	{
-		get
-		{
-			return base.name;
-		}
-		set
-		{
-			base.name = value;
-		}
-	}
-
 	public override EZTransitionList GetTransitions(int index)
 	{
 		if (index >= transitions.Length)

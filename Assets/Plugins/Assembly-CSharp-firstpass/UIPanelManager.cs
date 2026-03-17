@@ -212,30 +212,6 @@ public class UIPanelManager : MonoBehaviour, IEZDragDrop, IUIContainer, IUIObjec
 		}
 	}
 
-	virtual GameObject IUIObject.gameObject
-	{
-		get
-		{
-			return base.gameObject;
-		}
-	}
-
-	virtual Transform IUIObject.transform
-	{
-		get
-		{
-			return base.transform;
-		}
-	}
-
-	virtual string IUIObject.name
-	{
-		get
-		{
-			return base.name;
-		}
-	}
-
 	public void OnDestroy()
 	{
 		m_instance = null;

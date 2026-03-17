@@ -442,30 +442,6 @@ public class UIScrollList : MonoBehaviour, IEZDragDrop, IUIObject
 		}
 	}
 
-	virtual GameObject IUIObject.gameObject
-	{
-		get
-		{
-			return base.gameObject;
-		}
-	}
-
-	virtual Transform IUIObject.transform
-	{
-		get
-		{
-			return base.transform;
-		}
-	}
-
-	virtual string IUIObject.name
-	{
-		get
-		{
-			return base.name;
-		}
-	}
-
 	protected void Awake()
 	{
 		if (!m_awake)

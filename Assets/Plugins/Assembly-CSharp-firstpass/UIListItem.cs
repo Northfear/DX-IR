@@ -71,30 +71,6 @@ public class UIListItem : UIButton, IUIListObject, IEZDragDrop, IUIObject
 		}
 	}
 
-	virtual Vector2 IUIListObject.TopLeftEdge
-	{
-		get
-		{
-			return base.TopLeftEdge;
-		}
-	}
-
-	virtual Vector2 IUIListObject.BottomRightEdge
-	{
-		get
-		{
-			return base.BottomRightEdge;
-		}
-	}
-
-	virtual bool IUIListObject.Managed
-	{
-		get
-		{
-			return base.Managed;
-		}
-	}
-
 	protected override void Awake()
 	{
 		base.Awake();
@@ -521,10 +497,5 @@ public class UIListItem : UIButton, IUIListObject, IEZDragDrop, IUIObject
 		gameObject.transform.position = pos;
 		gameObject.transform.rotation = rotation;
 		return (UIListItem)gameObject.AddComponent(typeof(UIListItem));
-	}
-
-	virtual void IUIListObject.UpdateCamera()
-	{
-		UpdateCamera();
 	}
 }

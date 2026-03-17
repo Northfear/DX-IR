@@ -306,10 +306,10 @@ public class UIManager : MonoBehaviour
 		}
 		if (pointerType == POINTER_TYPE.TOUCHPAD || pointerType == POINTER_TYPE.TOUCHPAD_AND_RAY)
 		{
-			iPhoneKeyboard.autorotateToPortrait = autoRotateKeyboardPortrait;
-			iPhoneKeyboard.autorotateToPortraitUpsideDown = autoRotateKeyboardPortraitUpsideDown;
-			iPhoneKeyboard.autorotateToLandscapeLeft = autoRotateKeyboardLandscapeLeft;
-			iPhoneKeyboard.autorotateToLandscapeRight = autoRotateKeyboardLandscapeRight;
+			//iPhoneKeyboard.autorotateToPortrait = autoRotateKeyboardPortrait;
+			//iPhoneKeyboard.autorotateToPortraitUpsideDown = autoRotateKeyboardPortraitUpsideDown;
+			//iPhoneKeyboard.autorotateToLandscapeLeft = autoRotateKeyboardLandscapeLeft;
+			//iPhoneKeyboard.autorotateToLandscapeRight = autoRotateKeyboardLandscapeRight;
 			if (iPhoneSettings.model == "iPad")
 			{
 				numTouches = 11;
