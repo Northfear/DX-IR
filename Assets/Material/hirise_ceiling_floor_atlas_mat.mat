@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: hirise_ceiling_floor_atlas_mat
+  m_Shader: {fileID: 4800000, guid: 8bb4864db7768d24c906f5e6b91e26bd, type: 3}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: bfef3293e2342fa4a879a169bc269ab6, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _EnvTex
+        second:
+          m_Texture: {fileID: 8900000, guid: a1660e4f4adbe57448b560d626fb4d47, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _Shininess
+        second: 0.037914854
+      data:
+        first:
+          name: _SpecRange
+        second: 20
+      data:
+        first:
+          name: _BumpAmt
+        second: 10
+      data:
+        first:
+          name: _Spread
+        second: 0.5
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 0.29411766}
+      data:
+        first:
+          name: _SpecColor
+        second: {r: 0.5764706, g: 0.544053, b: 0.49508652, a: 0}
+      data:
+        first:
+          name: _SpecOffset
+        second: {r: 0, g: 0.57, b: 9.35, a: 0}
+      data:
+        first:
+          name: _ReflectColor
+        second: {r: 0.27450982, g: 0.27450982, b: 0.27450982, a: 1}
+      data:
+        first:
+          name: _ScrollingSpeed
+        second: {r: 0, g: 0, b: 0, a: 0}

@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: jensen_game
+  m_Shader: {fileID: 4800000, guid: 7583772661d6e8d498f9f505ab4a9ce6, type: 3}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 9be2aabaf36ce134aab98449a45eb3fd, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _BumpMap
+        second:
+          m_Texture: {fileID: 2800000, guid: ebf0422cd6552014fb8682243285b0de, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _Shininess
+        second: 0.088918105
+      data:
+        first:
+          name: _SpecRange
+        second: 20
+      data:
+        first:
+          name: _SHLightingScale
+        second: 0.8
+      data:
+        first:
+          name: _ProbeShininess
+        second: 3.2686567
+      data:
+        first:
+          name: _ProbeSpecStr
+        second: 0.6865672
+      data:
+        first:
+          name: _ProbeSpecSub
+        second: 0
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 0.5019608}
+      data:
+        first:
+          name: _SpecColor
+        second: {r: 1, g: 1, b: 0.94509804, a: 1}
+      data:
+        first:
+          name: _SpecOffset
+        second: {r: 1, g: 10, b: 2, a: 0}
+      data:
+        first:
+          name: _SpecularColor
+        second: {r: 1, g: 0.8950243, b: 0.75686276, a: 1}

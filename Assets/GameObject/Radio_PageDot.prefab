@@ -1,0 +1,234 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1709254077376921
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4730242686860875}
+  - 114: {fileID: 114724804207875695}
+  - 33: {fileID: 33618682377417806}
+  - 23: {fileID: 23703437598541787}
+  - 65: {fileID: 65884547391421755}
+  m_Layer: 12
+  m_Name: Radio_PageDot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4730242686860875
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &114724804207875695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9ca3a75c145daba5a6893e5717212ef, type: 3}
+  m_Name:
+  managed: 0
+  manager: {fileID: 0}
+  drawLayer: 0
+  persistent: 0
+  plane: 0
+  winding: 1
+  width: 0.14323092
+  height: 0.14323092
+  bleedCompensation: {x: 0, y: 0}
+  anchor: 9
+  pixelPerfect: 0
+  autoResize: 0
+  billboarded: 0
+  offset: {x: 0, y: 0, z: 0}
+  color: {r: 1, g: 1, b: 1, a: 1}
+  renderCamera: {fileID: 0}
+  pixelsPerUV: {x: 1024, y: 512}
+  worldUnitsPerScreenPixel: 0.013020992
+  hideAtStart: 0
+  ignoreClipping: 0
+  playAnimOnStart: 0
+  crossfadeFrames: 0
+  defaultAnim: 0
+  doNotTrimImages: 0
+  animations:
+  - name: True
+    loopCycles: 0
+    loopReverse: 0
+    framerate: 14.999999
+    index: 0
+    onAnimEnd: 0
+  - name: False
+    loopCycles: 0
+    loopReverse: 0
+    framerate: 14.999999
+    index: 1
+    onAnimEnd: 0
+  - name: Disabled
+    loopCycles: 0
+    loopReverse: 0
+    framerate: 15
+    index: 2
+    onAnimEnd: 0
+  text:
+  spriteText: {fileID: 0}
+  textOffsetZ: -0.1
+  includeTextInAutoCollider: 1
+  detargetOnDisable: 0
+  isDraggable: 0
+  dropMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  dragOffset: NaN
+  cancelDragEasing: -1
+  cancelDragDuration: -1
+  useParentForGrouping: 1
+  radioGroup: 0
+  defaultValue: 0
+  states:
+  - name: True
+    loopCycles: 0
+    loopReverse: 0
+    framerate: 14.999999
+    onAnimEnd: 0
+    framePaths: []
+    frameGUIDs:
+    - a5af68d87bab8444f96cf4d4340fdf33
+    spriteFrames:
+    - uvs:
+        serializedVersion: 2
+        x: 0.35546875
+        y: 0.15429688
+        width: 0.0107421875
+        height: 0.021484375
+      scaleFactor: {x: 0.5, y: 0.5}
+      topLeftOffset: {x: -1, y: 1}
+      bottomRightOffset: {x: 1, y: -1}
+  - name: False
+    loopCycles: 0
+    loopReverse: 0
+    framerate: 14.999999
+    onAnimEnd: 0
+    framePaths: []
+    frameGUIDs:
+    - 2123c8720fbb76c41aee637d214db0c7
+    spriteFrames:
+    - uvs:
+        serializedVersion: 2
+        x: 0.35546875
+        y: 0.17773438
+        width: 0.0107421875
+        height: 0.021484375
+      scaleFactor: {x: 0.5, y: 0.5}
+      topLeftOffset: {x: -1, y: 1}
+      bottomRightOffset: {x: 1, y: -1}
+  - name: Disabled
+    loopCycles: 0
+    loopReverse: 0
+    framerate: 15
+    onAnimEnd: 0
+    framePaths: []
+    frameGUIDs: []
+    spriteFrames: []
+  stateLabels:
+  - '["]'
+  - '["]'
+  - '["]'
+  transitions:
+  - list:
+    - name: From False
+      animationTypes:
+      animParams: []
+      initialized: 0
+    - name: From Disabled
+      animationTypes:
+      animParams: []
+      initialized: 0
+  - list:
+    - name: From True
+      animationTypes:
+      animParams: []
+      initialized: 0
+    - name: From Disabled
+      animationTypes:
+      animParams: []
+      initialized: 0
+  - list:
+    - name: From True
+      animationTypes:
+      animParams: []
+      initialized: 0
+    - name: From False
+      animationTypes:
+      animParams: []
+      initialized: 0
+  layers: []
+  scriptWithMethodToInvoke: {fileID: 0}
+  methodToInvoke:
+  whenToInvoke: 3
+  delay: 0
+  soundToPlay: {fileID: 0}
+  eventsToPlay: []
+  disableHoverEffect: 0
+--- !u!33 &33618682377417806
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Mesh: {fileID: 0}
+--- !u!23 &23703437598541787
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: 54603ac0718a1da45a9a711323422388, type: 2}
+  m_SubsetIndices:
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+--- !u!65 &65884547391421755
+BoxCollider:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Size: {x: 0.3, y: 0.3, z: 0}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1709254077376921}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0

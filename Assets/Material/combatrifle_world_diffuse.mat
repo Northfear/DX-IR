@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: combatrifle_world_diffuse
+  m_Shader: {fileID: 4800000, guid: 7583772661d6e8d498f9f505ab4a9ce6, type: 3}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: caf789928ec82ff4c86b623be5bbe1dd, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _BumpMap
+        second:
+          m_Texture: {fileID: 2800000, guid: 20e1ee6a8c3ebf840b7db9ffbfcd10f4, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _Shininess
+        second: 0.4830859
+      data:
+        first:
+          name: _SpecRange
+        second: 20
+      data:
+        first:
+          name: _SHLightingScale
+        second: 1
+      data:
+        first:
+          name: _ProbeShininess
+        second: 3.7014925
+      data:
+        first:
+          name: _ProbeSpecStr
+        second: 0.5298507
+      data:
+        first:
+          name: _ProbeSpecSub
+        second: 0
+      data:
+        first:
+          name: _Parallax
+        second: 0.02
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _SpecColor
+        second: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+      data:
+        first:
+          name: _SpecOffset
+        second: {r: 1, g: 10, b: 2, a: 0}
+      data:
+        first:
+          name: _SpecularColor
+        second: {r: 1, g: 0.9866402, b: 0.76119405, a: 1}

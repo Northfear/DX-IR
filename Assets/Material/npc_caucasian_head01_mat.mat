@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: npc_caucasian_head01_mat
+  m_Shader: {fileID: 4800000, guid: 8eb8a0e65355cc54681bfed4c4fc5478, type: 3}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: a98d5ed2091c57f4299c3ad2a67e1421, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _Shininess
+        second: 0.01
+      data:
+        first:
+          name: _SpecRange
+        second: 20
+      data:
+        first:
+          name: _SHLightingScale
+        second: 1
+      data:
+        first:
+          name: _RimPower
+        second: 3
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _SpecColor
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _SpecOffset
+        second: {r: -1.74, g: 1.9, b: -7.02, a: 0}
+      data:
+        first:
+          name: _RimColor
+        second: {r: 0.26, g: 0.19, b: 0.16, a: 0}

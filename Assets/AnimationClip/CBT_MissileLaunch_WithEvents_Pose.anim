@@ -1,0 +1,3544 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!74 &7400000
+AnimationClip:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: CBT_MissileLaunch_WithEvents_Pose
+  m_AnimationType: 1
+  m_Compressed: 0
+  m_RotationCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: 0, y: -0, z: -0, w: 1}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: 0, y: -0, z: -0, w: 1}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: 0.19599679, y: 6.3457E-06, z: -5.868925E-06, w: 0.9806046}
+        inSlope: {x: -0.030209366, y: -0.00032173796, z: 0.00029842975, w: 0.006051082}
+        outSlope: {x: -0.030209366, y: -0.00032173796, z: 0.00029842975, w: 0.006051082}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: 0.19540168, y: -0, z: -0, w: 0.9807233}
+        inSlope: {x: -0.017853376, y: -0.00019037255, z: 0.00017606918, w: 0.0035620024}
+        outSlope: {x: -0.017853376, y: -0.00019037255, z: 0.00017606918, w: 0.0035620024}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: 0, y: -0, z: -0, w: 1}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: 0, y: -0, z: -0, w: 1}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: -0.26040813, y: -0.6574109, z: 0.26040736, w: 0.6574089}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: -0.26040813, y: -0.6574109, z: 0.26040736, w: 0.6574089}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:c_head1_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: 4.4731645E-15, y: 5.360582E-07, z: 0.09891831, w: 0.99509555}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: 4.4731645E-15, y: 5.360582E-07, z: 0.09891831, w: 0.99509555}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:c_head1_joint/ANIM:MESH:GAME:c_head2_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: -2.7062092E-06, y: 1.356253E-07, z: 0.050053533, w: 0.9987466}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: -2.7062092E-06, y: 1.356253E-07, z: 0.050053533, w: 0.9987466}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:c_head1_joint/ANIM:MESH:GAME:c_head2_joint/ANIM:MESH:GAME:c_head3_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: 0.001620082, y: 0.0008610167, z: -0.10721122, w: 0.99423456}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: 0.001620082, y: 0.0008610167, z: -0.10721122, w: 0.99423456}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:c_head1_joint/ANIM:MESH:GAME:c_head2_joint/ANIM:MESH:GAME:c_head3_joint/ANIM:MESH:GAME:c_headTip_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: 0.001620082, y: 0.0008610167, z: -0.10721122, w: 0.99423456}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: 0.001620082, y: 0.0008610167, z: -0.10721122, w: 0.99423456}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:c_head1_joint/ANIM:MESH:GAME:c_head2_joint/ANIM:MESH:GAME:c_head3_joint/ANIM:MESH:GAME:c_eye_1_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: 0, y: -0, z: -0, w: 1}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: 0, y: -0, z: -0, w: 1}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:c_head1_joint/ANIM:MESH:GAME:c_head2_joint/ANIM:MESH:GAME:c_head3_joint/ANIM:MESH:GAME:c_eye_1_joint/ANIM:MESH:GAME:c_eye_2_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: 0.25976092, y: -0.6396693, z: -0.23182963, w: 0.6852755}
+        inSlope: {x: -0.0071020625, y: -0.0007072111, z: 0.011054532, w: 0.0057766004}
+        outSlope: {x: -0.0071020625, y: -0.0007072111, z: 0.011054532, w: 0.0057766004}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: 0.25963816, y: -0.63968146, z: -0.23163848, w: 0.6853753}
+        inSlope: {x: -0.0036827028, y: -0.0003647834, z: 0.0057346094, w: 0.0029933695}
+        outSlope: {x: -0.0036827028, y: -0.0003647834, z: 0.0057346094, w: 0.0029933695}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:c_tail1_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: 0.8700463, y: -0.49297, z: 4.1175153E-06, w: -3.4704404E-05}
+        inSlope: {x: 0.045879316, y: 0.08069314, z: 2.9601592E-06, w: 8.399421E-07}
+        outSlope: {x: 0.045879316, y: 0.08069314, z: 2.9601592E-06, w: 8.399421E-07}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: 0.8708367, y: -0.4915725, z: 4.151936E-06, w: -3.4660083E-05}
+        inSlope: {x: 0.02371092, y: 0.041925054, z: 1.0326305E-06, w: 1.3296557E-06}
+        outSlope: {x: 0.02371092, y: 0.041925054, z: 1.0326305E-06, w: 1.3296557E-06}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:c_tail1_joint/ANIM:MESH:GAME:c_tail2_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: 0.33007056, y: -0.62534267, z: 0.33007056, w: 0.62534267}
+        inSlope: {x: 0.0505267, y: 0.02658613, z: 0.0505267, w: -0.02658613}
+        outSlope: {x: 0.0505267, y: 0.02658613, z: 0.0505267, w: -0.02658613}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: 0.33094352, y: -0.6248811, z: 0.33094352, w: 0.6248811}
+        inSlope: {x: 0.026189301, y: 0.013847464, z: 0.026189301, w: -0.013847464}
+        outSlope: {x: 0.026189301, y: 0.013847464, z: 0.026189301, w: -0.013847464}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:c_tail1_joint/ANIM:MESH:GAME:c_tail2_joint/ANIM:MESH:GAME:c_tail3_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: 0.98786604, y: 0.0016801641, z: 0.0016969889, w: -0.15529029}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: 0.98786604, y: 0.0016801641, z: 0.0016969889, w: -0.15529029}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:c_chest_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: 0.9898844, y: 0.0020697718, z: 0.00029403958, w: -0.14186105}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: 0.9898844, y: 0.0020697718, z: 0.00029403958, w: -0.14186105}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:c_top_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: 0.85481775, y: 0.0027412344, z: -0.00018845113, w: 0.5189211}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: 0.85481775, y: 0.0027412344, z: -0.00018845113, w: 0.5189211}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:c_back_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: 0, y: -0, z: -0, w: 1}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: 0, y: -0, z: -0, w: 1}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:c_btmCore_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: 0.007436497, y: 0.11681881, z: 0.23169406, w: 0.9657204}
+        inSlope: {x: -0.0042036697, y: -0.000108741595, z: 0.00368179, w: -0.00083774584}
+        outSlope: {x: -0.0042036697, y: -0.000108741595, z: 0.00368179, w: -0.00083774584}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: 0.0073546576, y: 0.1168163, z: 0.23176585, w: 0.96570414}
+        inSlope: {x: -0.002455205, y: -7.532598E-05, z: 0.0021538313, w: -0.000488166}
+        outSlope: {x: -0.002455205, y: -7.532598E-05, z: 0.0021538313, w: -0.000488166}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:l_shoulderTendon1_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: 0.13799027, y: -0.15252486, z: 0.33474225, w: 0.9195882}
+        inSlope: {x: 0.008715864, y: -0.007908741, z: -0.006731024, w: -0.0001662974}
+        outSlope: {x: 0.008715864, y: -0.007908741, z: -0.006731024, w: -0.0001662974}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: 0.13815965, y: -0.15267651, z: 0.3346105, w: 0.9195856}
+        inSlope: {x: 0.005081486, y: -0.0045495103, z: -0.003952714, w: -7.867877E-05}
+        outSlope: {x: 0.005081486, y: -0.0045495103, z: -0.003952714, w: -7.867877E-05}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:l_shoulderTendon2_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: 0, y: -0, z: -0, w: 1}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: 0, y: -0, z: -0, w: 1}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:l_legTendon1_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: -0.046742696, y: -0.5667725, z: 0.40876842, w: 0.7137874}
+        inSlope: {x: 0.016470322, y: -0.0033885336, z: -0.0113457795, w: 0.0048950473}
+        outSlope: {x: 0.016470322, y: -0.0033885336, z: -0.0113457795, w: 0.0048950473}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: -0.04641945, y: -0.56683165, z: 0.408541, w: 0.7138918}
+        inSlope: {x: 0.009697493, y: -0.0017738487, z: -0.006822701, w: 0.0031328455}
+        outSlope: {x: 0.009697493, y: -0.0017738487, z: -0.006822701, w: 0.0031328455}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:l_legTendon1_joint/ANIM:MESH:GAME:l_leg_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: 0.019912966, y: -0.07491424, z: -0.76947325, w: 0.6339577}
+        inSlope: {x: -0.00041680544, y: -0.006297065, z: -0.016027143, w: -0.020170275}
+        outSlope: {x: -0.00041680544, y: -0.006297065, z: -0.016027143, w: -0.020170275}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: 0.019904105, y: -0.075045824, z: -0.7698078, w: 0.633536}
+        inSlope: {x: -0.00026582024, y: -0.0039475732, z: -0.010036907, w: -0.012651188}
+        outSlope: {x: -0.00026582024, y: -0.0039475732, z: -0.010036907, w: -0.012651188}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:l_legTendon1_joint/ANIM:MESH:GAME:l_leg_joint/ANIM:MESH:GAME:l_calf_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: -0.32163367, y: -0.7004145, z: 0.34203517, w: 0.53757167}
+        inSlope: {x: 0.009355128, y: -0.014632391, z: 0.0021480094, w: -0.014821934}
+        outSlope: {x: 0.009355128, y: -0.014632391, z: 0.0021480094, w: -0.014821934}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: -0.3214382, y: -0.7007201, z: 0.34207997, w: 0.5372617}
+        inSlope: {x: 0.0058642505, y: -0.009167865, z: 0.0013437977, w: -0.0092984}
+        outSlope: {x: 0.0058642505, y: -0.009167865, z: 0.0013437977, w: -0.0092984}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:l_legTendon1_joint/ANIM:MESH:GAME:l_leg_joint/ANIM:MESH:GAME:l_calf_joint/ANIM:MESH:GAME:l_foot_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: -0.23876832, y: -0.008516364, z: 0.29605618, w: 0.924807}
+        inSlope: {x: 0.016286425, y: 0.0056822067, z: -0.0025972812, w: 0.0050935317}
+        outSlope: {x: 0.016286425, y: 0.0056822067, z: -0.0025972812, w: 0.0050935317}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: -0.23841923, y: -0.008407176, z: 0.2959979, w: 0.9249167}
+        inSlope: {x: 0.01047277, y: 0.0032756743, z: -0.0017488145, w: 0.0032902032}
+        outSlope: {x: 0.01047277, y: 0.0032756743, z: -0.0017488145, w: 0.0032902032}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:l_legTendon1_joint/ANIM:MESH:GAME:l_leg_joint/ANIM:MESH:GAME:l_calf_joint/ANIM:MESH:GAME:l_foot_joint/ANIM:MESH:GAME:l_footTip_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: -0.0025693995, y: 0.031917214, z: 0.03194094, w: 0.9989767}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: -0.0025693995, y: 0.031917214, z: 0.03194094, w: 0.9989767}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:l_legTendon1_joint/ANIM:MESH:GAME:l_leg_joint/ANIM:MESH:GAME:l_calfSlide_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: -0.009647735, y: 0.21437928, z: -0.062464423, w: 0.9747034}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: -0.009647735, y: 0.21437928, z: -0.062464423, w: 0.9747034}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:l_legTendon1_joint/ANIM:MESH:GAME:l_leg_joint/ANIM:MESH:GAME:l_legBall_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: -0.040500905, y: 0.016217593, z: 0.11631718, w: 0.9922535}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: -0.040500905, y: 0.016217593, z: 0.11631718, w: 0.9922535}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:l_legTendon1_joint/ANIM:MESH:GAME:l_leg_joint/ANIM:MESH:GAME:l_legBall_joint/ANIM:MESH:GAME:l_legPlate1_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: 4.7526333E-07, y: -0.10244672, z: -4.7526333E-07, w: 0.9947385}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: 4.7526333E-07, y: -0.10244672, z: -4.7526333E-07, w: 0.9947385}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:l_legTendon1_joint/ANIM:MESH:GAME:l_leg_joint/ANIM:MESH:GAME:l_legBall_joint/ANIM:MESH:GAME:l_legPlate1_joint/ANIM:MESH:GAME:l_legPlate2_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: -0.06626489, y: 0.046541646, z: 0.048492227, w: 0.99553573}
+        inSlope: {x: 0.006517117, y: -0.012447388, z: -0.005704126, w: 0.001296405}
+        outSlope: {x: 0.006517117, y: -0.012447388, z: -0.005704126, w: 0.001296405}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: -0.06614021, y: 0.046296388, z: 0.048382256, w: 0.99556077}
+        inSlope: {x: 0.0037403707, y: -0.007357806, z: -0.0032991439, w: 0.00075102464}
+        outSlope: {x: 0.0037403707, y: -0.007357806, z: -0.0032991439, w: 0.00075102464}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:l_legTendon2_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: -0.49608403, y: -0.49608403, z: 0.50388557, w: 0.50388557}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: -0.49608403, y: -0.49608403, z: 0.50388557, w: 0.50388557}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:l_roketBay_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: 0.1405976, y: -0.29083544, z: 0.9147926, w: 0.24249044}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: 0.1405976, y: -0.29083544, z: 0.9147926, w: 0.24249044}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:l_coreGuard1_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: -0.15215293, y: -0.15444173, z: 0.6910582, w: 0.6895185}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: -0.15215293, y: -0.15444173, z: 0.6910582, w: 0.6895185}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:l_coreGuard2_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: 0.9644095, y: -0.23740864, z: 0.116406836, w: -0.000977896}
+        inSlope: {x: -0.00082969916, y: -0.003705036, z: -0.0006438439, w: 0.0040753754}
+        outSlope: {x: -0.00082969916, y: -0.003705036, z: -0.0006438439, w: 0.0040753754}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: 0.9643935, y: -0.23747995, z: 0.11639444, w: -0.00089934596}
+        inSlope: {x: -0.00047922521, y: -0.002139526, z: -0.000371936, w: 0.0023565213}
+        outSlope: {x: -0.00047922521, y: -0.002139526, z: -0.000371936, w: 0.0023565213}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:r_shoulderTendon1_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: 0.9189472, y: -0.32343924, z: -0.16622074, w: -0.15262315}
+        inSlope: {x: -0.000283421, y: 0.0073573217, z: -0.0075388188, w: -0.009103669}
+        outSlope: {x: -0.000283421, y: 0.0073573217, z: -0.0075388188, w: -0.009103669}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: 0.9189414, y: -0.32329714, z: -0.16636758, w: -0.15279914}
+        inSlope: {x: -0.00017523908, y: 0.0042629587, z: -0.004405117, w: -0.0052799713}
+        outSlope: {x: -0.00017523908, y: 0.0042629587, z: -0.004405117, w: -0.0052799713}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:r_shoulderTendon2_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: 0.9995661, y: -0.0040729013, z: -0.026931286, w: 0.011216228}
+        inSlope: {x: -0.00010013612, y: 0.00695441, z: -0.008685467, w: -0.009135367}
+        outSlope: {x: -0.00010013612, y: 0.00695441, z: -0.008685467, w: -0.009135367}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: 0.999564, y: -0.003932878, z: -0.027104938, w: 0.011032011}
+        inSlope: {x: -6.2585386E-05, y: 0.0042007365, z: -0.0052096187, w: -0.005526541}
+        outSlope: {x: -6.2585386E-05, y: 0.0042007365, z: -0.0052096187, w: -0.005526541}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:r_legTendon2_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: 0.50388557, y: -0.50388557, z: -0.49608403, w: 0.49608403}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: 0.50388557, y: -0.50388557, z: -0.49608403, w: 0.49608403}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:r_roketBay_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: -0.24249046, y: 0.91479254, z: 0.29083547, w: 0.14059763}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: -0.24249046, y: 0.91479254, z: 0.29083547, w: 0.14059763}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:r_coreGuard1_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: -0.6895185, y: 0.6910582, z: 0.15444177, w: -0.15215297}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: -0.6895185, y: 0.6910582, z: 0.15444177, w: -0.15215297}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:r_coreGuard2_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: 0, y: -0, z: -0, w: 1}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: 0, y: -0, z: -0, w: 1}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:l_clav_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: -0.12741162, y: -0.6673661, z: 0.12071259, w: 0.7237522}
+        inSlope: {x: 0.026060198, y: -0.0055280486, z: -0.02365738, w: 0.0034600608}
+        outSlope: {x: 0.026060198, y: -0.0055280486, z: -0.02365738, w: 0.0034600608}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: -0.12690446, y: -0.66746694, z: 0.12025629, w: 0.72382426}
+        inSlope: {x: 0.015214954, y: -0.0030255562, z: -0.013689212, w: 0.002161878}
+        outSlope: {x: 0.015214954, y: -0.0030255562, z: -0.013689212, w: 0.002161878}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:l_clav_joint/ANIM:MESH:GAME:l_shoulder_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: 0.0021136224, y: -0.0021057613, z: 0.9125203, w: 0.40902066}
+        inSlope: {x: -0.00013889553, y: 1.8936173E-05, z: -0.011310015, w: 0.025261119}
+        outSlope: {x: -0.00013889553, y: 1.8936173E-05, z: -0.011310015, w: 0.025261119}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: 0.0021110056, y: -0.0021054018, z: 0.9123068, w: 0.40949667}
+        inSlope: {x: -7.850414E-05, y: 1.0784803E-05, z: -0.0064051673, w: 0.014280196}
+        outSlope: {x: -7.850414E-05, y: 1.0784803E-05, z: -0.0064051673, w: 0.014280196}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:l_clav_joint/ANIM:MESH:GAME:l_shoulder_joint/ANIM:MESH:GAME:l_foreArm_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: 0.0063789804, y: 0.0032141563, z: -0.7250368, w: 0.6886731}
+        inSlope: {x: 0.00024308987, y: 0.0005310964, z: 0.011135671, w: 0.011723971}
+        outSlope: {x: 0.00024308987, y: 0.0005310964, z: 0.011135671, w: 0.011723971}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: 0.0063835536, y: 0.003224163, z: -0.7248269, w: 0.6888939}
+        inSlope: {x: 0.00013719889, y: 0.0003002073, z: 0.006297878, w: 0.00662511}
+        outSlope: {x: 0.00013719889, y: 0.0003002073, z: 0.006297878, w: 0.00662511}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:l_clav_joint/ANIM:MESH:GAME:l_shoulder_joint/ANIM:MESH:GAME:l_foreArm_joint/ANIM:MESH:GAME:l_hand_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: -0.01507341, y: -0.013377469, z: -0.12703064, w: 0.99169403}
+        inSlope: {x: 0.0008425926, y: 0.001540151, z: 0.016280163, w: 0.0021225277}
+        outSlope: {x: 0.0008425926, y: 0.001540151, z: 0.016280163, w: 0.0021225277}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: -0.01506425, y: -0.013351627, z: -0.1267312, w: 0.99173284}
+        inSlope: {x: 0.0002748169, y: 0.00077527645, z: 0.008983238, w: 0.0011640881}
+        outSlope: {x: 0.0002748169, y: 0.00077527645, z: 0.008983238, w: 0.0011640881}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:l_clav_joint/ANIM:MESH:GAME:l_shoulder_joint/ANIM:MESH:GAME:l_foreArm_joint/ANIM:MESH:GAME:l_hand_joint/ANIM:MESH:GAME:l_handTip_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: 1, y: 0, z: 0, w: -6.123234E-17}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: 1, y: 0, z: 0, w: -6.123234E-17}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:r_clav_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: -0.09036284, y: -0.6811821, z: 0.076701194, w: 0.72245586}
+        inSlope: {x: 0.026746847, y: -0.004974619, z: -0.024051331, w: 0.0012356075}
+        outSlope: {x: 0.026746847, y: -0.004974619, z: -0.024051331, w: 0.0012356075}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: -0.08984863, y: -0.6812829, z: 0.07623256, w: 0.72247463}
+        inSlope: {x: 0.015426403, y: -0.003023768, z: -0.014059136, w: 0.00056326843}
+        outSlope: {x: 0.015426403, y: -0.003023768, z: -0.014059136, w: 0.00056326843}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:r_clav_joint/ANIM:MESH:GAME:r_shoulder_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: 0.0024558548, y: -0.0021336072, z: 0.93776685, w: 0.34725034}
+        inSlope: {x: -0.00015572226, y: 4.7008652E-06, z: -0.010299713, w: 0.027853481}
+        outSlope: {x: -0.00015572226, y: 4.7008652E-06, z: -0.010299713, w: 0.027853481}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: 0.0024529216, y: -0.0021335157, z: 0.93757236, w: 0.34777513}
+        inSlope: {x: -8.799673E-05, y: 2.7450956E-06, z: -0.005834746, w: 0.015743801}
+        outSlope: {x: -8.799673E-05, y: 2.7450956E-06, z: -0.005834746, w: 0.015743801}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:r_clav_joint/ANIM:MESH:GAME:r_shoulder_joint/ANIM:MESH:GAME:r_foreArm_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: 0.005743306, y: 0.0019169085, z: -0.7513378, w: 0.65989}
+        inSlope: {x: 0.00030746308, y: 0.0005875173, z: 0.011447702, w: 0.013035575}
+        outSlope: {x: 0.00030746308, y: 0.0005875173, z: 0.011447702, w: 0.013035575}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: 0.00574909, y: 0.0019279759, z: -0.751122, w: 0.66013557}
+        inSlope: {x: 0.00017352078, y: 0.00033202383, z: 0.006474905, w: 0.0073671937}
+        outSlope: {x: 0.00017352078, y: 0.00033202383, z: 0.006474905, w: 0.0073671937}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:r_clav_joint/ANIM:MESH:GAME:r_shoulder_joint/ANIM:MESH:GAME:r_foreArm_joint/ANIM:MESH:GAME:r_hand_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: -0.015031937, y: -0.017745648, z: -0.09702989, w: 0.9950097}
+        inSlope: {x: 0.0016199204, y: 0.001913399, z: 0.017653346, w: 0.0017845684}
+        outSlope: {x: 0.0016199204, y: 0.001913399, z: 0.017653346, w: 0.0017845684}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: -0.014992384, y: -0.017706873, z: -0.096705146, w: 0.9950426}
+        inSlope: {x: 0.0011865798, y: 0.00116325, z: 0.009742309, w: 0.000987061}
+        outSlope: {x: 0.0011865798, y: 0.00116325, z: 0.009742309, w: 0.000987061}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:r_clav_joint/ANIM:MESH:GAME:r_shoulder_joint/ANIM:MESH:GAME:r_foreArm_joint/ANIM:MESH:GAME:r_hand_joint/ANIM:MESH:GAME:r_handTip_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: 1, y: 0, z: 0, w: -6.123234E-17}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: 1, y: 0, z: 0, w: -6.123234E-17}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:r_legTendon1_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: 0.048734844, y: -0.6457407, z: 0.2551047, w: 0.7180289}
+        inSlope: {x: 0.017082706, y: -0.002235181, z: -0.011885799, w: 0.0010612637}
+        outSlope: {x: 0.017082706, y: -0.002235181, z: -0.011885799, w: 0.0010612637}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: 0.04907918, y: -0.6457837, z: 0.25487623, w: 0.71804786}
+        inSlope: {x: 0.010330165, y: -0.0012910471, z: -0.0068539935, w: 0.0005686329}
+        outSlope: {x: 0.010330165, y: -0.0012910471, z: -0.0068539935, w: 0.0005686329}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:r_legTendon1_joint/ANIM:MESH:GAME:r_leg_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: 0.016954366, y: -0.038559586, z: -0.6651649, w: 0.7455075}
+        inSlope: {x: 0.0014616689, y: -0.0061517777, z: -0.019928876, w: -0.018119274}
+        outSlope: {x: 0.0014616689, y: -0.0061517777, z: -0.019928876, w: -0.018119274}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: 0.016984522, y: -0.0386872, z: -0.6655779, w: 0.7451315}
+        inSlope: {x: 0.0009046941, y: -0.0038284373, z: -0.012390118, w: -0.011279674}
+        outSlope: {x: 0.0009046941, y: -0.0038284373, z: -0.012390118, w: -0.011279674}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:r_legTendon1_joint/ANIM:MESH:GAME:r_leg_joint/ANIM:MESH:GAME:r_calf_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: -0.37755594, y: -0.6084549, z: 0.32474306, w: 0.61788034}
+        inSlope: {x: 0.009877713, y: -0.017035658, z: 0.0038637344, w: -0.012757521}
+        outSlope: {x: 0.009877713, y: -0.017035658, z: 0.0038637344, w: -0.012757521}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: -0.37735114, y: -0.60880804, z: 0.32482308, w: 0.6176156}
+        inSlope: {x: 0.0061440966, y: -0.010594811, z: 0.0024005966, w: -0.007942979}
+        outSlope: {x: 0.0061440966, y: -0.010594811, z: 0.0024005966, w: -0.007942979}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:r_legTendon1_joint/ANIM:MESH:GAME:r_leg_joint/ANIM:MESH:GAME:r_calf_joint/ANIM:MESH:GAME:r_foot_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: -0.2505369, y: -0.14141272, z: 0.28233802, w: 0.9151606}
+        inSlope: {x: 0.0135215055, y: 0.002217522, z: 0.0029231706, w: 0.0031453467}
+        outSlope: {x: 0.0135215055, y: 0.002217522, z: 0.0029231706, w: 0.0031453467}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: -0.2502578, y: -0.14137948, z: 0.28240448, w: 0.91522163}
+        inSlope: {x: 0.00837303, y: 0.0009973428, z: 0.0019937914, w: 0.0018310696}
+        outSlope: {x: 0.00837303, y: 0.0009973428, z: 0.0019937914, w: 0.0018310696}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:r_legTendon1_joint/ANIM:MESH:GAME:r_leg_joint/ANIM:MESH:GAME:r_calf_joint/ANIM:MESH:GAME:r_foot_joint/ANIM:MESH:GAME:r_footTip_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: -0.0025693995, y: 0.031917214, z: 0.03194094, w: 0.9989767}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: -0.0025693995, y: 0.031917214, z: 0.03194094, w: 0.9989767}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:r_legTendon1_joint/ANIM:MESH:GAME:r_leg_joint/ANIM:MESH:GAME:r_calfSlide_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: -0.009647842, y: 0.21437918, z: -0.0624644, w: 0.9747034}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: -0.009647842, y: 0.21437918, z: -0.0624644, w: 0.9747034}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:r_legTendon1_joint/ANIM:MESH:GAME:r_leg_joint/ANIM:MESH:GAME:r_legBall_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: -0.04050078, y: 0.016217716, z: 0.116317205, w: 0.9922535}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: -0.04050078, y: 0.016217716, z: 0.116317205, w: 0.9922535}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:r_legTendon1_joint/ANIM:MESH:GAME:r_leg_joint/ANIM:MESH:GAME:r_legBall_joint/ANIM:MESH:GAME:r_legPlate1_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: 3.2007537E-07, y: -0.102461934, z: -0.0030696124, w: 0.9947322}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: 3.2007537E-07, y: -0.102461934, z: -0.0030696124, w: 0.9947322}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:r_legTendon1_joint/ANIM:MESH:GAME:r_leg_joint/ANIM:MESH:GAME:r_legBall_joint/ANIM:MESH:GAME:r_legPlate1_joint/ANIM:MESH:GAME:r_legPlate2_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: 0.8446814, y: 0.5270239, z: -0.083452106, w: 0.04236626}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: 0.8446814, y: 0.5270239, z: -0.083452106, w: 0.04236626}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:r_shoulderBall_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: 0.5346068, y: 0.30051863, z: 0.35214725, w: 0.7070194}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: 0.5346068, y: 0.30051863, z: 0.35214725, w: 0.7070194}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:r_shoulderBall_joint/ANIM:MESH:GAME:r_shoulderPlate1_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: 0.20123975, y: 2.9753764E-06, z: 3.3795706E-05, w: 0.979542}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: 0.20123975, y: 2.9753764E-06, z: 3.3795706E-05, w: 0.979542}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:r_shoulderBall_joint/ANIM:MESH:GAME:r_shoulderPlate1_joint/ANIM:MESH:GAME:r_shoulderPlate2_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: 5.63591E-07, y: -4.1729228E-11, z: -7.0780526E-10, w: 1}
+        inSlope: {x: 0, y: 1.301064E-15, z: 8.326621E-16, w: 0}
+        outSlope: {x: 0, y: 1.301064E-15, z: 8.326621E-16, w: 0}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: 5.63591E-07, y: -4.172904E-11, z: -7.078053E-10, w: 1}
+        inSlope: {x: 0, y: 5.62055E-15, z: -1.6653481E-15, w: 0}
+        outSlope: {x: 0, y: 5.62055E-15, z: -1.6653481E-15, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:r_shoulderBall_joint/ANIM:MESH:GAME:r_shoulderPlate1_joint/ANIM:MESH:GAME:r_shoulderPlate2_joint/ANIM:MESH:GAME:r_shoulderPlateTip_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: 5.63591E-07, y: -4.1729228E-11, z: -7.0780526E-10, w: 1}
+        inSlope: {x: 0, y: 1.301064E-15, z: 8.326621E-16, w: 0}
+        outSlope: {x: 0, y: 1.301064E-15, z: 8.326621E-16, w: 0}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: 5.63591E-07, y: -4.172904E-11, z: -7.078053E-10, w: 1}
+        inSlope: {x: 0, y: 5.62055E-15, z: -1.6653481E-15, w: 0}
+        outSlope: {x: 0, y: 5.62055E-15, z: -1.6653481E-15, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:r_shoulderBall_joint/ANIM:MESH:GAME:r_shoulderPlate1_joint/ANIM:MESH:GAME:r_shoulderPlate2_joint/ANIM:MESH:GAME:r_shoulderPlateTipPop_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: 0.046326183, y: 2.2372158E-06, z: 2.761533E-06, w: 0.9989264}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: 0.046326183, y: 2.2372158E-06, z: 2.761533E-06, w: 0.9989264}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:r_shoulderBall_joint/ANIM:MESH:GAME:r_shoulderPlate1_joint/ANIM:MESH:GAME:r_shoulderPlate2_joint/ANIM:MESH:GAME:r_gun_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: -0.04236608, y: -0.083451554, z: -0.52702343, w: 0.84468174}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: -0.04236608, y: -0.083451554, z: -0.52702343, w: 0.84468174}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:l_shoulderBall_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: 0.5346069, y: 0.30051854, z: 0.3521474, w: 0.70701927}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: 0.5346069, y: 0.30051854, z: 0.3521474, w: 0.70701927}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:l_shoulderBall_joint/ANIM:MESH:GAME:l_shoulderPlate1_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: 0.16442688, y: 6.636559E-06, z: 2.882501E-05, w: 0.9863893}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: 0.16442688, y: 6.636559E-06, z: 2.882501E-05, w: 0.9863893}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:l_shoulderBall_joint/ANIM:MESH:GAME:l_shoulderPlate1_joint/ANIM:MESH:GAME:l_shoulderPlate2_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: 6.815934E-17, y: 5.9263534E-17, z: -4.0307704E-17, w: 1}
+        inSlope: {x: 2.0817181E-15, y: 1.4613902E-16, z: -6.761525E-16, w: 0}
+        outSlope: {x: 2.0817181E-15, y: 1.4613902E-16, z: -6.761525E-16, w: 0}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: -1.509394E-17, y: -1.405615E-17, z: -4.118585E-17, w: 1}
+        inSlope: {x: -2.4976187E-15, y: -2.1996082E-15, z: -2.634456E-17, w: 0}
+        outSlope: {x: -2.4976187E-15, y: -2.1996082E-15, z: -2.634456E-17, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:l_shoulderBall_joint/ANIM:MESH:GAME:l_shoulderPlate1_joint/ANIM:MESH:GAME:l_shoulderPlate2_joint/ANIM:MESH:GAME:l_shoulderPlateTip_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: 6.815934E-17, y: 5.9263534E-17, z: -4.0307704E-17, w: 1}
+        inSlope: {x: 2.0817181E-15, y: 1.4613902E-16, z: -6.761525E-16, w: 0}
+        outSlope: {x: 2.0817181E-15, y: 1.4613902E-16, z: -6.761525E-16, w: 0}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: -1.509394E-17, y: -1.405615E-17, z: -4.118585E-17, w: 1}
+        inSlope: {x: -2.4976187E-15, y: -2.1996082E-15, z: -2.634456E-17, w: 0}
+        outSlope: {x: -2.4976187E-15, y: -2.1996082E-15, z: -2.634456E-17, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:l_shoulderBall_joint/ANIM:MESH:GAME:l_shoulderPlate1_joint/ANIM:MESH:GAME:l_shoulderPlate2_joint/ANIM:MESH:GAME:l_shoulderPlateTipPop_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: 0.046326146, y: 2.8248746E-06, z: 3.252076E-06, w: 0.9989264}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: 0.046326146, y: 2.8248746E-06, z: 3.252076E-06, w: 0.9989264}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:l_shoulderBall_joint/ANIM:MESH:GAME:l_shoulderPlate1_joint/ANIM:MESH:GAME:l_shoulderPlate2_joint/ANIM:MESH:GAME:l_gun_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: -0.24750426, y: -0.13468812, z: -0.015042987, w: 0.9593615}
+        inSlope: {x: 0.029502155, y: 0.000796395, z: -0.004427181, w: 0.007667565}
+        outSlope: {x: 0.029502155, y: 0.000796395, z: -0.004427181, w: 0.007667565}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: -0.24692306, y: -0.13467239, z: -0.015130173, w: 0.9595121}
+        inSlope: {x: 0.017436288, y: 0.0004720726, z: -0.002615622, w: 0.004518665}
+        outSlope: {x: 0.017436288, y: 0.0004720726, z: -0.002615622, w: 0.004518665}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:r_iK_target_foot
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: -0.12981142, y: -0.044728607, z: 0.0040181982, w: 0.9905212}
+        inSlope: {x: 0.030500162, y: 0.00017652342, z: -0.0016968028, w: 0.004025114}
+        outSlope: {x: 0.030500162, y: 0.00017652342, z: -0.0016968028, w: 0.004025114}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: -0.1292106, y: -0.0447251, z: 0.0039847833, w: 0.99060005}
+        inSlope: {x: 0.01802459, y: 0.0001051658, z: -0.0010024558, w: 0.0023657274}
+        outSlope: {x: 0.01802459, y: 0.0001051658, z: -0.0010024558, w: 0.0023657274}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:r_iK_target_hand
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: -0.18811637, y: 0.04393905, z: -0.009272314, w: 0.9811196}
+        inSlope: {x: 0.030238423, y: 0.0006055664, z: 0.0010531335, w: 0.0057944832}
+        outSlope: {x: 0.030238423, y: 0.0006055664, z: 0.0010531335, w: 0.0057944832}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: -0.18752068, y: 0.04395097, z: -0.009251558, w: 0.9812333}
+        inSlope: {x: 0.01787081, y: 0.00035763078, z: 0.0006226687, w: 0.0034117976}
+        outSlope: {x: 0.01787081, y: 0.00035763078, z: 0.0006226687, w: 0.0034117976}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:l_iK_target_hand
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: -0.32469884, y: 0.058165982, z: -0.007854477, w: 0.9439945}
+        inSlope: {x: 0.029098034, y: 0.0006010402, z: 0.0015397883, w: 0.009998412}
+        outSlope: {x: 0.029098034, y: 0.0006010402, z: 0.0015397883, w: 0.009998412}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: -0.32412556, y: 0.058177806, z: -0.007824136, w: 0.9441911}
+        inSlope: {x: 0.017198464, y: 0.00035472502, z: 0.0009102262, w: 0.0058973315}
+        outSlope: {x: 0.017198464, y: 0.00035472502, z: 0.0009102262, w: 0.0058973315}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:l_iK_target_foot
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: 0.065403126, y: -0, z: -0, w: 0.99785894}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: 0.065403126, y: -0, z: -0, w: 0.99785894}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:centerOfView
+  m_CompressedRotationCurves: []
+  m_PositionCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -0, y: 0, z: 0}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: -0, y: 0, z: 0}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0.6500319, y: 27.980421, z: 183.50298}
+        inSlope: {x: -0.85228443, y: 1.9733526, z: 1.419766}
+        outSlope: {x: -0.8522896, y: 1.9736499, z: 1.4184802}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: 0.62181956, y: 28.005774, z: 183.52339}
+        inSlope: {x: -0.84637177, y: 0.760575, z: 0.61412317}
+        outSlope: {x: -0.84637177, y: 0.760575, z: 0.61412317}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 1.110223E-16, y: 2.842171E-14, z: -2.842171E-14}
+        inSlope: {x: -6.6612717E-15, y: -4.2632537E-13, z: 8.526397E-13}
+        outSlope: {x: -6.6613737E-15, y: -4.263313E-13, z: 8.5265584E-13}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: -1.110223E-16, y: -1.4210855E-14, z: 0}
+        inSlope: {x: -6.6613437E-15, y: -1.2789772E-12, z: 8.52652E-13}
+        outSlope: {x: -6.6613437E-15, y: -1.2789772E-12, z: 8.52652E-13}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -0.49858713, y: -48.048103, z: 34.00456}
+        inSlope: {x: -1.4869074E-15, y: -5.709724E-13, z: 9.516207E-14}
+        outSlope: {x: -3.4694503E-15, y: -1.3322689E-12, z: 2.2204482E-13}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: -0.49858713, y: -48.048103, z: 34.00456}
+        inSlope: {x: -1.4869074E-15, y: -5.709724E-13, z: 9.516207E-14}
+        outSlope: {x: -1.4869074E-15, y: -5.709724E-13, z: 9.516207E-14}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:c_head1_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -30.507538, y: -5.3276494E-11, z: -5.6741167E-11}
+        inSlope: {x: -1.9032414E-13, y: 2.1366367E-13, z: -2.5673929E-15}
+        outSlope: {x: -4.4408964E-13, y: 2.1377748E-13, z: -3.6776163E-15}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: -30.507538, y: -5.3248073E-11, z: -5.6741348E-11}
+        inSlope: {x: -1.9032414E-13, y: 8.531476E-13, z: -5.6601596E-15}
+        outSlope: {x: -1.9032414E-13, y: 8.531476E-13, z: -5.6601596E-15}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:c_head1_joint/ANIM:MESH:GAME:c_head2_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -24.855043, y: -1.4210855E-13, z: 1.110223E-16}
+        inSlope: {x: -2.854862E-13, y: -2.1315805E-13, z: -1.4571483E-15}
+        outSlope: {x: -6.6613447E-13, y: -2.1316549E-13, z: -1.4571684E-15}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: -24.855043, y: -1.4210855E-13, z: 1.2490009E-16}
+        inSlope: {x: -2.854862E-13, y: -1.4584107E-18, z: 4.163313E-16}
+        outSlope: {x: -2.854862E-13, y: -1.4584107E-18, z: 4.163313E-16}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:c_head1_joint/ANIM:MESH:GAME:c_head2_joint/ANIM:MESH:GAME:c_head3_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -50.50503, y: -10.468102, z: -0.0536854}
+        inSlope: {x: -5.709724E-13, y: -9.516207E-14, z: -1.8586342E-16}
+        outSlope: {x: -1.3322689E-12, y: -2.2204482E-13, z: -4.336813E-16}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: -50.50503, y: -10.468102, z: -0.0536854}
+        inSlope: {x: -5.709724E-13, y: -9.516207E-14, z: -1.8586342E-16}
+        outSlope: {x: -5.709724E-13, y: -9.516207E-14, z: -1.8586342E-16}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:c_head1_joint/ANIM:MESH:GAME:c_head2_joint/ANIM:MESH:GAME:c_head3_joint/ANIM:MESH:GAME:c_headTip_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -84.209496, y: -17.395985, z: -13.705096}
+        inSlope: {x: -1.1419448E-12, y: -1.427431E-13, z: -4.4408964E-13}
+        outSlope: {x: -2.6645379E-12, y: -3.3306723E-13, z: -1.9032414E-13}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: -84.209496, y: -17.395985, z: -13.705096}
+        inSlope: {x: -1.1419448E-12, y: -1.427431E-13, z: -4.4408964E-13}
+        outSlope: {x: -1.1419448E-12, y: -1.427431E-13, z: -4.4408964E-13}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:c_head1_joint/ANIM:MESH:GAME:c_head2_joint/ANIM:MESH:GAME:c_head3_joint/ANIM:MESH:GAME:c_eye_1_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -0, y: 0, z: 0}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: -0, y: 0, z: 0}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:c_head1_joint/ANIM:MESH:GAME:c_head2_joint/ANIM:MESH:GAME:c_head3_joint/ANIM:MESH:GAME:c_eye_1_joint/ANIM:MESH:GAME:c_eye_2_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0.29562712, y: 44.308437, z: 33.544827}
+        inSlope: {x: 6.9389007E-15, y: 1.9032414E-13, z: 9.516207E-14}
+        outSlope: {x: 2.9738147E-15, y: 4.4408964E-13, z: 2.2204482E-13}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: 0.29562712, y: 44.308437, z: 33.544827}
+        inSlope: {x: 6.9389007E-15, y: 1.9032414E-13, z: 9.516207E-14}
+        outSlope: {x: 6.9389007E-15, y: 1.9032414E-13, z: 9.516207E-14}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:c_tail1_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -21.962158, y: -0.059044726, z: -0.0009118632}
+        inSlope: {x: -9.516207E-14, y: 2.8737983E-07, z: -0}
+        outSlope: {x: -2.2204482E-13, y: -8.673626E-16, z: -0}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: -21.962158, y: -0.059044726, z: -0.0009118632}
+        inSlope: {x: -9.516207E-14, y: -3.7172684E-16, z: -0}
+        outSlope: {x: -9.516207E-14, y: -3.7172684E-16, z: -0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:c_tail1_joint/ANIM:MESH:GAME:c_tail2_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -24.654678, y: 0.054731663, z: 2.8610366E-06}
+        inSlope: {x: -1.9032414E-13, y: 1.8586342E-16, z: 2.2688406E-20}
+        outSlope: {x: -4.4408964E-13, y: 4.336813E-16, z: 5.293961E-20}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: -24.654678, y: 0.054731663, z: 2.8610366E-06}
+        inSlope: {x: -1.9032414E-13, y: 1.8586342E-16, z: 2.2688406E-20}
+        outSlope: {x: -1.9032414E-13, y: 1.8586342E-16, z: 2.2688406E-20}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:c_tail1_joint/ANIM:MESH:GAME:c_tail2_joint/ANIM:MESH:GAME:c_tail3_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -0.7482521, y: -55.336678, z: -25.800894}
+        inSlope: {x: -0, y: -5.709724E-13, z: -9.516207E-14}
+        outSlope: {x: -0, y: -1.3322689E-12, z: -2.2204482E-13}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: -0.7482521, y: -55.336678, z: -25.800894}
+        inSlope: {x: -0, y: -5.709724E-13, z: -9.516207E-14}
+        outSlope: {x: -0, y: -5.709724E-13, z: -9.516207E-14}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:c_chest_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -0, y: -31.539968, z: 53.57074}
+        inSlope: {x: -6.430745E-21, y: -0, z: 1.7763586E-12}
+        outSlope: {x: -0, y: -0, z: 7.6129657E-13}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: -0, y: -31.539968, z: 53.57074}
+        inSlope: {x: -0, y: -0, z: 1.7763586E-12}
+        outSlope: {x: -0, y: -0, z: 1.7763586E-12}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:c_top_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -1.1278306, y: 62.651237, z: -26.897188}
+        inSlope: {x: -2.9738147E-15, y: 3.8064829E-13, z: -8.881793E-13}
+        outSlope: {x: -6.9389007E-15, y: 8.881793E-13, z: -3.8064829E-13}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: -1.1278306, y: 62.651237, z: -26.897188}
+        inSlope: {x: -2.9738147E-15, y: 3.8064829E-13, z: -8.881793E-13}
+        outSlope: {x: -2.9738147E-15, y: 3.8064829E-13, z: -8.881793E-13}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:c_back_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -0.7699727, y: 1.9730419, z: -63.54516}
+        inSlope: {x: -0, y: 1.1895259E-14, z: -3.8064829E-13}
+        outSlope: {x: -0, y: 2.7755603E-14, z: -8.881793E-13}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: -0.7699727, y: 1.9730419, z: -63.54516}
+        inSlope: {x: -0, y: 1.1895259E-14, z: -3.8064829E-13}
+        outSlope: {x: -0, y: 1.1895259E-14, z: -3.8064829E-13}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:c_btmCore_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -36.142242, y: -51.463764, z: 9.516172}
+        inSlope: {x: -1.9032414E-13, y: -3.8064829E-13, z: -0}
+        outSlope: {x: -4.4408964E-13, y: -8.881793E-13, z: -0}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: -36.142242, y: -51.463764, z: 9.516172}
+        inSlope: {x: -1.9032414E-13, y: -3.8064829E-13, z: -0}
+        outSlope: {x: -1.9032414E-13, y: -3.8064829E-13, z: -0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:l_shoulderTendon1_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -29.677769, y: -55.14391, z: 13.662336}
+        inSlope: {x: -1.9032414E-13, y: -5.709724E-13, z: 1.9032414E-13}
+        outSlope: {x: -4.4408964E-13, y: -1.3322689E-12, z: 4.4408964E-13}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: -29.677769, y: -55.14391, z: 13.662336}
+        inSlope: {x: -1.9032414E-13, y: -5.709724E-13, z: 1.9032414E-13}
+        outSlope: {x: -1.9032414E-13, y: -5.709724E-13, z: 1.9032414E-13}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:l_shoulderTendon2_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -33.31106, y: 48.610687, z: -13.60161}
+        inSlope: {x: -1.9032414E-13, y: 1.7763586E-12, z: -1.427431E-13}
+        outSlope: {x: -4.4408964E-13, y: 7.6129657E-13, z: -3.3306723E-13}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: -33.31106, y: 48.610687, z: -13.60161}
+        inSlope: {x: -1.9032414E-13, y: 1.7763586E-12, z: -1.427431E-13}
+        outSlope: {x: -1.9032414E-13, y: 1.7763586E-12, z: -1.427431E-13}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:l_legTendon1_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -80.914154, y: 37.3013, z: -32.650272}
+        inSlope: {x: -2.1570068E-12, y: 1.9032414E-13, z: -1.9032414E-13}
+        outSlope: {x: -1.6494758E-12, y: 4.4408964E-13, z: -4.4408964E-13}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: -80.914154, y: 37.3013, z: -32.650272}
+        inSlope: {x: -2.1570068E-12, y: 1.9032414E-13, z: -1.9032414E-13}
+        outSlope: {x: -2.1570068E-12, y: 1.9032414E-13, z: -1.9032414E-13}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:l_legTendon1_joint/ANIM:MESH:GAME:l_leg_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -75.54005, y: -3.9522903, z: -6.2383133E-06}
+        inSlope: {x: -3.8064829E-13, y: -1.839231E-05, z: -9.633713E-07}
+        outSlope: {x: -8.881793E-13, y: -1.839231E-05, z: -9.634994E-07}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: -75.54005, y: -3.95229, z: -6.258481E-06}
+        inSlope: {x: -3.8064829E-13, y: -1.839231E-05, z: -6.050932E-07}
+        outSlope: {x: -3.8064829E-13, y: -1.839231E-05, z: -6.050932E-07}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:l_legTendon1_joint/ANIM:MESH:GAME:l_leg_joint/ANIM:MESH:GAME:l_calf_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -114.93579, y: 6.3189893, z: 0.00023812239}
+        inSlope: {x: -3.8064829E-13, y: 4.7581036E-14, z: 1.3928273E-09}
+        outSlope: {x: -8.881793E-13, y: 1.1102241E-13, z: -1.1225775E-09}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: -114.93579, y: 6.3189893, z: 0.0002381224}
+        inSlope: {x: -3.8064829E-13, y: 4.7581036E-14, z: -1.1225775E-09}
+        outSlope: {x: -3.8064829E-13, y: 4.7581036E-14, z: -1.1225775E-09}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:l_legTendon1_joint/ANIM:MESH:GAME:l_leg_joint/ANIM:MESH:GAME:l_calf_joint/ANIM:MESH:GAME:l_foot_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -58.295937, y: -0.00051672145, z: 0.00021448241}
+        inSlope: {x: -5.709724E-13, y: -3.5275532E-06, z: -8.24113E-06}
+        outSlope: {x: -1.3322689E-12, y: -3.5184898E-06, z: -8.242773E-06}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: -58.295937, y: -0.0005167973, z: 0.00021430754}
+        inSlope: {x: -5.709724E-13, y: -2.2628662E-06, z: -5.2471546E-06}
+        outSlope: {x: -5.709724E-13, y: -2.2628662E-06, z: -5.2471546E-06}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:l_legTendon1_joint/ANIM:MESH:GAME:l_leg_joint/ANIM:MESH:GAME:l_calf_joint/ANIM:MESH:GAME:l_foot_joint/ANIM:MESH:GAME:l_footTip_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -75.53998, y: -3.9523373, z: 7.247536E-13}
+        inSlope: {x: -3.8064829E-13, y: -2.3790518E-14, z: 2.0250323E-12}
+        outSlope: {x: -8.881793E-13, y: -5.5511205E-14, z: 2.0250568E-12}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: -75.53998, y: -3.9523373, z: 7.81597E-13}
+        inSlope: {x: -3.8064829E-13, y: -2.3790518E-14, z: 1.705302E-12}
+        outSlope: {x: -3.8064829E-13, y: -2.3790518E-14, z: 1.705302E-12}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:l_legTendon1_joint/ANIM:MESH:GAME:l_leg_joint/ANIM:MESH:GAME:l_calfSlide_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 33.120846, y: 2.4879751, z: -14.160287}
+        inSlope: {x: 9.516207E-14, y: -3.1720686E-14, z: -0}
+        outSlope: {x: 2.2204482E-13, y: 3.1720686E-14, z: -0}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: 33.120846, y: 2.4879751, z: -14.160287}
+        inSlope: {x: 9.516207E-14, y: -3.1720686E-14, z: -0}
+        outSlope: {x: 9.516207E-14, y: -3.1720686E-14, z: -0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:l_legTendon1_joint/ANIM:MESH:GAME:l_leg_joint/ANIM:MESH:GAME:l_legBall_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -0.00014343418, y: -0.00011417791, z: 42.36052}
+        inSlope: {x: -7.26029E-19, y: -3.630145E-19, z: -0}
+        outSlope: {x: -1.6940675E-18, y: -8.470338E-19, z: -0}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: -0.00014343418, y: -0.00011417791, z: 42.36052}
+        inSlope: {x: -7.26029E-19, y: -3.630145E-19, z: -0}
+        outSlope: {x: -7.26029E-19, y: -3.630145E-19, z: -0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:l_legTendon1_joint/ANIM:MESH:GAME:l_leg_joint/ANIM:MESH:GAME:l_legBall_joint/ANIM:MESH:GAME:l_legPlate1_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -40.22048, y: -4.2514614E-10, z: 0.298502}
+        inSlope: {x: -1.9032414E-13, y: 2.0931675E-13, z: 2.9738147E-15}
+        outSlope: {x: -4.4408964E-13, y: 2.110616E-13, z: 6.9389007E-15}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: -40.22048, y: -4.2516035E-10, z: 0.298502}
+        inSlope: {x: -1.9032414E-13, y: -4.2731725E-13, z: 2.9738147E-15}
+        outSlope: {x: -1.9032414E-13, y: -4.2731725E-13, z: 2.9738147E-15}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:l_legTendon1_joint/ANIM:MESH:GAME:l_leg_joint/ANIM:MESH:GAME:l_legBall_joint/ANIM:MESH:GAME:l_legPlate1_joint/ANIM:MESH:GAME:l_legPlate2_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -34.638496, y: 50.795593, z: -50.009453}
+        inSlope: {x: -2.854862E-13, y: 1.9032414E-13, z: -1.7763586E-12}
+        outSlope: {x: -6.6613447E-13, y: 4.4408964E-13, z: -7.6129657E-13}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: -34.638496, y: 50.795593, z: -50.009453}
+        inSlope: {x: -2.854862E-13, y: 1.9032414E-13, z: -1.7763586E-12}
+        outSlope: {x: -2.854862E-13, y: 1.9032414E-13, z: -1.7763586E-12}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:l_legTendon2_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -34.2611, y: -0.60849684, z: 53.198147}
+        inSlope: {x: -9.516207E-14, y: -2.9738147E-15, z: 5.709724E-13}
+        outSlope: {x: -2.2204482E-13, y: -6.9389007E-15, z: 1.3322689E-12}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: -34.2611, y: -0.60849684, z: 53.198147}
+        inSlope: {x: -9.516207E-14, y: -2.9738147E-15, z: 5.709724E-13}
+        outSlope: {x: -9.516207E-14, y: -2.9738147E-15, z: 5.709724E-13}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:l_roketBay_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -37.58429, y: -73.22549, z: -43.078823}
+        inSlope: {x: -3.8064829E-13, y: -3.8064829E-13, z: -1.9032414E-13}
+        outSlope: {x: -8.881793E-13, y: -8.881793E-13, z: -4.4408964E-13}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: -37.58429, y: -73.22549, z: -43.078823}
+        inSlope: {x: -3.8064829E-13, y: -3.8064829E-13, z: -1.9032414E-13}
+        outSlope: {x: -3.8064829E-13, y: -3.8064829E-13, z: -1.9032414E-13}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:l_coreGuard1_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -47.359962, y: -1.038003, z: -51.064075}
+        inSlope: {x: -5.709724E-13, y: -8.921444E-15, z: -0}
+        outSlope: {x: -1.3322689E-12, y: -2.0816702E-14, z: -0}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: -47.359962, y: -1.038003, z: -51.064075}
+        inSlope: {x: -5.709724E-13, y: -8.921444E-15, z: -0}
+        outSlope: {x: -5.709724E-13, y: -8.921444E-15, z: -0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:l_coreGuard2_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 36.1422, y: -51.4638, z: 9.516428}
+        inSlope: {x: 2.854862E-13, y: -1.7763586E-12, z: -0}
+        outSlope: {x: 6.6613447E-13, y: -7.6129657E-13, z: -0}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: 36.1422, y: -51.4638, z: 9.516428}
+        inSlope: {x: 2.854862E-13, y: -1.7763586E-12, z: -0}
+        outSlope: {x: 2.854862E-13, y: -1.7763586E-12, z: -0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:r_shoulderTendon1_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 29.6778, y: -55.1439, z: 13.662428}
+        inSlope: {x: 2.854862E-13, y: -5.709724E-13, z: 9.516207E-14}
+        outSlope: {x: 6.6613447E-13, y: -1.3322689E-12, z: 2.2204482E-13}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: 29.6778, y: -55.1439, z: 13.662428}
+        inSlope: {x: 2.854862E-13, y: -5.709724E-13, z: 9.516207E-14}
+        outSlope: {x: 2.854862E-13, y: -5.709724E-13, z: 9.516207E-14}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:r_shoulderTendon2_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 34.6385, y: 50.7956, z: -50.00957}
+        inSlope: {x: 2.854862E-13, y: 1.9032414E-13, z: -1.9032414E-13}
+        outSlope: {x: 6.6613447E-13, y: 4.4408964E-13, z: -4.4408964E-13}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: 34.6385, y: 50.7956, z: -50.00957}
+        inSlope: {x: 2.854862E-13, y: 1.9032414E-13, z: -1.9032414E-13}
+        outSlope: {x: 2.854862E-13, y: 1.9032414E-13, z: -1.9032414E-13}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:r_legTendon2_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 34.2611, y: -0.608497, z: 53.19843}
+        inSlope: {x: 9.516207E-14, y: -5.9476295E-15, z: 3.8064829E-13}
+        outSlope: {x: 2.2204482E-13, y: -1.3877801E-14, z: 8.881793E-13}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: 34.2611, y: -0.608497, z: 53.19843}
+        inSlope: {x: 9.516207E-14, y: -5.9476295E-15, z: 3.8064829E-13}
+        outSlope: {x: 9.516207E-14, y: -5.9476295E-15, z: 3.8064829E-13}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:r_roketBay_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 37.668163, y: -73.22549, z: -43.078823}
+        inSlope: {x: 1.9032414E-13, y: -3.8064829E-13, z: -1.9032414E-13}
+        outSlope: {x: 4.4408964E-13, y: -8.881793E-13, z: -4.4408964E-13}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: 37.668163, y: -73.22549, z: -43.078823}
+        inSlope: {x: 1.9032414E-13, y: -3.8064829E-13, z: -1.9032414E-13}
+        outSlope: {x: 1.9032414E-13, y: -3.8064829E-13, z: -1.9032414E-13}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:r_coreGuard1_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 47.36, y: -1.038, z: -51.06457}
+        inSlope: {x: -0, y: -5.9476295E-15, z: -5.709724E-13}
+        outSlope: {x: -0, y: -1.3877801E-14, z: -1.3322689E-12}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: 47.36, y: -1.038, z: -51.06457}
+        inSlope: {x: -0, y: -5.9476295E-15, z: -5.709724E-13}
+        outSlope: {x: -0, y: -5.9476295E-15, z: -5.709724E-13}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:r_coreGuard2_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -34.553455, y: -55.179485, z: 9.267485}
+        inSlope: {x: -1.9032414E-13, y: -3.8064829E-13, z: -0}
+        outSlope: {x: -4.4408964E-13, y: -8.881793E-13, z: -0}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: -34.553455, y: -55.179485, z: 9.267485}
+        inSlope: {x: -1.9032414E-13, y: -3.8064829E-13, z: -0}
+        outSlope: {x: -1.9032414E-13, y: -3.8064829E-13, z: -0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:l_clav_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -77.14764, y: -36.285355, z: 2.539821}
+        inSlope: {x: 1.015062E-12, y: -2.854862E-13, z: 1.1895259E-14}
+        outSlope: {x: -1.015062E-12, y: -6.6613447E-13, z: 2.7755603E-14}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: -77.14764, y: -36.285355, z: 2.539821}
+        inSlope: {x: 1.015062E-12, y: -2.854862E-13, z: 1.1895259E-14}
+        outSlope: {x: 1.015062E-12, y: -2.854862E-13, z: 1.1895259E-14}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:l_clav_joint/ANIM:MESH:GAME:l_shoulder_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -113.69642, y: -0.8514455, z: 0.16794701}
+        inSlope: {x: -7.6129657E-13, y: 4.5980773E-06, z: -0}
+        outSlope: {x: -1.7763586E-12, y: -6.9389007E-15, z: -0}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: -113.69642, y: -0.8514455, z: 0.16794701}
+        inSlope: {x: -7.6129657E-13, y: -2.9738147E-15, z: -0}
+        outSlope: {x: -7.6129657E-13, y: -2.9738147E-15, z: -0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:l_clav_joint/ANIM:MESH:GAME:l_shoulder_joint/ANIM:MESH:GAME:l_foreArm_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -108.084335, y: -1.263034, z: -5.723872E-07}
+        inSlope: {x: -3.8064829E-13, y: -3.370323E-14, z: 2.5665878E-08}
+        outSlope: {x: -8.881793E-13, y: 9.196155E-06, z: 2.5663201E-08}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: -108.084335, y: -1.2630341, z: -5.7190374E-07}
+        inSlope: {x: -3.8064829E-13, y: 9.196155E-06, z: 1.44894E-08}
+        outSlope: {x: -3.8064829E-13, y: 9.196155E-06, z: 1.44894E-08}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:l_clav_joint/ANIM:MESH:GAME:l_shoulder_joint/ANIM:MESH:GAME:l_foreArm_joint/ANIM:MESH:GAME:l_hand_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -74.97438, y: 0.1993725, z: -2.3570611}
+        inSlope: {x: -3.8064829E-13, y: 3.7891548E-06, z: -1.1895259E-14}
+        outSlope: {x: -8.881793E-13, y: 7.0248398E-06, z: -2.7755603E-14}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: -74.97438, y: 0.19937257, z: -2.3570611}
+        inSlope: {x: -3.8064829E-13, y: 2.767361E-06, z: -1.1895259E-14}
+        outSlope: {x: -3.8064829E-13, y: 2.767361E-06, z: -1.1895259E-14}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:l_clav_joint/ANIM:MESH:GAME:l_shoulder_joint/ANIM:MESH:GAME:l_foreArm_joint/ANIM:MESH:GAME:l_hand_joint/ANIM:MESH:GAME:l_handTip_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 34.5535, y: -55.1795, z: 9.267428}
+        inSlope: {x: 9.516207E-14, y: -1.9032414E-13, z: 9.516207E-14}
+        outSlope: {x: 2.2204482E-13, y: -4.4408964E-13, z: 2.2204482E-13}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: 34.5535, y: -55.1795, z: 9.267428}
+        inSlope: {x: 9.516207E-14, y: -1.9032414E-13, z: 9.516207E-14}
+        outSlope: {x: 9.516207E-14, y: -1.9032414E-13, z: 9.516207E-14}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:r_clav_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 77.1475, y: 36.2853, z: -2.54}
+        inSlope: {x: -1.015062E-12, y: 9.516207E-14, z: -1.1895259E-14}
+        outSlope: {x: 1.015062E-12, y: 2.2204482E-13, z: -2.7755603E-14}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: 77.1475, y: 36.2853, z: -2.54}
+        inSlope: {x: -1.015062E-12, y: 9.516207E-14, z: -1.1895259E-14}
+        outSlope: {x: -1.015062E-12, y: 9.516207E-14, z: -1.1895259E-14}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:r_clav_joint/ANIM:MESH:GAME:r_shoulder_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 113.69701, y: 0.8517293, z: -0.1679999}
+        inSlope: {x: -0, y: -4.5980773E-06, z: -7.434537E-16}
+        outSlope: {x: -0, y: 2.0816702E-14, z: -1.7347252E-15}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: 113.69701, y: 0.8517293, z: -0.1679999}
+        inSlope: {x: -0, y: 8.921444E-15, z: -7.434537E-16}
+        outSlope: {x: -0, y: 8.921444E-15, z: -7.434537E-16}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:r_clav_joint/ANIM:MESH:GAME:r_shoulder_joint/ANIM:MESH:GAME:r_foreArm_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 108.08362, y: 1.2631532, z: -3.1354495E-05}
+        inSlope: {x: 7.6129657E-13, y: 3.370323E-14, z: -1.9577538E-08}
+        outSlope: {x: 1.7763586E-12, y: 2.577306E-14, z: -1.9489189E-08}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: 108.08362, y: 1.2631532, z: -3.135486E-05}
+        inSlope: {x: 7.6129657E-13, y: 3.370323E-14, z: -1.0134378E-08}
+        outSlope: {x: 7.6129657E-13, y: 3.370323E-14, z: -1.0134378E-08}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:r_clav_joint/ANIM:MESH:GAME:r_shoulder_joint/ANIM:MESH:GAME:r_foreArm_joint/ANIM:MESH:GAME:r_hand_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 74.9745, y: -0.19931825, z: 2.3568387}
+        inSlope: {x: -1.015062E-12, y: -7.5357357E-06, z: 2.3790518E-14}
+        outSlope: {x: 1.015062E-12, y: -7.0461265E-06, z: 5.5511205E-14}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: 74.9745, y: -0.19931841, z: 2.3568387}
+        inSlope: {x: -1.015062E-12, y: -4.9173873E-06, z: 2.3790518E-14}
+        outSlope: {x: -1.015062E-12, y: -4.9173873E-06, z: 2.3790518E-14}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:r_clav_joint/ANIM:MESH:GAME:r_shoulder_joint/ANIM:MESH:GAME:r_foreArm_joint/ANIM:MESH:GAME:r_hand_joint/ANIM:MESH:GAME:r_handTip_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 33.3111, y: 48.6107, z: -13.601572}
+        inSlope: {x: 1.9032414E-13, y: -1.2053862E-12, z: -4.4408964E-13}
+        outSlope: {x: 4.4408964E-13, y: 5.7097236E-13, z: -1.9032414E-13}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: 33.3111, y: 48.6107, z: -13.601572}
+        inSlope: {x: 1.9032414E-13, y: -1.2053862E-12, z: -4.4408964E-13}
+        outSlope: {x: 1.9032414E-13, y: -1.2053862E-12, z: -4.4408964E-13}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:r_legTendon1_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 80.9139, y: -37.3013, z: 32.65}
+        inSlope: {x: 7.6129657E-13, y: -1.9032414E-13, z: 9.516207E-14}
+        outSlope: {x: 1.7763586E-12, y: -4.4408964E-13, z: 2.2204482E-13}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: 80.9139, y: -37.3013, z: 32.65}
+        inSlope: {x: 7.6129657E-13, y: -1.9032414E-13, z: 9.516207E-14}
+        outSlope: {x: 7.6129657E-13, y: -1.9032414E-13, z: 9.516207E-14}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:r_legTendon1_joint/ANIM:MESH:GAME:r_leg_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 75.54016, y: 3.952274, z: 0.00012928902}
+        inSlope: {x: -1.015062E-12, y: 1.839231E-05, z: 4.662645E-07}
+        outSlope: {x: 1.015062E-12, y: 5.5511205E-14, z: 4.6884233E-07}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: 75.54016, y: 3.952274, z: 0.00012929874}
+        inSlope: {x: -1.015062E-12, y: 2.3790518E-14, z: 2.9214033E-07}
+        outSlope: {x: -1.015062E-12, y: 2.3790518E-14, z: 2.9214033E-07}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:r_legTendon1_joint/ANIM:MESH:GAME:r_leg_joint/ANIM:MESH:GAME:r_calf_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 114.93538, y: -6.3183665, z: -0.0005064009}
+        inSlope: {x: 7.6129657E-13, y: -7.137155E-14, z: -4.356174E-18}
+        outSlope: {x: 1.7763586E-12, y: -1.6653362E-13, z: -1.0164405E-17}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: 114.93538, y: -6.3183665, z: -0.0005064009}
+        inSlope: {x: 7.6129657E-13, y: -7.137155E-14, z: -4.356174E-18}
+        outSlope: {x: 7.6129657E-13, y: -7.137155E-14, z: -4.356174E-18}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:r_legTendon1_joint/ANIM:MESH:GAME:r_leg_joint/ANIM:MESH:GAME:r_calf_joint/ANIM:MESH:GAME:r_foot_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 58.29578, y: 0.0003540052, z: -0.0009030889}
+        inSlope: {x: -1.015062E-12, y: 1.5276612E-06, z: 6.371249E-06}
+        outSlope: {x: 1.015062E-12, y: 1.5238363E-06, z: 6.3831408E-06}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: 58.29578, y: 0.00035403448, z: -0.0009029592}
+        inSlope: {x: -1.015062E-12, y: 8.710784E-07, z: 3.8968396E-06}
+        outSlope: {x: -1.015062E-12, y: 8.710784E-07, z: 3.8968396E-06}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:r_legTendon1_joint/ANIM:MESH:GAME:r_leg_joint/ANIM:MESH:GAME:r_calf_joint/ANIM:MESH:GAME:r_foot_joint/ANIM:MESH:GAME:r_footTip_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 75.54012, y: 3.9522858, z: 0.0001277032}
+        inSlope: {x: 3.8064829E-13, y: 3.5685776E-14, z: 7.26029E-19}
+        outSlope: {x: 8.881793E-13, y: 8.326681E-14, z: 1.6940675E-18}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: 75.54012, y: 3.9522858, z: 0.0001277032}
+        inSlope: {x: 3.8064829E-13, y: 3.5685776E-14, z: 7.26029E-19}
+        outSlope: {x: 3.8064829E-13, y: 3.5685776E-14, z: 7.26029E-19}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:r_legTendon1_joint/ANIM:MESH:GAME:r_leg_joint/ANIM:MESH:GAME:r_calfSlide_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -33.120785, y: -2.4878576, z: 14.160102}
+        inSlope: {x: -0, y: -5.5511205E-14, z: 4.4408964E-13}
+        outSlope: {x: -0, y: -2.3790518E-14, z: 1.9032414E-13}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: -33.120785, y: -2.4878576, z: 14.160102}
+        inSlope: {x: -0, y: -5.5511205E-14, z: 4.4408964E-13}
+        outSlope: {x: -0, y: -5.5511205E-14, z: 4.4408964E-13}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:r_legTendon1_joint/ANIM:MESH:GAME:r_leg_joint/ANIM:MESH:GAME:r_legBall_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0.00027744682, y: 8.5363594E-05, z: -42.36045}
+        inSlope: {x: 1.452058E-18, y: 3.630145E-19, z: -1.7763586E-12}
+        outSlope: {x: 3.388135E-18, y: 8.470338E-19, z: -7.6129657E-13}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: 0.00027744682, y: 8.5363594E-05, z: -42.36045}
+        inSlope: {x: 1.452058E-18, y: 3.630145E-19, z: -1.7763586E-12}
+        outSlope: {x: 1.452058E-18, y: 3.630145E-19, z: -1.7763586E-12}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:r_legTendon1_joint/ANIM:MESH:GAME:r_leg_joint/ANIM:MESH:GAME:r_legBall_joint/ANIM:MESH:GAME:r_legPlate1_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 40.22055, y: 7.789546E-05, z: -0.29875842}
+        inSlope: {x: 1.9032414E-13, y: 3.630145E-19, z: -1.4869074E-15}
+        outSlope: {x: 4.4408964E-13, y: 8.470338E-19, z: -3.4694503E-15}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: 40.22055, y: 7.789546E-05, z: -0.29875842}
+        inSlope: {x: 1.9032414E-13, y: 3.630145E-19, z: -1.4869074E-15}
+        outSlope: {x: 1.9032414E-13, y: 3.630145E-19, z: -1.4869074E-15}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:r_legTendon1_joint/ANIM:MESH:GAME:r_leg_joint/ANIM:MESH:GAME:r_legBall_joint/ANIM:MESH:GAME:r_legPlate1_joint/ANIM:MESH:GAME:r_legPlate2_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 55.187286, y: -53.13401, z: 35.488274}
+        inSlope: {x: -1.015062E-12, y: -1.9032414E-13, z: 9.516207E-14}
+        outSlope: {x: 1.015062E-12, y: -4.4408964E-13, z: 2.2204482E-13}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: 55.187286, y: -53.13401, z: 35.488274}
+        inSlope: {x: -1.015062E-12, y: -1.9032414E-13, z: 9.516207E-14}
+        outSlope: {x: -1.015062E-12, y: -1.9032414E-13, z: 9.516207E-14}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:r_shoulderBall_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0.010147709, y: 0.0050840215, z: -67.16363}
+        inSlope: {x: -0, y: 2.3232928E-17, z: -1.9032414E-13}
+        outSlope: {x: -0, y: 5.421016E-17, z: -4.4408964E-13}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: 0.010147709, y: 0.0050840215, z: -67.16363}
+        inSlope: {x: -0, y: 2.3232928E-17, z: -1.9032414E-13}
+        outSlope: {x: -0, y: 2.3232928E-17, z: -1.9032414E-13}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:r_shoulderBall_joint/ANIM:MESH:GAME:r_shoulderPlate1_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -0.0003108982, y: 0.0019232186, z: -36.6305}
+        inSlope: {x: -1.452058E-18, y: 1.1616464E-17, z: -9.516207E-14}
+        outSlope: {x: -3.388135E-18, y: 2.710508E-17, z: -2.2204482E-13}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: -0.0003108982, y: 0.0019232186, z: -36.6305}
+        inSlope: {x: -1.452058E-18, y: 1.1616464E-17, z: -9.516207E-14}
+        outSlope: {x: -1.452058E-18, y: 1.1616464E-17, z: -9.516207E-14}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:r_shoulderBall_joint/ANIM:MESH:GAME:r_shoulderPlate1_joint/ANIM:MESH:GAME:r_shoulderPlate2_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -0.0011036469, y: -0.00029754083, z: -147.5937}
+        inSlope: {x: -8.712348E-18, y: -1.452058E-18, z: -1.1419448E-12}
+        outSlope: {x: -2.032881E-17, y: -3.388135E-18, z: -2.6645379E-12}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: -0.0011036469, y: -0.00029754083, z: -147.5937}
+        inSlope: {x: -8.712348E-18, y: -1.452058E-18, z: -1.1419448E-12}
+        outSlope: {x: -8.712348E-18, y: -1.452058E-18, z: -1.1419448E-12}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:r_shoulderBall_joint/ANIM:MESH:GAME:r_shoulderPlate1_joint/ANIM:MESH:GAME:r_shoulderPlate2_joint/ANIM:MESH:GAME:r_shoulderPlateTip_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -0.0011033055, y: -0.00029732837, z: -147.5937}
+        inSlope: {x: -2.904116E-18, y: -1.452058E-18, z: -1.1419448E-12}
+        outSlope: {x: -6.77627E-18, y: -3.388135E-18, z: -2.6645379E-12}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: -0.0011033055, y: -0.00029732837, z: -147.5937}
+        inSlope: {x: -2.904116E-18, y: -1.452058E-18, z: -1.1419448E-12}
+        outSlope: {x: -2.904116E-18, y: -1.452058E-18, z: -1.1419448E-12}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:r_shoulderBall_joint/ANIM:MESH:GAME:r_shoulderPlate1_joint/ANIM:MESH:GAME:r_shoulderPlate2_joint/ANIM:MESH:GAME:r_shoulderPlateTipPop_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -4.698467, y: 12.892507, z: -124.17219}
+        inSlope: {x: -2.3790518E-14, y: 9.516207E-14, z: -1.1419448E-12}
+        outSlope: {x: -5.5511205E-14, y: 2.2204482E-13, z: -2.6645379E-12}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: -4.698467, y: 12.892507, z: -124.17219}
+        inSlope: {x: -2.3790518E-14, y: 9.516207E-14, z: -1.1419448E-12}
+        outSlope: {x: -2.3790518E-14, y: 9.516207E-14, z: -1.1419448E-12}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:r_shoulderBall_joint/ANIM:MESH:GAME:r_shoulderPlate1_joint/ANIM:MESH:GAME:r_shoulderPlate2_joint/ANIM:MESH:GAME:r_gun_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -55.187252, y: -53.134075, z: 35.48841}
+        inSlope: {x: -3.8064829E-13, y: -1.9032414E-13, z: 9.516207E-14}
+        outSlope: {x: -8.881793E-13, y: -4.4408964E-13, z: 2.2204482E-13}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: -55.187252, y: -53.134075, z: 35.48841}
+        inSlope: {x: -3.8064829E-13, y: -1.9032414E-13, z: 9.516207E-14}
+        outSlope: {x: -3.8064829E-13, y: -1.9032414E-13, z: 9.516207E-14}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:l_shoulderBall_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -0.010174602, y: -0.0051541934, z: 67.16378}
+        inSlope: {x: -4.336813E-16, y: -4.6465855E-17, z: -1.015062E-12}
+        outSlope: {x: -1.8586342E-16, y: -1.0842032E-16, z: 1.015062E-12}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: -0.010174602, y: -0.0051541934, z: 67.16378}
+        inSlope: {x: -4.336813E-16, y: -4.6465855E-17, z: -1.015062E-12}
+        outSlope: {x: -4.336813E-16, y: -4.6465855E-17, z: -1.015062E-12}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:l_shoulderBall_joint/ANIM:MESH:GAME:l_shoulderPlate1_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0.0003326026, y: -0.001589591, z: 36.630867}
+        inSlope: {x: 1.452058E-18, y: -1.7424695E-17, z: 1.9032414E-13}
+        outSlope: {x: 3.388135E-18, y: -4.065762E-17, z: 4.4408964E-13}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: 0.0003326026, y: -0.001589591, z: 36.630867}
+        inSlope: {x: 1.452058E-18, y: -1.7424695E-17, z: 1.9032414E-13}
+        outSlope: {x: 1.452058E-18, y: -1.7424695E-17, z: 1.9032414E-13}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:l_shoulderBall_joint/ANIM:MESH:GAME:l_shoulderPlate1_joint/ANIM:MESH:GAME:l_shoulderPlate2_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -0.00026509754, y: -0.0004975234, z: 147.59402}
+        inSlope: {x: -0, y: -1.452058E-18, z: 7.6129657E-13}
+        outSlope: {x: -0, y: -3.388135E-18, z: 1.7763586E-12}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: -0.00026509754, y: -0.0004975234, z: 147.59402}
+        inSlope: {x: -0, y: -1.452058E-18, z: 7.6129657E-13}
+        outSlope: {x: -0, y: -1.452058E-18, z: 7.6129657E-13}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:l_shoulderBall_joint/ANIM:MESH:GAME:l_shoulderPlate1_joint/ANIM:MESH:GAME:l_shoulderPlate2_joint/ANIM:MESH:GAME:l_shoulderPlateTip_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -0.00026509754, y: -0.0004975234, z: 147.59402}
+        inSlope: {x: -0, y: -1.452058E-18, z: 7.6129657E-13}
+        outSlope: {x: -0, y: -3.388135E-18, z: 1.7763586E-12}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: -0.00026509754, y: -0.0004975234, z: 147.59402}
+        inSlope: {x: -0, y: -1.452058E-18, z: 7.6129657E-13}
+        outSlope: {x: -0, y: -1.452058E-18, z: 7.6129657E-13}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:l_shoulderBall_joint/ANIM:MESH:GAME:l_shoulderPlate1_joint/ANIM:MESH:GAME:l_shoulderPlate2_joint/ANIM:MESH:GAME:l_shoulderPlateTipPop_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 4.6979713, y: -12.892868, z: 124.5685}
+        inSlope: {x: -6.344137E-14, y: -4.7581036E-14, z: -2.030124E-12}
+        outSlope: {x: 6.344137E-14, y: -1.1102241E-13, z: 2.030124E-12}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: 4.6979713, y: -12.892868, z: 124.5685}
+        inSlope: {x: -6.344137E-14, y: -4.7581036E-14, z: -2.030124E-12}
+        outSlope: {x: -6.344137E-14, y: -4.7581036E-14, z: -2.030124E-12}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:l_shoulderBall_joint/ANIM:MESH:GAME:l_shoulderPlate1_joint/ANIM:MESH:GAME:l_shoulderPlate2_joint/ANIM:MESH:GAME:l_gun_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 132.41026, y: 123.087654, z: -249.96568}
+        inSlope: {x: -0.8952775, y: 11.083654, z: 7.7340975}
+        outSlope: {x: -0.8972829, y: 11.085215, z: 7.7309155}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: 132.38123, y: 123.29618, z: -249.80101}
+        inSlope: {x: -0.8733048, y: 6.2568936, z: 4.938555}
+        outSlope: {x: -0.8733048, y: 6.2568936, z: 4.938555}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:r_iK_target_foot
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 121.74061, y: -248.98712, z: -95.58527}
+        inSlope: {x: -1.0794076, y: 1.56067, z: -15.179858}
+        outSlope: {x: -1.0784376, y: 1.5599946, z: -15.181157}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: 121.70794, y: -248.96553, z: -95.872185}
+        inSlope: {x: -0.9792554, y: 0.65100586, z: -8.606792}
+        outSlope: {x: -0.9792554, y: 0.65100586, z: -8.606792}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:r_iK_target_hand
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -122.81517, y: -265.72174, z: -88.62121}
+        inSlope: {x: -1.0880833, y: 1.3057609, z: -16.085436}
+        outSlope: {x: -1.0873313, y: 1.3049328, z: -16.08694}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: -122.848, y: -265.7052, z: -88.92594}
+        inSlope: {x: -0.98378944, y: 0.50275576, z: -9.142006}
+        outSlope: {x: -0.98378944, y: 0.50275576, z: -9.142006}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:l_iK_target_hand
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -134.2432, y: 80.47559, z: -232.2271}
+        inSlope: {x: -0.914133, y: 10.178601, z: 5.2431636}
+        outSlope: {x: -0.91463435, y: 10.179082, z: 5.245322}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: -134.27263, y: 80.66636, z: -232.11143}
+        inSlope: {x: -0.8819369, y: 5.723511, z: 3.4709413}
+        outSlope: {x: -0.8819369, y: 5.723511, z: 3.4709413}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:l_iK_target_foot
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -0, y: 0, z: 266.42157}
+        inSlope: {x: -0, y: -0, z: 7.1054343E-12}
+        outSlope: {x: -0, y: -0, z: 3.0451863E-12}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: -0, y: 0, z: 266.42157}
+        inSlope: {x: -0, y: -0, z: 7.1054343E-12}
+        outSlope: {x: -0, y: -0, z: 7.1054343E-12}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:centerOfView
+  m_ScaleCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:c_head1_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:c_head1_joint/ANIM:MESH:GAME:c_head2_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:c_head1_joint/ANIM:MESH:GAME:c_head2_joint/ANIM:MESH:GAME:c_head3_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:c_head1_joint/ANIM:MESH:GAME:c_head2_joint/ANIM:MESH:GAME:c_head3_joint/ANIM:MESH:GAME:c_headTip_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:c_head1_joint/ANIM:MESH:GAME:c_head2_joint/ANIM:MESH:GAME:c_head3_joint/ANIM:MESH:GAME:c_eye_1_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:c_head1_joint/ANIM:MESH:GAME:c_head2_joint/ANIM:MESH:GAME:c_head3_joint/ANIM:MESH:GAME:c_eye_1_joint/ANIM:MESH:GAME:c_eye_2_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:c_tail1_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:c_tail1_joint/ANIM:MESH:GAME:c_tail2_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:c_tail1_joint/ANIM:MESH:GAME:c_tail2_joint/ANIM:MESH:GAME:c_tail3_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:c_chest_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:c_top_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:c_back_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:c_btmCore_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:l_shoulderTendon1_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:l_shoulderTendon2_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:l_legTendon1_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:l_legTendon1_joint/ANIM:MESH:GAME:l_leg_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:l_legTendon1_joint/ANIM:MESH:GAME:l_leg_joint/ANIM:MESH:GAME:l_calf_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:l_legTendon1_joint/ANIM:MESH:GAME:l_leg_joint/ANIM:MESH:GAME:l_calf_joint/ANIM:MESH:GAME:l_foot_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:l_legTendon1_joint/ANIM:MESH:GAME:l_leg_joint/ANIM:MESH:GAME:l_calf_joint/ANIM:MESH:GAME:l_foot_joint/ANIM:MESH:GAME:l_footTip_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:l_legTendon1_joint/ANIM:MESH:GAME:l_leg_joint/ANIM:MESH:GAME:l_calfSlide_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:l_legTendon1_joint/ANIM:MESH:GAME:l_leg_joint/ANIM:MESH:GAME:l_legBall_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:l_legTendon1_joint/ANIM:MESH:GAME:l_leg_joint/ANIM:MESH:GAME:l_legBall_joint/ANIM:MESH:GAME:l_legPlate1_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:l_legTendon1_joint/ANIM:MESH:GAME:l_leg_joint/ANIM:MESH:GAME:l_legBall_joint/ANIM:MESH:GAME:l_legPlate1_joint/ANIM:MESH:GAME:l_legPlate2_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:l_legTendon2_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:l_roketBay_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:l_coreGuard1_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:l_coreGuard2_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:r_shoulderTendon1_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:r_shoulderTendon2_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:r_legTendon2_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:r_roketBay_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:r_coreGuard1_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:r_coreGuard2_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:l_clav_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:l_clav_joint/ANIM:MESH:GAME:l_shoulder_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:l_clav_joint/ANIM:MESH:GAME:l_shoulder_joint/ANIM:MESH:GAME:l_foreArm_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:l_clav_joint/ANIM:MESH:GAME:l_shoulder_joint/ANIM:MESH:GAME:l_foreArm_joint/ANIM:MESH:GAME:l_hand_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:l_clav_joint/ANIM:MESH:GAME:l_shoulder_joint/ANIM:MESH:GAME:l_foreArm_joint/ANIM:MESH:GAME:l_hand_joint/ANIM:MESH:GAME:l_handTip_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:r_clav_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:r_clav_joint/ANIM:MESH:GAME:r_shoulder_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:r_clav_joint/ANIM:MESH:GAME:r_shoulder_joint/ANIM:MESH:GAME:r_foreArm_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:r_clav_joint/ANIM:MESH:GAME:r_shoulder_joint/ANIM:MESH:GAME:r_foreArm_joint/ANIM:MESH:GAME:r_hand_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:r_clav_joint/ANIM:MESH:GAME:r_shoulder_joint/ANIM:MESH:GAME:r_foreArm_joint/ANIM:MESH:GAME:r_hand_joint/ANIM:MESH:GAME:r_handTip_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:r_legTendon1_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:r_legTendon1_joint/ANIM:MESH:GAME:r_leg_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:r_legTendon1_joint/ANIM:MESH:GAME:r_leg_joint/ANIM:MESH:GAME:r_calf_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:r_legTendon1_joint/ANIM:MESH:GAME:r_leg_joint/ANIM:MESH:GAME:r_calf_joint/ANIM:MESH:GAME:r_foot_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:r_legTendon1_joint/ANIM:MESH:GAME:r_leg_joint/ANIM:MESH:GAME:r_calf_joint/ANIM:MESH:GAME:r_foot_joint/ANIM:MESH:GAME:r_footTip_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:r_legTendon1_joint/ANIM:MESH:GAME:r_leg_joint/ANIM:MESH:GAME:r_calfSlide_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:r_legTendon1_joint/ANIM:MESH:GAME:r_leg_joint/ANIM:MESH:GAME:r_legBall_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:r_legTendon1_joint/ANIM:MESH:GAME:r_leg_joint/ANIM:MESH:GAME:r_legBall_joint/ANIM:MESH:GAME:r_legPlate1_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:r_legTendon1_joint/ANIM:MESH:GAME:r_leg_joint/ANIM:MESH:GAME:r_legBall_joint/ANIM:MESH:GAME:r_legPlate1_joint/ANIM:MESH:GAME:r_legPlate2_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:r_shoulderBall_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:r_shoulderBall_joint/ANIM:MESH:GAME:r_shoulderPlate1_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:r_shoulderBall_joint/ANIM:MESH:GAME:r_shoulderPlate1_joint/ANIM:MESH:GAME:r_shoulderPlate2_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:r_shoulderBall_joint/ANIM:MESH:GAME:r_shoulderPlate1_joint/ANIM:MESH:GAME:r_shoulderPlate2_joint/ANIM:MESH:GAME:r_shoulderPlateTip_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:r_shoulderBall_joint/ANIM:MESH:GAME:r_shoulderPlate1_joint/ANIM:MESH:GAME:r_shoulderPlate2_joint/ANIM:MESH:GAME:r_shoulderPlateTipPop_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:r_shoulderBall_joint/ANIM:MESH:GAME:r_shoulderPlate1_joint/ANIM:MESH:GAME:r_shoulderPlate2_joint/ANIM:MESH:GAME:r_gun_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:l_shoulderBall_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:l_shoulderBall_joint/ANIM:MESH:GAME:l_shoulderPlate1_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:l_shoulderBall_joint/ANIM:MESH:GAME:l_shoulderPlate1_joint/ANIM:MESH:GAME:l_shoulderPlate2_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:l_shoulderBall_joint/ANIM:MESH:GAME:l_shoulderPlate1_joint/ANIM:MESH:GAME:l_shoulderPlate2_joint/ANIM:MESH:GAME:l_shoulderPlateTip_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:l_shoulderBall_joint/ANIM:MESH:GAME:l_shoulderPlate1_joint/ANIM:MESH:GAME:l_shoulderPlate2_joint/ANIM:MESH:GAME:l_shoulderPlateTipPop_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:Core/ANIM:MESH:GAME:l_shoulderBall_joint/ANIM:MESH:GAME:l_shoulderPlate1_joint/ANIM:MESH:GAME:l_shoulderPlate2_joint/ANIM:MESH:GAME:l_gun_joint
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:r_iK_target_foot
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:r_iK_target_hand
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:l_iK_target_hand
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:r/ANIM:MESH:GAME:l_iK_target_foot
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 0.0333333
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ANIM:MESH:GAME:t/ANIM:MESH:GAME:centerOfView
+  m_FloatCurves: []
+  m_SampleRate: 30
+  m_WrapMode: 8
+  m_Bounds:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  m_MuscleClipInfo:
+    m_StartTime: 0
+    m_StopTime: 0
+    m_OrientationOffsetY: 0
+    m_Level: 0
+    m_CycleOffset: 0
+    m_LoopBlend: 0
+    m_LoopBlendOrientation: 0
+    m_LoopBlendPositionY: 0
+    m_LoopBlendPositionXZ: 0
+    m_KeepOriginalOrientation: 0
+    m_KeepOriginalPositionY: 0
+    m_KeepOriginalPositionXZ: 0
+    m_HeightFromFeet: 0
+    m_Mirror: 0
+    m_KeepAdditionalBonesAnimation: 0
+  m_EditorCurves: []
+  m_EulerEditorCurves: []
+  m_Events: []

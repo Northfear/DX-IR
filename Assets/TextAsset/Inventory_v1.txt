@@ -1,0 +1,1136 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Ethikos</Author>
+  <LastAuthor>Matt</LastAuthor>
+  <Created>2012-09-06T15:57:54Z</Created>
+  <LastSaved>2012-11-11T22:35:21Z</LastSaved>
+  <Version>12.00</Version>
+ </DocumentProperties>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>16440</WindowHeight>
+  <WindowWidth>29040</WindowWidth>
+  <WindowTopX>27360</WindowTopX>
+  <WindowTopY>-135</WindowTopY>
+  <ActiveSheet>4</ActiveSheet>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s16" ss:Name="Note">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#B2B2B2"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#B2B2B2"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#B2B2B2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#B2B2B2"/>
+   </Borders>
+   <Interior ss:Color="#FFFFCC" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s17">
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="s18">
+   <Borders>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="s19">
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="s20">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="s21">
+   <Borders/>
+  </Style>
+  <Style ss:ID="s22">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="s23">
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s24" ss:Parent="s16">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s25" ss:Parent="s16">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="12" ss:Color="#333399"/>
+  </Style>
+  <Style ss:ID="s26" ss:Parent="s16">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s27">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Font ss:FontName="Calibri" ss:Size="11" ss:Color="#FFFFFF" ss:Bold="1"/>
+   <Interior ss:Color="#969696" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s28">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Font ss:FontName="Calibri" ss:Size="11" ss:Color="#FFFFFF" ss:Bold="1"/>
+   <Interior ss:Color="#969696" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s29">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri" ss:Size="11" ss:Color="#FFFFFF" ss:Bold="1"/>
+   <Interior ss:Color="#969696" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s30">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Font ss:FontName="Calibri" ss:Size="11" ss:Color="#000000" ss:Bold="1"/>
+  </Style>
+ </Styles>
+ <Names>
+  <NamedRange ss:Name="CategoryID" ss:RefersTo="=#REF!"/>
+ </Names>
+ <Worksheet ss:Name="Bundles">
+  <Names>
+   <NamedRange ss:Name="CategoryID" ss:RefersTo="=#REF!"/>
+  </Names>
+  <Table ss:ExpandedColumnCount="77" ss:ExpandedRowCount="5" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="46.5" ss:DefaultRowHeight="30">
+   <Column ss:StyleID="s18" ss:AutoFitWidth="0" ss:Width="135"/>
+   <Column ss:StyleID="s17" ss:AutoFitWidth="0" ss:Width="93" ss:Span="1"/>
+   <Column ss:Index="4" ss:StyleID="s19" ss:AutoFitWidth="0" ss:Width="93"/>
+   <Column ss:StyleID="s19" ss:AutoFitWidth="0" ss:Width="240"/>
+   <Column ss:StyleID="s22" ss:AutoFitWidth="0" ss:Width="82.5"/>
+   <Column ss:StyleID="s22" ss:AutoFitWidth="0" ss:Width="108.75" ss:Span="8"/>
+   <Column ss:Index="16" ss:AutoFitWidth="0" ss:Width="108.75" ss:Span="61"/>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s30">
+    <Cell ss:StyleID="s27"><Data ss:Type="String">Item ID</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">Type Name</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">Name</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Description</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Texture</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Cost</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Category ID</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Item ID</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Quantity</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Category ID</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Item ID</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Quantity</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Category ID</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Item ID</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Quantity</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Explosive</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">&lt;stringid:2,2&gt;</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">&lt;stringid:2,3&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">&lt;stringid:2,4&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">ItemDetails/PlaceholderImage</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">1000</Data></Cell>
+    <Cell><Data ss:Type="String">Weapon</Data></Cell>
+    <Cell><Data ss:Type="String">FragGrenade</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="String">Weapon</Data></Cell>
+    <Cell><Data ss:Type="String">EMPGrenade</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="String">Weapon</Data></Cell>
+    <Cell><Data ss:Type="String">ConcussionGrenade</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">5</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Merciful</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">&lt;stringid:2,5&gt;</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">&lt;stringid:2,6&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">&lt;stringid:2,7&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">ItemDetails/PlaceholderImage</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">2000</Data></Cell>
+    <Cell><Data ss:Type="String">Weapon</Data></Cell>
+    <Cell><Data ss:Type="String">Crossbow</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">Ammo</Data></Cell>
+    <Cell><Data ss:Type="String">Crossbow_Normal</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">15</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Infiltrator</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">&lt;stringid:2,8&gt;</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">&lt;stringid:2,9&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">&lt;stringid:2,10&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">ItemDetails/PlaceholderImage</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">5000</Data></Cell>
+    <Cell><Data ss:Type="String">Utility</Data></Cell>
+    <Cell><Data ss:Type="String">AutoHack</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">10</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SuperAug</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">&lt;stringid:2,11&gt;</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">&lt;stringid:2,12&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">&lt;stringid:2,13&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">ItemDetails/PlaceholderImage</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">4000</Data></Cell>
+    <Cell><Data ss:Type="String">Utility</Data></Cell>
+    <Cell><Data ss:Type="String">PraxisKit</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="String">Utility</Data></Cell>
+    <Cell><Data ss:Type="String">EnergyBar</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">10</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>-4</HorizontalResolution>
+    <VerticalResolution>-4</VerticalResolution>
+   </Print>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>5</ActiveRow>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Weapon Details">
+  <Table ss:ExpandedColumnCount="14" ss:ExpandedRowCount="15" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="46.5" ss:DefaultRowHeight="30">
+   <Column ss:StyleID="s18" ss:AutoFitWidth="0" ss:Width="135"/>
+   <Column ss:StyleID="s17" ss:AutoFitWidth="0" ss:Width="93" ss:Span="1"/>
+   <Column ss:Index="4" ss:StyleID="s19" ss:AutoFitWidth="0" ss:Width="93"/>
+   <Column ss:StyleID="s19" ss:AutoFitWidth="0" ss:Width="240"/>
+   <Column ss:StyleID="s22" ss:AutoFitWidth="0" ss:Width="108.75"/>
+   <Column ss:StyleID="s19" ss:AutoFitWidth="0" ss:Width="82.5" ss:Span="1"/>
+   <Column ss:Index="9" ss:StyleID="s20" ss:AutoFitWidth="0" ss:Width="82.5"
+    ss:Span="3"/>
+   <Column ss:Index="13" ss:StyleID="s20" ss:AutoFitWidth="0" ss:Width="108.75"/>
+   <Column ss:AutoFitWidth="0" ss:Width="82.5"/>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s30">
+    <Cell ss:StyleID="s27"><Data ss:Type="String">Item ID</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">Type Name</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">Name</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Description</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Texture</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Is Gun</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Browsable</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Assignable</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Cost</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Starting Quantity</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Max Quantity</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Purchase Quantity</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Ammo ID</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CombatRifle</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">&lt;stringid:2,14&gt;</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">&lt;stringid:2,15&gt;</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">&lt;stringid:2,16&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">ItemDetails/Weapons/CombatRifle</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">1000</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">CombatRifle_Normal</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Crossbow</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">&lt;stringid:2,17&gt;</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">&lt;stringid:2,18&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">&lt;stringid:2,19&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">ItemDetails/Weapons/Crossbow</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">1500</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Crossbow_Normal</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Shotgun</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">&lt;stringid:2,20&gt;</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">&lt;stringid:2,21&gt;</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">&lt;stringid:2,22&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">ItemDetails/Weapons/Shotgun</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">2500</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Shotgun_Normal</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FragGrenade</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">&lt;stringid:2,23&gt;</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">&lt;stringid:2,24&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">&lt;stringid:2,25&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">ItemDetails/Weapons/FragGrenade</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">500</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">-1</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">n/a</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EMPGrenade</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">&lt;stringid:2,26&gt;</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">&lt;stringid:2,27&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">&lt;stringid:2,28&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">ItemDetails/Weapons/EMPGrenade</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">800</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">-1</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">n/a</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ConcussionGrenade</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">&lt;stringid:2,29&gt;</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">&lt;stringid:2,30&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">&lt;stringid:2,31&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">ItemDetails/Weapons/ConcussionGrenade</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">300</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">-1</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">n/a</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Pistol</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">&lt;stringid:2,32&gt;</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">&lt;stringid:2,33&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">&lt;stringid:2,34&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">ItemDetails/Weapons/Pistol</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">800</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">Pistol_Normal</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PlasmaRifle</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">&lt;stringid:2,83&gt;</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">&lt;stringid:2,84&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">&lt;stringid:2,85&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">ItemDetails/Weapons/PlasmaRifle</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">2000</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">PlasmaRifle_Normal</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">StunGun</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">&lt;stringid:2,89&gt;</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">&lt;stringid:2,90&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">&lt;stringid:2,91&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">ItemDetails/Weapons/StunGun</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">2000</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">StunGun_Normal</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MiniRPG</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">&lt;stringid:2,95&gt;</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">&lt;stringid:2,96&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">&lt;stringid:2,97&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">ItemDetails/Weapons/MiniRPG</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">2000</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">MiniRPG_Normal</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FragMine</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">&lt;stringid:2,101&gt;</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">&lt;stringid:2,102&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">&lt;stringid:2,103&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">ItemDetails/Weapons/MineFrag</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">500</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">-1</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">n/a</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EMPMine</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">&lt;stringid:2,104&gt;</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">&lt;stringid:2,105&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">&lt;stringid:2,106&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">ItemDetails/Weapons/MineEMP</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">800</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">-1</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">n/a</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ConcussionMine</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">&lt;stringid:2,107&gt;</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">&lt;stringid:2,108&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">&lt;stringid:2,109&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">ItemDetails/Weapons/MineConcussion</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">300</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">-1</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">n/a</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HeavyRifle</Data></Cell>
+    <Cell><Data ss:Type="String">&lt;stringid:2,29&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">&lt;stringid:2,30&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">&lt;stringid:2,31&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">ItemDetails/Weapons/HeavyRifle</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="Number">3000</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">CombatRifle_Normal</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Unsynced/>
+   <LeftColumnVisible>1</LeftColumnVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>13</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Ammo Details">
+  <Table ss:ExpandedColumnCount="12" ss:ExpandedRowCount="8" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="46.5" ss:DefaultRowHeight="30">
+   <Column ss:StyleID="s18" ss:AutoFitWidth="0" ss:Width="135"/>
+   <Column ss:StyleID="s17" ss:AutoFitWidth="0" ss:Width="93" ss:Span="1"/>
+   <Column ss:Index="4" ss:StyleID="s19" ss:AutoFitWidth="0" ss:Width="93"/>
+   <Column ss:StyleID="s19" ss:AutoFitWidth="0" ss:Width="240"/>
+   <Column ss:StyleID="s19" ss:AutoFitWidth="0" ss:Width="82.5" ss:Span="1"/>
+   <Column ss:Index="8" ss:StyleID="s22" ss:AutoFitWidth="0" ss:Width="82.5"
+    ss:Span="3"/>
+   <Column ss:Index="12" ss:AutoFitWidth="0" ss:Width="82.5"/>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s30">
+    <Cell ss:StyleID="s27"><Data ss:Type="String">Item ID</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">Type Name</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">Name</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Description</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Texture</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Browsable</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Assignable</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Cost</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Starting Quantity</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Max Quantity</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Purchase Quantity</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CombatRifle_Normal</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">&lt;stringid:2,35&gt;</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">&lt;stringid:2,36&gt;</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">&lt;stringid:2,37&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">ItemDetails/Ammo/CombatRifle_Normal</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">50</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">40</Data></Cell>
+    <Cell><Data ss:Type="Number">-1</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">20</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Crossbow_Normal</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">&lt;stringid:2,38&gt;</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">&lt;stringid:2,39&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">&lt;stringid:2,40&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">ItemDetails/Ammo/Crossbow_Normal</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">150</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">6</Data></Cell>
+    <Cell><Data ss:Type="Number">-1</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">5</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Shotgun_Normal</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">&lt;stringid:2,41&gt;</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">&lt;stringid:2,42&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">&lt;stringid:2,43&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">ItemDetails/Ammo/Shotgun_Normal</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">250</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">12</Data></Cell>
+    <Cell><Data ss:Type="Number">-1</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">10</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Pistol_Normal</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">&lt;stringid:2,44&gt;</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">&lt;stringid:2,45&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">&lt;stringid:2,46&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">ItemDetails/Ammo/Pistol_Normal</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">50</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">30</Data></Cell>
+    <Cell><Data ss:Type="Number">-1</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">20</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PlasmaRifle_Normal</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">&lt;stringid:2,86&gt;</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">&lt;stringid:2,87&gt;</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">&lt;stringid:2,88&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">ItemDetails/Ammo/PlasmaRifle_Normal</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">50</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">40</Data></Cell>
+    <Cell><Data ss:Type="Number">-1</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">20</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">StunGun_Normal</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">&lt;stringid:2,92&gt;</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">&lt;stringid:2,93&gt;</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">&lt;stringid:2,94&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">ItemDetails/Ammo/StunGun_Normal</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">50</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">6</Data></Cell>
+    <Cell><Data ss:Type="Number">-1</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">6</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MiniRPG_Normal</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">&lt;stringid:2,98&gt;</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">&lt;stringid:2,99&gt;</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">&lt;stringid:2,100&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">ItemDetails/Ammo/MiniRPG_Normal</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">50</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">-1</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">3</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Unsynced/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>5</ActiveRow>
+     <ActiveCol>4</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Utility Details">
+  <Table ss:ExpandedColumnCount="12" ss:ExpandedRowCount="13" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="46.5" ss:DefaultRowHeight="30">
+   <Column ss:StyleID="s18" ss:AutoFitWidth="0" ss:Width="135"/>
+   <Column ss:StyleID="s17" ss:AutoFitWidth="0" ss:Width="93" ss:Span="1"/>
+   <Column ss:Index="4" ss:StyleID="s19" ss:AutoFitWidth="0" ss:Width="93"/>
+   <Column ss:StyleID="s19" ss:AutoFitWidth="0" ss:Width="240"/>
+   <Column ss:StyleID="s22" ss:AutoFitWidth="0" ss:Width="82.5" ss:Span="5"/>
+   <Column ss:Index="12" ss:AutoFitWidth="0" ss:Width="82.5"/>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s30">
+    <Cell ss:StyleID="s27"><Data ss:Type="String">Item ID</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">Type Name</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">Name</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Description</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Texture</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Browsable</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Assignable</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Cost</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Starting Quantity</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Max Quantity</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Purchase Quantity</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s19"><Data ss:Type="String">EnergyBar</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">&lt;stringid:2,47&gt;</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">&lt;stringid:2,48&gt;</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">&lt;stringid:2,49&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">ItemDetails/Utility/EnergyBar</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">200</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">-1</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Beer</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">&lt;stringid:2,50&gt;</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">&lt;stringid:2,51&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">&lt;stringid:2,52&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">ItemDetails/Utility/Beer</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">-1</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GutPunch</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">&lt;stringid:2,53&gt;</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">&lt;stringid:2,54&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">&lt;stringid:2,55&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">ItemDetails/Utility/GutPunch</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">150</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">-1</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Wine</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">&lt;stringid:2,56&gt;</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">&lt;stringid:2,57&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">&lt;stringid:2,58&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">ItemDetails/Utility/Wine</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">200</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">-1</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PraxisKit</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">&lt;stringid:2,59&gt;</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">&lt;stringid:2,60&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">&lt;stringid:2,61&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">ItemDetails/Utility/PraxisKit</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">5000</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">-1</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">AutoHack</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">&lt;stringid:2,62&gt;</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">&lt;stringid:2,63&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">&lt;stringid:2,64&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">ItemDetails/Utility/AutoHack</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">1000</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">-1</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Nuke</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">&lt;stringid:2,65&gt;</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">&lt;stringid:2,66&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">&lt;stringid:2,67&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">ItemDetails/Utility/Nuke</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">500</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">-1</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">StopWorm</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">&lt;stringid:2,68&gt;</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">&lt;stringid:2,69&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">&lt;stringid:2,70&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">ItemDetails/Utility/StopWorm</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">500</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">-1</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DamageStatEnhancer</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">&lt;stringid:2,71&gt;</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">&lt;stringid:2,72&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">&lt;stringid:2,73&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">ItemDetails/Utility/DamageStatEnhancer</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">1000</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">-1</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FireRateStatEnhancer</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">&lt;stringid:2,74&gt;</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">&lt;stringid:2,75&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">&lt;stringid:2,76&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">ItemDetails/Utility/FireRateStatEnhancer</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">1000</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">-1</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ReloadStatEnhancer</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">&lt;stringid:2,77&gt;</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">&lt;stringid:2,78&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">&lt;stringid:2,79&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">ItemDetails/Utility/ReloadStatEnhancer</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">1000</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">-1</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">AmmoStatEnhancer</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">&lt;stringid:2,80&gt;</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">&lt;stringid:2,81&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">&lt;stringid:2,82&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">ItemDetails/Utility/AmmoStatEnhancer</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">1000</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">-1</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Unsynced/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>9</ActiveRow>
+     <ActiveCol>7</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Augmentation Details">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="15" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="46.5" ss:DefaultRowHeight="30">
+   <Column ss:StyleID="s18" ss:AutoFitWidth="0" ss:Width="135"/>
+   <Column ss:StyleID="s17" ss:AutoFitWidth="0" ss:Width="93"/>
+   <Column ss:StyleID="s19" ss:AutoFitWidth="0" ss:Width="93"/>
+   <Column ss:StyleID="s19" ss:AutoFitWidth="0" ss:Width="240"/>
+   <Column ss:StyleID="s19" ss:AutoFitWidth="0" ss:Width="82.5"/>
+   <Column ss:AutoFitWidth="0" ss:Width="82.5"/>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s30">
+    <Cell ss:StyleID="s27"><Data ss:Type="String">Item ID</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">Name</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Description</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Texture</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Assignable</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s19"><Data ss:Type="String">AimStabilization</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">&lt;stringid:2,1&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">&lt;stringid:2,1&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">ItemDetails/Augmentations/AimStabilization</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Movement</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">&lt;stringid:2,1&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">&lt;stringid:2,1&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">ItemDetails/Augmentations/Movement</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HackingCapture</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">&lt;stringid:2,1&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">&lt;stringid:2,1&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">ItemDetails/Augmentations/HackingCapture</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SocialEnhancer</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">&lt;stringid:2,1&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">&lt;stringid:2,1&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">ItemDetails/Augmentations/SocialEnhancer</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Energy</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">&lt;stringid:2,1&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">&lt;stringid:2,1&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">ItemDetails/Augmentations/Energy</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Strength</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">&lt;stringid:2,1&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">&lt;stringid:2,1&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">ItemDetails/Augmentations/Strength</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">InfoLink</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">&lt;stringid:2,1&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">&lt;stringid:2,1&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">ItemDetails/Augmentations/InfoLink</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Cloaking</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">&lt;stringid:2,1&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">&lt;stringid:2,1&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">ItemDetails/Augmentations/Cloaking</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">IcarusLanding</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">&lt;stringid:2,1&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">&lt;stringid:2,1&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">ItemDetails/Augmentations/IcarusLanding</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Armor</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">&lt;stringid:2,1&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">&lt;stringid:2,1&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">ItemDetails/Augmentations/Armor</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SmartVision</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">&lt;stringid:2,1&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">&lt;stringid:2,1&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">ItemDetails/Augmentations/SmartVision</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ReflexBooster</Data></Cell>
+    <Cell><Data ss:Type="String">&lt;stringid:2,1&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">&lt;stringid:2,1&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">ItemDetails/Augmentations/ReflexBooster</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HackingFortify</Data></Cell>
+    <Cell><Data ss:Type="String">&lt;stringid:2,1&gt;</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">&lt;stringid:2,1&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">ItemDetails/Augmentations/HackingFortify</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HackingStealth</Data></Cell>
+    <Cell><Data ss:Type="String">&lt;stringid:2,1&gt;</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">&lt;stringid:2,1&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">ItemDetails/Augmentations/HackingStealth</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Unsynced/>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>15</ActiveRow>
+     <ActiveCol>4</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Misc Details">
+  <Table ss:ExpandedColumnCount="5" ss:ExpandedRowCount="4" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="46.5" ss:DefaultRowHeight="30">
+   <Column ss:StyleID="s18" ss:AutoFitWidth="0" ss:Width="135"/>
+   <Column ss:StyleID="s17" ss:AutoFitWidth="0" ss:Width="93"/>
+   <Column ss:StyleID="s19" ss:AutoFitWidth="0" ss:Width="93"/>
+   <Column ss:StyleID="s20" ss:AutoFitWidth="0" ss:Width="82.5"/>
+   <Column ss:AutoFitWidth="0" ss:Width="82.5"/>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s30">
+    <Cell ss:StyleID="s27"><Data ss:Type="String">Item ID</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">Name</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Description</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Starting Quantity</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Credits</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">&lt;stringid:1,1&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">&lt;stringid:1,1&gt;</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">8000</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PraxisExp</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">&lt;stringid:1,1&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">&lt;stringid:1,1&gt;</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TotalExp</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">&lt;stringid:1,1&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">&lt;stringid:1,1&gt;</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Unsynced/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>2</ActiveRow>
+     <ActiveCol>3</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="XLS DEFINES">
+  <Table ss:ExpandedColumnCount="3" ss:ExpandedRowCount="29" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="46.5" ss:DefaultRowHeight="15">
+   <Column ss:Index="2" ss:AutoFitWidth="0" ss:Width="135"/>
+   <Column ss:AutoFitWidth="0" ss:Width="187.5"/>
+   <Row ss:Index="2">
+    <Cell ss:Index="2"><Data ss:Type="String">Weapon Item ID</Data></Cell>
+    <Cell><Data ss:Type="String">CombatRifle</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="3"><Data ss:Type="String">Crossbow</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="3"><Data ss:Type="String">Shotgun</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="3"><Data ss:Type="String">FragGrenade</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="3"><Data ss:Type="String">EMPGrenade</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="3"><Data ss:Type="String">ConcussionGrenade</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">Ammo Item ID</Data></Cell>
+    <Cell><Data ss:Type="String">CombatRifle_Normal</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="3"><Data ss:Type="String">Crossbow_Normal</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="3"><Data ss:Type="String">Shotgun_Normal</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">Utility Item ID</Data></Cell>
+    <Cell><Data ss:Type="String">EnergyBar</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="3"><Data ss:Type="String">Booze</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="3"><Data ss:Type="String">PraxisKit</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="3"><Data ss:Type="String">AutoHack</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="3"><Data ss:Type="String">Nuke</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="3"><Data ss:Type="String">StopWorm</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">Augmentation Item ID</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">AimStabilization</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="3" ss:StyleID="s21"><Data ss:Type="String">Movement</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="3" ss:StyleID="s21"><Data ss:Type="String">HackingCapture</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="3" ss:StyleID="s21"><Data ss:Type="String">SocialEnhancer</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="3" ss:StyleID="s21"><Data ss:Type="String">Energy</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="3" ss:StyleID="s21"><Data ss:Type="String">Strength</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="3" ss:StyleID="s21"><Data ss:Type="String">InfoLink</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="3" ss:StyleID="s21"><Data ss:Type="String">Cloaking</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="3" ss:StyleID="s21"><Data ss:Type="String">BulletTime</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="3" ss:StyleID="s21"><Data ss:Type="String">IcarusLanding</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">Misc Item ID</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">Credits</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="3" ss:StyleID="s21"><Data ss:Type="String">PraxisExp</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="3" ss:StyleID="s21"><Data ss:Type="String">TotalExp</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>8</ActiveRow>
+     <ActiveCol>1</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: hirise_glass_reflect_mat
+  m_Shader: {fileID: 4800000, guid: 2edf21c6fc185dd42a3d5ce458d924d3, type: 3}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Cube
+        second:
+          m_Texture: {fileID: 8900000, guid: a1660e4f4adbe57448b560d626fb4d47, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _Reflection
+        second: 0.3461539
+      data:
+        first:
+          name: _Shininess
+        second: 0.7904912
+      data:
+        first:
+          name: _Gloss
+        second: 0.7307692
+      data:
+        first:
+          name: _FrezPow
+        second: 1.3653846
+      data:
+        first:
+          name: _FrezFalloff
+        second: 4.3846154
+      data:
+        first:
+          name: _Metalics
+        second: 1
+      data:
+        first:
+          name: _EdgeAlpha
+        second: 1
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: 1, g: 0.6503496, b: 0, a: 1}
+      data:
+        first:
+          name: _SpecColor
+        second: {r: 0.6567164, g: 0.3826105, b: 0.024504362, a: 1}
