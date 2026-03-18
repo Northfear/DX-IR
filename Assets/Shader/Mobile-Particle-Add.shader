@@ -1,23 +1,31 @@
+// Simplified Additive Particle shader. Differences from regular Additive Particle one:
+// - no Tint color
+// - no Smooth particle support
+// - no AlphaTest
+// - no ColorMask
+
 Shader "Mobile/Particles/Additive" {
 Properties {
- _MainTex ("Particle Texture", 2D) = "white" {}
+	_MainTex ("Particle Texture", 2D) = "white" {}
 }
-SubShader { 
- Tags { "QUEUE"="Transparent" "IGNOREPROJECTOR"="True" "RenderType"="Transparent" }
- Pass {
-  Tags { "QUEUE"="Transparent" "IGNOREPROJECTOR"="True" "RenderType"="Transparent" }
-  BindChannels {
-   Bind "vertex", Vertex
-   Bind "color", Color
-   Bind "texcoord", TexCoord
-  }
-  ZWrite Off
-  Cull Off
-  Fog {
-   Color (0,0,0,0)
-  }
-  Blend SrcAlpha One
-  SetTexture [_MainTex] { combine texture * primary }
- }
+
+Category {
+	Tags { "Queue"="Transparent" "IgnoreProjector"="True" "RenderType"="Transparent" }
+	Blend SrcAlpha One
+	Cull Off Lighting Off ZWrite Off Fog { Color (0,0,0,0) }
+
+	BindChannels {
+		Bind "Color", color
+		Bind "Vertex", vertex
+		Bind "TexCoord", texcoord
+	}
+
+	SubShader {
+		Pass {
+			SetTexture [_MainTex] {
+				combine texture * primary
+			}
+		}
+	}
 }
 }

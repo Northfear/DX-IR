@@ -1,46 +1,64 @@
+// Unlit shader. Simplest possible textured shader.
+// - SUPPORTS lightmap
+// - no lighting
+// - no per-material color
+
 Shader "Mobile/Double Sided/Unlit (Supports Lightmap)" {
 Properties {
- _MainTex ("Base (RGB)", 2D) = "white" {}
+	_MainTex ("Base (RGB)", 2D) = "white" {}
 }
-SubShader { 
- LOD 100
- Tags { "RenderType"="Opaque" }
- Pass {
-  Tags { "LIGHTMODE"="Vertex" "RenderType"="Opaque" }
-  Cull Off
-  SetTexture [_MainTex] { combine texture }
- }
- Pass {
-  Tags { "LIGHTMODE"="VertexLM" "RenderType"="Opaque" }
-  BindChannels {
-   Bind "vertex", Vertex
-   Bind "texcoord1", TexCoord0
-   Bind "texcoord", TexCoord1
-  }
-  SetTexture [unity_Lightmap] { Matrix [unity_LightmapMatrix] combine texture }
-  SetTexture [_MainTex] { combine texture * previous double, texture alpha * primary alpha }
- }
- Pass {
-  Tags { "LIGHTMODE"="VertexLMRGBM" "RenderType"="Opaque" }
-  BindChannels {
-   Bind "vertex", Vertex
-   Bind "texcoord1", TexCoord0
-   Bind "texcoord", TexCoord1
-  }
-  Cull Off
-  SetTexture [unity_Lightmap] { Matrix [unity_LightmapMatrix] combine texture * texture alpha double }
-  SetTexture [_MainTex] { combine texture * previous quad, texture alpha * primary alpha }
- }
- Pass {
-  Tags { "LIGHTMODE"="VertexLMRGBM" "RenderType"="Opaque" }
-  BindChannels {
-   Bind "vertex", Vertex
-   Bind "texcoord1", TexCoord0
-   Bind "texcoord", TexCoord1
-  }
-  Cull Off
-  SetTexture [unity_Lightmap] { Matrix [unity_LightmapMatrix] combine texture * texture alpha double }
-  SetTexture [_MainTex] { combine texture * previous quad, texture alpha * primary alpha }
- }
+
+SubShader {
+	Tags { "RenderType"="Opaque" }
+	LOD 100
+
+	// Non-lightmapped
+	Pass {
+		Tags { "LightMode" = "Vertex" }
+		Lighting Off
+		Cull Off
+		SetTexture [_MainTex] { combine texture } 
+	}
+	
+	// Lightmapped, encoded as dLDR
+	Pass {
+		Tags { "LightMode" = "VertexLM" }
+
+		Lighting Off
+		BindChannels {
+			Bind "Vertex", vertex
+			Bind "texcoord1", texcoord0 // lightmap uses 2nd uv
+			Bind "texcoord", texcoord1 // main uses 1st uv
+		}
+
+		SetTexture [unity_Lightmap] {
+			matrix [unity_LightmapMatrix]
+			combine texture
+		}
+		SetTexture [_MainTex] {
+			combine texture * previous DOUBLE, texture * primary
+		}
+	}
+
+	// Lightmapped, encoded as RGBM
+	Pass {
+		Tags { "LightMode" = "VertexLMRGBM" }
+		
+		Lighting Off
+		BindChannels {
+			Bind "Vertex", vertex
+			Bind "texcoord1", texcoord0 // lightmap uses 2nd uv
+			Bind "texcoord", texcoord1 // main uses 1st uv
+		}
+		Cull Off
+		SetTexture [unity_Lightmap] {
+			matrix [unity_LightmapMatrix]
+			combine texture * texture alpha DOUBLE
+		}
+		SetTexture [_MainTex] {
+			combine texture * previous QUAD, texture * primary
+		}
+	}
+
 }
 }
