@@ -19,7 +19,7 @@ public class UIBtnWWW : UIButton
 
 	protected void DoURL()
 	{
-		if (iPhoneSettings.internetReachability != iPhoneNetworkReachability.NotReachable)
+		if (Application.internetReachability != 0)
 		{
 			Application.OpenURL(URL);
 		}

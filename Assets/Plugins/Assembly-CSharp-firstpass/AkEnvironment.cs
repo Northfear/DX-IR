@@ -20,6 +20,8 @@ public class AkEnvironment : MonoBehaviour
 
 	private void Awake()
 	{
+#if SOUND_WWISE
 		m_EnvID = AkSoundEngine.GetIDFromString(environmentName);
+#endif
 	}
 }

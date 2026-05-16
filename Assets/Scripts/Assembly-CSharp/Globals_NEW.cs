@@ -138,10 +138,12 @@ public class Globals_NEW : MonoBehaviour
 	{
 		m_This = this;
 		DetermineDeviceRank();
+#if UNITY_IPHONE
 		if (iPhone.generation == iPhoneGeneration.iPad2Gen || iPhone.generation == iPhoneGeneration.iPhone4S)
 		{
 			QualitySettings.antiAliasing = 2;
 		}
+#endif
 	}
 
 	private void Start()
@@ -166,6 +168,7 @@ public class Globals_NEW : MonoBehaviour
 
 	private void DetermineDeviceRank()
 	{
+#if UNITY_IPHONE
 		if (iPhone.generation != iPhoneGeneration.iPad1Gen && iPhone.generation != iPhoneGeneration.iPad2Gen && iPhone.generation != iPhoneGeneration.iPad3Gen)
 		{
 			if (iPhone.generation == iPhoneGeneration.iPhone3G)
@@ -205,5 +208,6 @@ public class Globals_NEW : MonoBehaviour
 				m_ResolutionRank = ResolutionRank.Low;
 			}
 		}
+#endif
 	}
 }

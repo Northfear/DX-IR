@@ -12,6 +12,7 @@ public class SoundManager
 
 	public static void Initialize(GameObject go)
 	{
+#if SOUND_WWISE
 		if (Application.platform != RuntimePlatform.OSXEditor && Application.platform != RuntimePlatform.OSXPlayer && AudioListener.volume != 0f)
 		{
 			m_GlobalObject = go;
@@ -26,27 +27,33 @@ public class SoundManager
 				m_Initialized = true;
 			}
 		}
+#endif
 	}
 
 	public static void LoadSoundBank(string name)
 	{
+#if SOUND_WWISE
 		if (m_Initialized)
 		{
 			uint out_bankID;
 			AkSoundEngine.LoadBank(name, -1, out out_bankID);
 		}
+#endif
 	}
 
 	public static void UnloadSoundBank(string name)
 	{
+#if SOUND_WWISE
 		if (m_Initialized)
 		{
 			AkSoundEngine.UnloadBank(name);
 		}
+#endif
 	}
 
 	public static uint TriggerEvent(string name, GameObject gameObject)
 	{
+#if SOUND_WWISE
 		if (!m_Initialized)
 		{
 			return 0u;
@@ -57,41 +64,54 @@ public class SoundManager
 			return 0u;
 		}
 		return AkSoundEngine.PostEvent(name, gameObject, 65536u);
+#else
+		return 0u;
+#endif
 	}
 
 	public static uint TriggerEvent(string name)
 	{
+#if SOUND_WWISE
 		if (!m_Initialized)
 		{
 			return 0u;
 		}
 		return AkSoundEngine.PostEvent(name, m_GlobalObject, 65536u);
+#else
+		return 0u;
+#endif
 	}
 
 	public static void StopEvent(uint playingID)
 	{
+#if SOUND_WWISE
 		AkSoundEngine.StopPlayingID(playingID);
+#endif
 	}
 
 	public static bool IsEventPlaying(uint playingID)
 	{
+#if SOUND_WWISE
 		int out_puPosition;
 		AKRESULT sourcePlayPosition = AkSoundEngine.GetSourcePlayPosition(playingID, out out_puPosition);
 		if (sourcePlayPosition == AKRESULT.AK_Success && out_puPosition >= 0)
 		{
 			return true;
 		}
+#endif
 		return false;
 	}
 
 	public static float GetEventCurrentPosition(uint playingID)
 	{
+#if SOUND_WWISE
 		int out_puPosition;
 		AKRESULT sourcePlayPosition = AkSoundEngine.GetSourcePlayPosition(playingID, out out_puPosition);
 		if (sourcePlayPosition == AKRESULT.AK_Success)
 		{
 			return (float)out_puPosition / 1000f;
 		}
+#endif
 		return -1f;
 	}
 
@@ -133,17 +153,21 @@ public class SoundManager
 
 	public static void SetSoundSwitch(string name, string switchname, GameObject gameObject)
 	{
+#if SOUND_WWISE
 		if (m_Initialized)
 		{
 			AkSoundEngine.SetSwitch(name, switchname, gameObject);
 		}
+#endif
 	}
 
 	public static void StopAll()
 	{
+#if SOUND_WWISE
 		if (m_Initialized)
 		{
 			AkSoundEngine.StopAll();
 		}
+#endif
 	}
 }

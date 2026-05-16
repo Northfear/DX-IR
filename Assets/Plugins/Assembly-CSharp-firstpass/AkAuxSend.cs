@@ -20,6 +20,8 @@ public class AkAuxSend : MonoBehaviour
 
 	private void Awake()
 	{
+#if SOUND_WWISE
 		m_auxBusID = AkSoundEngine.GetIDFromString(auxBusName);
+#endif
 	}
 }

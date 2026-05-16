@@ -36,6 +36,7 @@ public class QualityManager : MonoBehaviour
 
 	private void AutoDetectQuality()
 	{
+#if UNITY_IPHONE
 		switch (iPhone.generation)
 		{
 		case iPhoneGeneration.iPad1Gen:
@@ -53,6 +54,9 @@ public class QualityManager : MonoBehaviour
 			break;
 		}
 		Debug.Log(string.Format("AngryBots: Quality set to '{0}'{1}", currentQuality, " (" + iPhone.generation + " class iOS)"));
+#else
+		currentQuality = Quality.Highest;
+#endif
 	}
 
 	private void ApplyAndSetQuality(Quality newQuality)

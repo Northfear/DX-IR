@@ -53,7 +53,7 @@ public class UITextField : AutoSpriteControlBase, IKeyFocusable
 
 	protected bool maxLengthExceeded;
 
-	public iPhoneKeyboardType type;
+	public TouchScreenKeyboardType type;
 
 	public bool autoCorrect;
 

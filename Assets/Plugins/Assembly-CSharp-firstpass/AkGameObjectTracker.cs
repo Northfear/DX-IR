@@ -24,6 +24,8 @@ public class AkGameObjectTracker : AkGameObject
 		m_Position = base.transform.position;
 		m_Forward = base.transform.forward;
 		m_bHasMoved = true;
+#if SOUND_WWISE
 		AkSoundEngine.SetObjectPosition(base.gameObject, base.transform.position.x, base.transform.position.y, base.transform.position.z, base.transform.forward.x, base.transform.forward.y, base.transform.forward.z);
+#endif
 	}
 }

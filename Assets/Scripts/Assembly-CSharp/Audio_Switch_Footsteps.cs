@@ -9,6 +9,8 @@ public class Audio_Switch_Footsteps : MonoBehaviour
 
 	private void OnTriggerEnter(Collider other)
 	{
+#if SOUND_WWISE
 		AkSoundEngine.SetSwitch(switchGroup, switchValue, Globals.m_PlayerController.gameObject);
+#endif
 	}
 }

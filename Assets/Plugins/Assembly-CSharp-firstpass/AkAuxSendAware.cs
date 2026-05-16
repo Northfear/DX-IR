@@ -68,6 +68,8 @@ public class AkAuxSendAware : MonoBehaviour
 		{
 			m_auxSendValues.Add(activeAuxSend.GetAuxBusID(), activeAuxSend.GetAuxSendValueForPosition(base.gameObject.transform.position));
 		}
+#if SOUND_WWISE
 		AkSoundEngine.SetGameObjectAuxSendValues(base.gameObject, m_auxSendValues, (uint)m_activeAuxSends.Count);
+#endif
 	}
 }

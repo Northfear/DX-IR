@@ -166,7 +166,7 @@ public class UIManager : MonoBehaviour
 
 	private StringBuilder sb = new StringBuilder();
 
-	private iPhoneKeyboard iKeyboard;
+	private TouchScreenKeyboard iKeyboard;
 
 	public static UIManager instance
 	{
@@ -224,8 +224,8 @@ public class UIManager : MonoBehaviour
 				}
 				if (!Application.isEditor)
 				{
-					iPhoneKeyboard.hideInput = kbInfo.hideInput;
-					iKeyboard = iPhoneKeyboard.Open(controlText, kbInfo.type, kbInfo.autoCorrect, kbInfo.multiline, kbInfo.secure, kbInfo.alert, controlText);
+					TouchScreenKeyboard.hideInput = kbInfo.hideInput;
+					iKeyboard = TouchScreenKeyboard.Open(controlText, kbInfo.type, kbInfo.autoCorrect, kbInfo.multiline, kbInfo.secure, kbInfo.alert, controlText);
 					iKeyboard.text = controlText;
 				}
 				insert = kbInfo.insert;
@@ -306,11 +306,12 @@ public class UIManager : MonoBehaviour
 		}
 		if (pointerType == POINTER_TYPE.TOUCHPAD || pointerType == POINTER_TYPE.TOUCHPAD_AND_RAY)
 		{
-			//iPhoneKeyboard.autorotateToPortrait = autoRotateKeyboardPortrait;
-			//iPhoneKeyboard.autorotateToPortraitUpsideDown = autoRotateKeyboardPortraitUpsideDown;
-			//iPhoneKeyboard.autorotateToLandscapeLeft = autoRotateKeyboardLandscapeLeft;
-			//iPhoneKeyboard.autorotateToLandscapeRight = autoRotateKeyboardLandscapeRight;
-			if (iPhoneSettings.model == "iPad")
+			//TODO missing in 4.7
+			//TouchScreenKeyboard.autorotateToPortrait = autoRotateKeyboardPortrait;
+			//TouchScreenKeyboard.autorotateToPortraitUpsideDown = autoRotateKeyboardPortraitUpsideDown;
+			//TouchScreenKeyboard.autorotateToLandscapeLeft = autoRotateKeyboardLandscapeLeft;
+			//TouchScreenKeyboard.autorotateToLandscapeRight = autoRotateKeyboardLandscapeRight;
+			if (SystemInfo.deviceModel == "iPad")
 			{
 				numTouches = 11;
 			}
@@ -1235,10 +1236,10 @@ public class UIManager : MonoBehaviour
 		{
 			return;
 		}
-		numActivePointers = Mathf.Min(numTouches, iPhoneInput.touchCount);
+		numActivePointers = Mathf.Min(numTouches, Input.touchCount);
 		for (int i = 0; i < numActivePointers; i++)
 		{
-			iPhoneTouch touch = iPhoneInput.GetTouch(i);
+			Touch touch = Input.GetTouch(i);
 			int num = touch.fingerId;
 			if (num >= numTouchPointers)
 			{
@@ -1247,7 +1248,7 @@ public class UIManager : MonoBehaviour
 			activePointers[i] = num;
 			switch (touch.phase)
 			{
-			case iPhoneTouchPhase.Moved:
+			case TouchPhase.Moved:
 				pointers[0, num].evt = POINTER_INFO.INPUT_EVENT.DRAG;
 				pointers[0, num].inputDelta = touch.deltaPosition;
 				pointers[0, num].devicePos = touch.position;
@@ -1260,7 +1261,7 @@ public class UIManager : MonoBehaviour
 					}
 				}
 				break;
-			case iPhoneTouchPhase.Began:
+			case TouchPhase.Began:
 				pointers[0, num].Reset(curActionID++);
 				pointers[0, num].evt = POINTER_INFO.INPUT_EVENT.PRESS;
 				pointers[0, num].active = true;
@@ -1270,8 +1271,8 @@ public class UIManager : MonoBehaviour
 				pointers[0, num].activeTime = Time.time;
 				pointers[0, num].targetObj = null;
 				break;
-			case iPhoneTouchPhase.Ended:
-			case iPhoneTouchPhase.Canceled:
+			case TouchPhase.Ended:
+			case TouchPhase.Canceled:
 				if (pointers[0, num].isTap)
 				{
 					pointers[0, num].evt = POINTER_INFO.INPUT_EVENT.TAP;
@@ -1284,7 +1285,7 @@ public class UIManager : MonoBehaviour
 				pointers[0, num].active = false;
 				pointers[0, num].activeTime = 0f;
 				break;
-			case iPhoneTouchPhase.Stationary:
+			case TouchPhase.Stationary:
 				pointers[0, num].evt = POINTER_INFO.INPUT_EVENT.NO_CHANGE;
 				pointers[0, num].inputDelta = Vector3.zero;
 				break;

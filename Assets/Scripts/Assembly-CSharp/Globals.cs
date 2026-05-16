@@ -265,6 +265,8 @@ public class Globals : MonoBehaviour
 		m_This = this;
 		DetermineDeviceRank();
 		LoadMissions();
+
+#if UNITY_IPHONE
 		if (iPhone.generation == iPhoneGeneration.iPad2Gen || iPhone.generation == iPhoneGeneration.iPhone4S)
 		{
 			Debug.Log("High fillrate device detected, enabling FSAA.");
@@ -275,6 +277,7 @@ public class Globals : MonoBehaviour
 			Debug.Log("Low RAM device detected, halving textures.");
 			QualitySettings.DecreaseLevel();
 		}
+#endif
 	}
 
 	private void Start()
@@ -313,9 +316,11 @@ public class Globals : MonoBehaviour
 
 	private void DetermineDeviceRank()
 	{
+#if UNITY_IPHONE
 		if (iPhone.generation != iPhoneGeneration.iPad1Gen && iPhone.generation != iPhoneGeneration.iPad2Gen && iPhone.generation != iPhoneGeneration.iPad3Gen && iPhone.generation != iPhoneGeneration.iPhone3G && iPhone.generation != iPhoneGeneration.iPhone3GS && iPhone.generation != iPhoneGeneration.iPhone4 && iPhone.generation != iPhoneGeneration.iPhone4S && iPhone.generation != iPhoneGeneration.iPhone && iPhone.generation != iPhoneGeneration.iPodTouch1Gen && iPhone.generation != iPhoneGeneration.iPodTouch2Gen && iPhone.generation != iPhoneGeneration.iPodTouch3Gen && iPhone.generation != iPhoneGeneration.iPodTouch4Gen)
 		{
 		}
+#endif
 	}
 
 	public static CharacterBase FindCharacterBase(Transform node)
