@@ -295,8 +295,10 @@ public class HackingSystem : MonoBehaviour
 		Hacking_VictoryResults.m_this.SetupResults();
 		m_hackingVictoryResultPanel.BringIn();
 		m_hackingSystemState = HackingSystemState.Results;
+		EventManager.Instance.PostEvent("Music_Game", EventAction.SetSwitch, "Level");
 		EventManager.Instance.PostEvent("Hack_Success", EventAction.PlaySound, base.gameObject);
 		EventManager.Instance.PostEvent("Hack_Access_Granted", EventAction.PlaySound, base.gameObject);
+		EventManager.Instance.PostEvent("Hack_Alarm_Timer", EventAction.StopSound, null);
 	}
 
 	public void CapturedIOPort()
