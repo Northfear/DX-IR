@@ -1,3 +1,4 @@
+using Fabric;
 using System;
 using UnityEngine;
 
@@ -43,6 +44,8 @@ public class TyrantOutroStart : MonoBehaviour
 	public AnimationState m_AnimState;
 
 	public string m_BodyAnim;
+
+	public float m_MenuQuitTimer;
 
 	private bool m_CinematicStarted;
 
@@ -98,6 +101,16 @@ public class TyrantOutroStart : MonoBehaviour
 			{
 				m_ScreenFades[i].TriggerScreenFade();
 			}
+		}
+
+		if (m_CinematicTimer > m_MenuQuitTimer)
+		{
+			m_CinematicStarted = false;
+			EventManager.Instance.PostEvent("UI_Select", EventAction.PlaySound, null, base.gameObject);
+			EventManager.Instance.PostEvent("DynamicMixer", EventAction.RemovePreset, "Pause");
+			EventManager.Instance.PostEvent("Pause", EventAction.UnpauseSound, null, base.gameObject);
+			FabricManager.Instance.Stop(0f);
+			GameManager.LoadMenu();
 		}
 	}
 
