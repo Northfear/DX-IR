@@ -112,7 +112,7 @@ public class Globals : MonoBehaviour
 
 	public static AugmentationData m_AugmentationData = null;
 
-	public static bool m_DisableTapToMove = false;
+	public static bool m_DisableTapToMove = true;
 
 	public static bool m_Bloom = false;
 
@@ -178,6 +178,10 @@ public class Globals : MonoBehaviour
 
 	public static PackedSprite m_DamageDirectionArrow = null;
 
+	public static int m_MouseSensitivity = 4;
+
+	public static bool m_InvertCamera = false;
+	
 	private void Awake()
 	{
 		m_This = this;
@@ -288,5 +292,10 @@ public class Globals : MonoBehaviour
 			node = node.parent;
 		}
 		return securityCamera;
+	}
+
+	public static bool CanPause()
+	{
+		return GameManager.m_This.m_GameState == GameManager.GameState.Game && m_HUD.m_Showing && m_PlayerController.gameObject.activeSelf && !m_HUD.m_PauseButton.IsHidden() && !m_ConversationSystem.IsSpeaking() && m_PlayerController.m_CameraMode != PlayerController.CameraMode.Takedown;
 	}
 }

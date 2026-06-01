@@ -18,7 +18,7 @@ public class InteractiveObject_Base : MonoBehaviour
 
 	protected bool m_BlockCover;
 
-	protected static Vector3 m_OffScreen = new Vector3(0f, 0f, -20f);
+	public Vector3 m_OffScreen = new Vector3(0f, 0f, -20f);
 
 	public bool IsMarkedForDelete()
 	{

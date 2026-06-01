@@ -62,16 +62,20 @@ public class InteractiveObject_HackingTerminal : InteractiveObject_Base
 		{
 			return false;
 		}
+
 		if ((bool)m_hackingTerminalPrefab)
 		{
 			DisableUI();
 			if (!m_HackWasSuccessful)
 			{
+				Globals.m_HackingGlobals.m_ActiveTerminal = this;
 				Object.Instantiate(m_hackingTerminalPrefab);
+
 				if (HackingTerminal_NumberPad.m_this != null)
 				{
 					m_hackingTerminal = HackingTerminal_NumberPad.m_this;
 				}
+
 				m_hackingTerminal.RegisterHackingTerminalInfo(m_hackingTerminalInfo, m_PasswordKnown);
 				m_hackingTerminal.SetCorrectPasscodeCallback(OnCorrectPasscodeCallback);
 				m_hackingTerminal.SetIncorrectPasscodeCallback(OnIncorrectPasscodeCallback);
@@ -100,7 +104,7 @@ public class InteractiveObject_HackingTerminal : InteractiveObject_Base
 	{
 		if (m_InAHack)
 		{
-			return InteractiveObject_Base.m_OffScreen;
+			return m_OffScreen;
 		}
 		return base.GetPopupLocation();
 	}
@@ -182,13 +186,16 @@ public class InteractiveObject_HackingTerminal : InteractiveObject_Base
 		if (m_HackWasSuccessful)
 		{
 			ActivateTargetObject();
+
 			if (m_hackingTerminal != null)
 			{
 				m_hackingTerminal.CloseTerminal(false);
 			}
+
 			if (m_EmailPrefab == null)
 			{
 				EnableUI();
+				m_Active = false;
 			}
 			else
 			{
@@ -198,12 +205,15 @@ public class InteractiveObject_HackingTerminal : InteractiveObject_Base
 					m_LinkedHackingTerminalForEmail.LearnedPassword();
 				}
 			}
+
 			m_InAHack = false;
 		}
 		else
 		{
 			m_hackingTerminal.BringInTerminal();
 		}
+
+		Globals.m_HackingGlobals.m_ActiveTerminal = null;
 	}
 
 	private void ActivateTargetObject()
@@ -222,6 +232,7 @@ public class InteractiveObject_HackingTerminal : InteractiveObject_Base
 		Globals.m_HUD.EnablePassThruInput(false);
 		Globals.m_PlayerController.ToggleWeaponHolstered();
 		Globals.m_PlayerController.CancelMovement();
+		Globals.m_PlayerController.m_DisableController = true;
 	}
 
 	private void EnableUI()
@@ -229,5 +240,6 @@ public class InteractiveObject_HackingTerminal : InteractiveObject_Base
 		Globals.m_HUD.Display(true, true);
 		Globals.m_HUD.EnablePassThruInput(true);
 		Globals.m_PlayerController.ToggleWeaponHolstered();
+		Globals.m_PlayerController.m_DisableController = false;
 	}
 }

@@ -373,6 +373,8 @@ public class MainHUD : MonoBehaviour
 
 	private float m_WarningOverWeaponTimer;
 
+	public UIButton m_PauseButton;
+
 	private void Awake()
 	{
 		Globals.m_HUD = this;
@@ -504,6 +506,15 @@ public class MainHUD : MonoBehaviour
 			UpdateCommScramble();
 		}
 		UpdateFlashColor();
+
+		if (!m_PauseButton.IsHidden() && !UIManager.instance.blockInput && !Globals.m_PlayerController.IsDead() && !m_Customizing && Globals.CanPause() && Time.timeScale != 0f)
+		{
+			if ((Input.GetKeyDown(KeyCode.Escape) || Input.GetKeyDown(KeyCode.Menu)))
+			{
+				PauseTapped();
+				PauseTabs.OpenTabs(PauseTabs.PauseWindow.Pause);
+			}
+		}
 	}
 
 	private void UpdateFlashColor()
@@ -859,7 +870,7 @@ public class MainHUD : MonoBehaviour
 		}
 	}
 
-	private void OpenQuickWeapons()
+	public void OpenQuickWeapons()
 	{
 		if (m_QuickWeaponsOpen)
 		{
@@ -901,7 +912,7 @@ public class MainHUD : MonoBehaviour
 		EventManager.Instance.PostEvent("UI_Window", EventAction.PlaySound, null, base.gameObject);
 	}
 
-	private void OpenQuickItems()
+	public void OpenQuickItems()
 	{
 		if (m_QuickItemsOpen)
 		{
@@ -939,7 +950,7 @@ public class MainHUD : MonoBehaviour
 		EventManager.Instance.PostEvent("UI_Window", EventAction.PlaySound, null, base.gameObject);
 	}
 
-	private void OpenGrenadeMenu()
+	public void OpenGrenadeMenu()
 	{
 		m_GrenadeMenuBackground[0].gameObject.SetActiveRecursively(true);
 		m_GrenadeMenuBackground[1].gameObject.SetActiveRecursively(true);
@@ -956,7 +967,7 @@ public class MainHUD : MonoBehaviour
 		EventManager.Instance.PostEvent("UI_Window", EventAction.PlaySound, null, base.gameObject);
 	}
 
-	private void CloseGrenadeMenu(bool ForceClose = false)
+	public void CloseGrenadeMenu(bool ForceClose = false)
 	{
 		m_GrenadeMenuBackground[0].gameObject.SetActiveRecursively(false);
 		m_GrenadeMenuBackground[1].gameObject.SetActiveRecursively(false);
@@ -966,7 +977,7 @@ public class MainHUD : MonoBehaviour
 		SetGrenadeIcon();
 	}
 
-	private void CloseQuickWeapons(bool ForceClose = false)
+	public void CloseQuickWeapons(bool ForceClose = false)
 	{
 		if (!m_QuickWeaponsOpen && !ForceClose)
 		{
@@ -997,7 +1008,7 @@ public class MainHUD : MonoBehaviour
 		}
 	}
 
-	private void CloseQuickItems(bool ForceClose = false)
+	public void CloseQuickItems(bool ForceClose = false)
 	{
 		if (!m_QuickItemsOpen && !ForceClose)
 		{

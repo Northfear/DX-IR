@@ -44,6 +44,11 @@ public class InteractivePopup
 		m_NormalPopup.m_PopupBackground.transform.localPosition = localPosition;
 	}
 
+	public void InteractWithObject()
+	{
+		m_InteractiveObject.InteractWithObject();
+	}
+
 	public void SetText(InteractiveObject_Base obj)
 	{
 		switch (m_PopupType)
@@ -84,5 +89,15 @@ public class InteractivePopup
 			break;
 		}
 		}
+	}
+
+	public InteractiveObject_Base GetInteractiveObject()
+	{
+		return m_InteractiveObject;
+	}
+
+	public PopupType GetPopupType()
+	{
+		return m_PopupType;
 	}
 }

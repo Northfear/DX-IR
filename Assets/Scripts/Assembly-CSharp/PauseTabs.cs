@@ -87,6 +87,14 @@ public class PauseTabs : MonoBehaviour
 
 	private void Update()
 	{
+		if (KeyboardInput.m_KeyboardEnabled)
+		{
+			if ((Input.GetKeyDown(KeyCode.Escape) || KeyboardInput.GetKeyDown(KeyboardInput.KeyName.Pause)) && !UIManager.instance.blockInput)
+			{
+				ExitTapped();
+			}
+		}
+
 		float timeThisFrame = m_TimeThisFrame;
 		m_TimeThisFrame = Time.realtimeSinceStartup;
 		m_deltaTime = m_TimeThisFrame - timeThisFrame;
@@ -209,6 +217,17 @@ public class PauseTabs : MonoBehaviour
 		UpdateCreditsValue();
 		UpdatePraxisValue();
 		UpdateExperienceValue();
+	}
+
+	public static void OpenTabs(PauseWindow targetWindow)
+	{
+		if (m_This == null || m_This.m_Panel == null)
+		{
+			return;
+		}
+
+		m_This.m_TargetMenu = targetWindow;
+		OpenTabs();
 	}
 
 	private void SetMenuTitle()

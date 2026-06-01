@@ -9291,6 +9291,7 @@ GameObject:
   - 114: {fileID: 2080}
   - 114: {fileID: 2081}
   - 114: {fileID: 2219}
+  - 114: {fileID: 2220}
   m_Layer: 0
   m_Name: Global
   m_TagString: Untagged
@@ -20865,7 +20866,7 @@ MonoBehaviour:
   _dspComponents: []
   _isComponentActive: 0
   _maxInstances: 3
-  _stealingBehaviour: 2
+  _stealingBehaviour: 0
   _overrideParentVolume: 0
   _volume: .400000006
   _volumeRandomization: 0
@@ -23116,7 +23117,7 @@ MonoBehaviour:
   _dspComponents: []
   _isComponentActive: 0
   _maxInstances: 2
-  _stealingBehaviour: 2
+  _stealingBehaviour: 0
   _overrideParentVolume: 0
   _volume: .5
   _volumeRandomization: .100000001
@@ -24392,7 +24393,7 @@ MonoBehaviour:
   _dspComponents: []
   _isComponentActive: 0
   _maxInstances: 1
-  _stealingBehaviour: 2
+  _stealingBehaviour: 0
   _overrideParentVolume: 0
   _volume: .5
   _volumeRandomization: 0
@@ -30181,7 +30182,7 @@ MonoBehaviour:
   _dspComponents: []
   _isComponentActive: 0
   _maxInstances: 1
-  _stealingBehaviour: 2
+  _stealingBehaviour: 0
   _overrideParentVolume: 0
   _volume: .400000006
   _volumeRandomization: 0
@@ -30690,7 +30691,7 @@ MonoBehaviour:
   _dspComponents: []
   _isComponentActive: 0
   _maxInstances: 1
-  _stealingBehaviour: 2
+  _stealingBehaviour: 0
   _overrideParentVolume: 0
   _volume: .5
   _volumeRandomization: 0
@@ -37488,7 +37489,7 @@ MonoBehaviour:
   _dspComponents: []
   _isComponentActive: 0
   _maxInstances: 3
-  _stealingBehaviour: 2
+  _stealingBehaviour: 0
   _overrideParentVolume: 0
   _volume: .400000006
   _volumeRandomization: 0
@@ -37638,7 +37639,7 @@ MonoBehaviour:
   _dspComponents: []
   _isComponentActive: 0
   _maxInstances: 1
-  _stealingBehaviour: 2
+  _stealingBehaviour: 0
   _overrideParentVolume: 0
   _volume: .75
   _volumeRandomization: 0
@@ -38726,7 +38727,7 @@ MonoBehaviour:
   _dspComponents: []
   _isComponentActive: 0
   _maxInstances: 1
-  _stealingBehaviour: 2
+  _stealingBehaviour: 0
   _overrideParentVolume: 0
   _volume: .100000001
   _volumeRandomization: 0
@@ -40229,7 +40230,7 @@ MonoBehaviour:
   _dspComponents: []
   _isComponentActive: 0
   _maxInstances: 1
-  _stealingBehaviour: 2
+  _stealingBehaviour: 0
   _overrideParentVolume: 0
   _volume: .100000001
   _volumeRandomization: 0
@@ -50051,7 +50052,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4a729cb408908fe2ce4d0e46d10dbb18, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pointerType: 2
+  pointerType: 0
   dragThreshold: 20
   rayDragThreshold: 2
   rayDepth: Infinity
@@ -50356,6 +50357,7 @@ MonoBehaviour:
     type: 2}
   m_EnergyMeter: {fileID: -1192699894, guid: 28dce757e47b0814abb65e6d2edb9b08, type: 2}
   m_HackingUI: {fileID: 2145217389, guid: c1f5ad97c15eaa24a8a89f5ff5370192, type: 2}
+  m_ActiveTerminal: {fileID: 0}
 --- !u!114 &2080
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -52497,7 +52499,7 @@ MonoBehaviour:
   _dspComponents: []
   _isComponentActive: 0
   _maxInstances: 1
-  _stealingBehaviour: 2
+  _stealingBehaviour: 0
   _overrideParentVolume: 0
   _volume: .75
   _volumeRandomization: 0
@@ -53095,7 +53097,7 @@ MonoBehaviour:
   _dspComponents: []
   _isComponentActive: 0
   _maxInstances: 1
-  _stealingBehaviour: 2
+  _stealingBehaviour: 0
   _overrideParentVolume: 0
   _volume: .100000001
   _volumeRandomization: 0
@@ -53159,7 +53161,7 @@ MonoBehaviour:
   _dspComponents: []
   _isComponentActive: 0
   _maxInstances: 2
-  _stealingBehaviour: 2
+  _stealingBehaviour: 0
   _overrideParentVolume: 0
   _volume: .400000006
   _volumeRandomization: 0
@@ -55040,7 +55042,7 @@ MonoBehaviour:
   _dspComponents: []
   _isComponentActive: 0
   _maxInstances: 1
-  _stealingBehaviour: 2
+  _stealingBehaviour: 0
   _overrideParentVolume: 0
   _volume: .100000001
   _volumeRandomization: 0
@@ -55789,3 +55791,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a89a70f85a7de184891f0eac5106fb35, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &2220
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 587}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ed21f8e96f5b7247bc895480e620f21, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_InputXmlFile: {fileID: 4900000, guid: 8e6d611a30c38e24ba1902448de87cf3, type: 3}

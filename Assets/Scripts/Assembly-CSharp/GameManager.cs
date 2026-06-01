@@ -201,6 +201,25 @@ public class GameManager : MonoBehaviour
 
 	private void Update()
 	{
+		bool bActiveGame = m_GameState == GameState.FadeOutGameLoad || m_GameState == GameState.Game;
+		bool bActiveHacking = Globals.m_This != null && Globals.m_HackingGlobals != null && Globals.m_HackingGlobals.m_ActiveTerminal != null;
+		bool bIsPaused = Time.timeScale == 0f;
+		bool bHUDEnabled = (Globals.m_HUD == null || !Globals.m_HUD.enabled || !Globals.m_HUD.m_Showing);
+		bool bIsSpeaking = Globals.m_ConversationSystem != null && Globals.m_ConversationSystem.IsSpeaking();
+
+		bool bTakedownActive = false;
+		if (Globals.m_PlayerController != null)
+		{
+			bTakedownActive = Globals.m_PlayerController.m_CameraMode == PlayerController.CameraMode.Takedown;
+		}
+
+		bool bScreenLocked = ((bActiveGame && !bIsPaused && !bHUDEnabled && !bIsSpeaking) || bTakedownActive);
+
+		if (Screen.lockCursor != bScreenLocked)
+		{
+			Screen.lockCursor = bScreenLocked;
+		}
+
 		switch (m_GameState)
 		{
 		case GameState.Startup:

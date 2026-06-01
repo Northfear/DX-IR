@@ -16,7 +16,8 @@ public abstract class CharacterBase : MonoBehaviour
 
 	protected int m_CurrentHealth;
 
-	private bool m_Dead;
+	[HideInInspector]
+	protected bool m_Dead;
 
 	public Renderer m_MeshRenderer;
 
@@ -290,5 +291,10 @@ public abstract class CharacterBase : MonoBehaviour
 			m_TapCollisionObject.SetActiveRecursively(false);
 		}
 		Object.Destroy(m_ShadowObject);
+	}
+
+	public virtual bool IsDead()
+	{
+		return m_Dead || !base.gameObject.activeSelf;
 	}
 }

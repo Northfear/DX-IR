@@ -429,4 +429,9 @@ public class ConversationSystem : MonoBehaviour
 		button.m_Tab.Hide(tf);
 		button.m_Button.Hide(tf);
 	}
+
+	public bool InAConversation()
+	{
+		return (bool)m_InteractiveObject && m_InteractiveObject.IsHavingConversation();
+	}
 }

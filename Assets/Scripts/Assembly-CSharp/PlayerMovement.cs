@@ -90,6 +90,8 @@ public class PlayerMovement : TouchDragBase
 
 	public float m_DeadZoneHorizontal = 0.05f;
 
+	private bool m_IsWalking;
+
 	protected void Start()
 	{
 		m_PlayerCharacterController = GetComponent<CharacterController>();
@@ -99,6 +101,7 @@ public class PlayerMovement : TouchDragBase
 		m_TapToMoveTargetObject.SetActiveRecursively(false);
 		m_TapToCoverTargetObject.transform.parent = null;
 		m_TapToCoverTargetObject.SetActiveRecursively(false);
+		m_IsWalking = false;
 	}
 
 	protected void Update()
@@ -106,8 +109,11 @@ public class PlayerMovement : TouchDragBase
 		m_CharacterMovementVector = Vector3.zero;
 		m_CurrentMovementSpeed = 0f;
 		m_IsMoving = false;
+
 		UpdateTap();
 		UpdateStick();
+		UpdateKeyboard();
+
 		m_NormalizedSpeed = (Mathf.Abs(m_CurrentMovementSpeed) - Globals.m_PlayerController.GetMinSpeed()) / (Globals.m_PlayerController.GetRunSpeed() - Globals.m_PlayerController.GetMinSpeed());
 		if (m_IsMoving)
 		{
@@ -528,6 +534,110 @@ public class PlayerMovement : TouchDragBase
 				}
 			}
 			m_CharacterMovementVector += base.transform.right * m_CurrentMovementSpeed;
+		}
+	}
+
+	private void UpdateKeyboard()
+	{
+		if (KeyboardInput.GetKeyDown(KeyboardInput.KeyName.WalkToggle))
+		{
+			m_IsWalking = !m_IsWalking;
+		}
+
+		if (Globals.m_PlayerController.m_DisableController || Globals.m_PlayerController.IsDead())
+		{
+			return;
+		}
+
+		float walkSpeedMod = ((!m_IsWalking && !KeyboardInput.GetKey(KeyboardInput.KeyName.Walk)) ? 1f : 0.5f);
+		Vector2 movementVector = new Vector2(KeyboardInput.GetHorizontal(), KeyboardInput.GetVertical());
+		movementVector.Normalize();
+		float movementX = movementVector.x * walkSpeedMod;
+		float movementY = movementVector.y * walkSpeedMod;
+		bool m_KeyboardMovementPressed = Mathf.Abs(movementY) > 0f || Mathf.Abs(movementX) > 0f;
+
+		if (!m_MovementPressed && !m_KeyboardMovementPressed && Globals.m_PlayerController.m_CoverState == PlayerController.CoverState.CoverAiming && !Globals.m_PlayerController.WantFire())
+		{
+			Globals.m_PlayerController.m_WeaponScript.m_WeaponState = WeaponBase.WeaponState.Idle;
+			Globals.m_PlayerController.m_WeaponScript.ResetFOV();
+			Globals.m_PlayerController.SetCoverState(PlayerController.CoverState.TransitioningFromFire);
+		}
+
+		if ((Globals.m_PlayerController.m_CoverState != 0 && Globals.m_PlayerController.m_CoverState != PlayerController.CoverState.Inside && Globals.m_PlayerController.m_CoverState != PlayerController.CoverState.Crouch && Globals.m_PlayerController.m_CoverState != PlayerController.CoverState.Reloading) || !m_KeyboardMovementPressed)
+		{
+			return;
+		}
+
+		float clampedMovementVertical = movementY;
+		clampedMovementVertical = Mathf.Clamp(clampedMovementVertical, -1f, 1f);
+		float clampedMovementHorizontal = movementX;
+		clampedMovementHorizontal = Mathf.Clamp(clampedMovementHorizontal, -1f, 1f);
+
+		if (Globals.m_PlayerController.m_CoverState == PlayerController.CoverState.Outside)
+		{
+			if (Mathf.Abs(clampedMovementHorizontal) >= m_DeadZoneHorizontal)
+			{
+				m_IsMoving = true;
+				float finalMovementHorizontal = Globals.m_PlayerController.GetStrafeSpeed() * clampedMovementHorizontal;
+				if (Mathf.Abs(finalMovementHorizontal) < Globals.m_PlayerController.GetMinSpeed())
+				{
+					finalMovementHorizontal = ((!(clampedMovementHorizontal < 0f)) ? Globals.m_PlayerController.GetMinSpeed() : (0f - Globals.m_PlayerController.GetMinSpeed()));
+				}
+				m_CharacterMovementVector += base.transform.right * finalMovementHorizontal;
+			}
+
+			if (Mathf.Abs(clampedMovementVertical) >= m_DeadZoneVertical)
+			{
+				m_IsMoving = true;
+				float finalMovementVertical = Globals.m_PlayerController.GetRunSpeed() * clampedMovementVertical;
+				if (Mathf.Abs(finalMovementVertical) < Globals.m_PlayerController.GetMinSpeed())
+				{
+					finalMovementVertical = ((!(clampedMovementVertical < 0f)) ? Globals.m_PlayerController.GetMinSpeed() : (0f - Globals.m_PlayerController.GetMinSpeed()));
+				}
+				m_CharacterMovementVector += base.transform.forward * finalMovementVertical;
+			}
+
+			if (m_CharacterMovementVector.magnitude > Globals.m_PlayerController.GetRunSpeed())
+			{
+				m_CharacterMovementVector.Normalize();
+				m_CharacterMovementVector *= Globals.m_PlayerController.GetRunSpeed();
+			}
+
+			m_CurrentMovementSpeed = m_CharacterMovementVector.magnitude;
+			return;
+		}
+
+		if (Mathf.Abs(clampedMovementHorizontal) >= m_DeadZoneHorizontal)
+		{
+			float num6 = 1f;
+			if (clampedMovementHorizontal < 0f)
+			{
+				num6 = -1f;
+			}
+
+			if (!CoverMovementCollision(base.transform.right * m_CoverEdgeCollisionDist * num6))
+			{
+				m_IsMoving = true;
+				m_CurrentMovementSpeed = Globals.m_PlayerController.GetRunSpeed() * clampedMovementHorizontal;
+
+				if (Mathf.Abs(m_CurrentMovementSpeed) < Globals.m_PlayerController.GetMinSpeed())
+				{
+					if (clampedMovementHorizontal < 0f)
+					{
+						m_CurrentMovementSpeed = 0f - Globals.m_PlayerController.GetMinSpeed();
+					}
+					else
+					{
+						m_CurrentMovementSpeed = Globals.m_PlayerController.GetMinSpeed();
+					}
+				}
+				m_CharacterMovementVector += base.transform.right * m_CurrentMovementSpeed;
+			}
+		}
+
+		if (clampedMovementVertical <= 0f - m_DeadZoneVertical)
+		{
+			Globals.m_PlayerController.ExitCover();
 		}
 	}
 
