@@ -33,4 +33,9 @@ public class MainPanel : MonoBehaviour
 			m_Version.Text = version;
 		}
 	}
+
+	public void QuitGame()
+	{
+		Application.Quit();
+	}
 }
