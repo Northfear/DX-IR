@@ -201,7 +201,7 @@ public class GameManager : MonoBehaviour
 
 	private void Update()
 	{
-		bool bActiveGame = m_GameState == GameState.FadeOutGameLoad || m_GameState == GameState.Game;
+		bool bActiveGame = m_GameState == GameState.FadeOutGameLoad || m_GameState == GameState.Game || m_GameState == GameState.FadeBlackToGameLoad;
 		bool bActiveHacking = Globals.m_This != null && Globals.m_HackingGlobals != null && Globals.m_HackingGlobals.m_ActiveTerminal != null;
 		bool bIsPaused = Time.timeScale == 0f;
 		bool bHUDEnabled = (Globals.m_HUD == null || !Globals.m_HUD.enabled || !Globals.m_HUD.m_Showing);
