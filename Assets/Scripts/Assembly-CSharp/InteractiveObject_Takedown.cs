@@ -88,17 +88,17 @@ public class InteractiveObject_Takedown : InteractiveObject_Base
 	{
 		if (m_InteractiveCollider == null || !m_Active)
 		{
-			return InteractiveObject_Base.m_OffScreen;
+			return m_OffScreen;
 		}
 		Enemy_Base component = base.gameObject.transform.parent.GetComponent<Enemy_Base>();
 		if (component == null || !component.m_MeshRenderer.isVisible)
 		{
-			return InteractiveObject_Base.m_OffScreen;
+			return m_OffScreen;
 		}
 		if (component.IsDead())
 		{
 			Globals.m_InteractiveObjectManager.DisableInteractivePopup(this);
-			return InteractiveObject_Base.m_OffScreen;
+			return m_OffScreen;
 		}
 		SphereCollider sphereCollider = base.gameObject.collider as SphereCollider;
 		SphereCollider sphereCollider2 = Globals.m_PlayerController.m_PlayerInteractiveCollider as SphereCollider;
@@ -119,7 +119,7 @@ public class InteractiveObject_Takedown : InteractiveObject_Base
 		}
 		if (!flag)
 		{
-			return InteractiveObject_Base.m_OffScreen;
+			return m_OffScreen;
 		}
 		Bounds bounds = m_InteractiveCollider.bounds;
 		Vector3 vector2 = base.transform.InverseTransformPoint(bounds.center);

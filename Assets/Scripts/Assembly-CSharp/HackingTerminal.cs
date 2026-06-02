@@ -148,10 +148,13 @@ public class HackingTerminal : MonoBehaviour
 	public void CloseButtonPressed()
 	{
 		CloseTerminal(true);
+
 		if (m_closeButtonPressedCallback != null)
 		{
 			m_closeButtonPressedCallback();
 		}
+
+		Globals.m_HackingGlobals.m_ActiveTerminal = null;
 		SoundManager.TriggerEvent("Play_UI_Select", base.gameObject);
 	}
 

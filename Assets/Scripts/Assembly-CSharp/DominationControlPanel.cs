@@ -107,6 +107,7 @@ public class DominationControlPanel : MonoBehaviour
 		m_DominationPanel.Dismiss();
 		SoundManager.TriggerEvent("Play_HUB_Exit", base.gameObject);
 		SoundManager.TriggerEvent("Play_UI_Window", base.gameObject);
+		Globals.m_PlayerController.m_DisableController = false;
 	}
 
 	private void Setup()
@@ -186,6 +187,7 @@ public class DominationControlPanel : MonoBehaviour
 		}
 		ThumbnailPressed(m_InteractiveObject.m_SelectedCameraIdx);
 		UIManager.instance.AddCamera(m_DominationCamera, 4096, 100f, 0);
+		Globals.m_PlayerController.m_DisableController = true;
 	}
 
 	private void CleanupControlPanel(UIPanelBase panel, EZTransition transition)
@@ -200,6 +202,10 @@ public class DominationControlPanel : MonoBehaviour
 	private void ThumbnailPressed(int idx)
 	{
 		if (idx < 0 || idx >= 4)
+		{
+			return;
+		}
+		if (m_InteractiveObject.m_ConnectedCameras.Length <= idx)
 		{
 			return;
 		}

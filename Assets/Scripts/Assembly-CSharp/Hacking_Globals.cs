@@ -16,6 +16,9 @@ public class Hacking_Globals : MonoBehaviour
 
 	public GameObject m_SubRoutineSpamPrefab;
 
+	[HideInInspector]
+	public InteractiveObject_HackingTerminal m_ActiveTerminal;
+
 	private void Awake()
 	{
 		Globals.m_HackingGlobals = this;

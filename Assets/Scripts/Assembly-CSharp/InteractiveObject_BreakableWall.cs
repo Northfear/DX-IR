@@ -109,7 +109,7 @@ public class InteractiveObject_BreakableWall : InteractiveObject_Base
 		Augmentation_Strength augmentation_Strength = (Augmentation_Strength)Globals.m_AugmentationData.GetAugmentationContainer(AugmentationData.Augmentations.Strength);
 		if (!augmentation_Strength.GetCanBreakThroughWall())
 		{
-			return InteractiveObject_Base.m_OffScreen;
+			return m_OffScreen;
 		}
 		return base.GetPopupLocation();
 	}

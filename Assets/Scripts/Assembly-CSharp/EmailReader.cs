@@ -34,6 +34,7 @@ public class EmailReader : MonoBehaviour
 		m_EmailPanel.Dismiss();
 		SoundManager.TriggerEvent("Play_UI_Select", base.gameObject);
 		SoundManager.TriggerEvent("Play_UI_Window", base.gameObject);
+		Globals.m_PlayerController.m_DisableController = false;
 	}
 
 	private void Awake()
@@ -73,6 +74,7 @@ public class EmailReader : MonoBehaviour
 			{
 				m_EmailPanel.BringIn();
 				SoundManager.TriggerEvent("Play_UI_Window", base.gameObject);
+				Globals.m_PlayerController.m_DisableController = true;
 			}
 		}
 	}

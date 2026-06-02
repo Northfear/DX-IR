@@ -89,9 +89,18 @@ public class PauseTabs : MonoBehaviour
 
 	private void Update()
 	{
+		if (KeyboardInput.m_KeyboardEnabled)
+		{
+			if ((Input.GetKeyDown(KeyCode.Escape) || KeyboardInput.GetKeyDown(KeyboardInput.KeyName.Pause)) && !UIManager.instance.blockInput)
+			{
+				ExitTapped();
+			}
+		}
+
 		float timeThisFrame = m_TimeThisFrame;
 		m_TimeThisFrame = Time.realtimeSinceStartup;
 		m_deltaTime = m_TimeThisFrame - timeThisFrame;
+
 		if (m_AudioUnpauseEventDelay >= 0f)
 		{
 			m_AudioUnpauseEventDelay -= m_deltaTime;
@@ -100,6 +109,7 @@ public class PauseTabs : MonoBehaviour
 				SoundManager.TriggerEvent("Unpause", base.gameObject);
 			}
 		}
+
 		if (m_TitleJumbling)
 		{
 			if (m_WordTimer >= 0f)

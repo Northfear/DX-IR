@@ -94,7 +94,7 @@ public class InteractiveObject_Conversation : InteractiveObject_Base
 	{
 		if (m_HavingConversation)
 		{
-			return InteractiveObject_Base.m_OffScreen;
+			return m_OffScreen;
 		}
 		return base.GetPopupLocation();
 	}
@@ -124,5 +124,10 @@ public class InteractiveObject_Conversation : InteractiveObject_Base
 		Globals.m_HUD.Display(true, true, false);
 		Globals.m_HUD.EnablePassThruInput(true);
 		Globals.m_PlayerController.ToggleWeaponHolstered();
+	}
+
+	public bool IsHavingConversation()
+	{
+		return m_HavingConversation;
 	}
 }

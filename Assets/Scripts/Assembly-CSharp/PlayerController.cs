@@ -753,6 +753,17 @@ public class PlayerController : CharacterBase
 
 	private static float m_BreakableWallOffset = -0.9649176f;
 
+	[HideInInspector]
+	public bool m_DisableController;
+	
+	private float m_ScrollAmount;
+	
+	private bool m_fireTriggerDown;
+	
+	private bool m_fireButtonDown;
+	
+	private bool m_CrouchHeld;
+
 	public float GetCurrentEnergy()
 	{
 		return m_CurrentEnergy;
@@ -1118,6 +1129,7 @@ public class PlayerController : CharacterBase
 		{
 		case InputDevice.Mouse:
 			MouseInputUpdate();
+			KeyboardeInputUpdate();
 			break;
 		case InputDevice.Touch:
 			TouchInputUpdate();
@@ -1240,6 +1252,7 @@ public class PlayerController : CharacterBase
 				m_CameraBobTimer = num2 * 0.75f;
 			}
 			Globals.m_CameraController.m_ZRotation = m_CurrentCameraBobRotation;
+#if UNITY_ANDROID || UNITY_IOS
 			if (Globals.m_AutoRotate && m_TargetedEnemy != null)
 			{
 				Globals.m_CameraController.LookAtOverTime(m_TargetedEnemy, 32f);
@@ -1248,6 +1261,7 @@ public class PlayerController : CharacterBase
 			{
 				Globals.m_CameraController.MagnetizeTowardsTarget(m_TargetedEnemy, 70f, m_TargetedEnemyScript, false);
 			}
+#endif
 			m_HealthRegenTimer -= Time.deltaTime;
 			if (m_HealthRegenTimer <= 0f && m_CurrentHealth < m_MaxHealth)
 			{
@@ -1946,7 +1960,7 @@ public class PlayerController : CharacterBase
 		}
 	}
 
-	private bool IsAimingAtWall()
+	public bool IsAimingAtWall()
 	{
 		Vector2 vector = new Vector2(Screen.width / 2, Screen.height / 2);
 		Ray ray = m_CurrentCamera.ScreenPointToRay(vector);
@@ -2774,6 +2788,7 @@ public class PlayerController : CharacterBase
 
 	private void MouseInputUpdate()
 	{
+		/*
 		if (Input.GetButtonDown("Fire1") || Input.GetButtonDown("Fire2"))
 		{
 			GeneralInputPress(Input.mousePosition, 11);
@@ -2785,6 +2800,314 @@ public class PlayerController : CharacterBase
 		if (Input.GetButtonUp("Fire1") || Input.GetButtonUp("Fire2"))
 		{
 			GeneralInputRelease(Input.mousePosition, 11);
+		}
+		*/
+	}
+
+	public bool IsChangingCover()
+	{
+		return m_CoverState == CoverState.CoverDive || m_CoverState == CoverState.CoverFlip || m_CoverState == CoverState.CoverSlideInner || m_CoverState == CoverState.CoverSlideOuter;
+	}
+	
+	private void KeyboardeInputUpdate()
+	{
+		if (m_DisableController || m_Dead || Globals.m_ConversationSystem.IsSpeaking())
+		{
+			return;
+		}
+		
+		m_ScrollAmount += KeyboardInput.GetScrollDelta();
+		
+		if (m_ScrollAmount >= 1f)
+		{
+			m_ScrollAmount = 0f;
+		}
+		else if (m_ScrollAmount <= -1f)
+		{
+			m_ScrollAmount = 0f;
+		}
+
+		bool itemButtonHeld = KeyboardInput.GetKeyHeld(KeyboardInput.KeyName.Item);
+		bool itemButtonUp = KeyboardInput.GetKeyUp(KeyboardInput.KeyName.Item);
+		if (itemButtonHeld && Globals.m_HUD.m_ItemButton.gameObject.activeInHierarchy)
+		{
+			Globals.m_HUD.OpenQuickItems();
+			Time.timeScale = 0f;
+		}
+		else if (itemButtonUp && Globals.m_HUD.m_ItemButton.gameObject.activeInHierarchy)
+		{
+			Globals.m_HUD.ItemButtonReleased(default(POINTER_INFO));
+			Time.timeScale = 1f;
+		}
+
+		bool grenadeButtonHeld = KeyboardInput.GetKeyHeld(KeyboardInput.KeyName.Grenade);
+		bool grenadeButtonUp = KeyboardInput.GetKeyUp(KeyboardInput.KeyName.Grenade);
+		if (grenadeButtonHeld && Globals.m_HUD.m_GrenadeButton.gameObject.activeInHierarchy)
+		{
+			Globals.m_HUD.OpenGrenadeMenu();
+			Time.timeScale = 0f;
+		}
+		else if (grenadeButtonUp && Globals.m_HUD.m_GrenadeButton.gameObject.activeInHierarchy)
+		{
+			Globals.m_HUD.GrenadeButtonReleased(default(POINTER_INFO));
+			Time.timeScale = 1f;
+		}
+
+		bool holsterButtonHeld = (KeyboardInput.GetKeyHeld(KeyboardInput.KeyName.Holster) && !IsChangingCover());
+		bool holsterButtonUp = KeyboardInput.GetKeyUp(KeyboardInput.KeyName.Holster);
+		if (holsterButtonHeld)
+		{
+			Globals.m_HUD.OpenQuickWeapons();
+			Time.timeScale = 0f;
+		}
+		else if (holsterButtonUp)
+		{
+			Globals.m_HUD.WeaponButtonReleased(default(POINTER_INFO));
+			Time.timeScale = 1f;
+		}
+		
+		if (Time.timeScale == 0f)
+		{
+			return;
+		}
+
+		bool coverButtonDown = KeyboardInput.GetKeyDown(KeyboardInput.KeyName.Cover);
+		if (coverButtonDown && (Globals.m_HUD.m_CoverButtonEnter.renderer.enabled || Globals.m_HUD.m_CoverButtonExit.renderer.enabled))
+		{
+			Globals.m_HUD.CoverButtonTapped();
+		}
+
+		bool fireTriggerDown = m_fireTriggerDown;
+		bool fireButtonDown = m_fireButtonDown;
+		bool fireButtonPressed = KeyboardInput.GetKey(KeyboardInput.KeyName.Fire);
+		
+		if (KeyboardInput.GetKeyUp(KeyboardInput.KeyName.Fire))
+		{
+			fireButtonPressed = false;
+			m_fireButtonDown = false;
+		}
+		
+		if (fireButtonPressed && !m_fireButtonDown && !IsChangingCover())
+		{
+			m_fireButtonDown = true;
+		}
+		
+		if ((m_fireButtonDown || m_fireTriggerDown) && !UIManager.instance.blockInput)
+		{
+			POINTER_INFO ptr = default(POINTER_INFO);
+			ptr.id = 0;
+			ptr.devicePos = Vector3.zero;
+			FireButtonPress(ptr);
+		}
+		
+		if (!m_fireButtonDown && !m_fireTriggerDown && ((fireTriggerDown && !m_fireTriggerDown) || (fireButtonDown && !m_fireButtonDown)))
+		{
+			UserStopFiring(Vector3.zero, 0);
+		}
+		
+		if (Globals.m_HUD.m_ItemButton.gameObject.activeInHierarchy)
+		{
+			if (KeyboardInput.GetKeyTapped(KeyboardInput.KeyName.Item))
+			{
+				Globals.m_HUD.ItemButtonTapped();
+			}
+
+			bool cloakButtonTapped = KeyboardInput.GetKeyTapped(KeyboardInput.KeyName.Cloak);
+			bool armorButtonTapped = KeyboardInput.GetKeyTapped(KeyboardInput.KeyName.Armor);
+			bool xrayButtonTapped = KeyboardInput.GetKeyTapped(KeyboardInput.KeyName.Xray);
+
+			if (cloakButtonTapped && Globals.m_AugmentationData.GetAugmentationData(AugmentationData.Augmentations.Cloaking, 0).m_Purchased)
+			{
+				ToggleCloaking();
+			}
+			if (armorButtonTapped && Globals.m_AugmentationData.GetAugmentationData(AugmentationData.Augmentations.Armor, 0).m_Purchased)
+			{
+				ArmorButtonTapped();
+			}
+			if (xrayButtonTapped && Globals.m_AugmentationData.GetAugmentationData(AugmentationData.Augmentations.SmartVision, 0).m_Purchased)
+			{
+				ToggleSeeThroughWalls();
+			}
+
+			int num = -1;
+			if (Input.GetKeyDown(KeyCode.Alpha5))
+			{
+				num = 0;
+			}
+			if (Input.GetKeyDown(KeyCode.Alpha6))
+			{
+				num = 1;
+			}
+			if (Input.GetKeyDown(KeyCode.Alpha7))
+			{
+				num = 2;
+			}
+			if (Input.GetKeyDown(KeyCode.Alpha8))
+			{
+				num = 3;
+			}
+			if (Input.GetKeyDown(KeyCode.Alpha9))
+			{
+				num = 4;
+			}
+			if (Input.GetKeyDown(KeyCode.Alpha0))
+			{
+				num = 5;
+			}
+			if (num != -1)
+			{
+				Globals.m_HUD.SelectQuickItem(num);
+			}
+		}
+
+		if ((KeyboardInput.GetKeyTapped(KeyboardInput.KeyName.Grenade)) && Globals.m_HUD.m_GrenadeButton.gameObject.activeInHierarchy && !UIManager.instance.blockInput)
+		{
+			Globals.m_HUD.GrenadeButtonTapped();
+		}
+
+		bool takedownButtonTapped = KeyboardInput.GetKeyTapped(KeyboardInput.KeyName.Takedown);
+		bool takedownButtonHeld = KeyboardInput.GetKeyHeld(KeyboardInput.KeyName.Takedown);
+		if (takedownButtonTapped)
+		{
+			if (!Globals.m_InteractiveObjectManager.InteractWithClosestTakedown(false))
+			{
+				KeyboardInput.CancelKeyTapped(KeyboardInput.KeyName.Takedown);
+			}
+		}
+		else if (takedownButtonHeld && !Globals.m_InteractiveObjectManager.InteractWithClosestTakedown(true))
+		{
+			KeyboardInput.CancelKeyTapped(KeyboardInput.KeyName.Takedown);
+		}
+
+		bool interactButtonDown = KeyboardInput.GetKeyDown(KeyboardInput.KeyName.Interact);
+		if (interactButtonDown)
+		{
+			bool interactSuccesfull = false;
+
+			if (m_CoverState != CoverState.Ladder_ClimbDown && m_CoverState != CoverState.Ladder_Idle && m_CoverState != CoverState.Ladder_ExitTop && m_CoverState != CoverState.Ladder_ExitBottom && m_CoverState != CoverState.Ladder_EnterTop && m_CoverState != CoverState.Ladder_EnterBottom && m_CoverState != CoverState.Ladder_ClimbUp)
+			{
+				interactSuccesfull = Globals.m_InteractiveObjectManager.InteractWithClosestPopup();
+			}
+
+			if (!interactSuccesfull && !interactButtonDown && Globals.m_HUD.m_WeaponButton.gameObject.activeInHierarchy)
+			{
+				ReloadButtonTapped();
+			}
+			else if (interactSuccesfull)
+			{
+				KeyboardInput.CancelKeyTapped(KeyboardInput.KeyName.Interact);
+			}
+		}
+		
+		if (KeyboardInput.GetKeyTapped(KeyboardInput.KeyName.Reload) && Globals.m_HUD.m_WeaponButton.gameObject.activeInHierarchy)
+		{
+			ReloadButtonTapped();
+		}
+
+		if (KeyboardInput.GetKeyTapped(KeyboardInput.KeyName.Holster) && !IsChangingCover() && Globals.m_HUD.m_WeaponButton.gameObject.activeInHierarchy)
+		{
+			ToggleWeaponHolstered();
+		}
+
+		if (Globals.m_HUD.m_WeaponButton.gameObject.activeInHierarchy)
+		{
+			int selectedWeapon = -1;
+			if (Input.GetKeyDown(KeyCode.Alpha1))
+			{
+				selectedWeapon = 0;
+			}
+			if (Input.GetKeyDown(KeyCode.Alpha2))
+			{
+				selectedWeapon = 1;
+			}
+			if (Input.GetKeyDown(KeyCode.Alpha3))
+			{
+				selectedWeapon = 2;
+			}
+			if (Input.GetKeyDown(KeyCode.Alpha4))
+			{
+				selectedWeapon = 3;
+			}
+			if (selectedWeapon != -1)
+			{
+				Globals.m_HUD.SelectQuickWeapon(selectedWeapon);
+			}
+		}
+
+		CheckCrouch();
+		if (KeyboardInput.GetKeyDown(KeyboardInput.KeyName.CrouchToggle))
+		{
+			Globals.m_HUD.StanceButtonTapped();
+		}
+		
+		bool coverMoveButtonTapped = KeyboardInput.GetKeyTapped(KeyboardInput.KeyName.CoverMove);
+		bool coverMoveButtonHeld = KeyboardInput.GetKeyHeld(KeyboardInput.KeyName.CoverMove);
+		if (coverMoveButtonTapped)
+		{
+			if (KeyboardInput.GetKey(KeyboardInput.KeyName.Up))
+			{
+				if (Globals.m_HUD.m_VaultButton.renderer.enabled)
+				{
+					Globals.m_HUD.VaultTapped();
+				}
+			}
+			else if (Globals.m_HUD.m_CoverFlipButtonLeft.renderer.enabled || Globals.m_HUD.m_CoverFlipButtonRight.renderer.enabled)
+			{
+				Globals.m_HUD.CoverFlipTapped();
+			}
+		}
+		else if (coverMoveButtonHeld)
+		{
+			if (Globals.m_HUD.m_CoverFlipInnerButtonLeft.renderer.enabled || Globals.m_HUD.m_CoverFlipInnerButtonRight.renderer.enabled)
+			{
+				Globals.m_HUD.CoverInnerFlipTapped();
+			}
+			else if (Globals.m_HUD.m_CoverFlipOuterButtonLeft.renderer.enabled || Globals.m_HUD.m_CoverFlipOuterButtonRight.renderer.enabled)
+			{
+				Globals.m_HUD.CoverOuterFlipTapped();
+			}
+		}
+		
+		if (m_CameraMode == CameraMode.Takedown || Globals.m_ConversationSystem.InAConversation())
+		{
+			return;
+		}
+		
+		CameraController cameraController = Globals.m_CameraController;
+		Vector3 vector2 = KeyboardInput.GetMouseDelta() / 4f;
+		float xRot = vector2.x;
+		float yRot = 0f - vector2.y;
+		xRot *= 4f / 15f;
+		yRot *= 4f / 15f;
+		float sensitivityMod = (float)Globals.m_MouseSensitivity * 0.2f + 0.4f;
+		cameraController.RotateYaw(xRot * cameraController.m_DragSensitivityYaw * sensitivityMod * cameraController.m_DragSensitivityAdjustment * 20f);
+		
+		if (Globals.m_InvertCamera)
+		{
+			sensitivityMod = 0f - sensitivityMod;
+		}
+		
+		cameraController.RotatePitch(yRot * cameraController.m_DragSensitivityPitch * sensitivityMod * cameraController.m_DragSensitivityAdjustment * 20f);
+	}
+	
+	private void CheckCrouch()
+	{
+		switch (KeyboardInput.GetKey(KeyboardInput.KeyName.Crouch) ? 1 : 0)
+		{
+		case 1:
+			if (m_Stance == Stance.Stand && !m_CrouchHeld)
+			{
+				Globals.m_HUD.StanceButtonTapped();
+			}
+			m_CrouchHeld = true;
+			break;
+		case 0:
+			if (m_Stance == Stance.Crouch && m_CrouchHeld)
+			{
+				Globals.m_HUD.StanceButtonTapped();
+			}
+			m_CrouchHeld = false;
+			break;
 		}
 	}
 
@@ -2929,10 +3252,12 @@ public class PlayerController : CharacterBase
 		m_FireTapID = id;
 		StartFiring();
 		Globals.m_CameraController.ButtonPress(devicePos, id);
+#if UNITY_ANDROID || UNITY_IOS
 		if (m_TargetedEnemy != null)
 		{
 			Globals.m_CameraController.LookAtOverTime(m_TargetedEnemy, 8f);
 		}
+#endif
 	}
 
 	private void UserStopFiring(Vector2 devicePos, int id)
@@ -4802,5 +5127,19 @@ public class PlayerController : CharacterBase
 			position += enemy.transform.forward * ((num7 + num8) * 0.5f);
 		}
 		enemy.transform.position = position;
+	}
+
+	public bool CameraFullyShifted()
+	{
+		if (Mathf.Abs(m_CurrentCameraShift) > m_CoverEdgeCameraShiftAmount * 0.9f)
+		{
+			return true;
+		}
+		return false;
+	}
+	
+	public bool WantFire()
+	{
+		return m_WantFire;
 	}
 }

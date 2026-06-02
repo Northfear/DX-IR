@@ -334,6 +334,8 @@ public class MainHUD : MonoBehaviour
 
 	private float m_ItemWarningTimer = -1f;
 
+	public UIButton m_PauseButton;
+
 	private void Awake()
 	{
 		Globals.m_HUD = this;
@@ -427,6 +429,15 @@ public class MainHUD : MonoBehaviour
 
 	private void Update()
 	{
+		if (!m_PauseButton.IsHidden() && !UIManager.instance.blockInput && !Globals.m_PlayerController.IsDead() && !m_Customizing && Globals.CanPause() && Time.timeScale != 0f)
+		{
+			if ((Input.GetKeyDown(KeyCode.Escape) || Input.GetKeyDown(KeyCode.Menu)))
+			{
+				PauseTapped();
+				PauseTabs.OpenTabs(PauseTabs.PauseWindow.Pause, null);
+			}
+		}
+
 		if (!m_WeaponQuickSlotsOpen && m_WeaponPressed)
 		{
 			m_WeaponHoldTime += Time.deltaTime;
@@ -966,7 +977,7 @@ public class MainHUD : MonoBehaviour
 		}
 	}
 
-	private void OpenQuickWeapons()
+	public void OpenQuickWeapons()
 	{
 		if (m_WeaponQuickSlotsOpen)
 		{
@@ -1001,7 +1012,7 @@ public class MainHUD : MonoBehaviour
 		SoundManager.TriggerEvent("Play_UI_Window", base.gameObject);
 	}
 
-	private void OpenQuickItems()
+	public void OpenQuickItems()
 	{
 		if (m_ItemQuickSlotsOpen)
 		{
@@ -1050,7 +1061,7 @@ public class MainHUD : MonoBehaviour
 		SoundManager.TriggerEvent("Play_UI_Window", base.gameObject);
 	}
 
-	private void OpenGrenadeMenu()
+	public void OpenGrenadeMenu()
 	{
 		if (m_GrenadeQuickSlotsOpen)
 		{
@@ -2312,5 +2323,17 @@ public class MainHUD : MonoBehaviour
 			linkedListNode.Value.m_Root.gameObject.SetActiveRecursively(false);
 			linkedListNode = linkedListNode.Next;
 		}
+	}
+
+	public void SelectQuickWeapon(int num)
+	{
+		m_PreviousWeaponSelected = num;
+		WeaponButtonReleased(default(POINTER_INFO));
+	}
+
+	public void SelectQuickItem(int num)
+	{
+		m_PreviousItemSelected = num;
+		ItemButtonReleased(default(POINTER_INFO));
 	}
 }

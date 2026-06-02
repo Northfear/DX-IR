@@ -200,4 +200,70 @@ public class InteractiveObjectManager : MonoBehaviour
 		}
 		return null;
 	}
+
+	public bool InteractWithClosestPopup()
+	{
+		InteractivePopup interactivePopup = null;
+		float closestDistance = 99999.9f;
+		
+		foreach (InteractivePopup activePopup in m_ActivePopups)
+		{
+			InteractiveObject_Base interactiveObject = activePopup.GetInteractiveObject();
+			if (interactiveObject.GetPopupLocation() != interactiveObject.m_OffScreen && activePopup.GetPopupType() != InteractivePopup.PopupType.Takedown)
+			{
+				Vector3 position = interactiveObject.gameObject.transform.position;
+				Vector3 position2 = Globals.m_PlayerController.m_PlayerInteractiveCollider.transform.position;
+				float distance = Vector3.Distance(position, position2);
+				if (distance < closestDistance)
+				{
+					interactivePopup = activePopup;
+					closestDistance = distance;
+				}
+			}
+		}
+		
+		if (interactivePopup == null)
+		{
+			return false;
+		}
+		
+		interactivePopup.InteractWithObject();
+		return true;
+	}
+	
+	public bool InteractWithClosestTakedown(bool lethal)
+	{
+		InteractivePopup interactivePopup = null;
+		float closestDistance = 99999.9f;
+		
+		foreach (InteractivePopup activePopup in m_ActivePopups)
+		{
+			InteractiveObject_Base interactiveObject = activePopup.GetInteractiveObject();
+			if (interactiveObject.GetPopupLocation() != interactiveObject.m_OffScreen && activePopup.GetPopupType() == InteractivePopup.PopupType.Takedown)
+			{
+				Vector3 position = interactiveObject.gameObject.transform.position;
+				Vector3 position2 = Globals.m_PlayerController.m_PlayerInteractiveCollider.transform.position;
+				float distance = Vector3.Distance(position, position2);
+				if (distance < closestDistance)
+				{
+					interactivePopup = activePopup;
+					closestDistance = distance;
+				}
+			}
+		}
+		
+		if (interactivePopup == null)
+		{
+			return false;
+		}
+		
+		InteractiveObject_Takedown takedownObject = (InteractiveObject_Takedown)interactivePopup.GetInteractiveObject();
+		if (takedownObject == null)
+		{
+			return false;
+		}
+		
+		takedownObject.TakeDown(lethal);
+		return true;
+	}
 }

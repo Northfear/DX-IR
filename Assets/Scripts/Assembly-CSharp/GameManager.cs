@@ -881,6 +881,31 @@ public class GameManager : MonoBehaviour
 
 	private void Update()
 	{
+		bool bActiveGame = m_GameState == GameState.FadeOutGameLoad || m_GameState == GameState.Game || m_GameState == GameState.FadeBlackToGameLoad;
+		bool bActiveHacking = Globals.m_This != null && Globals.m_HackingGlobals != null && Globals.m_HackingGlobals.m_ActiveTerminal != null;
+		bool bIsPaused = Time.timeScale == 0f;
+		bool bHUDEnabled = (Globals.m_HUD == null || !Globals.m_HUD.enabled || !Globals.m_HUD.m_Showing);
+		bool bIsSpeaking = Globals.m_ConversationSystem != null && Globals.m_ConversationSystem.IsSpeaking();
+		
+		bool bTakedownActive = false;
+		if (Globals.m_PlayerController != null)
+		{
+			bTakedownActive = Globals.m_PlayerController.m_CameraMode == PlayerController.CameraMode.Takedown;
+		}
+
+		bool bClimbingLadder = false;
+		if (Globals.m_PlayerController != null)
+		{
+			bClimbingLadder = Globals.m_PlayerController.m_CoverState == PlayerController.CoverState.Ladder_ClimbDown || Globals.m_PlayerController.m_CoverState == PlayerController.CoverState.Ladder_ClimbUp || Globals.m_PlayerController.m_CoverState == PlayerController.CoverState.Ladder_EnterBottom || Globals.m_PlayerController.m_CoverState == PlayerController.CoverState.Ladder_EnterTop || Globals.m_PlayerController.m_CoverState == PlayerController.CoverState.Ladder_ExitBottom || Globals.m_PlayerController.m_CoverState == PlayerController.CoverState.Ladder_ExitTop || Globals.m_PlayerController.m_CoverState == PlayerController.CoverState.Ladder_Idle;
+		}
+		
+		bool bScreenLocked = ((bActiveGame && !bIsPaused && !bHUDEnabled && !bIsSpeaking) || bTakedownActive || bClimbingLadder);
+		
+		if (Screen.lockCursor != bScreenLocked)
+		{
+			Screen.lockCursor = bScreenLocked;
+		}
+
 		if (m_SaveTextTimer > 0f)
 		{
 			m_SaveTextTimer -= Time.realtimeSinceStartup - m_SaveTextTime;

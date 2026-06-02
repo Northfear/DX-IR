@@ -71,6 +71,7 @@ public class ConversationSystem : MonoBehaviour
 	{
 		if (m_CurrentSequence != null)
 		{
+#if SOUND_WWISE
 			if (m_CurrentSequence.m_DialogTarget == DialogSequence.DialogTarget.NPC)
 			{
 				if ((bool)m_PartnerFaceFXController)
@@ -84,6 +85,10 @@ public class ConversationSystem : MonoBehaviour
 				return m_InteractiveObject.m_PlayerFaceFXController.GetPlayState() != 0;
 			}
 			return SoundManager.IsEventPlaying(m_PlayerPlayingID);
+#else
+			// makes sure that dialogs aren't skipped immediatelly w/o wwise
+			return true;
+#endif
 		}
 		return false;
 	}
@@ -420,5 +425,10 @@ public class ConversationSystem : MonoBehaviour
 		button.m_TabText.Text = choice.m_ChoiceString;
 		button.m_Tab.Hide(tf);
 		button.m_Button.Hide(tf);
+	}
+
+	public bool InAConversation()
+	{
+		return (bool)m_InteractiveObject && m_InteractiveObject.IsHavingConversation();
 	}
 }

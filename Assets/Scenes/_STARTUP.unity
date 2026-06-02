@@ -1,85 +1,11 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!29 &23
-SceneSettings:
-  m_ObjectHideFlags: 0
-  m_PVSData:
-  m_QueryMode: 1
-  m_PVSObjectsArray: []
-  m_PVSPortalsArray: []
-  m_OcclusionBakeSettings:
-    viewCellSize: 0
-    bakeMode: 0
-    memoryUsage: 0
---- !u!104 &25
-RenderSettings:
-  m_Fog: 0
-  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-  m_FogMode: 3
-  m_FogDensity: 0.01
-  m_LinearFogStart: 0
-  m_LinearFogEnd: 300
-  m_AmbientLight: {r: 0.2, g: 0.2, b: 0.2, a: 1}
-  m_SkyboxMaterial: {fileID: 0}
-  m_HaloStrength: 0.5
-  m_FlareStrength: 1
-  m_HaloTexture: {fileID: 0}
-  m_SpotCookie: {fileID: 0}
-  m_ObjectHideFlags: 0
---- !u!127 &26
-HaloManager:
-  m_ObjectHideFlags: 0
---- !u!157 &27
-LightmapSettings:
-  m_ObjectHideFlags: 0
-  m_LightProbes: {fileID: 0}
-  m_Lightmaps: []
-  m_LightmapsMode: 1
-  m_BakedColorSpace: 0
-  m_UseDualLightmapsInForward: 0
-  m_LightmapEditorSettings:
-    m_Resolution: 2
-    m_LastUsedResolution: 0
-    m_TextureWidth: 1024
-    m_TextureHeight: 1024
-    m_BounceBoost: 1
-    m_BounceIntensity: 1
-    m_SkyLightColor: {r: 0.86, g: 0.93, b: 1, a: 1}
-    m_SkyLightIntensity: 0
-    m_Quality: 0
-    m_Bounces: 1
-    m_FinalGatherRays: 1000
-    m_FinalGatherContrastThreshold: 0.05
-    m_FinalGatherGradientThreshold: 0
-    m_FinalGatherInterpolationPoints: 15
-    m_AOAmount: 0
-    m_AOMaxDistance: 1
-    m_AOContrast: 1
-    m_LODSurfaceMappingDistance: 1
-    m_Padding: 2
-    m_TextureCompression: 1
-    m_LockAtlas: 0
---- !u!196 &28
-NavMeshSettings:
-  m_ObjectHideFlags: 0
-  m_BuildSettings:
-    agentRadius: 0.5
-    agentHeight: 2
-    agentSlope: 45
-    agentClimb: 0.4
-    ledgeDropHeight: 0
-    maxJumpAcrossDistance: 0
-    accuratePlacement: 0
-    minRegionArea: 2
-    widthInaccuracy: 0
-    heightInaccuracy: 0
-  m_NavMesh: {fileID: 0}
 --- !u!1 &19
 GameObject:
-  serializedVersion: 4
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
   m_Component:
   - 4: {fileID: 21}
   - 114: {fileID: 29}
@@ -92,10 +18,10 @@ GameObject:
   m_IsActive: 0
 --- !u!1 &20
 GameObject:
-  serializedVersion: 4
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
   m_Component:
   - 4: {fileID: 22}
   - 114: {fileID: 30}
@@ -108,6 +34,7 @@ GameObject:
   - 114: {fileID: 37}
   - 114: {fileID: 38}
   - 81: {fileID: 24}
+  - 114: {fileID: 39}
   m_Layer: 0
   m_Name: Global
   m_TagString: Untagged
@@ -126,6 +53,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+  m_RootOrder: 1
 --- !u!4 &22
 Transform:
   m_ObjectHideFlags: 0
@@ -137,6 +65,17 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!29 &23
+SceneSettings:
+  m_ObjectHideFlags: 0
+  m_PVSData: 
+  m_PVSObjectsArray: []
+  m_PVSPortalsArray: []
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: .25
+    backfaceThreshold: 100
 --- !u!81 &24
 AudioListener:
   m_ObjectHideFlags: 0
@@ -144,6 +83,71 @@ AudioListener:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 20}
   m_Enabled: 1
+--- !u!104 &25
+RenderSettings:
+  m_Fog: 0
+  m_FogColor: {r: .5, g: .5, b: .5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: .00999999978
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientLight: {r: .200000003, g: .200000003, b: .200000003, a: 1}
+  m_SkyboxMaterial: {fileID: 0}
+  m_HaloStrength: .5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 0}
+  m_ObjectHideFlags: 0
+--- !u!127 &26
+LevelGameManager:
+  m_ObjectHideFlags: 0
+--- !u!157 &27
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  m_LightProbes: {fileID: 0}
+  m_Lightmaps: []
+  m_LightmapsMode: 1
+  m_BakedColorSpace: 0
+  m_UseDualLightmapsInForward: 0
+  m_LightmapEditorSettings:
+    m_Resolution: 2
+    m_LastUsedResolution: 0
+    m_TextureWidth: 1024
+    m_TextureHeight: 1024
+    m_BounceBoost: 1
+    m_BounceIntensity: 1
+    m_SkyLightColor: {r: .860000014, g: .930000007, b: 1, a: 1}
+    m_SkyLightIntensity: 0
+    m_Quality: 0
+    m_Bounces: 1
+    m_FinalGatherRays: 1000
+    m_FinalGatherContrastThreshold: .0500000007
+    m_FinalGatherGradientThreshold: 0
+    m_FinalGatherInterpolationPoints: 15
+    m_AOAmount: 0
+    m_AOMaxDistance: 1
+    m_AOContrast: 1
+    m_LODSurfaceMappingDistance: 1
+    m_Padding: 2
+    m_TextureCompression: 1
+    m_LockAtlas: 0
+--- !u!196 &28
+NavMeshSettings:
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    agentRadius: .5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: .400000006
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    accuratePlacement: 0
+    minRegionArea: 2
+    widthInaccuracy: 0
+    heightInaccuracy: 0
+    tileSizeHint: 0
+  m_NavMesh: {fileID: 0}
 --- !u!114 &29
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -153,7 +157,8 @@ MonoBehaviour:
   m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0bb679c4b7ed5d75e1ddcdd3ca5dc9bc, type: 3}
-  m_Name:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_WhiteTexture: {fileID: 2800000, guid: b248aa40a2f7dfe4299e386a65e57bc2, type: 3}
   m_NFusionLogo: {fileID: 2800000, guid: 4d2edccc6cfbcb54b898d218a676bf81, type: 3}
 --- !u!114 &30
@@ -165,8 +170,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4a729cb408908fe2ce4d0e46d10dbb18, type: 3}
-  m_Name:
-  pointerType: 2
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pointerType: 0
   dragThreshold: 20
   rayDragThreshold: 2
   rayDepth: Infinity
@@ -199,28 +205,34 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0c8e790f5da756e032ef7aa80f032b2c, type: 3}
-  m_Name:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_VersionMajor: 0
   m_VersionMinor: 6
   m_VersionMicro: 1
   m_PassiveGlow: {r: 0, g: 1, b: 0, a: 1}
   m_AlarmedGlow: {r: 1, g: 1, b: 0, a: 1}
   m_HostileGlow: {r: 1, g: 0, b: 0, a: 1}
-  m_BrightHUD: {r: 0.929, g: 0.655, b: 0.137, a: 1}
+  m_BrightHUD: {r: .92900002, g: .654999971, b: .136999995, a: 1}
   m_Equipped: {r: 0, g: 1, b: 0, a: 1}
-  m_DarkHUD: {r: 0.196, g: 0.137, b: 0, a: 1}
-  m_BlackHUD: {r: 0, g: 0, b: 0, a: 0.19}
+  m_DarkHUD: {r: .195999995, g: .136999995, b: 0, a: 1}
+  m_BlackHUD: {r: 0, g: 0, b: 0, a: .189999998}
   m_MissionFile: {fileID: 4900000, guid: 450bbc9010a2fbe41af059363289427a, type: 3}
   m_WhiteTexture: {fileID: 2800000, guid: b248aa40a2f7dfe4299e386a65e57bc2, type: 3}
-  m_FragExplosion: {fileID: 1709254077376921, guid: a07fb3ff73b50234bb4d201a26c28fe6, type: 2}
-  m_EMPExplosion: {fileID: 1709254077376921, guid: 0a679833e8c526f45b1f0b89291af8d2, type: 2}
-  m_ConcussionExplosion: {fileID: 1709254077376921, guid: 3d8daf58b3c6017409a07d3f4299b06d, type: 2}
-  m_ShadowProjectorObject: {fileID: 1709254077376921, guid: 39ee947a30998ab4f844fc8974d98f2d, type: 2}
-  m_FullscreenQuad: {fileID: 114724804207875695, guid: 83e8be7aec862e24c9fa1f14054a27b8, type: 2}
-  m_FullscreenQuadMult: {fileID: 114724804207875695, guid: 7f4953e1822fb8f4db9964c631e9082b, type: 2}
-  m_FullscreenQuadAdd: {fileID: 114724804207875695, guid: d27284411148ec94187ce099dfd83975, type: 2}
-  m_EnemyTargetIndicator: {fileID: 1709254077376921, guid: 84f4f7cf836b3c74da021cd2cf50e654, type: 2}
-  m_StunGunEffect: {fileID: 1709254077376921, guid: 1e585c1260aa8a34ea43bb3989a1b99e, type: 2}
+  m_FragExplosion: {fileID: -1172510311, guid: a07fb3ff73b50234bb4d201a26c28fe6, type: 2}
+  m_EMPExplosion: {fileID: -1172510311, guid: 0a679833e8c526f45b1f0b89291af8d2, type: 2}
+  m_ConcussionExplosion: {fileID: -1172510311, guid: 3d8daf58b3c6017409a07d3f4299b06d,
+    type: 2}
+  m_ShadowProjectorObject: {fileID: -1172510311, guid: 39ee947a30998ab4f844fc8974d98f2d,
+    type: 2}
+  m_FullscreenQuad: {fileID: 29136495, guid: 83e8be7aec862e24c9fa1f14054a27b8, type: 2}
+  m_FullscreenQuadMult: {fileID: 29136495, guid: 7f4953e1822fb8f4db9964c631e9082b,
+    type: 2}
+  m_FullscreenQuadAdd: {fileID: 29136495, guid: d27284411148ec94187ce099dfd83975,
+    type: 2}
+  m_EnemyTargetIndicator: {fileID: -1172510311, guid: 84f4f7cf836b3c74da021cd2cf50e654,
+    type: 2}
+  m_StunGunEffect: {fileID: -1172510311, guid: 1e585c1260aa8a34ea43bb3989a1b99e, type: 2}
 --- !u!114 &32
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -230,7 +242,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fa3f1a2d47bf9479853f992a9cd99dc9, type: 3}
-  m_Name:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_GameState: 0
   m_MenuScene: Menu
   m_MenuLoadingImage: LoadingInProgress
@@ -246,7 +259,7 @@ MonoBehaviour:
     m_IncludeInBuild: 1
     m_DisplayName: Enemy Test
     m_LoadingImage: LoadingInProgress
-    m_MusicEvent:
+    m_MusicEvent: 
     m_SoundBanks:
     - Enemy_Shared.bnk
     - Belltower_Grunt.bnk
@@ -279,7 +292,7 @@ MonoBehaviour:
     m_IncludeInBuild: 0
     m_DisplayName: Hacking Domination
     m_LoadingImage: LoadingInProgress
-    m_MusicEvent:
+    m_MusicEvent: 
     m_SoundBanks:
     - Mechanical_Camera.bnk
     - Mechanical_Sentry.bnk
@@ -348,13 +361,13 @@ MonoBehaviour:
     m_IncludeInBuild: 0
     m_DisplayName: Hacking Test - Kris
     m_LoadingImage: LoadingInProgress
-    m_MusicEvent:
+    m_MusicEvent: 
     m_SoundBanks: []
   - m_UnityScene: CoverTestKris
     m_IncludeInBuild: 0
     m_DisplayName: Cover Test - Kris
     m_LoadingImage: LoadingInProgress
-    m_MusicEvent:
+    m_MusicEvent: 
     m_SoundBanks: []
   - m_UnityScene: PanamaHotelLobby
     m_IncludeInBuild: 1
@@ -590,19 +603,19 @@ MonoBehaviour:
     m_IncludeInBuild: 0
     m_DisplayName: Social Enhancer
     m_LoadingImage: LoadingInProgress
-    m_MusicEvent:
+    m_MusicEvent: 
     m_SoundBanks: []
   - m_UnityScene: CivilianTest
     m_IncludeInBuild: 0
     m_DisplayName: CivilianTest
     m_LoadingImage: LoadingInProgress
-    m_MusicEvent:
+    m_MusicEvent: 
     m_SoundBanks: []
   - m_UnityScene: SecurityTest1
     m_IncludeInBuild: 0
     m_DisplayName: Security Measures
     m_LoadingImage: LoadingInProgress
-    m_MusicEvent:
+    m_MusicEvent: 
     m_SoundBanks:
     - Mechanical_Camera.bnk
     - Mechanical_Sentry.bnk
@@ -764,7 +777,7 @@ MonoBehaviour:
     m_SoundBanks:
     - Hacking.bnk
   m_LastLoadedLevel: -1
-  m_NameOfGameObjectToSpawnAt:
+  m_NameOfGameObjectToSpawnAt: 
   m_MenuResLow: GUI/Menu_LowRes
   m_MenuResHigh: GUI/Menu_HighRes
   m_HUDResLow: GUI/HUD_LowRes
@@ -779,17 +792,27 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 899e729da45169957ac4cf4da41bd1ea, type: 3}
-  m_Name:
-  m_FragGrenadePrefab: {fileID: 1709254077376921, guid: 809264bf9035403418e01f1e0c574173, type: 2}
-  m_EMPGrenadePrefab: {fileID: 1709254077376921, guid: 7251dad0e78508b4c8002829d4c1dc69, type: 2}
-  m_ConcussionGrenadePrefab: {fileID: 1709254077376921, guid: bb3ff5d06d344bf449ab8ef77a053129, type: 2}
-  m_FragMinePrefab: {fileID: 1709254077376921, guid: 358d4677ca10a59409a0b0c19dce207a, type: 2}
-  m_EMPMinePrefab: {fileID: 1709254077376921, guid: aad3e670003dd78458e17391af32b169, type: 2}
-  m_ConcussionMinePrefab: {fileID: 1709254077376921, guid: 9258476c3aa13fe498a7dc2589d028fe, type: 2}
-  m_MiniRPGProjectilePrefab: {fileID: 1709254077376921, guid: 901f8082291f08a4f87f5066f2b1bb2d, type: 2}
-  m_CrossbowProjectilePrefab: {fileID: 1709254077376921, guid: 0238f2e77c095d645b65948aed9d9acc, type: 2}
-  m_PlasmaRifleProjectilePrefab: {fileID: 1709254077376921, guid: 69fae024cc20e54499a0c75a6c90a6ae, type: 2}
-  m_BoxRobotRocketProjectilePrefab: {fileID: 1709254077376921, guid: 9e47a4aeb7f92d44a8fcc3903ba636e4, type: 2}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FragGrenadePrefab: {fileID: -1172510311, guid: 809264bf9035403418e01f1e0c574173,
+    type: 2}
+  m_EMPGrenadePrefab: {fileID: -1172510311, guid: 7251dad0e78508b4c8002829d4c1dc69,
+    type: 2}
+  m_ConcussionGrenadePrefab: {fileID: -1172510311, guid: bb3ff5d06d344bf449ab8ef77a053129,
+    type: 2}
+  m_FragMinePrefab: {fileID: -1172510311, guid: 358d4677ca10a59409a0b0c19dce207a,
+    type: 2}
+  m_EMPMinePrefab: {fileID: -1172510311, guid: aad3e670003dd78458e17391af32b169, type: 2}
+  m_ConcussionMinePrefab: {fileID: -1172510311, guid: 9258476c3aa13fe498a7dc2589d028fe,
+    type: 2}
+  m_MiniRPGProjectilePrefab: {fileID: -1172510311, guid: 901f8082291f08a4f87f5066f2b1bb2d,
+    type: 2}
+  m_CrossbowProjectilePrefab: {fileID: -1172510311, guid: 0238f2e77c095d645b65948aed9d9acc,
+    type: 2}
+  m_PlasmaRifleProjectilePrefab: {fileID: -1172510311, guid: 69fae024cc20e54499a0c75a6c90a6ae,
+    type: 2}
+  m_BoxRobotRocketProjectilePrefab: {fileID: -1172510311, guid: 9e47a4aeb7f92d44a8fcc3903ba636e4,
+    type: 2}
   m_AnySuspiciousEnemies: 0
   m_AnyHostileEnemies: 0
   m_AnyAlarmedEnemies: 0
@@ -810,8 +833,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 87aae9eb75a90c9c5e5a55d769fdbb75, type: 3}
-  m_Name:
-  m_PopupPrefab: {fileID: 1709254077376921, guid: 217e5a03d3562904cb450fa7d52c7f97, type: 2}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_PopupPrefab: {fileID: -1172510311, guid: 217e5a03d3562904cb450fa7d52c7f97, type: 2}
   m_ZOffset: 1.5
   m_DefaultTriggerVolumeSize: 3
   m_TakedownTriggerVolumeSize: 2
@@ -824,14 +848,21 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b5a995d51a18071448cabfcaf5c804a2, type: 3}
-  m_Name:
-  m_CaptureEffectPrefab: {fileID: 1709254077376921, guid: c2df09e5fe4ff3a48a818fcf54b1c940, type: 2}
-  m_NukingEffectPrefab: {fileID: 1709254077376921, guid: 4121ca024a86d1147baf61064819d010, type: 2}
-  m_EnergyMeter: {fileID: 1709254077376921, guid: f8ddee4b6cf5c9c4f90554e0167a58ba, type: 2}
-  m_HackingUI: {fileID: 1709254077376921, guid: bed5c0adcf327994f9603079ea3f891a, type: 2}
-  m_BridgeDirectionalArrowPrefab: {fileID: 1709254077376921, guid: ab019a172c7ef0f49aaedf9cd327862a, type: 2}
-  m_CaptureRatingPrefab: {fileID: 1709254077376921, guid: 9a6c01da0e0992a4eabb985cfdd33ccd, type: 2}
-  m_SubRoutineSpamPrefab: {fileID: 1709254077376921, guid: ced160ac0229aa54abab458da960336f, type: 2}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_CaptureEffectPrefab: {fileID: -1172510311, guid: c2df09e5fe4ff3a48a818fcf54b1c940,
+    type: 2}
+  m_NukingEffectPrefab: {fileID: -1172510311, guid: 4121ca024a86d1147baf61064819d010,
+    type: 2}
+  m_EnergyMeter: {fileID: -1172510311, guid: f8ddee4b6cf5c9c4f90554e0167a58ba, type: 2}
+  m_HackingUI: {fileID: -1172510311, guid: bed5c0adcf327994f9603079ea3f891a, type: 2}
+  m_BridgeDirectionalArrowPrefab: {fileID: -1172510311, guid: ab019a172c7ef0f49aaedf9cd327862a,
+    type: 2}
+  m_CaptureRatingPrefab: {fileID: -1172510311, guid: 9a6c01da0e0992a4eabb985cfdd33ccd,
+    type: 2}
+  m_SubRoutineSpamPrefab: {fileID: -1172510311, guid: ced160ac0229aa54abab458da960336f,
+    type: 2}
+  m_ActiveTerminal: {fileID: 0}
 --- !u!114 &36
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -841,7 +872,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 99f4c8f8f6f04d653e2f6d9e09155d49, type: 3}
-  m_Name:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_URLRoot: http://www.n-fusion.com/DeusExMobile/
   m_StoreFileName: Store.xml
   m_InventoryFileName: Inventory_v1.xml
@@ -860,35 +892,53 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5c72f74e0767fb356f3061a3249ebe49, type: 3}
-  m_Name:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_AimStabilizationUpgrades:
     m_Name: AIM STABILIZATION
     m_Location: 2
     m_Passive: 1
     m_UpgradeData:
-    - m_Parents:
+    - m_Parents: 
       m_Name: MOTION CONTROL 1
       m_ShortDescription: 'Use: Reduces weapon kickback by 50%.'
-      m_Description: "Use: Reduces weapon kickback by 50%.\n\nActivation: Automatic.\n\nEnergy consumption: None.\n\n\nThe Aim Stabilizer’s base functionalities enable users to retain up to 50% of their targeting accuracy while in motion."
+      m_Description: "Use: Reduces weapon kickback by 50%.\n\nActivation: Automatic.\n\nEnergy
+        consumption: None.\n\n\nThe Aim Stabilizer\u2019s base functionalities enable
+        users to retain up to 50% of their targeting accuracy while in motion."
       m_Cost: 1
       m_Purchased: 0
-      m_KickScaler: 0.5
+      m_KickScaler: .5
     - m_Parents: 00000000
       m_Name: MOTION CONTROL 2
       m_ShortDescription: 'Use: Negates nearly all weapon kickback.'
-      m_Description: "Use: Negates nearly all weapon kickback.\n\nActivation: Automatic.\n\nEnergy consumption: None.\n\n\nIncreased familiarity with signals coming from the Aim Stabilizer’s implanted elements enables users to maintain up to 100% of their targeting accuracy while in motion."
+      m_Description: "Use: Negates nearly all weapon kickback.\n\nActivation: Automatic.\n\nEnergy
+        consumption: None.\n\n\nIncreased familiarity with signals coming from the
+        Aim Stabilizer\u2019s implanted elements enables users to maintain up to 100%
+        of their targeting accuracy while in motion."
       m_Cost: 2
       m_Purchased: 0
-      m_KickScaler: 0.1
+      m_KickScaler: .100000001
   m_MoveSilentlyUpgrades:
     m_Name: MOVEMENT
     m_Location: 6
     m_Passive: 1
     m_UpgradeData:
-    - m_Parents:
+    - m_Parents: 
       m_Name: RUN SILENTLY
       m_ShortDescription: 'Use: Run and walk silently.'
-      m_Description: "Use: Run and walk silently.\n\nActivation: Automatic.\n\nEnergy Consumption: None.\n\n\nCybernetic Leg users can become virtually silent while running once they learn to leverage tiny motors and shock-absorbing liquid polymer buffers found inside the prosthesis."
+      m_Description: 'Use: Run and walk silently.
+
+
+        Activation: Automatic.
+
+
+        Energy Consumption: None.
+
+
+
+        Cybernetic Leg users can become virtually silent while running once they learn
+        to leverage tiny motors and shock-absorbing liquid polymer buffers found inside
+        the prosthesis.'
       m_Cost: 1
       m_Purchased: 0
       m_MoveSilentlyNoiseRadius: 1
@@ -897,10 +947,13 @@ MonoBehaviour:
     m_Location: 0
     m_Passive: 1
     m_UpgradeData:
-    - m_Parents:
+    - m_Parents: 
       m_Name: CAPTURE 1
       m_ShortDescription: 'Use: Able to Hack Level 1 Terminals.'
-      m_Description: "Use: Able to Hack 1 Terminals\r.\n\r\nActivation: Automatic.\r\n\r\nEnergy consumption: None.\r\n\r\n\r\nAt it’s most basic level, the MHD-995 Hacking Device provides its user with the enhanced ability to override Level 1 terminals and security camera systems."
+      m_Description: "Use: Able to Hack 1 Terminals\r.\n\r\nActivation: Automatic.\r\n\r\nEnergy
+        consumption: None.\r\n\r\n\r\nAt it\u2019s most basic level, the MHD-995 Hacking
+        Device provides its user with the enhanced ability to override Level 1 terminals
+        and security camera systems."
       m_Cost: 0
       m_Purchased: 1
       m_CaptureProgramRating: 1
@@ -911,7 +964,9 @@ MonoBehaviour:
     - m_Parents: 00000000
       m_Name: CAPTURE 2
       m_ShortDescription: 'Use: Able to Hack Level 2 Terminals.'
-      m_Description: "Use: Able to Hack Level 2 Terminals.\n\r\nActivation: Automatic.\r\n\r\nEnergy consumption: None.\r\n\r\n\r\nWith some familiarity, the MHD-995 Hacking Device can discover increased competence in hacking node capture speed."
+      m_Description: "Use: Able to Hack Level 2 Terminals.\n\r\nActivation: Automatic.\r\n\r\nEnergy
+        consumption: None.\r\n\r\n\r\nWith some familiarity, the MHD-995 Hacking Device
+        can discover increased competence in hacking node capture speed."
       m_Cost: 1
       m_Purchased: 0
       m_CaptureProgramRating: 2
@@ -922,7 +977,10 @@ MonoBehaviour:
     - m_Parents: 01000000
       m_Name: CAPTURE 3
       m_ShortDescription: 'Use: Able to Hack Level 3 Terminals.'
-      m_Description: "Use: Able to Hack Level 3 Terminals\r.\n\r\nActivation: Automatic.\r\n\r\nEnergy consumption: None.\r\n\r\n\r\nExperienced users of the MHD-995 Hacking Device gain an authoritative edge over interlaced system nodes, enabling them to  increase the speed at which they capture hacking nodes even more."
+      m_Description: "Use: Able to Hack Level 3 Terminals\r.\n\r\nActivation: Automatic.\r\n\r\nEnergy
+        consumption: None.\r\n\r\n\r\nExperienced users of the MHD-995 Hacking Device
+        gain an authoritative edge over interlaced system nodes, enabling them to
+        \ increase the speed at which they capture hacking nodes even more."
       m_Cost: 1
       m_Purchased: 0
       m_CaptureProgramRating: 3
@@ -933,7 +991,10 @@ MonoBehaviour:
     - m_Parents: 02000000
       m_Name: CAPTURE 4
       m_ShortDescription: 'Use: Able to Hack Level 4 Terminals.'
-      m_Description: "Use: Able to Hack Level 4 Terminals\r.\n\r\nActivation: Automatic.\r\n\r\nEnergy consumption: None.\r\n\r\n\r\nExperienced users of the MHD-995 Hacking Device gain an authoritative edge over interlaced system nodes, enabling them to  increase the speed at which they capture hacking nodes even more."
+      m_Description: "Use: Able to Hack Level 4 Terminals\r.\n\r\nActivation: Automatic.\r\n\r\nEnergy
+        consumption: None.\r\n\r\n\r\nExperienced users of the MHD-995 Hacking Device
+        gain an authoritative edge over interlaced system nodes, enabling them to
+        \ increase the speed at which they capture hacking nodes even more."
       m_Cost: 1
       m_Purchased: 0
       m_CaptureProgramRating: 4
@@ -944,7 +1005,10 @@ MonoBehaviour:
     - m_Parents: 03000000
       m_Name: CAPTURE 5
       m_ShortDescription: 'Use: Able to Hack Level 5 Terminals.'
-      m_Description: "Use: Able to Hack Level 5 Terminals.\n\r\nActivation: Automatic.\r\n\r\nEnergy consumption: None.\r\n\r\n\r\nMastering the MHD-995 Hacking Device gifts users with a mastery over all foreign electronic systems, thus enabling them to navigate and control pathways and nodes with the ease of a network administrator."
+      m_Description: "Use: Able to Hack Level 5 Terminals.\n\r\nActivation: Automatic.\r\n\r\nEnergy
+        consumption: None.\r\n\r\n\r\nMastering the MHD-995 Hacking Device gifts users
+        with a mastery over all foreign electronic systems, thus enabling them to
+        navigate and control pathways and nodes with the ease of a network administrator."
       m_Cost: 1
       m_Purchased: 0
       m_CaptureProgramRating: 5
@@ -952,10 +1016,15 @@ MonoBehaviour:
       m_DoorDominationActive: 1
       m_RobotDominationActive: 0
       m_TurretDominationActive: 0
-    - m_Parents:
+    - m_Parents: 
       m_Name: CAMERA DOMINATION
       m_ShortDescription: 'Use: Deactivate Cameras linked to Security hubs.'
-      m_Description: "Use: Deactivate Cameras linked to Security hubs.\r\n\r\nActivation: Automatic.\r\n\r\nEnergy Consumption: None.\r\n\r\n\r\nThe MHD -995 Hacking Device has a powerful suite of enhanced functionalities that, in addition to the penetration of firewalls for clandestine data retrieval, can also enable an experienced hacker to co-opt and take control of deeper subsystems, such as those used by security cameras."
+      m_Description: "Use: Deactivate Cameras linked to Security hubs.\r\n\r\nActivation:
+        Automatic.\r\n\r\nEnergy Consumption: None.\r\n\r\n\r\nThe MHD -995 Hacking
+        Device has a powerful suite of enhanced functionalities that, in addition
+        to the penetration of firewalls for clandestine data retrieval, can also enable
+        an experienced hacker to co-opt and take control of deeper subsystems, such
+        as those used by security cameras."
       m_Cost: 1
       m_Purchased: 0
       m_CaptureProgramRating: 0
@@ -965,8 +1034,13 @@ MonoBehaviour:
       m_TurretDominationActive: 0
     - m_Parents: 05000000
       m_Name: ROBOT DOMINATION
-      m_ShortDescription: 'Use: Disable Robots and Turrets  or turn them against their allies.'
-      m_Description: "Use: Disable Robots and Turrets linked to security hubs or turn them against their allies.\r\n\r\nActivation: Automatic.\r\n\r\nEnergy consumption: None.\r\n\r\n\r\nUsers who decide to hone their co-option skills even further will eventually be able to seize control of robots and either turn them against friendly forces or shut them down entirely."
+      m_ShortDescription: 'Use: Disable Robots and Turrets  or turn them against their
+        allies.'
+      m_Description: "Use: Disable Robots and Turrets linked to security hubs or turn
+        them against their allies.\r\n\r\nActivation: Automatic.\r\n\r\nEnergy consumption:
+        None.\r\n\r\n\r\nUsers who decide to hone their co-option skills even further
+        will eventually be able to seize control of robots and either turn them against
+        friendly forces or shut them down entirely."
       m_Cost: 2
       m_Purchased: 0
       m_CaptureProgramRating: 0
@@ -979,10 +1053,23 @@ MonoBehaviour:
     m_Location: 0
     m_Passive: 1
     m_UpgradeData:
-    - m_Parents:
+    - m_Parents: 
       m_Name: EMOTIONAL ENHANCER
-      m_ShortDescription: 'Use: Analyze people and persuade them into following certain courses of action.'
-      m_Description: "Use: Analyze people and persuade them into following certain courses of action.\n\nActivation: Contextual.\n\nEnergy consumption: None.\n\n\nThe Emotional Intelligence Enhancer combines several systems, including an Optical Polygraph, Personality Analyzer, and Synthetic Pheromones Propagator."
+      m_ShortDescription: 'Use: Analyze people and persuade them into following certain
+        courses of action.'
+      m_Description: 'Use: Analyze people and persuade them into following certain
+        courses of action.
+
+
+        Activation: Contextual.
+
+
+        Energy consumption: None.
+
+
+
+        The Emotional Intelligence Enhancer combines several systems, including an
+        Optical Polygraph, Personality Analyzer, and Synthetic Pheromones Propagator.'
       m_Cost: 2
       m_Purchased: 0
       m_SocialEnhancerActive: 1
@@ -991,10 +1078,13 @@ MonoBehaviour:
     m_Location: 1
     m_Passive: 1
     m_UpgradeData:
-    - m_Parents:
+    - m_Parents: 
       m_Name: ENERGY LEVEL UPGRADE 1
       m_ShortDescription: 'Use: Grants an extra energy cell.'
-      m_Description: "Use: Grants an extra energy cell.\r\n\r\nActivation: Automatic.\r\n\r\nEnergy consumption: None.\r\n\r\n\r\nIntermediate users of the Energy Converter can fill up an additional energy cell for later use, giving them a total count of 3."
+      m_Description: "Use: Grants an extra energy cell.\r\n\r\nActivation: Automatic.\r\n\r\nEnergy
+        consumption: None.\r\n\r\n\r\nIntermediate users of the Energy Converter can
+        fill up an additional energy cell for later use, giving them a total count
+        of 3."
       m_Cost: 1
       m_Purchased: 0
       m_EnergyContainerAmount: 3
@@ -1003,7 +1093,9 @@ MonoBehaviour:
     - m_Parents: 00000000
       m_Name: ENERGY LEVEL UPGRADE 2
       m_ShortDescription: 'Use: Grants an extra energy cell.'
-      m_Description: "Use: Grants an extra energy cell.\r\n\r\nActivation: Automatic.\r\n\r\nEnergy consumption: None.\r\n\r\n\r\nAdvances Energy Converter users can create yet one more energy cell for later use, giving them a total count of 4."
+      m_Description: "Use: Grants an extra energy cell.\r\n\r\nActivation: Automatic.\r\n\r\nEnergy
+        consumption: None.\r\n\r\n\r\nAdvances Energy Converter users can create yet
+        one more energy cell for later use, giving them a total count of 4."
       m_Cost: 2
       m_Purchased: 0
       m_EnergyContainerAmount: 4
@@ -1012,7 +1104,9 @@ MonoBehaviour:
     - m_Parents: 01000000
       m_Name: ENERGY LEVEL UPGRADE 3
       m_ShortDescription: 'Use: Grants an extra energy cell.'
-      m_Description: "Use: Grants an extra energy cell.\r\n\r\nActivation: Automatic.\r\n\r\nEnergy consumption: None.\r\n\r\n\r\nMastery of the Energy Converter enables users to rely on a total count of 5 energy cells for later use."
+      m_Description: "Use: Grants an extra energy cell.\r\n\r\nActivation: Automatic.\r\n\r\nEnergy
+        consumption: None.\r\n\r\n\r\nMastery of the Energy Converter enables users
+        to rely on a total count of 5 energy cells for later use."
       m_Cost: 3
       m_Purchased: 0
       m_EnergyContainerAmount: 5
@@ -1021,21 +1115,27 @@ MonoBehaviour:
     - m_Parents: 00000000
       m_Name: ENERGY RECHARGE RATE 1
       m_ShortDescription: 'Use: Speeds up energy recharge.'
-      m_Description: "Use: Speeds up energy recharge.\r\n\r\nActivation: Automatic.\r\n\r\nEnergy consumption: none.\r\n\r\n\r\nAdvanced Energy Converter users can feel their Energy Reclamation System start to kick in after only 5 seconds. Once active, the system will recharge a single energy cell in approximately 25 more seconds."
+      m_Description: "Use: Speeds up energy recharge.\r\n\r\nActivation: Automatic.\r\n\r\nEnergy
+        consumption: none.\r\n\r\n\r\nAdvanced Energy Converter users can feel their
+        Energy Reclamation System start to kick in after only 5 seconds. Once active,
+        the system will recharge a single energy cell in approximately 25 more seconds."
       m_Cost: 1
       m_Purchased: 0
       m_EnergyContainerAmount: 0
       m_RechargeCapacity: 0
-      m_EnergyRechargeRate: 0.25
+      m_EnergyRechargeRate: .25
     - m_Parents: 03000000
       m_Name: ENERGY RECHARGE RATE 2
       m_ShortDescription: 'Use: Speeds up energy recharge.'
-      m_Description: "Use: Speeds up energy recharge.\r\n\r\nActivation: Automatic.\r\n\r\nEnergy consumption: none.\r\n\r\n\r\nThe most experienced Energy Converter users will only need 20 seconds for one cell to recharge fully, with no delay before charge-up begins."
+      m_Description: "Use: Speeds up energy recharge.\r\n\r\nActivation: Automatic.\r\n\r\nEnergy
+        consumption: none.\r\n\r\n\r\nThe most experienced Energy Converter users
+        will only need 20 seconds for one cell to recharge fully, with no delay before
+        charge-up begins."
       m_Cost: 2
       m_Purchased: 0
       m_EnergyContainerAmount: 0
       m_RechargeCapacity: 0
-      m_EnergyRechargeRate: 0.45
+      m_EnergyRechargeRate: .449999988
     - m_Parents: 02000000
       m_Name: ENERGY CAPACITY UPGRADE
       m_ShortDescription: 'Use: Increases amount of auto-fll energy cells by 1.'
@@ -1050,10 +1150,13 @@ MonoBehaviour:
     m_Location: 2
     m_Passive: 1
     m_UpgradeData:
-    - m_Parents:
+    - m_Parents: 
       m_Name: MOVE HEAVY OBJECTS
       m_ShortDescription: 'Use: Move heavier objects out of your way.'
-      m_Description: "Use: Move heavier objects out of your way.\n\nActivation: Contextual.\n\nEnergy consumption: Low.\n\n\nWith practice, people equipped with the Cybernetic Arm Prosthesis will be able to optimize the limb’s myomer muscle modules to greatly increase brute strength when moving heavy objects."
+      m_Description: "Use: Move heavier objects out of your way.\n\nActivation: Contextual.\n\nEnergy
+        consumption: Low.\n\n\nWith practice, people equipped with the Cybernetic
+        Arm Prosthesis will be able to optimize the limb\u2019s myomer muscle modules
+        to greatly increase brute strength when moving heavy objects."
       m_Cost: 1
       m_Purchased: 0
       m_CanMoveHeavyObject: 1
@@ -1061,7 +1164,10 @@ MonoBehaviour:
     - m_Parents: 00000000
       m_Name: PUNCH THROUGH WALL
       m_ShortDescription: 'Use: Blast through weakened walls.'
-      m_Description: "Use: Blast through weakened walls.\r\n\r\nActivation: Conextual.\r\n\r\nEnergy consumption: 1 energy cell.\r\n\r\n\r\nMastering use of the Cybernetic Arm's shock buffers and strengthened bone frames allows people equipped with the prosthesis to break through light walls with a powerful punch."
+      m_Description: "Use: Blast through weakened walls.\r\n\r\nActivation: Conextual.\r\n\r\nEnergy
+        consumption: 1 energy cell.\r\n\r\n\r\nMastering use of the Cybernetic Arm's
+        shock buffers and strengthened bone frames allows people equipped with the
+        prosthesis to break through light walls with a powerful punch."
       m_Cost: 2
       m_Purchased: 0
       m_CanMoveHeavyObject: 1
@@ -1071,10 +1177,13 @@ MonoBehaviour:
     m_Location: 0
     m_Passive: 1
     m_UpgradeData:
-    - m_Parents:
+    - m_Parents: 
       m_Name: INFOLINK
       m_ShortDescription: 'Use: Communicate wirelessly anywhere.'
-      m_Description: "Use: Communicate wirelessly anywhere.\r\n\r\n\r\nThe Infolink telecommunications Package enables users to receive and transmit messages without generating audible sounds through implanted cochlear and vibration devices."
+      m_Description: "Use: Communicate wirelessly anywhere.\r\n\r\n\r\nThe Infolink
+        telecommunications Package enables users to receive and transmit messages
+        without generating audible sounds through implanted cochlear and vibration
+        devices."
       m_Cost: 0
       m_Purchased: 1
   m_CloakingUpgrades:
@@ -1082,24 +1191,38 @@ MonoBehaviour:
     m_Location: 5
     m_Passive: 0
     m_UpgradeData:
-    - m_Parents:
+    - m_Parents: 
       m_Name: CLOAKING LEVEL 1
       m_ShortDescription: 'Use: Becomes invisible for a short period of time.'
-      m_Description: "Use: Becomes invisible for a short period of time. Warning: people can still hear you move!\r\n\r\nActivation: Manual.\r\n\r\nEnergy consumption: High.\r\n\r\n\r\nWhen activated, the GlassShield Cloaking System augmentation bends the light hitting the user, rendering him practically invisible. The effect will work on any wavelength that is part of the visual spectrum, including laser beams."
+      m_Description: "Use: Becomes invisible for a short period of time. Warning:
+        people can still hear you move!\r\n\r\nActivation: Manual.\r\n\r\nEnergy consumption:
+        High.\r\n\r\n\r\nWhen activated, the GlassShield Cloaking System augmentation
+        bends the light hitting the user, rendering him practically invisible. The
+        effect will work on any wavelength that is part of the visual spectrum, including
+        laser beams."
       m_Cost: 1
       m_Purchased: 0
       m_DurationPerEnergyCell: 3
     - m_Parents: 00000000
       m_Name: CLOAKING LEVEL 2
-      m_ShortDescription: 'Use: Regulates the rate at which energy is consumed while cloaking.'
-      m_Description: "Use: Regulates the rate at which energy is consumed while cloaking.\r\n\r\nActivation time: 3 seconds per energy cell.\r\n\r\n\r\nWhen activated, the GlassShield Cloaking System augmentation bends the light hitting the user, rendering him practically invisible. The effect will work on any wavelength that is part of the visual spectrum, including laser beams.\r\n"
+      m_ShortDescription: 'Use: Regulates the rate at which energy is consumed while
+        cloaking.'
+      m_Description: "Use: Regulates the rate at which energy is consumed while cloaking.\r\n\r\nActivation
+        time: 3 seconds per energy cell.\r\n\r\n\r\nWhen activated, the GlassShield
+        Cloaking System augmentation bends the light hitting the user, rendering him
+        practically invisible. The effect will work on any wavelength that is part
+        of the visual spectrum, including laser beams.\r\n"
       m_Cost: 2
       m_Purchased: 0
       m_DurationPerEnergyCell: 5
     - m_Parents: 01000000
       m_Name: CLOAKING LEVEL 3
-      m_ShortDescription: 'Use: Regulates the rate at which energy is consumed while cloaking.'
-      m_Description: "Activation time: 5 seconds per energy cell.\r\n\r\n\r\nWhen activated, the GlassShield Cloaking System augmentation bends the light hitting the user, rendering him practically invisible. The effect will work on any wavelength that is part of the visual spectrum, including laser beams."
+      m_ShortDescription: 'Use: Regulates the rate at which energy is consumed while
+        cloaking.'
+      m_Description: "Activation time: 5 seconds per energy cell.\r\n\r\n\r\nWhen
+        activated, the GlassShield Cloaking System augmentation bends the light hitting
+        the user, rendering him practically invisible. The effect will work on any
+        wavelength that is part of the visual spectrum, including laser beams."
       m_Cost: 3
       m_Purchased: 0
       m_DurationPerEnergyCell: 7
@@ -1108,10 +1231,13 @@ MonoBehaviour:
     m_Location: 1
     m_Passive: 1
     m_UpgradeData:
-    - m_Parents:
+    - m_Parents: 
       m_Name: ICARUS LANDING SYSTEM
       m_ShortDescription: 'Use: Fall from any height without fear of injury.'
-      m_Description: "Use: Fall from any height without fear of injury.\r\n\r\n\r\nThe Icarus Landing System is a discreet augmentation surgically implanted in the user's lower back, slightly above the coccyx at the base of the vertebral column."
+      m_Description: "Use: Fall from any height without fear of injury.\r\n\r\n\r\nThe
+        Icarus Landing System is a discreet augmentation surgically implanted in the
+        user's lower back, slightly above the coccyx at the base of the vertebral
+        column."
       m_Cost: 0
       m_Purchased: 1
   m_ArmorUpgrades:
@@ -1119,24 +1245,42 @@ MonoBehaviour:
     m_Location: 5
     m_Passive: 0
     m_UpgradeData:
-    - m_Parents:
+    - m_Parents: 
       m_Name: ARMOR LEVEL 1
       m_ShortDescription: 'Use: Reduce incoming damage by 20%.'
-      m_Description: "Use: Reduce damage at the cost of 2 energy cells. When the Armor meter is depleted, damage reduction will no longer occur until activate again.\r\n\r\nActivation: Use from Quick Slot.\r\n\r\nSub-dermal Electrostatic Armor Plating is a modified version of Rhino Dermal Armor takes advantage power cell energy to electrically charge near-weightless microfiber armor plating implanted beneath the subject's skin. This type of armor allows more flexibility and greater protection to the user at the cost of increased energy usage."
+      m_Description: "Use: Reduce damage at the cost of 2 energy cells. When the Armor
+        meter is depleted, damage reduction will no longer occur until activate again.\r\n\r\nActivation:
+        Use from Quick Slot.\r\n\r\nSub-dermal Electrostatic Armor Plating is a modified
+        version of Rhino Dermal Armor takes advantage power cell energy to electrically
+        charge near-weightless microfiber armor plating implanted beneath the subject's
+        skin. This type of armor allows more flexibility and greater protection to
+        the user at the cost of increased energy usage."
       m_Cost: 1
       m_Purchased: 0
       m_DamageReductionPercentAmount: 20
     - m_Parents: 00000000
       m_Name: ARMOR LEVEL 2
       m_ShortDescription: 'Use: Reduce incoming damage by 40%.'
-      m_Description: "Use: Reduce damage at the cost of 2 energy cells. When the Armor meter is depleted, damage reduction will no longer occur until activate again.\r\n\r\nActivation: Use from Quick Slot.\r\n\r\nSub-dermal Electrostatic Armor Plating is a modified version of Rhino Dermal Armor takes advantage power cell energy to electrically charge near-weightless microfiber armor plating implanted beneath the subject's skin. This type of armor allows more flexibility and greater protection to the user at the cost of increased energy usage."
+      m_Description: "Use: Reduce damage at the cost of 2 energy cells. When the Armor
+        meter is depleted, damage reduction will no longer occur until activate again.\r\n\r\nActivation:
+        Use from Quick Slot.\r\n\r\nSub-dermal Electrostatic Armor Plating is a modified
+        version of Rhino Dermal Armor takes advantage power cell energy to electrically
+        charge near-weightless microfiber armor plating implanted beneath the subject's
+        skin. This type of armor allows more flexibility and greater protection to
+        the user at the cost of increased energy usage."
       m_Cost: 2
       m_Purchased: 0
       m_DamageReductionPercentAmount: 40
     - m_Parents: 01000000
       m_Name: ARMOR LEVEL 3
       m_ShortDescription: 'Use: Reduce incoming damage by 60%.'
-      m_Description: "Use: Reduce damage at the cost of 2 energy cells. When the Armor meter is depleted, damage reduction will no longer occur until activate again.\r\n\r\nActivation: Use from Quick Slot.\r\n\r\nSub-dermal Electrostatic Armor Plating is a modified version of Rhino Dermal Armor takes advantage power cell energy to electrically charge near-weightless microfiber armor plating implanted beneath the subject's skin. This type of armor allows more flexibility and greater protection to the user at the cost of increased energy usage."
+      m_Description: "Use: Reduce damage at the cost of 2 energy cells. When the Armor
+        meter is depleted, damage reduction will no longer occur until activate again.\r\n\r\nActivation:
+        Use from Quick Slot.\r\n\r\nSub-dermal Electrostatic Armor Plating is a modified
+        version of Rhino Dermal Armor takes advantage power cell energy to electrically
+        charge near-weightless microfiber armor plating implanted beneath the subject's
+        skin. This type of armor allows more flexibility and greater protection to
+        the user at the cost of increased energy usage."
       m_Cost: 3
       m_Purchased: 0
       m_DamageReductionPercentAmount: 60
@@ -1145,10 +1289,14 @@ MonoBehaviour:
     m_Location: 3
     m_Passive: 0
     m_UpgradeData:
-    - m_Parents:
+    - m_Parents: 
       m_Name: WALL-PENETRATING IMAGER
       m_ShortDescription: 'Use: Track threats through walls.'
-      m_Description: "Use: Track threats through walls.\r\n\r\nActivation: Manual.\r\n\r\nEnergy Consumption: Low.\r\n\r\n\r\nThe Thermographic and t-wave features installed in the Eye-See Vision Enhancement Package provide limited-range image penetration of low-density objects and cover obstacles immediately, enabling users to see what hides behind them."
+      m_Description: "Use: Track threats through walls.\r\n\r\nActivation: Manual.\r\n\r\nEnergy
+        Consumption: Low.\r\n\r\n\r\nThe Thermographic and t-wave features installed
+        in the Eye-See Vision Enhancement Package provide limited-range image penetration
+        of low-density objects and cover obstacles immediately, enabling users to
+        see what hides behind them."
       m_Cost: 1
       m_Purchased: 0
       m_SeeThroughWallsActive: 1
@@ -1158,10 +1306,13 @@ MonoBehaviour:
     m_Location: 4
     m_Passive: 1
     m_UpgradeData:
-    - m_Parents:
+    - m_Parents: 
       m_Name: MULTIPLE TAKE-DOWN
       m_ShortDescription: 'Use: Take-down 2 opponents at once.'
-      m_Description: "Use: Take-down 2 opponents at once.\r\n\r\nActivation: Contextual.\r\n\r\nEnergy consumption: 1 energy cell.\r\n\r\n\r\nThe Quicksilver Reflex Booster brings lightning-fast reflexes and superb agility to its users immediately, allowing them to engage and take down two discrete adversaries in a simultaneous encounter."
+      m_Description: "Use: Take-down 2 opponents at once.\r\n\r\nActivation: Contextual.\r\n\r\nEnergy
+        consumption: 1 energy cell.\r\n\r\n\r\nThe Quicksilver Reflex Booster brings
+        lightning-fast reflexes and superb agility to its users immediately, allowing
+        them to engage and take down two discrete adversaries in a simultaneous encounter."
       m_Cost: 1
       m_Purchased: 0
       m_MultipleTakedownActive: 1
@@ -1170,10 +1321,14 @@ MonoBehaviour:
     m_Location: 0
     m_Passive: 1
     m_UpgradeData:
-    - m_Parents:
+    - m_Parents: 
       m_Name: HACKING FORTIFY 1
-      m_ShortDescription: 'Use: Increases a node''s rating by 1 in order to slow down trace attempts.'
-      m_Description: "Use: Adds 1 point to a node's rating.\r\n\r\nActivation: Automatic.\r\n\r\nEnergy Consumption: None.\r\n\r\n\r\nNeophyte users of the Costikyan NeuralOptics Node Fortifier will immediately discover a difference in the strength of the software abrriers established for their captured nodes."
+      m_ShortDescription: 'Use: Increases a node''s rating by 1 in order to slow down
+        trace attempts.'
+      m_Description: "Use: Adds 1 point to a node's rating.\r\n\r\nActivation: Automatic.\r\n\r\nEnergy
+        Consumption: None.\r\n\r\n\r\nNeophyte users of the Costikyan NeuralOptics
+        Node Fortifier will immediately discover a difference in the strength of the
+        software abrriers established for their captured nodes."
       m_Cost: 1
       m_Purchased: 0
       m_FortifyIncreaseValue: 1
@@ -1181,7 +1336,10 @@ MonoBehaviour:
     - m_Parents: 00000000
       m_Name: HACKING FORTIFY 2
       m_ShortDescription: 'Use: Adds 2 point to a node''s rating.'
-      m_Description: "Use: Adds 2 point to a node's rating.\r\n\r\nActivation: Automatic.\r\n\r\nEnergy Consumption: None.\r\n\r\n\r\nA bit of practive affords the Costikyan NeuralOptics Node Fortifier user the ability to significantly enhance the defenses on co-opted systems."
+      m_Description: "Use: Adds 2 point to a node's rating.\r\n\r\nActivation: Automatic.\r\n\r\nEnergy
+        Consumption: None.\r\n\r\n\r\nA bit of practive affords the Costikyan NeuralOptics
+        Node Fortifier user the ability to significantly enhance the defenses on co-opted
+        systems."
       m_Cost: 2
       m_Purchased: 0
       m_FortifyIncreaseValue: 2
@@ -1189,7 +1347,10 @@ MonoBehaviour:
     - m_Parents: 01000000
       m_Name: HACKING FORTIFY 3
       m_ShortDescription: 'Use: Adds 3 point to a node''s rating.'
-      m_Description: "Use: Adds 3 point to a node's rating.\r\n\r\nActivation: Automatic.\r\n\r\nEnergy Consumption: None.\r\n\r\n\r\nSolid protection against intrusion countermeasures is available to anyone with the Costikyan NeuralOptics Node Fortifier, once they've developed a reasonable aptitude with the device."
+      m_Description: "Use: Adds 3 point to a node's rating.\r\n\r\nActivation: Automatic.\r\n\r\nEnergy
+        Consumption: None.\r\n\r\n\r\nSolid protection against intrusion countermeasures
+        is available to anyone with the Costikyan NeuralOptics Node Fortifier, once
+        they've developed a reasonable aptitude with the device."
       m_Cost: 3
       m_Purchased: 0
       m_FortifyIncreaseValue: 3
@@ -1199,24 +1360,39 @@ MonoBehaviour:
     m_Location: 0
     m_Passive: 1
     m_UpgradeData:
-    - m_Parents:
+    - m_Parents: 
       m_Name: HACKING STEALTH 1
-      m_ShortDescription: 'Use: Decreases the chance of detection when hacking by 15%.'
-      m_Description: "Use: Decreases the chance of detection when hacking by 15%.\r\n\r\nActivaition: Automatic.\r\n\r\nEnergy Consumption: None.\r\n\r\n\r\nEven from first use, the MHD-995SH Informational Warfare Obfuscation Augmentation provides a 15% decrease int he detection probability of any instrusive action, down to a minimum of 15%."
+      m_ShortDescription: 'Use: Decreases the chance of detection when hacking by
+        15%.'
+      m_Description: "Use: Decreases the chance of detection when hacking by 15%.\r\n\r\nActivaition:
+        Automatic.\r\n\r\nEnergy Consumption: None.\r\n\r\n\r\nEven from first use,
+        the MHD-995SH Informational Warfare Obfuscation Augmentation provides a 15%
+        decrease int he detection probability of any instrusive action, down to a
+        minimum of 15%."
       m_Cost: 1
       m_Purchased: 0
       m_StealthProgramRating: 1
     - m_Parents: 00000000
       m_Name: HACKING STEALTH 2
-      m_ShortDescription: 'Use: Decreases the chance of detection when hacking by 30%.'
-      m_Description: "Use: Decreases the chance of detection when hacking by 30%.\r\n\r\nActivaition: Automatic.\r\n\r\nEnergy Consumption: None.\r\n\r\n\r\nFamiliarity with the MHD-995SH Informational Warfare Obfuscation Augmentation will decrease the likelihood of detection for intrusive action by 30%, down to a minimum of %15."
+      m_ShortDescription: 'Use: Decreases the chance of detection when hacking by
+        30%.'
+      m_Description: "Use: Decreases the chance of detection when hacking by 30%.\r\n\r\nActivaition:
+        Automatic.\r\n\r\nEnergy Consumption: None.\r\n\r\n\r\nFamiliarity with the
+        MHD-995SH Informational Warfare Obfuscation Augmentation will decrease the
+        likelihood of detection for intrusive action by 30%, down to a minimum of
+        %15."
       m_Cost: 2
       m_Purchased: 0
       m_StealthProgramRating: 2
     - m_Parents: 01000000
       m_Name: HACKING STEALTH 3
-      m_ShortDescription: 'Use: Decreases the chance of detection when hacking by 45%.'
-      m_Description: "Use: Decreases the chance of detection when hacking by 45%.\r\n\r\nActivaition: Automatic.\r\n\r\nEnergy Consumption: None.\r\n\r\n\r\nA skilled user of the MHD-995SH Informational Warfare Obfuscation Augmentation will experience a 45% decrease across the board in terms of detection likelihoods for instrusive actions, down to a minimum of 15%. "
+      m_ShortDescription: 'Use: Decreases the chance of detection when hacking by
+        45%.'
+      m_Description: "Use: Decreases the chance of detection when hacking by 45%.\r\n\r\nActivaition:
+        Automatic.\r\n\r\nEnergy Consumption: None.\r\n\r\n\r\nA skilled user of the
+        MHD-995SH Informational Warfare Obfuscation Augmentation will experience a
+        45% decrease across the board in terms of detection likelihoods for instrusive
+        actions, down to a minimum of 15%. "
       m_Cost: 3
       m_Purchased: 0
       m_StealthProgramRating: 3
@@ -1229,5 +1405,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f23494809e463b7a3e2600ef0d1267ee, type: 3}
-  m_Name:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_OverrideLanguage: -1
+--- !u!114 &39
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 20}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa95a54d6b188c04eadfbcf75a3f253f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_InputXmlFile: {fileID: 4900000, guid: 507b971eaf0bdcb47880dd7f8caea52e, type: 3}

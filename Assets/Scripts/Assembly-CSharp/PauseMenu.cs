@@ -6,6 +6,8 @@ public class PauseMenu : MonoBehaviour
 
 	public Color m_GodModeColor = new Color(1f, 1f, 0f, 1f);
 
+	public SpriteText m_SensitivityText;
+
 	private void Awake()
 	{
 		Vector3 localPosition = base.transform.localPosition;
@@ -18,6 +20,11 @@ public class PauseMenu : MonoBehaviour
 		if (m_GodModeText != null)
 		{
 			m_GodModeText.SetColor((!Globals.m_GodMode) ? Color.white : m_GodModeColor);
+		}
+
+		if (m_SensitivityText != null)
+		{
+			m_SensitivityText.Text = Globals.m_MouseSensitivity.ToString();
 		}
 	}
 
@@ -83,5 +90,29 @@ public class PauseMenu : MonoBehaviour
 		GameManager.LoadMenu();
 		SoundManager.TriggerEvent("Play_UI_Select", base.gameObject);
 		SoundManager.TriggerEvent("Unpause", base.gameObject);
+	}
+
+	public void MouseSensitivityUp()
+	{
+		SoundManager.TriggerEvent("Play_UI_Select", base.gameObject);
+		int mouseSensitivity = Mathf.Clamp(Globals.m_MouseSensitivity + 1, 0, 10);
+		Globals.m_MouseSensitivity = mouseSensitivity;
+		
+		if (m_SensitivityText != null)
+		{
+			m_SensitivityText.Text = Globals.m_MouseSensitivity.ToString();
+		}
+	}
+	
+	public void MouseSensitivityDown()
+	{
+		SoundManager.TriggerEvent("Play_UI_Select", base.gameObject);
+		int mouseSensitivity = Mathf.Clamp(Globals.m_MouseSensitivity - 1, 0, 10);
+		Globals.m_MouseSensitivity = mouseSensitivity;
+		
+		if (m_SensitivityText != null)
+		{
+			m_SensitivityText.Text = Globals.m_MouseSensitivity.ToString();
+		}
 	}
 }

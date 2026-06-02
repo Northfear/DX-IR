@@ -173,7 +173,7 @@ public class Globals : MonoBehaviour
 
 	public static AugmentationData m_AugmentationData = null;
 
-	public static bool m_DisableTapToMove = false;
+	public static bool m_DisableTapToMove = true;
 
 	public static bool m_Bloom = false;
 
@@ -238,6 +238,10 @@ public class Globals : MonoBehaviour
 	public GameObject m_StunGunEffect;
 
 	public static int m_MasterTextureLimit = 0;
+
+	public static int m_MouseSensitivity = 4;
+	
+	public static bool m_InvertCamera = false;
 
 	public static bool GetStoryProgressionVar(StoryProgressionVars v)
 	{
@@ -723,5 +727,10 @@ public class Globals : MonoBehaviour
 				m_Missions[missionID].m_Transforms[i] = transforms[i];
 			}
 		}
+	}
+
+	public static bool CanPause()
+	{
+		return GameManager.m_This.m_GameState == GameManager.GameState.Game && m_HUD.m_Showing && m_PlayerController.gameObject.activeSelf && !m_HUD.m_PauseButton.IsHidden() && !m_ConversationSystem.IsSpeaking() && m_PlayerController.m_CameraMode != PlayerController.CameraMode.Takedown;
 	}
 }

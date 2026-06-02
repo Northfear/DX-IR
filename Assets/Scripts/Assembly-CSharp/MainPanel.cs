@@ -28,4 +28,9 @@ public class MainPanel : MonoBehaviour
 			m_Version.Text = "v " + Globals.m_This.m_VersionMajor + "." + Globals.m_This.m_VersionMinor + "." + Globals.m_This.m_VersionMicro;
 		}
 	}
+
+	public void QuitGame()
+	{
+		Application.Quit();
+	}
 }

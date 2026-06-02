@@ -208,6 +208,8 @@ public class Globals_NEW : MonoBehaviour
 				m_ResolutionRank = ResolutionRank.Low;
 			}
 		}
+#else
+		m_ResolutionRank = ResolutionRank.High;
 #endif
 	}
 }

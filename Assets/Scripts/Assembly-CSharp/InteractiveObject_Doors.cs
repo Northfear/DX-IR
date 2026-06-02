@@ -137,7 +137,7 @@ public class InteractiveObject_Doors : InteractiveObject_Base
 	{
 		if (!m_ShowPopup)
 		{
-			return InteractiveObject_Base.m_OffScreen;
+			return m_OffScreen;
 		}
 		if (m_PartnerDoor == null)
 		{
@@ -153,12 +153,12 @@ public class InteractiveObject_Doors : InteractiveObject_Base
 	{
 		if (m_InteractiveCollider == null || !m_Active)
 		{
-			return InteractiveObject_Base.m_OffScreen;
+			return m_OffScreen;
 		}
 		Renderer renderer = ((!(m_ObjectRenderer == null)) ? m_ObjectRenderer : base.gameObject.GetComponentInChildren<Renderer>());
 		if (renderer == null || !renderer.isVisible)
 		{
-			return InteractiveObject_Base.m_OffScreen;
+			return m_OffScreen;
 		}
 		Vector3 forward = Globals.m_PlayerController.m_Camera.transform.forward;
 		forward.y = 0f;
@@ -169,7 +169,7 @@ public class InteractiveObject_Doors : InteractiveObject_Base
 		float num = Vector3.Dot(forward, rhs);
 		if (num > 0f)
 		{
-			return InteractiveObject_Base.m_OffScreen;
+			return m_OffScreen;
 		}
 		Bounds bounds = m_InteractiveCollider.bounds;
 		Vector3 vector = base.transform.InverseTransformPoint(bounds.center);
