@@ -18,6 +18,8 @@ public class AkSwitchTrigger : MonoBehaviour
 		{
 			gameObject = ((!setOnOtherObject) ? base.gameObject : other.gameObject);
 		}
+#if SOUND_WWISE
 		AkSoundEngine.SetSwitch(switchGroup, switchValue, gameObject);
+#endif
 	}
 }

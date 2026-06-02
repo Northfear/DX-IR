@@ -20,7 +20,9 @@ public class AkEventTrigger : MonoBehaviour
 			{
 				gameObject = ((!playOnOtherObject) ? base.gameObject : other.gameObject);
 			}
+#if SOUND_WWISE
 			AkSoundEngine.PostEvent(enterEventName, gameObject);
+#endif
 		}
 	}
 
@@ -38,7 +40,9 @@ public class AkEventTrigger : MonoBehaviour
 			{
 				gameObject = ((!playOnOtherObject) ? base.gameObject : other.gameObject);
 			}
+#if SOUND_WWISE
 			AkSoundEngine.PostEvent(exitEventName, gameObject);
+#endif
 		}
 	}
 }
