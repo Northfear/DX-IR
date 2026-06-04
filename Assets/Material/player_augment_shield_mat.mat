@@ -7,9 +7,33 @@ Material:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: player_augment_shield_mat
-  m_Shader: {fileID: 0}
+  m_Shader: {fileID: 4800000, guid: 2ea7e2d87e5c8304fbbac2937c8fcdab, type: 3}
+  m_ShaderKeywords: []
+  m_CustomRenderQueue: -1
   m_SavedProperties:
     serializedVersion: 2
-    m_TexEnvs: {}
-    m_Floats: {}
-    m_Colors: {}
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _BumpMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _RimPower
+        second: 3
+    m_Colors:
+      data:
+        first:
+          name: _RimColor
+        second: {r: .25999999, g: .189999998, b: .159999996, a: 0}

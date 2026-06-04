@@ -83,7 +83,7 @@ public class CommLinkDialog : MonoBehaviour
 
 	public static bool CharacterTalking()
 	{
-#if !WITH_WWISE
+#if !SOUND_WWISE
 		if (m_This == null)
 		{
 			return false;
@@ -121,7 +121,7 @@ public class CommLinkDialog : MonoBehaviour
 
 	public static bool PlayerTalking()
 	{
-#if !WITH_WWISE
+#if !SOUND_WWISE
 		if (m_This == null)
 		{
 			return false;
@@ -196,13 +196,21 @@ public class CommLinkDialog : MonoBehaviour
 
 	private void Update()
 	{
+#if !SOUND_WWISE
 		if ((!CharacterTalking() || (m_LinkAudioPlayingID != 0 && !SoundManager.IsEventPlaying(m_LinkAudioPlayingID))) && !m_CommPaused)
+#else
+		if ((m_LinkAudioPlayingID != 0 && !SoundManager.IsEventPlaying(m_LinkAudioPlayingID)) && !m_CommPaused)
+#endif
 		{
 			Globals.m_HUD.HideCommLinkSubtitle();
 			m_LinkAudioPlayingID = 0u;
 		}
 	
+#if !SOUND_WWISE
 		if ((!PlayerTalking() || (m_PlayerAudioPlayingID != 0 && !SoundManager.IsEventPlaying(m_PlayerAudioPlayingID))) && !m_CommPaused)
+#else
+		if ((m_PlayerAudioPlayingID != 0 && !SoundManager.IsEventPlaying(m_PlayerAudioPlayingID)) && !m_CommPaused)
+#endif
 		{
 			Globals.m_HUD.HidePlayerSubtitle();
 			m_PlayerAudioPlayingID = 0u;
