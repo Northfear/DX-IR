@@ -8,19 +8,19 @@ No license is granted for the original code, assets, or derivative works contain
 
 Keyboard+Mouse controls were added to the project (with the goal of keeping them as close as possible to the controls of The Fall).
 
-WSAD - Movement
-LMB - Fire
-RMB - Take cover
-E - Interact
-C - Crouch
-Shift - Walk
-R - Reload
-F - Use item
-F (hold) - Select item
-G - throw Grenade
-G (hold) - Select grenade
-H - Holster weapon
-H (Hold) - Select weapon
-Q - Non-lethal takedown
-Q (Hold) - Lethal takedown
-Space/Space (Hold) - Cover movement
+- WSAD - Movement
+- LMB - Fire
+- RMB - Take cover
+- E - Interact
+- C - Crouch
+- Shift - Walk
+- R - Reload
+- F - Use item
+- F (hold) - Select item
+- G - throw Grenade
+- G (hold) - Select grenade
+- H - Holster weapon
+- H (Hold) - Select weapon
+- Q - Non-lethal takedown
+- Q (Hold) - Lethal takedown
+- Space/Space (Hold) - Cover movement
