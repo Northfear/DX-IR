@@ -30,6 +30,8 @@ public class StartNYCStreets : MonoBehaviour
 
 	public GameObject m_AnnaInviteTrigger;
 
+	public GameObject m_JanusDialogTrigger;
+
 	private void Awake()
 	{
 		if (GameManager.m_This != null)
@@ -67,6 +69,7 @@ public class StartNYCStreets : MonoBehaviour
 		if (Globals.GetStoryProgressionVar(Globals.StoryProgressionVars.NYCHaveUplink) && !Globals.GetStoryProgressionVar(Globals.StoryProgressionVars.NYCPlantedUplink))
 		{
 			Globals.m_PrimaryObjective = m_EnterBank;
+			m_JanusDialogTrigger.SetActive(true);
 		}
 		if (Globals.GetStoryProgressionVar(Globals.StoryProgressionVars.NYCPlantedUplink) && !Globals.GetStoryProgressionVar(Globals.StoryProgressionVars.NYCHackedBank))
 		{

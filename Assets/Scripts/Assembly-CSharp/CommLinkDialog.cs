@@ -83,11 +83,77 @@ public class CommLinkDialog : MonoBehaviour
 
 	public static bool CharacterTalking()
 	{
+#if !WITH_WWISE
+		if (m_This == null)
+		{
+			return false;
+		}
+		
+		if (m_This.m_DialogIndex < 0)
+		{
+			return false;
+		}
+		
+		int activeEventIndex = m_This.m_EventIndex - 1;
+
+		if (activeEventIndex < 0)
+		{
+			return false;
+		}
+
+		if (activeEventIndex >= m_This.m_CommDialogs[m_This.m_DialogIndex].m_DialogEvents.Length)
+		{
+			activeEventIndex = m_This.m_CommDialogs[m_This.m_DialogIndex].m_DialogEvents.Length - 1;
+		}
+		
+		if (activeEventIndex >= 0)
+		{
+			if (m_This.m_CommDialogs[m_This.m_DialogIndex].m_DialogEvents[activeEventIndex].m_EventType != DialogEventType.LinkDialog)
+			{
+				return false;
+			}
+			
+			return m_This.m_EventTimer < m_This.m_CommDialogs[m_This.m_DialogIndex].m_DialogEvents[activeEventIndex].m_TriggerDelay + 5f;
+		}
+#endif
 		return !(m_This == null) && m_This.m_LinkAudioPlayingID != 0;
 	}
 
 	public static bool PlayerTalking()
 	{
+#if !WITH_WWISE
+		if (m_This == null)
+		{
+			return false;
+		}
+
+		if (m_This.m_DialogIndex < 0)
+		{
+			return false;
+		}
+		
+		int activeEventIndex = m_This.m_EventIndex - 1;
+
+		if (activeEventIndex < 0)
+		{
+			return false;
+		}
+
+		if (activeEventIndex >= m_This.m_CommDialogs[m_This.m_DialogIndex].m_DialogEvents.Length)
+		{
+			activeEventIndex = m_This.m_CommDialogs[m_This.m_DialogIndex].m_DialogEvents.Length - 1;
+		}
+		
+		if (activeEventIndex >= 0)
+		{
+			if (m_This.m_CommDialogs[m_This.m_DialogIndex].m_DialogEvents[activeEventIndex].m_EventType != DialogEventType.PlayerDialog)
+			{
+				return false;
+			}
+			
+			return m_This.m_EventTimer < m_This.m_CommDialogs[m_This.m_DialogIndex].m_DialogEvents[activeEventIndex].m_TriggerDelay + 5f;
+		}
+#endif
 		return !(m_This == null) && m_This.m_PlayerAudioPlayingID != 0;
 	}
 
@@ -100,6 +166,13 @@ public class CommLinkDialog : MonoBehaviour
 	{
 		if (m_This.m_CommDialogs != null && Index >= 0 && Index < m_This.m_CommDialogs.Length && !(m_This.m_CommDialogs[Index].m_CharacterPortrait == null) && m_This.m_CommDialogs[Index].m_DialogEvents != null)
 		{
+			// Close any existing link before starting new dialog
+			if (m_This.m_LinkOpen)
+			{
+				Globals.m_HUD.CloseCommLink();
+				m_This.m_LinkOpen = false;
+			}
+			
 			m_This.m_DialogIndex = Index;
 			m_This.m_EventTimer = 0f;
 			m_This.m_EventIndex = 0;
@@ -123,21 +196,25 @@ public class CommLinkDialog : MonoBehaviour
 
 	private void Update()
 	{
-		if (m_LinkAudioPlayingID != 0 && !SoundManager.IsEventPlaying(m_LinkAudioPlayingID) && !m_CommPaused)
+		if ((!CharacterTalking() || (m_LinkAudioPlayingID != 0 && !SoundManager.IsEventPlaying(m_LinkAudioPlayingID))) && !m_CommPaused)
 		{
 			Globals.m_HUD.HideCommLinkSubtitle();
 			m_LinkAudioPlayingID = 0u;
 		}
-		if (m_PlayerAudioPlayingID != 0 && !SoundManager.IsEventPlaying(m_PlayerAudioPlayingID) && !m_CommPaused)
+	
+		if ((!PlayerTalking() || (m_PlayerAudioPlayingID != 0 && !SoundManager.IsEventPlaying(m_PlayerAudioPlayingID))) && !m_CommPaused)
 		{
 			Globals.m_HUD.HidePlayerSubtitle();
 			m_PlayerAudioPlayingID = 0u;
 		}
+
 		if (m_DialogIndex < 0)
 		{
 			return;
 		}
+
 		m_EventTimer += Time.deltaTime;
+
 		while (m_EventIndex < m_CommDialogs[m_DialogIndex].m_DialogEvents.Length)
 		{
 			if (m_CommDialogs[m_DialogIndex].m_DialogEvents[m_EventIndex].m_EventType != DialogEventType.None)
@@ -150,6 +227,7 @@ public class CommLinkDialog : MonoBehaviour
 			}
 			m_EventIndex++;
 		}
+
 		if (m_EventIndex >= m_CommDialogs[m_DialogIndex].m_DialogEvents.Length && !CharacterTalking() && !PlayerTalking())
 		{
 			if (m_LinkOpen)

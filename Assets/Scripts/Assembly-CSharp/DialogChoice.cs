@@ -30,6 +30,10 @@ public class DialogChoice
 
 	private int m_CurrentSequenceIndex;
 
+#if !WITH_WWISE
+	bool m_InitialAnswerSkipped = false;
+#endif
+
 	public void ResetDialog()
 	{
 		m_CurrentSequenceIndex = -1;
@@ -37,10 +41,18 @@ public class DialogChoice
 
 	public bool Update()
 	{
+#if !WITH_WWISE
+		if (!Globals.m_ConversationSystem.IsFaceFXAnimating() || !m_InitialAnswerSkipped)
+		{
+			m_InitialAnswerSkipped = true;
+			return MoveToNextDialogSequence();
+		}
+#else
 		if (!Globals.m_ConversationSystem.IsFaceFXAnimating())
 		{
 			return MoveToNextDialogSequence();
 		}
+#endif
 		return true;
 	}
 
