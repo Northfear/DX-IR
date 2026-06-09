@@ -12,7 +12,7 @@ Properties {
 Category {
 	Tags { "Queue"="Transparent" "IgnoreProjector"="True" "RenderType"="Transparent" }
 	Blend SrcAlpha OneMinusSrcAlpha
-	Cull Off Lighting Off ZWrite Off Fog { Color (0,0,0,0) }
+	Cull Off Lighting Off ZWrite Off Fog { Mode Off }
 
 	BindChannels {
 		Bind "Color", color

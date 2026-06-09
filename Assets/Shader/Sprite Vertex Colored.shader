@@ -15,14 +15,17 @@ Category {
 		Pass {
 			ColorMaterial AmbientAndDiffuse
 			Lighting Off
+			Fog { Mode Off }
 			Cull Off
-		SetTexture [_MainTex] {
-			Combine texture * primary, texture * primary
-		}
-		SetTexture [_MainTex] {
-			constantColor [_Color]
-			Combine previous * constant DOUBLE, previous * constant
-		}
+
+			SetTexture [_MainTex] {
+				Combine texture * primary, texture * primary
+			}
+
+			SetTexture [_MainTex] {
+				constantColor [_Color]
+				Combine previous * constant DOUBLE, previous * constant
+			}
 		}
 	}
 }
